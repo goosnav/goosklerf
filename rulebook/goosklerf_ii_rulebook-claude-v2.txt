@@ -1,0 +1,2480 @@
+================================================================================
+
+                                 GOOSKLERF II
+
+                               OFFICIAL RULEBOOK
+
+                               A GOOSNAV GAME
+
+================================================================================
+
+
+
+                                    SETTING
+
+--------------------------------------------------------------------------------
+
+    The fabric of reality has been torn to shreds. A total reality collapse
+    event is what the state called it before the state itself disappeared. It
+    happened gradually at first, and then all at once.
+
+    A man goes to bed with his wife; he wakes up next to a fish. A truck
+    driver barrels down the highway, and a second later the truck and he have
+    switched places. Cats bark now. Dogs have forgotten their language.
+    Mirrors show rooms that were never there.
+
+    No one knows quite why this happened. Many have their ideas, but ideas
+    aren't worth much now that you can't trust the thoughts in your head.
+
+    The chaos left the world a shifting wasteland, but this blank slate may
+    be an opportunity in disguise. In the vacuum left after the old order,
+    opportunistic warlords have sprung up across the land. There is no return
+    to normalcy. No negotiations. No peace in this new world. There is only
+    a scramble for whatever resources remain, a scramble to acquire the only
+    thing still solid in this world:
+
+                                     Power.
+
+
+
+================================================================================
+                               TABLE OF CONTENTS
+================================================================================
+
+    HOW TO READ THIS BOOK
+
+    PART I    - COMPONENTS AND TABLE
+        1.    What You Need
+        2.    Card Types
+        3.    Card Anatomy
+        4.    The Table: Zones and Layout
+
+    PART II   - CORE RULES
+        5.    Core Concepts
+        6.    Victory Conditions
+        7.    Deck and Starting Hand
+        8.    Turn Structure
+        9.    Combat
+        10.   Damage, Defeat, and Victory Rewards
+        11.   Stat Limits
+
+    PART III  - ADVANCED RULES (OPTIONAL MODULES)
+        12.   Shop
+        13.   Parry
+        14.   Retreat
+        15.   Last Stand
+        16.   Item Swap
+        17.   Reinforcements
+        18.   Scavenger
+        19.   Supercharged Attack
+        20.   Fortress Barrage
+
+    PART IV   - BACKWARDS COMPATIBILITY (GOOSKLERF I)
+
+    PART V    - GAME MODES
+        21.   Mode Selector
+        22.   Classic Mode
+        23.   Tactical Mode (with deck-size variants)
+        24.   Singleplayer Mode
+        25.   Campaign Mode
+        26.   Chessklerf
+
+    PART VI   - CAMPAIGN SCENARIOS
+        A.    The Radio Station
+        B.    The Grocery Run
+        C.    The Lab
+
+    PART VII  - APPENDICES
+        Glossary
+        FAQ and Edge Cases
+        Visual Elements Checklist (for the artist)
+
+
+
+================================================================================
+                              HOW TO READ THIS BOOK
+================================================================================
+
+    Goosklerf II is a modular card-and-dice game. The same deck can be used
+    to play several different game modes, from quick skirmishes to full
+    narrative campaigns.
+
+    This rulebook is organized in layers:
+
+        CORE RULES are the rules that are always in effect. Read Parts I
+        and II before your first game.
+
+        ADVANCED RULES are optional modules (Part III). Add them one at a
+        time as your group gets comfortable. None of them are required.
+
+        GAME MODES (Part V) describe different ways to play using the same
+        cards. Each mode tells you which rules to use.
+
+        CAMPAIGN SCENARIOS (Part VI) are ready-to-run adventures for
+        Campaign Mode.
+
+    If you are learning the game, read Parts I and II, skim the mode
+    selector in Part V, and pick Classic Mode for your first game. Ignore
+    everything else until you've played once.
+
+
+
+================================================================================
+                         PART I - COMPONENTS AND TABLE
+================================================================================
+
+
+
+1. WHAT YOU NEED
+--------------------------------------------------------------------------------
+
+    To play Goosklerf II you need:
+
+        -   A deck of Goosklerf cards (your own, or a shared pool)
+        -   At least one six-sided die per player
+        -   Additional dice for tracking hit points (recommended: 1 extra
+            die per entity in play)
+        -   A flat playing surface large enough for the table layout
+            (see Section 4)
+
+    Optional but helpful:
+
+        -   A printed play mat for the chosen game mode
+        -   Small dice for tracking buffs, rounds, and fortress ownership
+        -   A chessboard (only required for Chessklerf mode)
+
+
+
+2. CARD TYPES
+--------------------------------------------------------------------------------
+
+    There are three card types in Goosklerf II: entities, items, and
+    fortresses. Each type has a normal and a rare variant, identified by
+    border color.
+
+    ENTITIES (normal: red border / rare: purple border)
+
+        Entities are the fighters. They attack, equip items, occupy
+        fortresses, and use special abilities.
+
+        -   Only entities can equip and use items.
+        -   Entities may attack enemy entities and enemy fortresses.
+        -   An entity is defeated when its hit points reach 0.
+        -   Some entities have Special text on the card. Special text
+            always overrides the standard rules.
+
+        A Super Entity is a rare entity with two HP dice instead of one.
+        Super Entities are marked clearly on the card.
+
+    FORTRESSES (normal: blue border / rare: orange border)
+
+        Fortresses are structures placed in the suburbs. They house
+        entities, grant buffs or debuffs to the entities inside, and
+        sometimes have special effects.
+
+        -   Fortresses can house up to 3 entities.
+        -   Fortresses cannot hold or use items directly.
+        -   A fortress is destroyed when its hit points reach 0.
+        -   When a fortress is destroyed, all entities inside it are
+            destroyed, along with their equipped items.
+
+        A Super Fortress is a rare fortress with three HP dice instead of
+        one. Super Fortresses are marked clearly on the card.
+
+    ITEMS (normal: green border / rare: yellow or gold border)
+
+        Items are equipment carried by entities. There are two subtypes:
+
+        Equipped Items stay attached to an entity and provide a continuous
+        effect (an attack buff, an HP buff, a special ability, etc.) until
+        the item is discarded, transferred, or the entity dies.
+
+        Consumables are used for a one-time effect, then discarded. A
+        consumable must be equipped by an entity before it can be used.
+
+        An entity can carry up to 3 items at a time (equipped items and
+        consumables combined).
+
+
+    [ILLUSTRATION: Card anatomy diagram. One example of each card type
+    (Entity, Fortress, Item, Consumable), labeled with callouts pointing
+    to: border color/rarity, name, attack stat location, HP stat location,
+    capacity, card-type icon, special text box, and buff/debuff indicators.
+    Keep it clean and diagrammatic, not decorative.]
+
+
+
+3. CARD ANATOMY
+--------------------------------------------------------------------------------
+
+    Every card has:
+
+        A NAME at the top.
+
+        A CARD-TYPE ICON indicating whether it is an entity, fortress,
+        item, or consumable.
+
+        A BORDER COLOR indicating rarity.
+
+        STAT VALUES. Entities and fortresses have an Attack value and an
+        HP value. Items may have buffs or debuffs to those values.
+
+        A TEXT BOX containing any Special rules or flavor text. Special
+        rules override general rules if there is a conflict.
+
+    HOW STATS WORK
+
+        ATTACK is the target number you must roll at or below to land a
+        normal hit. A base Attack of 3 means you hit on a roll of 1, 2, or
+        3 on a six-sided die. Attack can be modified by items, fortress
+        buffs, and specials.
+
+        HIT POINTS (HP) is tracked physically with a die placed on top of
+        the card. When the card is played, place a die showing its maximum
+        HP. Each time it takes damage, rotate the die down by the amount
+        of damage taken. When the die reaches 0, the card is defeated.
+
+        Super Entities use two HP dice. Super Fortresses use three. Damage
+        is applied one HP at a time across the dice, in any order the
+        controlling player chooses.
+
+
+
+4. THE TABLE: ZONES AND LAYOUT
+--------------------------------------------------------------------------------
+
+    The play area is divided into zones. Know these terms because the
+    rules refer to them constantly.
+
+    THE BATTLEFIELD is the center of the table. It is a shared, open space
+    where entities fight. All players use one battlefield.
+
+    THE SUBURBS are the fortress zones along the edges of the table. Each
+    player has their own suburbs. Fortresses are placed only in the
+    suburbs. If you picture the battlefield as the sea, the suburbs are
+    the shoreline, and fortresses are ships moored along it.
+
+    GRAVEYARD. Each player has their own graveyard (discard pile).
+    Destroyed, defeated, spent, and discarded cards go here unless a rule
+    says otherwise.
+
+    DECK. Each player has their own deck. Players keep their deck face
+    down nearby.
+
+    HAND. Each player has a private hand of cards, held face-down toward
+    other players.
+
+    SHOP (optional, used with the Shop rule). A face-up row of cards that
+    can be purchased during the Card Play phase.
+
+
+    [ILLUSTRATION: Full-page table layout. Center: BATTLEFIELD, a large
+    open rectangle. Top and bottom of the battlefield: SUBURBS zones
+    (one per player), with slots for up to 3 fortresses per player. Each
+    player's area on their side of the table should show: deck, graveyard,
+    hand, and (optional) shop. Use simple labeled boxes, not illustration.
+    This diagram is the single most important image in the book.]
+
+
+
+================================================================================
+                              PART II - CORE RULES
+================================================================================
+
+
+
+5. CORE CONCEPTS
+--------------------------------------------------------------------------------
+
+    Before the detailed rules, here are the concepts the rest of the book
+    assumes you understand.
+
+    CONTROL. A card is controlled by the player who owns it, unless a
+    rule or special effect changes control (for example, capturing a
+    fortress).
+
+    OCCUPY. A player occupies a fortress if they have at least one
+    surviving entity inside it. A player can control an empty fortress.
+
+    ENGAGEMENT. A single declared combat, from the moment combat is
+    declared until one side is destroyed, retreats, or the engagement
+    ends by rule. Engagements are resolved one at a time.
+
+    CARD TEXT OVERRIDES. If a card's special text contradicts a general
+    rule, the card text wins. If two cards contradict each other, the
+    card belonging to the acting player wins.
+
+    NO RANDOM DRAWS AFTER SETUP. The only random draw in Goosklerf II is
+    your opening hand. All cards drawn afterward are chosen deliberately
+    from your deck, except for cards awarded from specific mechanics
+    (such as Victory Rewards) that specify a random draw.
+
+
+
+6. VICTORY CONDITIONS
+--------------------------------------------------------------------------------
+
+    Goosklerf II uses three end conditions in multiplayer. The first one
+    to trigger ends the game.
+
+    LAST MAN STANDING. Only one player (or team) has any surviving
+    entities in play. That player wins immediately.
+
+    LANDLORD. A player becomes Landlord when they control every
+    fortress currently in play AND no player has any unplayed fortress
+    cards remaining in their deck or hand. Becoming Landlord is not
+    an instant win: the player must survive one full round in that
+    state to win the game.
+
+    The moment these conditions are met, the player is marked as
+    Landlord. Starting from the next player's turn, one full round
+    of play begins. If at the end of that round the player is still
+    Landlord (still controls every fortress in play, still no
+    unplayed fortresses anywhere), they win immediately.
+
+    If during that round any of the following happens, Landlord
+    status is broken:
+        -   Another player captures one of the Landlord's fortresses.
+        -   Another player destroys one of the Landlord's fortresses.
+        -   Another player plays a new fortress card into their own
+            suburbs.
+        -   A scenario effect introduces a new fortress.
+
+    If Landlord status is broken, it can be re-achieved later under
+    the same conditions, and the survival round begins again from
+    scratch.
+
+    HAMLET. All entities are destroyed, and no player can legally put
+    a new entity into play. This is a loss for everyone. The game ends
+    in mutual collapse.
+
+    Scenarios may add additional victory conditions. Scenario victory
+    conditions override these defaults.
+
+
+
+7. DECK AND STARTING HAND
+--------------------------------------------------------------------------------
+
+    DECK REGIMES. Goosklerf II uses three standardized deck sizes.
+    Pick one before the game begins. All players must use the same
+    regime.
+
+        SMALL DECK (24 cards)
+            Minimum composition:
+                -   8 entities
+                -   4 fortresses
+                -   remainder items (12)
+            Shop size: 3 cards
+            Recommended for: quick Classic games, Lightning Tactical
+            practice, or playing with small collections.
+
+        MEDIUM DECK (36 cards)
+            Minimum composition:
+                -   12 entities
+                -   6 fortresses
+                -   remainder items (18)
+            Shop size: 7 cards
+            Recommended for: default Classic Mode. This is the
+            official standard deck size.
+
+        LARGE DECK (54 cards)
+            Minimum composition:
+                -   18 entities
+                -   9 fortresses
+                -   remainder items (27)
+            Shop size: 7 cards
+            Recommended for: long Classic Mode sessions, team games,
+            Campaign Mode setups, or large battlepaths.
+
+    Decks may contain more entities and fortresses than the minimums
+    listed (at the cost of fewer items). Decks may not go below the
+    minimums listed.
+
+    You may include at most 3 copies of any card with the same name
+    in a single deck. If your cards do not have unique names, treat
+    cards with identical art and text as the same card for this
+    limit.
+
+    STARTING HAND. At the start of the game, each player draws 7
+    cards at random from their own deck. This is the only fully
+    random draw in the game. Cards drawn on subsequent turns involve
+    a choice (see Section 8).
+
+    FIRST PLAYER. Randomly determine the first player by die roll or
+    agreement. Play proceeds clockwise. A round ends when every
+    surviving player has taken one turn.
+
+
+
+8. TURN STRUCTURE
+--------------------------------------------------------------------------------
+
+    A turn consists of five phases, taken in order.
+
+        1. DRAW
+        2. CARD PLAY
+        3. MOVEMENT
+        4. COMBAT
+        5. VICTORY CHECK
+
+    Each phase must be completed before moving to the next.
+
+    PHASE 1: DRAW
+
+        Draw the top 2 cards of your deck at random. Look at both.
+        Keep 1 in your hand. Place the other on the bottom of your
+        deck face-down.
+
+        The kept card is immediately playable this turn.
+
+        Exception: On the very first turn of the game, players skip
+        the Draw phase. They already drew 7 cards as their starting
+        hand.
+
+        If fewer than 2 cards remain in your deck, draw 1 (keep it)
+        or 0 (skip the phase). If exactly 2 cards remain, draw both
+        and keep 1 as normal.
+
+    PHASE 2: CARD PLAY
+
+        The active player must play exactly 3 cards from their hand.
+
+        A card is played when it is:
+            -   a fortress placed into your own suburbs
+            -   an entity placed onto the battlefield
+            -   an entity placed into one of your own fortresses
+            -   an item equipped onto one of your entities
+            -   a shop purchase, if the Shop rule is active
+
+        If you cannot play 3 legal cards from your hand, you must
+        discard cards from your hand until cards played plus cards
+        discarded equals 3. (Example: you can only play 2 cards, so
+        you discard 1.)
+
+        This forced-play rule is waived only if your hand is empty
+        at the start of Card Play. If your hand is empty, skip to
+        Movement.
+
+        Capacity limits still apply: 3 items per entity, 3 entities
+        per fortress, 4 entities on the battlefield per player.
+
+    PHASE 3: MOVEMENT
+
+        You may freely reposition your own entities and transfer your
+        own items during this phase, as long as all resulting positions
+        are legal.
+
+        Legal movement:
+            -   Battlefield to one of your fortresses (with space)
+            -   Your fortress to the battlefield (if legal battlefield
+                room exists)
+            -   Your fortress to another of your fortresses (with space)
+
+        Items may be freely transferred between your own entities during
+        this phase, as long as capacity limits are respected.
+
+        Fortresses cannot hold items. If you need to move an item
+        somewhere, it must ride on an entity.
+
+    PHASE 4: COMBAT
+
+        You may declare any number of combat engagements this turn. Each
+        engagement is resolved fully before the next begins. Each of your
+        entities may participate in only one engagement per turn, unless
+        a special ability says otherwise.
+
+        See Section 9 for combat rules.
+
+    PHASE 5: VICTORY CHECK
+
+        After all combat is resolved, check whether any victory
+        condition has been met (Section 6). If so, the game ends.
+        Landlord status is checked and tracked here (see Section 6
+        for the survival-round rule).
+
+
+
+9. COMBAT
+--------------------------------------------------------------------------------
+
+    Combat begins when the active player declares an engagement. The
+    player declaring combat is the attacker. All opposing entities
+    involved are the defenders.
+
+    WHO CAN ATTACK WHOM
+
+        Battlefield entities may attack:
+            -   Enemy battlefield entities
+            -   Enemy fortresses in the suburbs (fortress assault)
+
+        Fortress entities may attack:
+            -   Enemy entities on the battlefield, but only once per
+                engagement, as an Initial Volley (see below)
+            -   Enemies attacking their fortress, during that assault
+            -   Enemy fortresses, only if the Fortress Barrage rule is
+                active (see Section 20)
+
+    INITIAL VOLLEY (FORTRESS ENTITIES)
+
+        When a battlefield engagement is declared, any non-engaged
+        fortress whose occupants wish to intervene may fire a single
+        volley into the engagement.
+
+        Key limits:
+
+            -   ONE VOLLEY PER FORTRESS. A fortress may contribute at
+                most one volley shot per battlefield engagement,
+                regardless of how many entities are inside it. The
+                player controlling the fortress picks which occupant
+                fires.
+
+            -   FORTRESSES UNDER ASSAULT CANNOT VOLLEY. If a fortress
+                is itself currently being assaulted (its occupants are
+                in the engagement as defenders), it cannot also volley
+                into that or any other engagement. Its occupants are
+                already fighting.
+
+            -   ONCE PER TURN PER FORTRESS. A fortress that has
+                already volleyed during the current player's turn
+                cannot volley again that turn, even into a different
+                engagement.
+
+        The volley shot is a single normal attack against any one
+        attacker of the volleying player's choice, resolved before the
+        first combat round begins. The volleying fortress is not
+        considered part of the engagement: its occupants cannot be
+        targeted by the attackers in return, and they do not count
+        toward the one-engagement-per-turn limit for that entity.
+
+        Volleys are fortress covering fire. They do not trigger Victory
+        Rewards. They cannot be parried.
+
+    COMBAT ROUNDS
+
+        Combat proceeds in alternating rounds. In each round:
+
+            1. The attacker's participating entities each take one action.
+            2. The defender's participating entities each take one action.
+            3. If one side has been fully destroyed, the engagement ends.
+               Otherwise, begin the next round.
+
+        Actions available to each entity on its turn:
+
+            A. Normal attack (Section 9.1)
+            B. Use a consumable
+            C. Use a special ability from its card
+            D. Parry, if the Parry rule is active (Section 13)
+            E. Retreat, if the Retreat rule is active (Section 14)
+            F. Item swap, if that rule is active (Section 16)
+
+    9.1 NORMAL ATTACK
+
+        1. Declare a target. The attacker chooses one legal enemy target
+           in this engagement (one entity, or the fortress if this is a
+           fortress assault).
+
+        2. Roll 1d6.
+
+        3. If the result is equal to or below the acting entity's current
+           modified Attack value, the attack hits. Otherwise it misses.
+
+        4. A normal hit deals 1 HP of damage unless a special rule or
+           card text changes the amount.
+
+    9.2 FORTRESS ASSAULT
+
+        In a fortress assault, attacking battlefield entities may target
+        either the fortress or any defending entity inside it. Defending
+        entities inside the fortress may target attackers normally.
+
+        A fortress assault ends when:
+            -   All defending entities are destroyed, OR
+            -   All attackers are destroyed or retreat, OR
+            -   The fortress is destroyed.
+
+        CAPTURING A FORTRESS. If all defending entities are destroyed and
+        the fortress still has at least 1 HP, the surviving attackers may
+        choose to capture or destroy the fortress.
+
+            CAPTURE: Control of the fortress transfers to the attacker.
+            Up to the fortress's capacity in attackers may move inside
+            it; any excess attackers stay on the battlefield. Attackers
+            who just captured a fortress must remain inside it until
+            their next Movement phase.
+
+            DESTROY: Discard the fortress. No one controls it. Attackers
+            remain on the battlefield.
+
+        DESTROYING A FORTRESS. If the fortress itself is reduced to 0 HP
+        during the assault, it is destroyed. All entities inside it, and
+        their equipped items, are immediately destroyed with it. (If the
+        Last Stand rule is active, defenders may take their final action
+        before discarding.)
+
+
+
+10. DAMAGE, DEFEAT, AND VICTORY REWARDS
+--------------------------------------------------------------------------------
+
+    10.1 APPLYING DAMAGE
+
+        When an entity or fortress takes damage, rotate its HP die down
+        by the amount taken. Healing works in reverse but can never raise
+        an HP die above its printed maximum unless a card explicitly
+        says so.
+
+    10.2 HP DOES NOT RESET
+
+        Damage persists between combats. An entity that survives one
+        engagement with 2 HP remaining enters its next engagement still
+        at 2 HP. The only way to heal is through an item, consumable, or
+        special ability that explicitly restores HP. This makes combat
+        matter and keeps games decisive.
+
+    10.3 DEFEAT
+
+        An entity is defeated when its HP reaches 0. Place the entity
+        and all of its equipped items in its owner's graveyard.
+
+        A fortress is destroyed when its HP reaches 0. Place the fortress
+        in its owner's graveyard, along with every entity inside it and
+        every item those entities were carrying.
+
+    10.4 ITEM OWNERSHIP
+
+        When a card is discarded, it returns to the graveyard of its
+        original owner, not the graveyard of whoever was holding it.
+        This prevents item-theft ambiguity. The only exception is the
+        Scavenger rule (Section 18), which is optional.
+
+    10.5 VICTORY REWARDS (FIRST STRIKE INCENTIVE)
+
+        Aggression is rewarded. When an engagement ends:
+
+            IF THE ATTACKER WINS (destroys all defenders, captures or
+            destroys the fortress, or otherwise achieves the engagement
+            objective):
+                -   The attacker draws 1 card at random from the top
+                    of their deck and adds it to their hand. The card
+                    is not playable this turn; it becomes available on
+                    the attacker's next turn like any other hand card.
+
+            IF THE DEFENDER WINS (destroys all attackers, or all
+            attackers retreat without destroying all defenders):
+                -   The defender receives no reward.
+
+            If the attacker's deck is empty, no card is drawn.
+
+        Victory Rewards are not triggered by fortress volleys, by
+        Fortress Barrages (Section 20), or by draws in which both
+        sides are wiped out. The reward exists specifically to make
+        declaring battlefield combat a better choice than sitting
+        still.
+
+
+
+11. STAT LIMITS
+--------------------------------------------------------------------------------
+
+    Unless a card explicitly overrides them:
+
+            STAT              MINIMUM     MAXIMUM
+            Attack               1           5
+            HP (per die)         0           6
+            Items per entity     0           3
+            Entities per fort    0           3
+            Battlefield entities 0           4 per player
+
+    If a buff would push a value above its cap, it stops at the cap. If
+    a debuff would push a value below its minimum, it stops at the
+    minimum (except HP, which can reach 0 and defeat the card).
+
+    If a change in capacity would leave an entity or fortress holding
+    more than the new maximum, the controlling player immediately chooses
+    which cards remain legal and discards the excess to their graveyard.
+
+
+
+================================================================================
+                     PART III - ADVANCED RULES (OPTIONAL)
+================================================================================
+
+
+    These are modular rules. Add any of them to your game if all players
+    agree before the game begins. Each one is self-contained. None are
+    required.
+
+
+
+12. SHOP
+--------------------------------------------------------------------------------
+
+    At the start of the game, each player draws cards at random from
+    their deck and places them face-up in their own shop area. The
+    number of shop cards depends on the deck regime (see Section 7):
+
+            Small Deck:    3 shop cards
+            Medium Deck:   7 shop cards
+            Large Deck:    7 shop cards
+
+    Shop cards belong to the player who placed them. Only that player
+    may buy from their own shop. All shop cards are always visible to
+    all players throughout the game.
+
+    BUYING. During your Card Play phase, you may purchase one or more
+    shop cards. To buy 1 shop card, do one of the following:
+
+        -   Discard 2 normal cards from your hand, OR
+        -   Discard 1 rare card from your hand (rare = purple entity,
+            orange fortress, or yellow/gold item).
+
+    A purchased card must be played or equipped immediately using the
+    normal placement rules. If it cannot be legally placed, it cannot
+    be purchased. Each shop purchase counts as one of your 3 played
+    cards for the turn.
+
+    The shop does not refill on its own. Once a shop card is bought,
+    that slot is gone for the rest of the game unless a special rule
+    refills it.
+
+
+
+13. PARRY
+--------------------------------------------------------------------------------
+
+    Instead of taking a normal action during its turn in combat, an
+    entity may declare a Parry.
+
+    Choose one normal hit that was landed on this entity during the
+    previous enemy round. Roll 1d6. If the roll is equal to or below
+    the parrying entity's Attack stat, the parry succeeds: the entity
+    regains 1 HP lost from that hit.
+
+    Parry only cancels 1 HP of damage from a single normal attack. It
+    cannot cancel damage from specials, consumables, or extra damage
+    bonuses from other rules.
+
+    A parry attempt consumes the entity's action for that round,
+    whether it succeeds or fails. An entity can only parry one hit at
+    a time.
+
+
+
+14. RETREAT
+--------------------------------------------------------------------------------
+
+    Instead of attacking on its turn in combat, an entity may declare
+    a retreat. The entity announces its intent to retreat and takes no
+    action this round.
+
+    During the next round, enemy entities in the engagement may target
+    the retreating entity normally. If the retreating entity survives
+    that round, it leaves the engagement at the end of the round.
+
+    A retreating entity must have a legal destination:
+        -   Battlefield entities may retreat into a friendly fortress
+            that has room.
+        -   Fortress entities under assault may retreat into the
+            battlefield if battlefield room exists, or into another
+            friendly fortress if one has room.
+
+    If no legal destination exists, the entity cannot retreat.
+
+
+
+15. LAST STAND
+--------------------------------------------------------------------------------
+
+    Defenders only. When a defending entity is reduced to 0 HP, it may
+    take one final action before being discarded: a normal attack, a
+    consumable, or a special ability.
+
+    After taking its final action, the entity is placed in its owner's
+    graveyard along with its items. Attackers do not get Last Stand.
+    An entity killed by Last Stand is defeated normally.
+
+
+
+16. ITEM SWAP
+--------------------------------------------------------------------------------
+
+    Instead of taking any other action in combat, an entity may transfer
+    up to two of its equipped items to another friendly entity in the
+    same engagement. The acting entity does not attack this round. The
+    receiving entity must have room for the incoming items.
+
+    Items cannot be transferred to enemies. Consumables that have
+    already been activated cannot be transferred.
+
+
+
+17. REINFORCEMENTS
+--------------------------------------------------------------------------------
+
+    At the end of either side's combat round, that side may call one
+    reinforcement into the engagement.
+
+    The reinforcing entity must come from a legal nearby zone:
+        -   One of your own fortresses in the suburbs
+        -   The battlefield (for engagements involving your battlefield
+            entities or a fortress assault on your own fortress)
+
+    A reinforcement enters the engagement immediately and can be
+    targeted by enemies in the next round. It cannot act during the
+    round it arrives. After the engagement ends, the reinforcement
+    remains wherever it reinforced into: battlefield reinforcements
+    stay on the battlefield, fortress reinforcements stay in that
+    fortress.
+
+    You cannot reinforce into a location that is already at its cap:
+    no reinforcement into a fortress that already holds 3 entities, no
+    reinforcement onto a battlefield already holding 4 of your entities.
+
+    Only one reinforcement per side per round.
+
+
+
+18. SCAVENGER
+--------------------------------------------------------------------------------
+
+    If a friendly entity is defeated during an engagement, allied
+    entities in that same engagement may immediately equip the dead
+    entity's items if they have capacity. Any items that cannot be
+    equipped are discarded normally.
+
+    Items that were already equipped by other entities cannot be
+    transferred to a dead entity to "save" them for scavenging. This
+    rule only applies at the moment of defeat.
+
+
+
+19. SUPERCHARGED ATTACK
+--------------------------------------------------------------------------------
+
+    Instead of a normal attack, an entity may declare a Supercharged
+    Attack. Roll 3d6 instead of 1d6.
+
+        -   If all three dice are equal to or below the entity's Attack
+            value, the attack deals 2 damage instead of 1.
+        -   If any one die misses, the attack fails and the attacking
+            entity takes 1 self-damage.
+
+    A Supercharged Attack consumes the entity's action for the round.
+
+
+
+20. FORTRESS BARRAGE (FORTRESS-VS-FORTRESS COMBAT)
+--------------------------------------------------------------------------------
+
+    Think of fortresses like ships fighting across open water. A
+    fortress with occupants may engage an enemy fortress directly,
+    without moving through the battlefield.
+
+    To declare a Fortress Barrage:
+        -   The attacking fortress must have at least one entity inside.
+        -   The target is a single enemy fortress.
+        -   Entities inside the attacking fortress may target only the
+            target fortress, not its occupants.
+        -   Defending entities inside the target fortress may target
+            attacking entities inside the attacking fortress normally
+            (they fire back).
+        -   Combat resolves in alternating rounds like a standard
+            battlefield engagement.
+
+    A fortress cannot be captured through a Fortress Barrage. Only
+    battlefield assaults can capture a fortress. If the Barrage kills
+    all of the target fortress's occupants without destroying the
+    fortress itself, the fortress stands empty under its previous
+    controller's ownership.
+
+    If the target fortress is destroyed, all its occupants and their
+    items are destroyed with it.
+
+
+
+================================================================================
+                PART IV - BACKWARDS COMPATIBILITY (GOOSKLERF I)
+================================================================================
+
+
+    Goosklerf II simplified the stat system from Goosklerf I (GKI).
+    GKI used Attack, Defense, and Capacity stats. GKII uses only Attack
+    and HP, with a fixed capacity of 3. When you play with a mixed
+    deck, follow these conversions.
+
+    DEFENSE CONVERSION. When a GKI card references Defense in GKII
+    play, treat the Defense value as Attack when that entity is
+    defending (not the initiator of combat). If a GKI fortress buffs
+    Defense on a GKII entity, apply the buff to that entity's Attack
+    stat instead.
+
+    CAPACITY CONVERSION. GKI cards retain their printed capacity
+    values. GKII cards use a fixed capacity of 3 items per entity and
+    3 entities per fortress, regardless of any GKI capacity effects
+    that might target them.
+
+        -   If a GKI effect would raise a GKII entity's capacity, the
+            GKII entity's capacity stays at 3.
+        -   If a GKI effect would raise another GKI card's capacity,
+            apply it normally using GKI rules.
+        -   Overflow from mid-battle capacity changes is handled as in
+            Section 11: the controlling player picks which cards to
+            discard.
+
+    MIXED ITEM BUFFS. If a GKI item buffs both Attack and Defense, use
+    the relevant value based on whether the holding entity is attacking
+    or defending during that combat round.
+
+    LEGACY OFF. You may also simply ignore Defense and Capacity on GKI
+    cards and play them as pure GKII cards. This is the cleanest option
+    for casual play.
+
+
+
+================================================================================
+                             PART V - GAME MODES
+================================================================================
+
+
+
+21. MODE SELECTOR
+--------------------------------------------------------------------------------
+
+    Goosklerf II has five official modes.
+
+    CLASSIC MODE. The flagship multiplayer experience. Full rules, full
+    decks, full war. 2 to 4 players.
+
+    TACTICAL MODE. A smaller, faster, more structured battle with no
+    deck refill and fixed starting loadouts. 2 to 4 players. Three deck-
+    size variants: Lightning (tiny), Standard Tactical (medium), and
+    Skirmish (overpowered).
+
+    SINGLEPLAYER MODE. A solo battlepath game where you fight through
+    a series of enemy fortresses. 1 player.
+
+    CAMPAIGN MODE. A narrative, RPG-like mode with a Dungeon Master and
+    scripted scenarios. 1 DM plus 1 to 4 players.
+
+    CHESSKLERF. A positional variant played on a chessboard. 2 players.
+
+    Each mode tells you which core and advanced rules to use.
+
+
+
+22. CLASSIC MODE
+--------------------------------------------------------------------------------
+
+    Classic Mode is the standard way to play Goosklerf II. 2 to 4
+    players. Last player standing, or first to Landlord, wins.
+
+    SETUP
+
+        All players agree on a deck regime before setup (see
+        Section 7):
+
+            -   SMALL (24 cards) for a fast game.
+            -   MEDIUM (36 cards) is the default Classic experience.
+            -   LARGE (54 cards) for long grinding sessions.
+
+        Each player builds a legal deck of the chosen regime size,
+        respecting the minimum composition rules in Section 7.
+
+        Each player draws 7 random cards as their opening hand.
+
+        If the Shop rule is in effect, each player sets up their
+        Shop now (3 cards for Small, 7 cards for Medium or Large).
+
+        No player begins with any cards on the table. Fortresses must
+        be played from hand into the suburbs during Card Play.
+
+        Randomly determine the first player. Play proceeds clockwise.
+
+    RULES TO USE
+
+        -   All Core Rules (Part II)
+        -   Shop (recommended)
+        -   Parry, Retreat, Last Stand, Item Swap (recommended)
+        -   Reinforcements, Fortress Barrage (recommended)
+        -   Scavenger, Supercharged Attack (optional)
+
+        First-time players may skip the advanced modules entirely and
+        play with only the Core Rules plus Shop. Add complexity later.
+
+    VICTORY
+
+        Standard Victory Conditions (Section 6): Last Man Standing,
+        Landlord (requires surviving one full round after claiming
+        Landlord status), or Hamlet (loss for all).
+
+
+
+23. TACTICAL MODE
+--------------------------------------------------------------------------------
+
+    Tactical Mode is a fixed-loadout battle with no deck refill. Every
+    card you get is what you start with. 2 to 4 players.
+
+    Tactical Mode comes in three deck-size variants. Choose one before
+    starting.
+
+    23.1 LIGHTNING (FAST)
+
+        Each player gets:
+            -   3 entities
+            -   1 fortress
+            -   3 items (distributed as desired, up to 1 per entity to
+                start)
+
+        No deck, no hand, no refill. At setup, place your fortress in
+        your suburbs and your entities either on the battlefield or in
+        your fortress.
+
+        Each round, players take turns performing Movement and Combat
+        phases only. No Card Play, no Refill.
+
+        Recommended rules: Core only. Retreat and Parry optional.
+
+    23.2 STANDARD TACTICAL
+
+        Each player gets:
+            -   4 entities
+            -   1 fortress
+            -   8 items selected before the game begins
+            -   7-item reserve hand (the items not yet equipped)
+
+        At setup, place your fortress in your suburbs and your entities
+        on the battlefield or in your fortress. Each entity may begin
+        with up to 2 equipped items.
+
+        Turn structure is Movement, Combat, then a special Tactical
+        Phase where you may equip any items from your reserve hand to
+        your entities (respecting capacity). No deck, no refill.
+
+        Recommended rules: Core plus Retreat, Parry, Item Swap, and
+        Reinforcements.
+
+    23.3 SKIRMISH (OVERPOWERED)
+
+        Each player gets:
+            -   3 entities
+            -   1 fortress
+            -   12 items (any combination)
+
+        During this mode only, the item capacity cap is raised to 4 per
+        entity. Each player loads their entities to the teeth at the
+        start. No deck, no hand, no refill.
+
+        This mode is a single, brutal battle. Whoever has surviving
+        entities at the end wins. No Shop. No refill phase.
+
+        Recommended rules: All advanced rules enabled.
+
+    VICTORY (ALL VARIANTS)
+
+        Eliminate all enemy entities OR destroy the enemy fortress.
+        Tactical Mode does not use Landlord or Hamlet.
+
+
+    [ILLUSTRATION: Three small tactical layouts side by side, one for
+    each variant. Each shows player slots, fortress, entity zone, and
+    item reserve (where applicable). Small and clean, not detailed.]
+
+
+
+24. SINGLEPLAYER MODE
+--------------------------------------------------------------------------------
+
+    Singleplayer Mode is a solo battlepath game. You fight through a
+    chain of enemy-held fortresses, keeping whatever items and entities
+    you can salvage along the way.
+
+    24.1 SETUP
+
+        Sort your deck into three piles: fortresses, entities, items.
+        Shuffle each pile separately and place all three face-down.
+
+        Build the battlepath face-down by drawing fortresses and
+        entities blindly and placing them at each level. The level
+        compositions are:
+
+            Level 1:  1 fortress, 1 entity, no items
+            Level 2:  1 fortress, 1 entity with 1 item
+            Level 3:  1 fortress, 2 entities with 1 item each
+            Level 4:  1 fortress, 3 entities with 1 item each
+            Level 5:  1 fortress, 3 entities with 2 items each
+            Level 6:  1 fortress, 3 entities with 3 items each
+            Level 7+: 2 fortresses with 3 entities per fortress, each
+                      with 3 items (repeat as long as you have cards)
+
+        Do not look at the face-down enemy cards as you place them.
+
+        After building the battlepath, choose 3 entities from the
+        remaining cards for your starting strike force. Draw 3 item
+        cards at random and equip them to your strike force as you
+        wish.
+
+        Shuffle the remaining items and entities together to form your
+        reserve deck. Reveal 7 cards from the top of that deck into
+        your shop. The shop is always face-up and always visible.
+
+    24.2 TURN FLOW
+
+        Attack the next level on the battlepath. Flip the fortress
+        and all entities inside face-up, and resolve the combat as
+        a fortress assault.
+
+        If you defeat the fortress and all its defenders, go to the
+        Post-Battle phase below.
+
+        If any of your entities die, remove them. If all of your
+        entities die, the game ends in defeat.
+
+    24.3 ENEMY AI
+
+        Enemy entities behave like this, in order:
+
+            1. If an enemy has an equipped consumable: think of a
+               number from 1 to 6 in your head (do not speak it).
+               Roll 1d6. If the die matches your number, the enemy
+               uses the consumable on a legal target, and it is
+               revealed.
+
+            2. Otherwise the enemy performs a normal attack.
+
+        ENEMY TARGETING. Enemies target your entity with the lowest
+        current HP. In case of a tie, they target the entity with the
+        highest Attack. In case of a further tie, choose randomly.
+
+        ENEMY ITEMS ARE HIDDEN. Keep enemy equipped items face-down
+        until the psychic roll above triggers their use, at which point
+        flip them face-up and resolve normally. This keeps enemy loadouts
+        mysterious until you fight.
+
+        BOSS FORTRESSES. Every third fortress on the battlepath
+        (Level 3, 6, 9, etc.) is a Boss Fortress. Its final surviving
+        entity gains Last Stand automatically, even if you are not
+        otherwise playing with Last Stand.
+
+        ENEMY REINFORCEMENTS. At the start of each enemy combat round
+        at Level 4 or higher, roll 1d6. On a 6, one entity from the
+        NEXT level on the battlepath is pulled forward and deployed
+        into the current fortress as reinforcement (if the fortress
+        has room). Flip this entity face-up and equip it with whatever
+        items it was carrying. Remove it from its original level. If
+        the next level is empty, no reinforcement is deployed.
+
+    24.4 POST-BATTLE
+
+        After you defeat a fortress:
+
+            1. Add the fortress to your trophy pile.
+            2. You may take any items carried by the defeated enemies,
+               up to your strike force's item capacity. Discard the
+               rest.
+            3. You may make shop purchases. Spending costs:
+                    -   2 normal cards = 1 shop card
+                    -   1 rare card = 1 shop card
+               Fortresses in your trophy pile may be spent as currency
+               at the same rates. Spent trophy fortresses are removed
+               from your trophy pile (and from your final score).
+            4. The shop does not refill on its own.
+
+        Purchased entities join your strike force. Purchased items are
+        equipped immediately (or discarded if you have no room).
+
+        If you purchased nothing, you cannot refill entities mid-run
+        except by scavenging enemy items.
+
+    24.5 SCORING
+
+        Final score is calculated after the game ends, whether by
+        victory or defeat.
+
+            Each level cleared:                         100 points
+            Each trophy fortress remaining unspent:      50 points
+            Each surviving entity:                       25 points
+            Each surviving equipped item:                10 points
+
+        Optional rarity modifier for fortresses in the trophy pile:
+            Super fortress:   x3
+            Rare fortress:    x2
+            Normal fortress:  x1
+
+
+
+25. CAMPAIGN MODE
+--------------------------------------------------------------------------------
+
+    Campaign Mode is the RPG mode of Goosklerf II. One player is the
+    Dungeon Master. The other players (1 to 4) are Adventurers. The
+    DM runs a scenario; the players play through it using their cards
+    as character sheets.
+
+    This is a rules-light system. Most of the flavor comes from the
+    scenario, not from mechanical complexity.
+
+    25.1 CHARACTERS
+
+        Each player chooses 1 entity as their character. This entity
+        card is their character sheet. The player's starting stats
+        (Attack, HP) are the stats printed on the card.
+
+        Each player is also dealt 3 items and 1 consumable. These are
+        the character's starting gear. Equip as many as capacity (3)
+        allows; hold the rest in a personal reserve hand.
+
+        Character progression comes from leveling (Section 25.5).
+
+    25.2 THE DUNGEON MASTER
+
+        The DM represents the world, the enemies, and the story. The
+        DM's job is to:
+
+            -   Describe each scene and let players react.
+            -   Run all enemies in combat, rolling attacks and making
+                target decisions.
+            -   Adjudicate non-combat actions (see Section 25.3).
+            -   Advance the story between encounters.
+            -   Decide when characters level up.
+
+        The DM uses cards from the shared deck as enemies, fortresses,
+        rooms, loot, and set dressing. Pull a fortress card to represent
+        a significant location. Pull entity cards to represent any
+        hostile encounter. Pull item cards as loot.
+
+    25.3 NON-COMBAT ACTIONS (CHECKS)
+
+        When a character attempts something uncertain outside combat
+        (picking a lock, persuading a stranger, sprinting across broken
+        terrain, remembering something), the DM sets a difficulty:
+
+            Easy       roll 5 or less on 1d6
+            Normal     roll 4 or less on 1d6
+            Hard       roll 3 or less on 1d6
+            Desperate  roll 2 or less on 1d6
+
+        The player rolls 1d6. On success, the action works. On failure,
+        the DM describes the consequence.
+
+        Items and specials may modify the difficulty by +1 or -1 at
+        the DM's discretion.
+
+    25.4 COMBAT IN CAMPAIGN MODE
+
+        Combat uses standard Goosklerf II attack rules (roll under
+        Attack to hit). The DM controls all enemy turns.
+
+        VARIABLE DAMAGE. Unlike standard Goosklerf II, a successful
+        combat hit in Campaign Mode deals variable damage:
+
+            1-3 on 1d6:   1 damage (a scrape)
+            4-5 on 1d6:   2 damage (a solid hit)
+            6   on 1d6:   3 damage (a devastating blow)
+
+        Roll this damage die after every successful hit, for both
+        players and enemies. This makes fights swingier and more
+        cinematic.
+
+        The DM may override damage for dramatic effect: a boss might
+        always deal a minimum of 2; a glancing shot might deal 0.
+
+        Player HP persists between encounters, as in Classic Mode.
+        Healing comes from items, consumables, specials, or rest
+        between acts (DM's call).
+
+    25.5 LEVELING
+
+        Characters level up at the end of each major act of the
+        scenario, or whenever the DM decides the players have earned
+        it.
+
+            Level 2:  +1 maximum HP
+            Level 3:  Once per session, reroll one failed roll
+            Level 4:  +1 Attack (up to the maximum of 5)
+            Level 5:  Squire Slot: you may assign one extra entity
+                      from your reserve as a squire. The squire holds
+                      1 item and absorbs damage in your place: when
+                      you would take damage, you may assign it to the
+                      squire first. If the squire dies, you lose it.
+            Level 6:  +1 maximum HP
+            Level 7:  +1 item capacity (4 instead of 3)
+            Level 8+: Alternate between +1 HP, +1 reroll per session,
+                      and one DM-approved custom perk.
+
+    25.6 STRUCTURE OF A SCENARIO
+
+        Every official Campaign scenario is structured in 4 acts:
+
+            Act I:    Entrance. Set the scene, establish the goal,
+                      introduce the weird local rule.
+            Act II:   Complication. A new threat or moral decision
+                      raises the stakes.
+            Act III:  Collapse. Pressure builds. Resources tighten.
+                      Enemies escalate.
+            Act IV:   Finale. Confront the core problem. Win, lose, or
+                      make a costly choice.
+
+        Between acts, characters may level up and (at the DM's
+        discretion) rest to restore HP.
+
+    25.7 DEATH AND REVIVAL
+
+        A character reduced to 0 HP is not dead unless the scenario
+        says so. They are downed. At the end of the encounter, if
+        their allies survive, the character recovers with 1 HP.
+
+        If the character is downed during Act IV, or during a
+        scripted "no second chances" beat, they die permanently.
+
+        This is softer than standard Goosklerf II because Campaign
+        Mode is about story, not attrition.
+
+
+
+26. CHESSKLERF
+--------------------------------------------------------------------------------
+
+    Chessklerf is a positional variant for 2 players. It combines
+    Goosklerf combat with chess movement. You need a chessboard, 4
+    chess pieces per player (queen, knight, rook, bishop) and the
+    pawns from a standard chess set, plus Goosklerf cards.
+
+    Chessklerf is not backwards-compatible with standard chess rules.
+    Ignore everything you know about castling, en passant, and check.
+
+    26.1 SETUP
+
+        Each player selects or draws 4 entities to be their "major
+        pieces" and places one chess piece on top of each entity card
+        to designate its role:
+
+            Queen  (fastest, most dangerous)
+            Knight (jumps)
+            Rook   (orthogonal long-range)
+            Bishop (diagonal long-range)
+
+        If you do not have a queen piece available, use a king as a
+        stand-in.
+
+        Each major piece may be equipped with up to 2 items from your
+        hand before the game begins.
+
+        Place the 4 major pieces on your back rank. The two corner
+        squares of your back rank are fortresses: any major piece
+        sitting on a corner square is considered to occupy that
+        fortress. The fortresses grant standard fortress buffs (use
+        a simple shared fortress card for both corner fortresses, or
+        draw one per player at setup).
+
+        Place your pawns in the middle of the board. Each player's
+        pawns occupy their side of the middle two ranks (ranks 4 and
+        5 of the standard 8x8 board, not ranks 2 and 7). This is the
+        "opposite of regular chess" setup: pawns start facing each
+        other directly across the center, major pieces at the back.
+
+        Decide who moves first by coin flip or agreement.
+
+    26.2 TURNS
+
+        On your turn, you may:
+            -   Move one major piece according to its chess movement
+                rules, OR
+            -   Move one pawn forward one square, OR
+            -   Do nothing (pass).
+
+        Major pieces move exactly as they do in chess, with no limit
+        on distance for queens, rooks, and bishops (blocked by other
+        pieces normally), and knights jumping L-shapes.
+
+        A piece on a corner fortress square may begin its turn by
+        moving up to 2 squares out of the fortress regardless of its
+        normal rules, representing the fortress launching the piece.
+
+    26.3 CAPTURING AND COMBAT
+
+        PAWN CAPTURE. A pawn captures enemy pieces as in chess
+        (diagonally forward one square). A pawn capture is resolved
+        instantly with no combat: the captured piece is defeated and
+        removed. The pawn stays on its new square. As a reward for
+        the capture, draw 1 item card from a side item pile (set
+        aside at the start of the game). If the pawn can somehow
+        equip it, the pawn keeps the item. Otherwise discard it.
+
+        MAJOR PIECE CAPTURE. When a major piece moves onto a square
+        occupied by an enemy piece, combat is initiated between the
+        two pieces (not resolved instantly). Use standard Goosklerf
+        II combat rules, attacker-first. The attacker is the piece
+        that moved.
+
+            IF THE ATTACKER WINS, the defending piece is removed and
+            the attacker ends its turn on the captured square.
+
+            IF THE DEFENDER WINS, the attacker is removed and the
+            defender stays on its square.
+
+            IF THE ATTACKER RETREATS successfully (using the standard
+            Retreat rule), the attacker returns to any legal square
+            it could have moved to instead of the capture square.
+
+        FORTRESS CAPTURE. If a major piece enters an enemy corner
+        fortress square, combat is initiated as above. If the
+        attacker wins, they capture the fortress.
+
+    26.4 PAWN PROMOTION (EXPLOSION)
+
+        If a pawn reaches the opposite end of the board (the enemy's
+        back rank), it explodes. Remove the pawn and every piece,
+        pawn, or fortress in a 3x3 square centered on the exploding
+        pawn's square. This includes friendly pieces. Exploded
+        fortresses are destroyed.
+
+        This rule makes pawn advancement enormously dangerous for
+        both sides, and is the game's primary tactical wildcard.
+
+    26.5 VICTORY
+
+        You win Chessklerf if:
+            -   You capture both of the enemy's corner fortresses, OR
+            -   All enemy major pieces are destroyed.
+
+        If both players lose all their major pieces in the same turn
+        (for example, a mutual pawn explosion), the game is a draw.
+        Nothing matters anymore anyway.
+
+
+    [ILLUSTRATION: Chessklerf setup diagram. 8x8 board with: two
+    corner fortresses on each player's back rank (a1, h1, a8, h8),
+    four major pieces on the back rank between them (b1, c1, f1,
+    g1 and symmetric for black), pawns on ranks 4 and 5 facing each
+    other. Label each piece type and mark the corner fortresses.]
+
+
+
+================================================================================
+                         PART VI - CAMPAIGN SCENARIOS
+================================================================================
+
+
+    The following scenarios are for Campaign Mode (Section 25). Each
+    one runs in 4 acts and can be played in a single session or
+    broken into multiple sessions. Read the whole scenario before
+    running it.
+
+
+
+SCENARIO A: THE RADIO STATION
+--------------------------------------------------------------------------------
+
+    FLAVOR
+
+    Somewhere in the district, a transmitter is still broadcasting.
+    Nobody is sure what it's saying anymore, and nobody is sure who
+    is transmitting. What is sure is that the people who hear it
+    start behaving wrong. Their eyes go flat. They stop answering
+    questions. They begin to gather.
+
+    The party found out about it through a courier. A woman on a
+    bicycle, wheels wrapped in duct tape, riding hard from the
+    direction of the tower. She skidded to a stop in front of them,
+    handed over a tape recorder still warm from her pocket, and
+    said "make it stop" with a mouth full of blood. Then she got
+    back on the bicycle and rode off the same way she had come,
+    which was toward the tower, which was where the blood was
+    coming from.
+
+    The tape is blank. The recorder is still running.
+
+    SETUP
+
+    The players begin this scenario outside the broadcast district.
+    Each character has full HP and their starting loadout. One
+    character carries the tape recorder. It cannot be discarded.
+
+    Draw one rare fortress from the deck. This is the Radio Station.
+    Set it aside. Draw 5 entities from the deck as the enemy pool
+    the DM will deploy over the course of the scenario.
+
+    Throughout the scenario, the tape recorder occasionally plays
+    back audio that has not been recorded yet. Use this freely for
+    flavor: a scream the party has not screamed, a door closing in
+    a room the party has not entered, one of the characters saying
+    something they are going to say later in the session.
+
+    ACT I - ENTRANCE
+
+    Objective: Cross the district checkpoint.
+
+    The party approaches a narrow road blocked by stacked cars. Two
+    checkpoint guards (pull 2 enemies from the pool) wave them down.
+    The guards have the flat eyes. They are polite. They keep asking
+    if the party has a permit. They keep asking the same way, with
+    the same intonation, as if their voices are being routed through
+    something that is not their brain.
+
+    The party may:
+        -   Fight them (standard combat, party acts first).
+        -   Talk their way through (Normal check, 4 or less on 1d6).
+            On success, the guards step aside and stare at a spot
+            ten feet behind the party until the party is gone.
+            Failure triggers combat with the guards already hostile.
+        -   Distract one guard by playing the tape recorder at them.
+            The guard becomes catatonic for the rest of the scene.
+            The other guard must still be dealt with.
+
+    LOCAL RULE - THE BROADCAST IS EVERYWHERE. Any character who
+    spends a whole round in this scenario without attacking, moving,
+    or speaking must roll 1d6. On a 1, they begin to hear the
+    broadcast clearly. Their Attack is reduced by 1 until the end
+    of the next round. If a character fails this roll three times
+    in one scenario, they become a listener: they stop taking
+    actions and must be carried out by their allies. A carried
+    listener cannot fight but takes up a party slot. They recover
+    after the scenario if the broadcast is ended.
+
+    ACT II - COMPLICATION
+
+    Objective: Find three power cells to reach the top of the tower.
+
+    The broadcast tower's ground-floor elevator is dead. To climb,
+    the party needs three working power cells. There are three
+    sources in the district.
+
+    SOURCE 1: A SQUAT CONCRETE BUILDING. A bureaucratic holdout:
+    people who still believe they work for a government that no
+    longer exists. Draw 1 normal fortress as the building. Place
+    3 enemies inside. The bureaucrats have one power cell in a
+    locked drawer. They will not give it up without either:
+        -   A fortress assault (standard rules).
+        -   Paperwork. They will hand over the cell if presented
+            with any card with writing on it, treated as a "permit"
+            with ceremonial solemnity. The party sacrifices 1 item
+            card of their choice, handed to the head bureaucrat.
+        -   A Hard check (3 or less) to outtalk them.
+
+    SOURCE 2: A CRASHED AMBULANCE. The ambulance still has its
+    engine running. It has been running for weeks. One power cell
+    is under the hood, but the ambulance's driver is still in the
+    front seat, mostly, and still trying to drive. A Hard check
+    to reach the engine compartment without the driver noticing.
+    On failure, combat with 1 enemy (the driver, pulled from the
+    pool, with +1 HP).
+
+    SOURCE 3: A CHILD. A child on a swingset in an empty park is
+    holding the third cell like a toy. The child is calm. The child
+    is not a listener but is also not a normal child. The child
+    will trade the cell for any shiny item (sacrifice 1 item card).
+    Refusing to trade and taking the cell by force is allowed but
+    has consequences: at the start of Act IV, the child appears at
+    the top of the tower as a hostile entity with Attack 4, HP 4,
+    and a special that ignores parries.
+
+    ACT III - COLLAPSE
+
+    Objective: Climb the tower.
+
+    The party climbs a reinforced broadcast tower in 3 stages. At
+    each stage, the DM deploys 1 enemy from the pool. The enemies
+    are ascending the tower from a different face. At each stage,
+    also play the tape recorder to the party and describe something
+    they have not yet done: "You hear the sound of your own voice
+    screaming at a door. It is not a door you have seen yet."
+
+    The party cannot retreat downward without forfeiting the
+    scenario. Listeners have gathered at the bottom of the tower
+    by the hundred. They are waiting.
+
+    LOCAL RULE - THE CROWD IS WATCHING. After every stage, the
+    crowd below grows visibly. On Stage 2, all enemies gain +1
+    Attack. On Stage 3, all enemies gain +1 Attack and +1 HP. The
+    broadcast is recruiting.
+
+    SPECIAL EVENT AT STAGE 2: One party member hears a voice over
+    the tape recorder that is clearly their own voice, older. It
+    says one sentence: a piece of advice, a warning, or an apology.
+    The DM invents it on the spot based on what the player has done
+    so far. This has no mechanical effect but is mandatory.
+
+    ACT IV - THE FINALE
+
+    Objective: Stop the broadcast.
+
+    At the top of the tower is a single figure at a console. They
+    have the flat eyes, but there is something else underneath.
+    They look up when the party arrives and smile. The smile is
+    almost right. It is almost correct. It is the kind of smile
+    you would get from someone who has been practicing from a
+    photograph.
+
+    When the operator speaks, they speak in a voice that every
+    party member privately recognizes: the voice of someone they
+    once loved. Each character hears it differently. The DM asks
+    each player to name someone quietly, and then uses that name.
+
+    The operator's stats: Attack 4, HP 6. They have one consumable
+    that rolls as a 3-damage attack on any one target. They have
+    a special: at the start of each round, one random party member
+    must roll 1d6; on a 1 or 2, they cannot attack the operator
+    that round, because they cannot bring themselves to.
+
+    The party may:
+        -   Defeat the operator in combat.
+        -   Convince the operator to shut down the broadcast
+            voluntarily. A character may attempt one Desperate
+            check (2 or less on 1d6) per scenario. The check
+            must be made in-character: the player must say
+            something to the operator that the DM finds
+            sufficiently true.
+        -   Destroy the console instead. This is a 1-turn action
+            requiring the character to stand still next to the
+            console and ignore all combat. The console has HP 4.
+            Any character who destroys the console dies in the
+            process. Their name is remembered. Their voice is the
+            last one on the tape recorder.
+
+    AFTERMATH
+
+    If the party ends the broadcast, the listeners below the tower
+    wake up slowly. Some remember who they are. Some do not. Over
+    the next days, most drift away from the tower and go home, if
+    they have one. Some do not.
+
+    The tape recorder stops playing. It is just a tape recorder
+    now. The party can keep it or leave it.
+
+
+
+SCENARIO B: THE GROCERY RUN
+--------------------------------------------------------------------------------
+
+    FLAVOR
+
+    The store is still standing. That alone is miraculous. It still
+    has fluorescent lights. It still has shelves. The freezer
+    section still hums. No one knows why. No one wants to ask.
+
+    The store is called BIG VALUE. Some of the letters in the sign
+    are out, so depending on the angle and the time of day it reads
+    BIG VAL or B  VALUE or, occasionally, just E. The parking lot
+    is full of cars that have not moved in months. The cars are
+    full of things that used to be drivers.
+
+    The party is hungry. The store will have food. Other parties are
+    also hungry. They will also be at the store. There will not be
+    enough for everyone. The question is how much of yourself you
+    are willing to leave at the checkout.
+
+    SETUP
+
+    Each character starts with reduced HP (current HP = maximum HP
+    minus 1). This is hunger. It does not heal until the party eats
+    actual food at any point during the scenario, after which all
+    characters return to full HP.
+
+    Draw 1 normal fortress from the deck as the store. Set aside 6
+    entities as a pool of rival scavengers and store oddities.
+
+    Take a small handful of item cards (around 8) and set them
+    face-down as the store's stock. These will be drawn during the
+    shopping action in Act II.
+
+    Throughout this scenario, the store's PA system occasionally
+    plays announcements. Use these freely as flavor: a price check
+    on aisle 4 for an item that does not exist, a reminder that the
+    store closes at 9 (the clock is broken and reads 9 permanently),
+    a manager being called to the front, a manager being called to
+    the back, a manager being called to a location with no name.
+    There is no manager. There has not been a manager for a long
+    time.
+
+    ACT I - ENTRANCE
+
+    Objective: Reach the store parking lot.
+
+    The party moves through 3 empty streets toward BIG VALUE. At
+    each street, roll 1d6 and resolve the result:
+
+        1: A rival scavenger lurking in a doorway. Pull 1 enemy
+           from the pool. Combat.
+        2: A car with a passenger still strapped in, asking the
+           party for directions in a polite voice. The passenger
+           is not hostile. The passenger does not want directions.
+           Players may ignore them, talk to them (DM improvises),
+           or destroy the car (no reward, but it stops the voice).
+        3: A pile of grocery bags abandoned mid-street, contents
+           rotted. A character may search them for 1 random item.
+           On a roll of 1, the bag is occupied.
+        4: Nothing. Wind. A dog barking somewhere. The dog is
+           saying words but not loudly enough to make out.
+        5: A dead radio playing music that has not been written
+           yet. No mechanical effect.
+        6: A useful find. Draw 1 random item from the deck and
+           give it to any party member.
+
+    After the third street, the party can see the store. The
+    parking lot is full. The lights are on. The doors slide open
+    automatically as if welcoming them. They keep sliding open and
+    closed even after the party stops moving.
+
+    ACT II - COMPLICATION
+
+    Objective: Get inside and load up.
+
+    The store is held by 2 rival entities (pull from the pool) who
+    have set up a checkpoint at the entrance. They are wearing red
+    polo shirts they have stolen from the staff section and they
+    are pretending very hard to be employees. They claim the store
+    is closed for inventory. They are waiting for someone they will
+    not name.
+
+    The party may:
+        -   Fight them at the entrance (standard combat).
+        -   Comply with the inventory checkpoint by handing over
+            1 item. The fake employees will let the party pass and
+            will continue pretending until the party is out of
+            sight.
+        -   Hide and wait them out via a Hard check (3 or less).
+            Success means slipping past unnoticed. Failure means
+            combat with the fake employees, who attack first.
+        -   Distract them by triggering a separate disturbance:
+            knocking over a shopping cart corral, setting off the
+            store alarm, etc. Allow a Normal check. On success, the
+            fake employees investigate and the party slips by.
+
+    Once inside, the store is real. Mostly. The shelves are mostly
+    full. Many of the products have labels that are wrong: brand
+    names spelled differently, photographs of foods the photograph
+    is not actually depicting, expiration dates in years that have
+    not happened. The fluorescent lights flicker only when looked
+    at directly.
+
+    SHOPPING. A character may spend one action to shop. They draw
+    1 face-down item from the store stock pile. Each character may
+    shop at most 3 times in this act.
+
+    Each time a character shops, after drawing the item, roll 1d6:
+        1: The aisle moves. The character finds themselves in a
+           different aisle than they intended. They may shop again
+           on their next action without it counting against the
+           3-shop limit, but they are now separated from the party
+           until they make a Normal check to find their way back.
+        2: Something on a high shelf is watching. The DM describes
+           it but does not attack. Yet.
+        3-5: Normal shopping.
+        6: Bonus. Draw a second item.
+
+    EATING. At any point during Act II, the party may eat. This
+    requires sacrificing 1 item card from the store stock (treat
+    it as food regardless of what it actually is). Eating restores
+    all characters to full HP. The party may only eat once per
+    scenario. Eating is loud and the party is vulnerable for one
+    round afterward (-1 to all attack rolls).
+
+    AT THE BACK OF THE STORE, behind the swinging double doors
+    marked EMPLOYEES ONLY, there is a freezer. The freezer is
+    locked. The freezer is also vibrating slightly, in a rhythm
+    that is almost a heartbeat but slower. Curious characters may
+    investigate. Opening the freezer requires a Hard check or
+    breaking the lock (any item used as a tool, sacrifice that
+    item). Inside is one rare item card, drawn from the deck. Also
+    inside is something the DM invents on the spot and the party
+    does not have time to look at carefully. Whatever it is, it
+    sees the party. The party should leave.
+
+    ACT III - COLLAPSE
+
+    Objective: Escape before rival scavengers arrive.
+
+    Three waves of rival scavengers converge on the store. They
+    have heard the party is here. Each wave is 2 enemies pulled
+    from the pool. The waves enter from different sides:
+
+        Wave 1: Through the front sliding doors.
+        Wave 2: Through the loading dock at the back of the store.
+        Wave 3: From above. The DM does not need to explain how.
+
+    The party may:
+        -   Defend the store. Use the store fortress as their
+            position. The store fortress grants +1 Attack and +1 HP
+            to defenders inside it for the duration of Act III.
+            Survive all three waves to advance.
+        -   Flee toward home, dropping items to move faster. Each
+            item voluntarily dropped grants the dropping character
+            +1 to the next round's actions. Dropped items are
+            permanently lost.
+        -   Split the party, with some defending and some fleeing.
+            Allowed but costly: split parties roll separately for
+            everything in Act IV.
+
+    LOCAL RULE - GREED IS HEAVY. Any character carrying more than
+    2 items takes a -1 penalty to all attack rolls and a -1 penalty
+    to all checks while fleeing in Act III. The store's gravity
+    seems to increase the more you take from it.
+
+    SPECIAL EVENT DURING WAVE 2: The PA system makes an
+    announcement, addressing the party by name, even though no one
+    in this scenario knows their names. The announcement
+    congratulates them on their selections and reminds them that
+    the express checkout is for 10 items or fewer. Then the lights
+    in the store get slightly brighter for one round. During that
+    round, all characters and enemies have +1 to their Attack
+    rolls. The store wants combat. The store is enjoying this.
+
+    ACT IV - THE FINALE
+
+    Objective: Make it home.
+
+    The party retreats from the store with whatever they still
+    carry. The walk back is shorter than the walk in, even though
+    it is the same distance. The streets feel like they are
+    helping.
+
+    Each surviving character must make 1 Normal check (4 or less
+    on 1d6) to reach the safehouse. Modifiers:
+        -   +1 difficulty (easier) if the character is carrying 2
+            or fewer items.
+        -   -1 difficulty (harder) if the character is carrying 4
+            or more items.
+        -   -1 difficulty if the character ate during Act II.
+        -   The character who opened the freezer in Act II must
+            make their check at Hard (3 or less). Whatever was in
+            there has decided to follow them home. They will not
+            see it. They will hear it walking behind them with the
+            same number of footsteps no matter how fast they run.
+
+    Characters who fail the check are caught in an alley by a
+    final rival pulled from the pool. They must fight 1 enemy
+    solo. Surviving the fight completes the check.
+
+    AFTERMATH
+
+    Victory is measured by items successfully brought home across
+    all surviving characters.
+
+        7 or more items: A great haul. The party eats well for a
+                         week. Each character permanently regains
+                         1 HP up to their max if they have lost any
+                         since the campaign started.
+        4 to 6 items:    A good haul. The party eats. That is
+                         enough.
+        1 to 3 items:    A meager haul. The party eats once and
+                         remembers being hungry the next day.
+        0 items:         No haul. But everyone who came back came
+                         back, which is more than most parties can
+                         say. That counts.
+
+    The character who opened the freezer hears something at their
+    safehouse window that night. It is the sound of breathing from
+    the wrong side of the glass. It is gone in the morning. Or
+    it is not.
+
+
+
+SCENARIO C: THE LAB
+--------------------------------------------------------------------------------
+
+    FLAVOR
+
+    You wake up in a hallway you do not remember. There is tile
+    under your face. Fluorescent light. A number printed on the
+    doorframe that you are certain was different a moment ago. You
+    look at it. It changes again. It is now your birthday, written
+    backwards, in a font you have never seen.
+
+    You have no weapons. Your clothes are not your clothes. They
+    are the right size but they fit wrong, the way a stranger's
+    shirt fits even when it is your size. Around your wrist is a
+    plastic hospital bracelet with a number on it, and below the
+    number, a name. The name is not yours, but you recognize it.
+    You are almost sure it is the name of someone you know. You
+    cannot remember who.
+
+    A voice somewhere down the corridor is reading a list, very
+    slowly, and one of the names on the list is yours. Or it is
+    going to be. You cannot tell from here.
+
+    The party does not know who they are, how they got here, or
+    what happens to the people whose names get read aloud. Everyone
+    agrees this is a bad sign.
+
+    SETUP
+
+    Each character begins with:
+        -   Their base entity card (their character sheet)
+        -   0 items
+        -   HP at maximum
+        -   A wrist bracelet (the throughline prop, see below)
+
+    THE WRIST BRACELETS. At the start of the scenario, each player
+    is told their character is wearing a hospital bracelet with a
+    number and a name on it. The DM secretly assigns each character
+    a bracelet name from a list. The list is the names of the OTHER
+    characters in the party. Every character is wearing a bracelet
+    that says someone else's name.
+
+    The players do not learn this until the bracelets become
+    relevant in Act II and Act IV. Until then, treat the bracelet
+    as flavor: the character can read their bracelet, the name on
+    it is a person they almost remember, and that is all.
+
+    Draw 1 super fortress to be the Core Lab. Set aside 5 entities
+    as a pool of "experiments" - things the lab has been making.
+    These should not be presented as monsters at first. They should
+    be presented as employees, patients, doctors, or visitors who
+    are slightly wrong.
+
+    Throughout the scenario, intercom announcements address the
+    characters not by name but by their bracelet number. Use
+    these freely as flavor: a request for Patient 14 to report to
+    Observation, an apology that the cafeteria is closed today,
+    a routine reminder that all personnel are reminded that
+    contamination protocols are in effect on Sublevel 3, the
+    cheerful daily affirmation read by a voice that is
+    unmistakably trying its first day at being a voice.
+
+    ACT I - ENTRANCE
+
+    Objective: Escape your containment cell.
+
+    Each character starts alone in a separate cell on the same
+    corridor. They cannot see each other but they can hear each
+    other if they shout. The cells have small windows in the doors,
+    looking out onto the corridor, but the windows are clouded.
+
+    Act I is played by each player in turn while the others wait.
+
+    Each character must escape their cell. Two paths exist:
+
+    PATH A - THE PHYSICAL ESCAPE. Make two Hard checks (3 or less
+    on 1d6) in sequence. The first check finds something useful
+    in the cell to pry with: a loose tile, a bedframe spring, a
+    plastic spoon that has been sharpened by the previous
+    occupant. The second check uses the tool to defeat the door
+    latch.
+
+    PATH B - THE COOPERATIVE ESCAPE. The cells are connected by
+    air vents. Two characters whose players agree may attempt a
+    cooperative escape. Each makes one Normal check (4 or less).
+    If both succeed, they crawl out together. If one fails, both
+    must make a Hard check or be discovered. The cooperative
+    escape is faster but louder.
+
+    A character who fails all attempts is discovered by a
+    patrolling lab entity (pull 1 from the pool, presented as an
+    orderly with a clipboard and very specific questions). They
+    must defeat the orderly to escape.
+
+    AT THE END OF ACT I: All escaped characters meet in a central
+    corridor. The corridor has a wall map of the facility on it.
+    The map is hand-drawn in pencil and looks like it was made
+    by someone who only had access to the building one room at a
+    time. Some rooms are labeled. Some are crossed out. One room
+    is labeled with the name of a character who is currently
+    standing in the corridor, looking at the map.
+
+    Each character draws 1 random item from the deck. These were
+    in a supply closet near the meeting point.
+
+    ACT II - COMPLICATION
+
+    Objective: Find your weapons, your names, and three keycards.
+
+    The party must explore 3 lab rooms. Each room has a door with
+    a different label, and each label is wrong in a different way.
+    Suggested labels for the DM (use any, in any order):
+
+        -   "JANITORIAL" (this is not a janitor's closet)
+        -   "CAFETERIA - CLOSED FOR REMODEL" (it has not been a
+            cafeteria for a long time)
+        -   "OBSERVATION ROOM 4" (the observation goes both ways)
+        -   "PHYSICAL THERAPY" (it is not therapy)
+        -   "WAITING ROOM" (something is waiting)
+
+    For each room the party enters:
+        -   Draw 1 entity from the pool as the room's threat.
+            Present it not as a monster but as something that
+            still thinks it has a job.
+        -   Draw 1 item as the room's loot.
+        -   Roll 1d6 for the room's reality stability:
+
+            1: STAT BLEED. One random character swaps one stat
+               value (Attack and HP swap) until they leave the
+               room. They may take this opportunity to discover
+               this is sometimes useful.
+            2: INVERTED PHARMACOLOGY. All item effects used in
+               this room are inverted (heals damage, buffs become
+               debuffs, defensive items become aggressive ones).
+               The DM should narrate the inversion in-character:
+               the bandage tightens too much, the painkiller
+               sharpens the senses to the point of agony.
+            3: ECHO ROOM. The room repeats itself once after you
+               leave it. Fight the threat again, but the second
+               time it knows your strategy and acts accordingly
+               (DM picks better tactics).
+            4: NORMAL. Nothing unusual happens. This is in some
+               ways more disturbing.
+            5: NORMAL. As above.
+            6: MEMORY FRAGMENT. A character remembers a fragment
+               of their identity. They gain +1 maximum HP
+               permanently. The fragment should be specific: the
+               smell of their grandmother's kitchen, the feel of
+               their first car's steering wheel, the sound of a
+               particular person laughing. The DM should ask the
+               player to describe it.
+
+    KEYCARDS. Each room contains 1 keycard, hidden somewhere
+    appropriate to the room (in a drawer, under a body, on a
+    lanyard around the neck of the threat, etc.). The party may
+    or may not find each keycard. Each room with a found keycard
+    grants the party 1 keycard for Act III.
+
+    THE BRACELETS BECOME RELEVANT. Somewhere in Act II, ideally
+    in the second room, the DM should describe a wall of patient
+    files: photographs paperclipped to manila folders, with names
+    and bracelet numbers. The players are encouraged to read their
+    own bracelets aloud. They will discover their bracelets have
+    other party members' names on them.
+
+    The DM should not explain this. The DM should let the players
+    sit with it for as long as it takes.
+
+    ACT III - COLLAPSE
+
+    Objective: Reach the Core Lab.
+
+    The party reaches the central hub of the facility. The Core
+    Lab is on the other side of a heavy security door that
+    requires 3 keycards. The hallway leading to it is wider than
+    the rest of the facility, ceiling tiles missing, the lights
+    flickering in a pattern that is almost rhythmic, almost
+    musical.
+
+    If the party has 3 keycards, they enter directly. For each
+    missing keycard, the party must make a Desperate check (2 or
+    less on 1d6). Failure means fighting 1 additional entity from
+    the pool as a guardian.
+
+    LOCAL RULE - THE HALLWAY IS LEAKING. At the start of each
+    round inside the hallway, roll 1d6:
+
+        1: One random character temporarily forgets one of their
+           items. The item cannot be used for that round only.
+           The character also cannot describe it: they know it
+           is in their pack, they know it is important, but the
+           word for it has gone out of their mouth.
+        2: One random character sees themselves at the end of
+           the hallway, walking ahead of the party, looking
+           back. The figure waves. Then it is gone. No mechanical
+           effect.
+        3: A door opens in the wall that was not there a moment
+           ago. Inside the doorway is a room. The room is the
+           bedroom of one random character, exactly as they left
+           it the morning of the reality collapse. The door
+           closes again at the start of the next round. A
+           character may step through during the open round
+           (sacrificing all actions that round) to retrieve 1
+           item from their bedroom: any 1 item card from the
+           graveyard, restored.
+        4-6: Nothing.
+
+    SPECIAL EVENT NEAR THE END OF THE HALLWAY: The party
+    encounters a single figure standing motionless, facing the
+    door to the Core Lab. The figure is wearing a lab coat and
+    a wrist bracelet. The bracelet has, written on it, the name
+    of a real person from the players' actual lives. The DM
+    should ask each player to name a person they trust, and use
+    one of those names. The figure does not respond when spoken
+    to. The figure does not attack. If the party attacks first,
+    the figure dies in one hit, with no resistance, and the
+    party feels slightly worse afterward but continues. If the
+    party ignores it and continues to the Core Lab, the figure
+    is still standing there when they look back. Then it is gone.
+
+    ACT IV - THE FINALE
+
+    Objective: Destroy or seize the distortion machine.
+
+    The Core Lab is the super fortress set aside at setup.
+
+    Inside it is the machine. The machine is large and quiet. It
+    does not look like science. It looks like furniture, the kind
+    of furniture you find in a room that has been waiting for
+    someone for a very long time. There is a chair in front of
+    it. The chair has restraints. The restraints are open.
+
+    Standing next to the machine is the boss: an entity with
+    Attack 5, HP 8, and a consumable that rolls as a 2-damage
+    attack on all attackers in the engagement. The boss is
+    wearing a lab coat. The boss's wrist bracelet, when the party
+    sees it, has the name of one of the party members on it.
+
+    THE BRACELET REVELATION. Before the fight begins, the DM
+    should tell the players what they have begun to suspect:
+    each character is wearing a bracelet with the name of one
+    of the others. The boss is wearing the name of one specific
+    party member: the DM picks. That party member is the only
+    one in the party whose bracelet does NOT have someone in
+    the party on it. Their bracelet has the boss's name. They
+    have always had it. They just have not read it carefully.
+
+    The implication is left for the party to interpret. The DM
+    should not explain it. Some possibilities:
+        -   They are all the same person being tested.
+        -   They have all been switched.
+        -   The bracelets do not mean anything and the lab is
+            just trying to make them think they do.
+        -   They are all someone else, looking back.
+
+    The party may:
+        -   Destroy the machine. Defeat the boss in combat,
+            then assault the fortress (the Core Lab) until it
+            reaches 0 HP. This ends the scenario in destruction:
+            the lab collapses, the party escapes, and the
+            distortions in this district end. The bracelets
+            crumble to dust as the party leaves.
+        -   Seize the machine. Defeat the boss, but leave the
+            fortress standing. The first character to touch the
+            machine after the boss dies gains +1 Attack
+            permanently but is now connected to it. At the
+            start of every future scenario, that character must
+            roll 1d6. On a 1, they glitch: lose 1 HP permanently
+            and lose 1 turn at the start of the next combat.
+        -   Sit in the chair. One character may volunteer to
+            sit in the chair after the boss is defeated. The
+            chair will not let them up. The machine will start
+            doing whatever it does. The character is gone at
+            the end of the scenario, but the rest of the party
+            walks out clean, with no penalty, and one specific
+            thing about the world is restored: the DM picks
+            something small and personal to one of the
+            remaining party members. A grandmother is alive
+            again. A song plays on a radio that has been silent.
+            A dog can no longer talk, and is happier for it.
+
+    AFTERMATH
+
+    Escape from the lab is automatic for all surviving characters.
+    The corridors that took hours to traverse on the way in take
+    minutes on the way out. The doors are unlocked. The
+    fluorescent lights have begun to fail one by one as the party
+    walks out. The voice on the intercom has gone silent.
+
+    Outside, the sun is rising. None of the party can quite agree
+    on whether the sun was rising when they went in. None of them
+    can quite agree on how long it has been.
+
+    The character who sat in the chair, if any, is not with the
+    party when they reach the parking lot. None of the others can
+    quite remember them anymore. Their items are still in the
+    party's packs. Their name is still on someone's bracelet. That
+    bracelet does not crumble.
+
+    You may or may not find out who you were before this started.
+    You probably won't. But you know who the others are now, and
+    you know they came back for you, and that is more than most
+    people in this world get to keep.
+
+
+
+================================================================================
+                           PART VII - APPENDICES
+================================================================================
+
+
+
+GLOSSARY
+--------------------------------------------------------------------------------
+
+    ACT             One major segment of a Campaign Mode scenario.
+                    Scenarios have 4 acts.
+
+    ATTACK          A card's target number for normal hits. Roll this
+                    value or less on 1d6 to land a hit.
+
+    BATTLEFIELD     The central shared zone of the table where most
+                    combat takes place.
+
+    BATTLEPATH      The sequence of face-down enemy fortresses in
+                    Singleplayer Mode.
+
+    CAMPAIGN MODE   The RPG mode of Goosklerf II, run by a DM.
+
+    CAPTURE         Taking control of an enemy fortress by clearing
+                    it of defenders via a battlefield assault.
+
+    CONSUMABLE      A one-use item card. Must be equipped by an
+                    entity before it can be used.
+
+    CONTROL         Legal ownership of a fortress, independent of
+                    whether it is currently occupied.
+
+    DEFEAT          Reducing an entity's HP to 0.
+
+    ENGAGEMENT      A single declared combat, resolved fully before
+                    any other engagement begins.
+
+    ENTITY          A unit card. Entities fight, move, equip items,
+                    and capture fortresses.
+
+    FORTRESS        A structure card placed in the suburbs. Holds
+                    entities and grants buffs. Can be captured or
+                    destroyed.
+
+    FORTRESS ASSAULT  A combat in which battlefield entities attack
+                    a fortress.
+
+    FORTRESS BARRAGE  An optional combat type in which fortress
+                    entities attack an enemy fortress directly, ship
+                    to ship, without a battlefield assault.
+
+    GRAVEYARD       A player's discard pile. Each player has their
+                    own.
+
+    HAMLET          The loss-for-all end condition: no entities
+                    remain and none can be played.
+
+    HIT POINTS (HP) A card's durability, tracked physically with a
+                    die on top of the card.
+
+    INITIAL VOLLEY  A one-shot attack fortress occupants can fire
+                    into a battlefield engagement at its start.
+
+    ITEM            A card equipped to an entity, granting buffs,
+                    debuffs, or special effects.
+
+    LANDLORD        The end condition where one player controls all
+                    fortresses in play with no more to come, and then
+                    survives one full round without losing that status.
+
+    LAST STAND      An optional rule allowing a defending entity to
+                    take one final action upon being defeated.
+
+    OCCUPY          Having one or more living entities physically
+                    inside a fortress.
+
+    PARRY           An optional action canceling 1 HP of normal-hit
+                    damage received on the previous round.
+
+    RARE CARD       A card with a purple, orange, or yellow/gold
+                    border.
+
+    RETREAT         An optional action to leave an engagement at the
+                    cost of one round's action and exposure to an
+                    enemy attack.
+
+    SCAVENGER       An optional rule allowing allies in an
+                    engagement to pick up a dead friend's items.
+
+    SHOP            An optional face-up zone where players place 3
+                    or 7 cards at setup (depending on deck regime)
+                    for possible mid-game purchase.
+
+    SUBURBS         The fortress zone at the edges of the table,
+                    where fortresses are placed. The suburbs are the
+                    battlefield for fortresses; the battlefield is
+                    the battlefield for entities.
+
+    SUPER ENTITY    A rare entity with 2 HP dice.
+
+    SUPER FORTRESS  A rare fortress with 3 HP dice.
+
+    VICTORY REWARD  A bonus random card drawn to the attacker's
+                    hand after winning a battlefield engagement.
+                    Defenders get nothing.
+
+
+
+FAQ AND EDGE CASES
+--------------------------------------------------------------------------------
+
+    Q1. What if my hand has no legal plays and I must play 3 cards?
+
+        Discard cards until played + discarded = 3. You pay the cost
+        of being stuck. The forced-play rule is only waived when your
+        hand is entirely empty at the start of Card Play.
+
+    Q2. What if my deck runs out during the Draw phase?
+
+        Draw as many as you can. If only 1 card remains, keep it. If
+        0 cards remain, skip the Draw phase for the rest of the game.
+        You continue playing with your current hand until it is empty.
+
+    Q3. Does Victory Reward apply if my deck is empty?
+
+        No. If the attacker's deck is empty, no card is drawn. You
+        simply win the fight. Defenders never receive a Victory Reward.
+
+    Q4. Can I parry a consumable's damage?
+
+        No. Parry only cancels 1 HP of damage from a normal attack.
+
+    Q5. A fortress has three entities inside. Do they each get an
+        Initial Volley shot?
+
+        No. Each fortress gets ONE volley shot per battlefield
+        engagement, regardless of how many entities are inside. The
+        controlling player picks which occupant fires.
+
+    Q6. My fortress is currently being assaulted. Can its occupants
+        volley into a different battlefield engagement happening at
+        the same time?
+
+        No. A fortress under assault cannot volley at all. Its
+        occupants are already fighting the attackers at their door.
+
+    Q7. Both sides are destroyed in the same round. What happens?
+
+        Both sides lose. If the engagement was a fortress assault
+        and the fortress still stands, it remains under defender
+        control (empty). If both sides were wiped on the battlefield,
+        the engagement ends with no survivors on either side. The
+        Victory Reward is NOT awarded in mutual-kill scenarios.
+
+    Q8. Can I attack my own entities or fortresses?
+
+        Not unless a card or scenario explicitly says so.
+
+    Q9. Can items be held in a fortress without an entity?
+
+        No. Items must be equipped to entities. If all entities in a
+        fortress die and their items are not inherited (no Scavenger,
+        no Last Stand transfer), the items are discarded.
+
+    Q10. If I purchase from the Shop and the drawn/bought card cannot
+         be legally placed, what happens?
+
+        You cannot purchase it. A Shop card must be playable on the
+        spot.
+
+    Q11. Can I heal above a card's printed HP?
+
+        Only if a card explicitly says so. Otherwise healing caps at
+        the printed value.
+
+    Q12. I captured a fortress. When can its former occupants'
+         leftover items be used?
+
+        Never. Captured fortresses are empty of items by definition;
+        all items owned by defeated defenders went to the defender's
+        graveyard. You captured the real estate, not the inventory.
+
+    Q13. My Supercharged Attack self-damaged my entity to 0. What
+         happens?
+
+        The entity is defeated by its own blunder. It is discarded
+        after the action resolves. No Last Stand from a self-kill.
+
+    Q14. A card from Goosklerf I has Defense and I am playing pure
+         GKII. Do I ignore the Defense?
+
+        You may either apply the conversion rule from Part IV, or
+        ignore Defense entirely and play the card as GKII. Decide
+        before the game and stay consistent.
+
+    Q15. Can a Super Entity be parried once per HP die, or only once
+         per round like a normal entity?
+
+        Parry is an action of the parrying entity, not the entity
+        being parried. A Super Entity can parry one hit per round
+        like any other entity. HP dice are irrelevant to parry.
+
+
+
+================================================================================
+                    VISUAL ELEMENTS CHECKLIST (FOR THE ARTIST)
+================================================================================
+
+
+    The following illustrations are referenced or implied throughout
+    this rulebook. Each is listed with its purpose and the minimum
+    information it must communicate. Illustrations should be
+    functional first, stylish second. A player should be able to
+    understand the thing from the illustration alone.
+
+    FIGURE 1 - CARD ANATOMY
+        One full page. Four card diagrams side by side (Entity,
+        Fortress, Item, Consumable). Callouts label: border color,
+        name, card-type icon, Attack stat, HP stat, capacity (if
+        any), text box, and any buff/debuff indicators.
+        Purpose: So a new player can identify every part of a card
+        by glancing at the page.
+
+    FIGURE 2 - TABLE LAYOUT (MOST IMPORTANT IMAGE IN THE BOOK)
+        One full page. Top-down view of a 2-player Classic Mode
+        table. Clearly show: battlefield in the center, suburbs
+        above and below with slots for up to 3 fortresses per
+        player, each player's deck/hand/graveyard near them, optional
+        shop column on one side. Label every zone. Use simple boxes,
+        not decoration.
+
+    FIGURE 3 - TURN FLOW DIAGRAM
+        Half page. A flow diagram of the five phases (Card Play,
+        Movement, Combat, Victory Check, Refill) with a one-line
+        summary of each.
+
+    FIGURE 4 - COMBAT WALKTHROUGH
+        Full page. A comic-style walkthrough of one complete
+        engagement: declaration, initial volley, two combat rounds,
+        resolution, and victory reward. Use real numbers (dice
+        rolls shown). This is the image new players will point at
+        when they are stuck.
+
+    FIGURE 5 - FORTRESS ASSAULT VS BARRAGE
+        Half page. Two small diagrams side by side. Left: entities
+        moving from the battlefield to assault a fortress. Right:
+        fortress entities firing across the suburbs at another
+        fortress ("ships fighting ships"). Shows the visual
+        difference between the two combat types.
+
+    FIGURE 6 - RULE LEVELS CHART
+        Half page. A simple chart mapping which rules are on or off
+        for Core Only, Core + Shop, and Full Advanced play.
+
+    FIGURE 7 - MODE SELECTOR
+        Half page. A small grid of the five modes with a one-line
+        description, recommended player count, and difficulty
+        rating.
+
+    FIGURE 8 - TACTICAL MODE LAYOUTS
+        Half page. Three small table layouts for Lightning,
+        Standard Tactical, and Skirmish variants.
+
+    FIGURE 9 - SINGLEPLAYER BATTLEPATH EXAMPLE
+        Half page. Visual representation of a 6-level battlepath
+        with fortresses lined up, enemy counts shown, the
+        player's strike force on the left, and the shop beside it.
+
+    FIGURE 10 - CAMPAIGN MODE CHARACTER SHEET
+        One page. A simple blank character sheet players can copy
+        or print. Fields for: character entity card, HP (current
+        and max), Attack, equipped items, consumables, level,
+        rerolls per session, notes.
+
+    FIGURE 11 - CHESSKLERF BOARD SETUP
+        One page. 8x8 board showing the setup described in
+        Section 26.1: corner fortresses, 4 major pieces on the
+        back rank, pawns on ranks 4 and 5 facing each other
+        across the center. Label the pieces and fortress squares.
+
+    FIGURE 12 - QUICK REFERENCE CARD (TEAR-OUT)
+        Single page, designed for tearing out. Contents: turn
+        phase summary, hit rule, action list, capture vs
+        destroy, retreat summary, shop summary, victory
+        conditions. No flavor text. Pure reference.
+
+    GENERAL ART NOTES
+        The setting of Goosklerf II is post-reality-collapse
+        grimdark with absurd undertones. Key visual flavors for
+        scenario illustrations: broken geometry, wrong animals
+        in wrong places, humans who are almost human, concrete
+        bureaucracy that has outlived its purpose, fluorescent
+        light. The rulebook interior art should stay clean and
+        functional; save the heavy mood for scenario chapter
+        headers, card art, and the setting page.
+
+
+
+================================================================================
+                               END OF RULEBOOK
+================================================================================

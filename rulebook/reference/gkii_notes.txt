@@ -1,0 +1,248 @@
+SINGLEPLAYER:
+Setup
+1. Sort cards into piles: Fortresses, entities, non-consumable items
+2. Shuﬄe each sorted pile, place face down
+3. Map: Randomly select and place 3+ fortresses face down on the table (do not look at card)
+4. Enemies: Randomly select and place 3 entities with 1 item each face down on each fortress
+(do not look at card)
+1. First fortress: 1 entity with 1 item
+2. Second Fortress: 2 entities with 1 item each
+3. Third fortress: 3 entities with 1 item each
+4. Fourth fortress: 3 entities with 1 item each
+5. Fifth fortress: 3 entities with 2 items each
+6. Sixth fortress+: 3 entities with 3 items each
+Shuﬄe remaining cards (EXCEPT FORTRESSES)
+Hand: Draw 7 cards randomly
+Reinforcement Deck: Look through deck and select an additional 5 entities and 10 items
+1. Easy: 7 entities & 15 items in deck (3+ fortresses)
+2. Medium: 5 entities & 10 items in deck (3+ fortresses)
+3. Hard: 3 entities & 10 items in deck (4+ fortresses)
+4. Infinite: 7 entities & 15 items in deck (keep adding fortresses and entities on the map
+after you defeat one)
+Gameplay
+1. Using cards in your hand, create a strike force of as many entities as you can, using an
+equipping up to 7 cards
+2. Attack first fortress on your campaign. Flip over all enemy cards and roll dice for their
+attacks. Do not make strategic decisions for enemy (i.e. do not leverage special attacks)
+3. After fortress combat, fill up your hand with 7 cards. Play up to 7 cards to modify your
+army.
+4. Attack the next fortress.
+5. Continue until all cards in deck are exhausted, all fortresses are defeated, or all your entities
+are killed. Winning condition: You defeat all fortresses. If playing with indefinite fortresses,
+score is based on number of fortresses and enemies defeated.
+Score:
+Super-Fortress = 10 points
+Fortress (rare - orange) = 7 points
+Fortress (normal - blue) = 5 points
+Super-Entity = 5 points
+Entity (rare - purple) = 3 points
+Entity (normal - red) = 1 points
+Player Round —> combat round —> Turn —> Attack/Defense Rolls —> Attack/Defense Roll
+MISC RULES:
+- This game requires brains, not just brawn. You can only use cards that you understand. If you
+are guessing as to what the card means, you must discard it or not use the special. If an enemy
+player sees that you do not understand a card’s meaning, he or she can force you to discard it.
+
+Goosklerf II Drop Specifications
+Custom Game Cards (63 X 88mm)
+Marketing:
+- “the anti-brainrot game”
+New rulebook! Print it via mixam and make it quality
+- Change rules based on feedback in notes
+-
+Hand draw rules and add easy to understand pictures
+SIMPLIFY RULES!!! TAKE OUT ANYTHING UNNECESSARY
+—> STEVE JOBS DESIGN METHODOLOGY!!!!
+w/ “complexity is free”
+ENSURE FONT IS GOOD!!!
+https://tools.drivethrucards.com/pub_podcard_cost.php
+Mixam = rulebook
+Custom boxes
+Custom card envelopes?
+Order 100-200 cards, downsize into boxes/envelopes
+$1270/100 decks (109 cards)
+ORDER BULK (100-200 cards) + FOIL BOOSTER PACKS!
+https://www.makeplayingcards.com/design/custom-booster-pack.html?
+srsltid=AfmBOopVENt2sOGyQzitF85a4GZ4X6sH8zpNi8i4zF5r8BTJutZfcTj2
+1x booster pack
+3x booster packs + booklet
+3x booster packs + dice + booklet
+Rule improvements:
+Only stats are HP & Attack
+Remove: CAPACITY (?), DEFENSE
+—> Fun of game comes from specials & interesting items (DONT OVERCOMPLICATE —
+STEVE JOBS METHOD!!)
+buﬀ fortresses (2 dice instead of 1)
+buﬀ all players
+Boss players with 2 dice
+Crazy, game ending super items
+MAKE THIS A PARTY GAME!!! FIGURE OUT RULES OR DESIGN ELEMENTS THAT WOULD
+MAKE THIS FUN TO PLAY IN A PARTY
+Add cards with weird rules, go into irl (ie play chess, whoever wins wins battle, pushup contest,
+if 3 players do cooking competition with food items on hand — whoever makes tastiest meal
+wins, run a race, thumb war, truth or dare, wrestling match, if player doesn’t own gun in real life
+he cannot use this item, if player weighs over 200 lbs he cannot use this item, if player has
+mustache irl he gets 1HP buﬀ, if you play this card the loser must shave his or her head — you
+can only play this card if you are willing to accept the consequences, loser of this battle must
+clean the room or area you are in (ie sweep floors), picture drawing game)
+Add more interesting specials (ie high damage item but damage vulnerability, ie if you get hit, it
+takes 2 HP instead of 1)
+All card types:
+Entity (red border)
+Legendary Entity (purple border)
+Superentity (2 health dice, purple border)
+Fortress (blue border)
+Superfortress (3 health dice, orange border)
+Item (green)
+Legendary Item (yellow)
+Consumable (green)
+Legendary consumable (yellow)
+ASSETS TODO:
+BLOCK NUMBERS 1-5 FOR ATTACK STAT (ENTITY)
+BLOCK NUMBERS 1-5 FOR ATTACK STAT (OTHER)
+ENTITY symbol
+FORT symbol
+ITEM symbol
+CONSUMABLE symbol
+HEALTH CROSS (medium for title + small for text box)
+ATTACK SWORD OR TRIANGLE OR OTHER
+Superfortress ornimentation
+big dice numbers
+medium dice numbers + 0
+small dice numbers + 0
+plus symbol
+minus symbol
+plus minus symbol
+arrow small (entity)
+arrow long (item)
+x’d out item buﬀ + “(no buﬀ)”?
+SYMBOLS:
+FORT = ROOK
+ENTITY = GOOSKLERF
+CONSUMABLE = BOMB
+ITEM = SWORD
+Core rules:
+reach 3.
+- you must play 3 cards per turn. If you cannot play 3 cards, you must discard cards until you
+-
+Rule add-ons:
+- retreat mechanic:
+- pot shots
+- retreat from fortress to battlefield or battlefield to fortress (not battlefield to battlefield)
+- community shop vs personal shop
+- timed turns —> each person has 1 minute max per turn (non combat)
+special card ideas:
+- faustian bargain: if you burn this card in real life, all enemy players on the battlefield die
+(including those not currently in combat). (Note: Goosnav LLC does not take responsibility
+for any damages caused by the player’s voluntary decision to burn this card)
+SELLING METHOD:
+FREE SHIPPING
+- SEND IN ENVELOPES WITH POSTAGE STAMPS
+- PUT A LITTLE PRINTOUT IN EACH ENVELOPE (IE PLS LEAVE A REVIEW, THANK YOU, A
+LITTLE FUNNY MESSAGE, THANK YOU, ETC)
+- FOR BIGGER SHIPMENTS WHERE YOU SEND THE RULE BOOK, SEND IT LIKE THE ZINE
+(MAIL THE RULE BOOK AND THE CARDS IN A ZINE MAILER WITH STAMPS)
+TIERS:
+1) BOOSTER PACK (12 CARDS)
+2) 3X BOOSTER PACKS + RULE BOOKLET
+3) 5X BOOSTER PACKS + RULE BOOKLET + 10X DICE
+4) 10X BOOSTER PACKS
+DICE = $3.99 ADD ON OR SUMN
+BOOSTER PACK METHOD:
+PUT QR CODE FOR RULES ON EVERY
+BOOSTER PACK DESIGN!!!!
+PUT LINK TO RULE BOOK ON WEBSITE
+pricing:
+1x booster (12 cards) = 14.99 (booster pack) (free shipping)
+3x booster + rule set = 34.99 (starter kit) (free shipping)
+5x booster + rule set + dice = 54.99 (play kit)
+10x boosters + rule set + dice = 94.99 (treasure box)
+all of above include 1x sticker & 1x thank you slip
+
+
+Limited entities 
+
+need way to integrate old card game too --> backwards comptatible
+
+there needs to be an incentive for first strike
+
+House rules = good
+
+small scale stuff
+
+each round is a choice of a showdown (each round is like that)
+- you get to decide how many round
+
+dungeons and dragons
+- write out the level buffs
+- equip entity as squire (you get to equip squire at lvl 5) --> damage goes to them first
+- dungeon master decides how many hp enemy loses on hits
+- create a character sheet template (it should be a simple graph people can draw to keep track of things themselves)
+Story
+- put people in world of your comics
+- secular leftist hellscape
+- fight deconstructivism
+- think about fantasy --> what is the fantasy what people want to experience
+   - YOU get to be the wacky thing
+- decision tree
+- every campaign is 4 acts?
+Objective
+- clear antagonist?
+- man vs enviornment? trying to defeat enviornment?
+- youre fighting against board game?
+- youre larping as a bunch of terrorists trying to take down radio station
+Scenarios:
+A. terrorists destroy the radio station
+B. trying to get to the grocery store while being assaulted by thugs
+C. Trying to get to the place of employment to get a job
+ - maybe getting a job earns you items as cards
+- maybe youre hired as private security to defeat enemies and you get items
+D. police officer cleaning up neighborhood
+E. escaping a lab youre being experimented on
+F. warzone
+G. Delivering presents on christmas
+H. Courier: You need to deliver items and pick them up from fortresses. Maybe the battles are you defeating the HR people or administrative people at each office (fortress) in verbal combat so you actually get the package
+DND goosklerf --> hits have variable damage
+
+Variable damage rule --> Roll another dice to see if it's -1, -2, -3 hp (maybe it depends on your level too?)
+
+Thuglins
+
+
+YOU CAN SELL FUTURE QUEST BOOKS!!!! --> DND absurd goosnav
+-> schizoworld
+--> AUTOMATED DUNGEONMASTER?? There are cards in each room? automated rules in each room? 
+- create dungeon grid
+
+Code up a basic bitch bare bones python app for this game 
+
+single player dnd
+- journal rpgs? <-- look into that
+
+Launch it with a campaign 
+
+Put on website where you can actually buy the playbook with the campaigns
+
+Chessklerf
+
+
+Tactical Goosnklerf
+- each player plays 4 entities
+- 2 items per entity (you can switch around items on move turn)
+- 1 fortress
+- maybe you have a hand with items and maybe have a market --> random 
+1. create decks
+2. play all cards (
+
+
+
+
+
+GAMEMODES:
+1. Goosklerf: Tactical (4 entities, 1 fortress, 2 cards per entity, 7 items in hand)
+2. Goosklerf: Forever War --> classic goosklerf
+3. Goosklerf: Dungeons --> DND goosklerf
+4. Goosklerf: Campaign --> single or multi player, set up fortress and defeat them
+4. Chessklerf
+5. Goosklerf: Skirmish --> 1 battle with juiced up cards (3 entities, 4 items per entity)
+6. 

@@ -1,0 +1,247 @@
+
+The fabric of reality has been torn to shreds. A total reality collapse event is what the state called it before it disappeared. It happened gradually at first, and then all at once. A man goes to bed with his wife; He wakes up next to a fish. A truck driver barrels down the highway, and a second later, the truck and he have switched places. Cats now bark, dogs forget their language...
+
+No one knows quite why this happened. Many have their ideas, but ideas aren't worth much now that you can't trust the thoughts in your head.
+
+The chaos left the world a shifting wasteland, but this blank slate may be an opportunity in disguise. In the vacuum left after the old order, opportunistic warlords have sprung up across the land. There is no return to normalcy, no negotiations, no peace in this new world. There is only a scramble for whatever resources remain: A scramble to acquire the only thing still solid in this world -- power.
+
+=======================================
+
+I. Core Rules
+
+=======================================
+
+A. Cards
+
+There are three types of cards in this game -- entities, items, and fortresses: 
+
+Entities
+- Red entities are normal while purple entities are rare. 
+- Only entities can equip and use items.
+- Entities can attack other entities or fortresses.
+- Entities die when their hitpoints (hp) level reaches 0.
+- Entities can decide who/what to target, throwing a dice to see if their attack lands.
+
+Items:
+- Green items are normal while gold items are rare.
+- Consumable items can be used for a one-time effect.
+- Consumable items must be equipped by entities to be used. 
+- Standard items can be equipped by entities and provide a continuous buff/debuff and/or special effect.
+- An item must be equipped by an entity to be used.
+
+Fortresses:
+- Blue fortresses are normal while orange fortresses are rare.
+- Fortresses can house entities and provide a continuous buff/debuff and/or special effect.
+- Fortresses are destroyed their hitpoints (hp) level reaches 0.
+- If a fortress is destroyed, all entities inside it are killed as well. 
+- Fortresses cannot hold or use items. 
+
+B. Battle-space
+
+i) Battlefield:
+- The battlefield is in the center of the game-space.
+- Entities on the battlefield can attack entities in suburbs and entities on battlefield.
+- Fortresses can only be captured by entities that attack from the battlefield. 
+ii) Suburbs:
+- Players can only place their fortresses in the suburbs
+- Entities in the suburbs cannot attack entities in the battlefield. 
+- Entities in fortresses can only attack enemy fortresses in an attempt to destroy them but cannot capture them. 
+iii) Graveyard:
+- Discarded cards go into the graveyard. 
+- Each player has their own graveyard. 
+iv) Shop (advanced rule add-on):
+- Area where a set of cards is laid out for purchase.
+- These cards do not affect combat until bought and used. 
+
+C. Victory Conditions
+
+This game may be played single-player or multi-player, depending on the game-mode. In singleplayer, winning is determined by the final score. In pvp multiplayer, there are 3 end conditions: 
+
+i) Last Man Standing: Only one player has survivor(s).
+ii) Landlord: One player occupies or controls all fortresses, even if enemies have surviving entities. If one player controls all fortresses and players cannot play new fortresses, the fortress owner wins if the round ends with their owning all fortresses. 
+iii) Hamlet: All entities are dead and no entities can be played. 
+
+D. Gameplay 
+
+Gameplay is split into 5 sequences:
+
+i) Setup:
+- All players draw 7 cards at random from their deck to start. This is their hand. If playing with the Shop, they draw an additional 7 cards at random and place them face up in the shop section. 
+ii) Card Play:
+- The player must play at least 1 card up to 3 cards in their hand. At least 1 card must be played until all cards are exhausted. Cards are played by placing Fortresses into the Suburbs, placing entities into the Battlefield (if unoccupied or the player already has entities present [only with the "Contested Battlefield" Advanced Rule]), placing entities into an owned Fortress (max 3 entities per fortress), placing an item into an entity's inventory (max 3 items per entity), or purchasing an item from the shop.
+iii) Non-Combat Movement:
+- Entities can move between fortresses or the battlefield (only if the battlefield is occupied or empty with the "Contested Battlefield" Advanced Rule). 
+iv) Combat:
+- Entities on the battlefield can stage to attack enemies in their fortresses or on the battlefield. If a player attacks an enemy fortress, all entities attacking the fortress occupy the fortress at the end of a successful battle. They must remain in the fortress until the next turn. 
+- Entities in fortresses can stage to attack enemies on the battlefield or enemies in fortresses via long ranged attacks. Fortress entities attacking other fortresses cannot take the enemy fortress. 
+- Players may split up forces to engage in as many combat engagements as possible. Each individual entity can only partake in one engagement during a player's turn. Combat engagements occur sequentially: The first combat must resolve before beginning the second combat. Players do not need to announce all combat plans in advance, but any combat actions must be legal.  
+- After the last combat engagement concludes, keep all dice on the entities to ensure the records of their hitpoints are retained. The only way to regain hitpoints is to use items or specials to heal.
+v) End of Turn:
+- The player looks through their deck, choosing 3 cards or as many cards (up to 3) as possible, adding them to the hand. These can be played next turn, but not this turn. The initial hand is chosen randomly, but the replenishment cards from the end of the turn are chosen deliberately. 
+
+E. Combat
+
+A player can attack on his or her turn. This begins a combat sequence where the player who initiates the attack goes first and the defender engages in a round after. Combat continues until defeat or retreat. When combat begins, players place a dice on the HP box on their entity card. Ensure you add/subtract the total buffs/debuffs to HP from equipped items. 
+
+i) Combat Sequence:
+	a) Attacker's first entity decides to use a normal attack, use an equipped item, use a special ability, or retreat. 
+	b) If using a normal attack, the attacker announces the enemy entity or fortress they are targeting, explains their attack, and rolls a dice. If the dice lands above the attack score + buffs/debuffs, the attack misses. If the dice lands below the attack score + buffs/debuffs, the attack hits.
+	c) On hit, the enemy entity loses 1HP, causing their HP dice to be reduced by 1 (unless a special condition specifies more hitpoints to be deducted). 
+	d) If the enemy entity's dice reaches 0, they die and must be discarded (unless a special exception exists). All items equipped by the dead entity are also discarded (unless playing with advanced rules). 
+	e) The attacker continues these actions until all entities have completed an action. All entities may only complete 1 action per turn (unless a special exception exists). 
+	f) Once the attack turn is finished, the enemy continues the cycle with their own round of attacks/actions. 
+	g) Players repeat until one side wins the engagement. 
+ii) Fortress Attack:
+- When a fortress is attacked, the HP acts identically to how entity HP works. If a fortress' hitpoints reach 0, the fortress is destroyed. This means all entities in the fortress and all their items are discarded, unless they retreat before the fortress' hitpoints reach 0. 
+
+F. Add-On Rules / Mods
+
+---------------------------------------
+
+i) Intermediate Rules (Add-ons)
+
+	a) Retreat
+
+	At the beginning of a combat turn, an attacking or defending entity can decide to retreat instead of engaging in combat. This means they cannot attack in the turn. On the next turn, the enemy has the chance to attack the entity before they leave the battlefield. The enemy has the opportunity to kill the retreating entity before it leaves the battlefield. If the attack does not kill the entity, it leaves the battle. If a defender retreats while in a fortress, it moves to the battlefield. If an entity retreats from the battlefield, it can retreat to either an owned fortress of the battlefield. 
+
+	b) Last Stand (Defender Only)
+
+	For defenders only, if an entity dies, they can make one final attack roll or special before dying. If an attacker dies, they are immediately discarded. 
+
+	c) Item Swaps
+
+	In combat, instead of an attack roll or other combat action, an entity can decide to transfer up to two of their equipped cards to another entity. They may not attack in the current round if they decide to transfer items. 
+
+
+ii) Advanced Rules (Add-ons)
+
+	a) Reinforcements 
+
+	When a fortress is attacked, after the initial turn, a friendly entity from the battlefield can enter the combat. These entities cannot attack for one round while they join the battle, but they may be attacked by the enemy. Only one reinforcement entity can be called at the end of an attack turn (both attackers & defenders can call reinforcements). 
+
+	b) Shop
+
+	In the beginning of the game, each player must place 7 cards face up on the table in the shop area. These cards can only be bought by the player who placed them. To buy a card, 2 normal cards must be discarded into the graveyard. If the card has a rare border (purple borders for entities, orange borders for fortresses, and yellow borders for items), only one card must be exchanged for the item in the shop. (2 normal cards = any 1 shop card, 1 rare card = any 1 shop card) Each card exchanged to the shop counts as a card played for your turn. For example, if a player exchanges one rare card for a new shop card, the player can only play 2 more cards in their turn.  
+
+	c) Parrying
+
+	Instead of an attack roll, a player may choose to parry to deflect a normal attack. To parry, the player must successfully roll a hit based on the entity's attack stat. If the attack hits, a single normal attack that landed from the previous turn has been nullified. The HP lost from the previous attack is regained. This deflection does not include special attacks or special consumable items, only normal attack hits. When a parry is attempted, successfully or unsuccessfully, the entity cannot attack further, and it is the enemy's turn. Parrying consumes an attack action.
+
+	d) Contested Battlefield
+
+	Players must fight to enter the battlefield. The first player to deploy an entity to the battlefield owns the space. Anyone deploying entities to the battlefield must fight to deploy. A player with no entities on the battlefield must place their entities in fortresses to start. To deploy to the battlefield, players must move their entities out of their fortresses and attack the largest army on the battlefield. If armies have similar size and total HP, it is the player's choice who to attack. The attacking player must defeat an enemy on the battlefield to secure a place on the battlefield. Alternatively, a player may initiate combat and attempt a retreat. If the retreat is successful, the surviving entities have secured themselves a place on the battlefield. 
+
+	e) Supercharged Attack
+
+	Players have the option to roll 3 die instead of only 1. This allows for an additional -1HP to be inflicted if all die hit. If one die out of the three misses, then -1HP is inflicted on the attacking entity instead (the supercharged attack fails, hurting the attacker).
+
+	f) Scavenger
+
+	If a friendly entity dies, allied entities in the engagement may equip items of the dead entity if they have room. Items already equipped by entities may not be transferred to the dead entity. If entities cannot hold the dropped items, those items must be discarded. 
+
+	g) Fortresses Attacking Fortresses
+
+	Entities in a fortress can attack an enemy fortress on their turn. In this combat, entities in the fortress cannot target enemy entities directly, they may only target an enemy fortress. In fortress combat, all fortresses in the Suburbs are engaged. Combat continues until one player decides to end the engagement or all enemy fortresses are destroyed. If a player decides to end combat, the enemy can attack one more time. 
+
+---------------------------------------
+
+G. Backwards Compatibility 
+
+Goosklerf I and Goosklerf II have slight differences, but it does not significantly affect how games are played. In Goosklerf I there are additional stats, including Defense and Capacity. Defense is the Attack stat but only for entities who did not initiate the attack (in other words, the defending player in a battle). The capacity stat explains the total number of items an entity can carry or entities a fortress can carry. Fortress capacity for Goosklerf I cards still remains. For Goosklerf II fortresses, the maximum remains 3. 
+
+If capacity stats change during battle, excess items or entities must be discarded (player's choice). There are no overflow cards, items must be equipped by entities. 
+
+When Goosklerf I fortresses buff Defense on Goosklerf II entities, the entity's attack stat is buffed. When an entity equips an item that affects both the attack and defense buff, apply the buff according to whether the entity is attacking or defending (ie when defending, the defense buff modifies the attack stat). For Goosklerf II cards, ignore capacity modifications. The max number of equipable cards for Goosklerf II entities is 3. The capacity restrictions still count for Goosklerf I cards. If a card buffs capacity, use the following equation to determine the total number of allowable cards:
+
+Total Entity Capacity = Entity capacity + ·(Capacity buff from all equipped items)
+Number of Additional Cards That Can Be Equipped =  Total Entity Capacity - ·(Equipped items)
+
+In short, attack and defense from GKI became just attack. Capacity is now standardized with a 3 card capacity per entity. 
+
+=======================================
+
+II. Gamemodes
+
+=======================================
+
+A. Singleplayer Dungeon Mode (1 player)
+
+In singleplayer, the player must defeat fortresses on a battlepath. The battlepath is a series of fortresses you must defeat. This is the singleplayer sequence:
+
+A) Setup
+
+Sort your deck into a pile of entity cards, item cards, and fortress cards. Shuffle each segregated deck. Then, place cards on the battlepath, placing cards face down at each level:
+
+	i) Level 1: One fortress and one entity.
+	ii) Level 2: One fortress and one entity w/ 1 item equipped. 
+	iii) Level 3: One fortress and two entities each w/ 1 item equipped. 
+	iv) Level 4: One fortress and three entities each w/ 1 item equipped. 
+	v) Level 5: One fortress and three entities each w/ 2 items equipped.
+	vi) Level 6: One fortress and three entities each w/ 3 items equipped. 
+	vii) Level 7: Two fortresses and three entities per fortress each w/ 3 items equipped. 
+	...
+	
+Once the battlepath is set with the number of desired levels, choose 3 entities for your battle party. Draw 3 item cards at random and equip them to entities as you choose. 
+
+After your team is formed, shuffle the item and entity cards together. Draw 7 cards at random, placing them face-up in the Shop area. 
+
+B) Attack
+
+Begin by attacking the next level's fortress, flipping over the cards. Roll your attacks as desired. During the enemy's turn, if the entity has a consumable item, think of a number between 1 and 6. Roll a dice. If you land on the number you thought of, the enemy uses the consumable card. Otherwise, you roll a normal attack for them. If one of your entities dies, they must be placed in the graveyard. If all your entities die, the game ends.
+
+C) Post-Battle 
+
+After you defeat a fortress by killing all entities inside, add the fortress to your trophy pile. Additionally, confiscate any remaining items from the enemy entities, placing them in the inventory of your entities. If your entities have no remaining inventory space, you must discard the items. 
+
+Once excess items have been discarded, you may purchase items from the shop using items in your entities' inventory and/or the fortresses in your trophy pile. If the items/fortresses are rare, you may purchase a shop card for 1 rare card. Otherwise, each shop card costs 2 normal cards. If you purchase an entity, they join your battle party. 
+
+D) Score
+
+Each level won equals 100 points. Each remaining fortress card in your trophy pile (not consumed to buy shop cards) equals 50 points. Each surviving entity equals 25 points. Each remaining item equals 10 points. 
+
+---------------------------------------
+
+B. Lightning Mode (2-4 players)
+
+3 vs 3 fast fights with minimal setup and no draw economy.
+
+---------------------------------------
+
+C. Tactical Mode (2-4 players)
+
+Start with 4 entities + 1 fortress + 2 items each; 7-card hand items only; no drawing.
+
+---------------------------------------
+
+D. Skirmish Mode (2 players)
+
+One battle with intentionally overpowered loadouts (ex: 3 entities, 4 items each). 
+
+---------------------------------------
+
+E. Chessklerf Mode (2 players)
+
+
+
+---------------------------------------
+
+F. Total War Mode (Original) (2-4 players)
+
+Your original Standard Rules presented cleanly (core + optional rule levels). 
+
+---------------------------------------
+
+F. Campaign Mode (2-4 players + 1 Dungeonmaster)
+
+Your original Standard Rules presented cleanly (core + optional rule levels). 
+
+---------------------------------------
+
+=======================================
+
+X. Campaigns 
+
+=======================================
+
+A. The Wizard (Scenario A)
+

@@ -1,0 +1,203 @@
+## GOOSKLERF II — GAME BIBLE SKELETON (RULEBOOK + MODS + MODES + CAMPAIGNS + ASSETS)
+
+### FRONT MATTER
+
+1. **Cover + Tagline + Logo Page** — The “anti-brainrot game” positioning, logo lockup, edition number. 
+2. **Credits + Contact + Version History** — Who made it, where to find updates, change log by version.
+3. **How To Use This Book** — Explain “Core Rules + Mods + Modes” system and how to build a ruleset. 
+4. **Quick Start (2 pages)** — The Easy rules as a learn-in-5-min pamphlet with a single diagram of the table layout. 
+5. **Table of Contents + Icons Key (1 page)** — A legend of every symbol used (entity/fort/item/consumable/atk/hp). 
+
+---
+
+## PART I — COMPONENTS + TABLE SETUP
+
+6. **What’s in the Box** — Cards, dice, tokens, recommended accessories, what’s optional.
+7. **Card Anatomy (Full-Page Graphics)** — Callouts for each card type (stats, text box, “Special”, border rarity). 
+8. **Stat System (One Graphic)** — “Roll ≤ ATK to hit; HP tracked with dice; super cards use multiple dice” in one visual. 
+9. **Zones + Table Layout** — Battlefield, fortress zones, shop area, discard/deck/hand with a clean diagram. 
+10. **Tokens & Tracking** — What markers are used for HP, buffs, “occupied”, round counters, score.
+
+**Assets to include in this part:**
+
+* A single “table layout” illustration. 
+* 1-page “card anatomy” for each type.
+* Icon legend (rook/duck/bomb/sword, etc.). 
+
+---
+
+## PART II — CORE ENGINE (THE RULES THAT NEVER CHANGE)
+
+11. **Core Concepts (1 page)** — “What an Entity is, what a Fortress is, what Items can do, when Items can be used.” 
+12. **Victory Conditions (Core)** — Occupy-all-fortresses, last-man-standing, special scenario (plus optional alt endings). 
+13. **Setup (Core)** — Card distribution options + 7-card hand + deck-browsing rule (no random draws during play). 
+14. **Turn Structure (Core)** — Play (use 3 cards), Move, Attack, Draw (choose 3). 
+15. **Combat Loop (Core)** — Attack phase, Defense phase, Victory resolution with the roll-under stat mechanic. 
+16. **Damage + Defeat + Restoration (Core or Advanced Toggle)** — When things die, where they go, and whether HP resets after fights. 
+17. **Special Text Priority** — How card text overrides rules and how to resolve conflicts.
+18. **No Card Stealing (Default Rule)** — Items always go to the owner’s discard unless a specific mod says otherwise (and what that mod requires).
+
+**Assets to include in this part:**
+
+* “One full example turn” walkthrough with arrows.
+* “One combat example” with 2–3 dice rolls shown visually.
+* A one-page “Core Rules Reference” tear-out.
+
+---
+
+## PART III — RULE LEVELS (EASY / INTERMEDIATE / ADVANCED)
+
+19. **Rule Level Selector Page** — A single page that says: Easy = Core only; Intermediate = Core + Shop; Advanced = everything.
+
+### 19A. EASY (Core Only)
+
+20. **Easy Rules (verbatim rules block)** — The minimum playable system with zero optional mechanics.
+
+### 19B. INTERMEDIATE (Core + Shop)
+
+21. **Shop Mod (Official)** — How the shop is created and how buying works (1 purchase for 2 cards at start of turn). 
+22. **Shop Variants (Optional)** — Community shop vs personal shops, refill rules, faster drafting option. 
+
+### 19C. ADVANCED (Core + Shop + Advanced Combat + Limits)
+
+23. **Parry Mod** — Parrying rules, what cannot be parried. 
+24. **Retreat Mod** — Retreat rules and “pot shot”/final chance. 
+25. **Bonus Move on Death Mod** — The “final bonus move” clause and how it’s resolved. 
+26. **Fortress Destruction Mod** — “If fortress destroyed, defenders die (after bonus move).” 
+27. **Trait Caps + Battlefield Cap Mod** — Min/max tables and entity limit on battlefield. 
+28. **Timed Turns Mod (Party Speed)** — “1 minute max per non-combat turn” and how to enforce it cleanly. 
+
+**Assets to include in this part:**
+
+* “Rule level comparison” table (what’s included).
+* Tiny icons indicating required components (dice/tokens/shop cards).
+
+---
+
+## PART IV — MOD LIBRARY (CUSTOMIZE YOUR GAME)
+
+29. **How Mods Work (Template)** — Each mod entry uses the same format: Purpose, Adds/Changes, Required Materials, Compatibility Notes, Recommended Modes.
+30. **Economy Mods** — Shop variants, hand-size variants, draw variants (but keep “choose cards” as default).
+31. **Combat Mods** — Parry, retreat, variable damage, boss dice rules.
+32. **Objective Mods** — First-strike incentives, showdown rounds, alternative win conditions. 
+33. **Party/Chaos Mods** — IRL challenge cards, consent-based “house rules”, “complexity is free” fun pack.
+34. **Legacy Mods** — Inventory/capacity re-enabled, Defense stat enabled (for legacy integration).
+
+**Assets to include in this part:**
+
+* 1-page “Build-a-Ruleset” checklist (circle the mods you’re using).
+* Print-and-cut mod cards (optional) so tables can toggle mods physically.
+
+---
+
+## PART V — GAME MODES (NON-DUNGEON MODES FIRST)
+
+> Each mode gets the same structure: Goal, Setup, Turn Flow, Combat Notes, End Condition, Recommended Rule Level + Mods, Recommended Play Mat.
+
+35. **Mode Index Page** — Choose your vibe: Total War / Tactical / Lightning / Skirmish / Campaign / Chessklerf.
+
+### 35A. Goosklerf: Total War (Original)
+
+36. **Total War (Official Mode Page)** — Your original Standard Rules presented cleanly (core + optional rule levels). 
+
+### 35B. Goosklerf: Tactical
+
+37. **Tactical Mode** — “Start with 4 entities + 1 fortress + 2 items each; 7-card hand items only; no drawing.”
+
+### 35C. Goosklerf: Lightning
+
+38. **Lightning Mode** — “3 vs 3” fast fights with minimal setup and no draw economy.
+
+### 35D. Goosklerf: Skirmish (Juiced Battle)
+
+39. **Skirmish Mode** — One battle with intentionally overpowered loadouts (ex: 3 entities, 4 items each). 
+
+### 35E. Goosklerf: Campaign (Non-RPG, Fortress Ladder)
+
+40. **Campaign Mode Overview** — Fortress map, escalating difficulty, score attack framing.
+41. **Singleplayer Campaign (Official)** — Exact setup/scaling rules, reinforcement deck, and scoring table. 
+42. **Co-op Campaign Variant** — Same ladder but party-controlled strike force and shared hand rules.
+
+### 35F. Chessklerf (Placeholder, Fully Slotted)
+
+43. **Chessklerf Overview Page** — Statement of concept + what’s unique (board movement, zones, captures) and how it interfaces with core combat.
+44. **Chessklerf Board Rules (TBD section)** — Reserved space for movement rules, board setup, turn sequence, and win conditions.
+
+**Assets to include in this part:**
+
+* One recommended **play mat** per mode (Total War layout, Tactical layout, Campaign map layout, Chessklerf board overlay).
+* “Mode cards” (one-page each) for quick table setup.
+
+---
+
+## PART VI — LEGACY BACKWARDS COMPATIBILITY (GKI → GKII)
+
+45. **What Changed from GKI to GKII** — Defense & capacity/inventory removed; GKII focus is Attack + HP + Specials.
+46. **Legacy Stat Mapping Rules** — How Defense and Inventory behave when old cards enter modern modes. 
+47. **Legacy Buff Conversion Rule (Strongest Buff Only)** — If a legacy item buffs Defense heavily, convert it to GKII Attack and apply only the strongest numeric buff to GKII entities. 
+48. **Mixed-Deck Examples (3 examples)** — One sample combat, one sample item conversion, one sample inventory case.
+49. **Compatibility Toggles** — A “Legacy On/Off” mod checklist (Defense rules enabled, inventory enabled, etc.).
+
+**Assets to include in this part:**
+
+* A half-page “conversion cheat sheet” that players can reference mid-game.
+
+---
+
+## PART VII — PRINTABLE BOARDS, MATS, AND PLAYER AIDS (THE PHYSICAL UX)
+
+50. **All Boards/Mats Overview** — Quick list of every mat and which modes use it.
+51. **Total War Mat** — Fortress zones, battlefield, shop, discard/deck/hand placements. 
+52. **Tactical Mat** — Simplified layout with 4 starting entities + 1 fortress + item slots. 
+53. **Lightning Mat** — Minimal 3v3 lanes with quick HP tracking.
+54. **Campaign Map Mat** — Fortress ladder spaces, escalating difficulty track, score track. 
+55. **Enemy Staging + Strike Force Mat** — Areas for face-down enemies, your active party, and item pools. 
+56. **Chessklerf Board Overlay (TBD)** — The printable grid/overlay that converts a chessboard into Chessklerf.
+57. **Reference Sheets (Tear-out)** — Core rules, shop rules, advanced combat rules, legacy conversion.
+
+**Assets to include in this part:**
+
+* Print-ready pages (thin ink) + “premium mat” versions (heavy ink).
+* “Turn order” strips players can put in front of them.
+
+---
+
+## PART VIII — SCENARIOS (NON-DUNGEON) + CONTENT PACK FORMAT
+
+58. **Scenario Format Standard** — Every scenario uses: Setup, Objective, Restrictions, Recommended Mods, Victory/Failure, Difficulty, Designer Notes.
+59. **Total War Scenarios Pack** — Short “special scenario” win conditions that plug into Total War. 
+60. **Campaign Scenario Pack** — Fortress ladder variants (themes, enemy rules, special map rules).
+61. **Party Scenarios Pack** — Optional chaotic/IRL scenarios and consent-based rules.
+
+---
+
+## PART IX — DUNGEONS (D&D MODE) — PUT THIS LAST (AS REQUESTED)
+
+> This is the “Quest Book Engine,” and it’s how you sell future campaign volumes.
+
+62. **Dungeon Mode Core Rules (Fast RPG)** — DM role, checks, combat conversion, using cards as character sheets. 
+63. **Character Sheet Template (Printable)** — A simple graph/tracker for HP, gear, level, conditions. 
+64. **Leveling + Buffs** — Level buffs, unlocks, and the “squire at level 5” rule. 
+65. **Variable Damage Rules** — DM-controlled damage or extra die for -1/-2/-3 HP and when to use it. 
+66. **DM Tools (The Seuss Engine)** — Page-flip setting generator, objective generator, encounter pacing.
+67. **Automated Dungeon Master (Optional)** — Tables/cards that generate rooms, enemies, consequences. 
+68. **Solo Dungeon (Journal RPG Variant)** — Prompts + decision tables + “draw cards to resolve story beats.” 
+69. **Dungeon Campaign Structure (4 Acts Standard)** — A repeatable 4-act template you use for every published quest. 
+70. **Launch Campaigns (Full Modules)** — The scenario list (radio station, grocery run, job quest, lab escape, warzone, Xmas delivery, courier).
+71. **Enemy Archetypes + Behaviors** — Quick enemy AI rules so DM isn’t doing chess.
+
+**Assets to include in this part:**
+
+* Dungeon grid (optional), room cards, encounter tables, printable character sheet, act tracker.
+
+---
+
+## PART X — APPENDICES (MAKE IT ACTUALLY USABLE)
+
+72. **Glossary** — Define every term (occupy, capture, combat round, turn, etc.). 
+73. **FAQ + Edge Cases** — “What if two effects conflict,” “what if deck runs out,” “what if I can’t play 3 cards,” etc.
+74. **Iconography + Asset Library Pages** — The complete symbol sheet (numbers, dice faces, plus/minus, rook/duck/bomb/sword). 
+75. **Print Specs + Layout Rules** — Fonts, sizing, readability rules, Mixam notes, and a “do not break” style guide. 
+76. **Expansion Protocol** — How to add new cards/modes without breaking compatibility; balancing notes.
+77. **Score Sheets + Tracking Sheets (Printables)** — Campaign score sheets, turn trackers, HP trackers. 
+

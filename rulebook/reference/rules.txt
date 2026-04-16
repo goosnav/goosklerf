@@ -1,0 +1,86 @@
+Limited entities 
+
+need way to integrate old card game too --> backwards comptatible
+
+there needs to be an incentive for first strike
+
+House rules = good
+
+small scale stuff
+
+each round is a choice of a showdown (each round is like that)
+- you get to decide how many round
+
+dungeons and dragons
+- write out the level buffs
+- equip entity as squire (you get to equip squire at lvl 5) --> damage goes to them first
+- dungeon master decides how many hp enemy loses on hits
+- create a character sheet template (it should be a simple graph people can draw to keep track of things themselves)
+Story
+- put people in world of your comics
+- secular leftist hellscape
+- fight deconstructivism
+- think about fantasy --> what is the fantasy what people want to experience
+   - YOU get to be the wacky thing
+- decision tree
+- every campaign is 4 acts?
+Objective
+- clear antagonist?
+- man vs enviornment? trying to defeat enviornment?
+- youre fighting against board game?
+- youre larping as a bunch of terrorists trying to take down radio station
+Scenarios:
+A. terrorists destroy the radio station
+B. trying to get to the grocery store while being assaulted by thugs
+C. Trying to get to the place of employment to get a job
+ - maybe getting a job earns you items as cards
+- maybe youre hired as private security to defeat enemies and you get items
+D. police officer cleaning up neighborhood
+E. escaping a lab youre being experimented on
+F. warzone
+G. Delivering presents on christmas
+H. Courier: You need to deliver items and pick them up from fortresses. Maybe the battles are you defeating the HR people or administrative people at each office (fortress) in verbal combat so you actually get the package
+DND goosklerf --> hits have variable damage
+
+Variable damage rule --> Roll another dice to see if it's -1, -2, -3 hp (maybe it depends on your level too?)
+
+Thuglins
+
+
+YOU CAN SELL FUTURE QUEST BOOKS!!!! --> DND absurd goosnav
+-> schizoworld
+--> AUTOMATED DUNGEONMASTER?? There are cards in each room? automated rules in each room? 
+- create dungeon grid
+
+Code up a basic bitch bare bones python app for this game 
+
+single player dnd
+- journal rpgs? <-- look into that
+
+Launch it with a campaign 
+
+Put on website where you can actually buy the playbook with the campaigns
+
+Chessklerf
+
+
+Tactical Goosnklerf
+- each player plays 4 entities
+- 2 items per entity (you can switch around items on move turn)
+- 1 fortress
+- maybe you have a hand with items and maybe have a market --> random 
+1. create decks
+2. play all cards (
+
+
+
+
+
+GAMEMODES:
+1. Goosklerf: Tactical (4 entities, 1 fortress, 2 cards per entity, 7 items in hand)
+2. Goosklerf: Forever War --> classic goosklerf
+3. Goosklerf: Dungeons --> DND goosklerf
+4. Goosklerf: Campaign --> single or multi player, set up fortress and defeat them
+4. Chessklerf
+5. Goosklerf: Skirmish --> 1 battle with juiced up cards (3 entities, 4 items per entity)
+6. 

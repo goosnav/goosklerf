@@ -1,0 +1,313 @@
+GOOSKLERF II – OFFICIAL RULEBOOK OUTLINE
+======================================
+
+--------------------------------------
+FRONT SECTION – READ THIS FIRST
+--------------------------------------
+
+1. COVER PAGE
+   - Game name, logo, edition number, short tagline.
+
+2. CREDITS + VERSION INFO
+   - Designer, artist, contact info.
+   - Version number and short changelog.
+
+3. HOW THIS RULEBOOK WORKS
+   - Explain Core Rules vs Rule Levels vs Mods vs Modes.
+   - Tell players they don’t need everything at once.
+
+4. QUICK START (EASY MODE)
+   - 1–2 page minimal rules to start playing immediately.
+   - Table layout overview.
+   - Win condition in one sentence.
+
+5. SYMBOLS + ICON KEY
+   - Explain all symbols, dice icons, borders, colors.
+
+--------------------------------------
+PART I – COMPONENTS & SETUP
+--------------------------------------
+
+6. WHAT’S IN THE BOX
+   - Card types.
+   - Dice.
+   - Tokens.
+   - Optional accessories.
+
+7. CARD TYPES OVERVIEW
+   - Entity cards.
+   - Fortress cards.
+   - Item cards.
+   - Rarity colors and what they mean.
+
+8. CARD ANATOMY
+   - What each number, symbol, and text box represents.
+   - What stats matter (ATK, HP).
+
+9. STAT SYSTEM
+   - How attack rolls work.
+   - How HP is tracked with dice.
+   - What makes a card “super.”
+
+10. TABLE SETUP
+    - Battlefield.
+    - Fortress zones.
+    - Shop area (if used).
+    - Deck, discard, hand areas.
+
+11. TOKENS & TRACKING
+    - What tokens exist.
+    - What they track.
+    - When they are added or removed.
+
+--------------------------------------
+PART II – CORE RULES (ALWAYS ON)
+--------------------------------------
+
+12. CORE CONCEPTS
+    - What an Entity is.
+    - What a Fortress is.
+    - What Items do.
+    - When Items can be played.
+
+13. WIN CONDITIONS
+    - Occupy all fortresses.
+    - Eliminate all enemy entities.
+    - Scenario-specific wins (optional).
+
+14. GAME SETUP
+    - Deck construction rules.
+    - Starting hand size.
+    - Card browsing rules (no random draws mid-game).
+
+15. TURN STRUCTURE
+    - Play up to 3 cards.
+    - Move.
+    - Attack.
+    - Draw/choose cards.
+
+16. COMBAT RULES
+    - Who can attack whom.
+    - Attack roll process.
+    - Defense and resolution.
+    - What happens on a hit or miss.
+
+17. DAMAGE & DEFEAT
+    - How damage is applied.
+    - When a card is defeated.
+    - Where defeated cards go.
+
+18. SPECIAL TEXT RULE
+    - Card text overrides rules.
+    - How conflicts are resolved.
+
+19. ITEM OWNERSHIP RULE
+    - Items return to owner’s discard unless stated otherwise.
+
+--------------------------------------
+PART III – RULE LEVELS
+--------------------------------------
+
+20. RULE LEVEL OVERVIEW
+    - Easy = Core rules only.
+    - Intermediate = Core + Shop.
+    - Advanced = All rules.
+
+--- EASY RULES ---
+
+21. EASY MODE RULESET
+    - Exact minimal ruleset.
+    - No shop.
+    - No advanced combat options.
+
+--- INTERMEDIATE RULES ---
+
+22. SHOP RULES
+    - How the shop is created.
+    - How buying works.
+    - When purchases happen.
+
+23. SHOP VARIANTS (OPTIONAL)
+    - Shared shop.
+    - Personal shops.
+    - Refill options.
+
+--- ADVANCED RULES ---
+
+24. PARRY RULES
+    - How parrying works.
+    - What cannot be parried.
+
+25. RETREAT RULES
+    - How retreating works.
+    - Final attack opportunity.
+
+26. BONUS MOVE ON DEATH
+    - When defeated entities may act once more.
+
+27. FORTRESS DESTRUCTION
+    - What happens when a fortress is destroyed.
+
+28. LIMITS & CAPS
+    - Entity limits.
+    - Trait caps.
+    - Battlefield caps.
+
+29. TIMED TURNS (OPTIONAL)
+    - Turn time limits.
+    - Enforcement rules.
+
+--------------------------------------
+PART IV – MODS (OPTIONAL RULE MODULES)
+--------------------------------------
+
+30. HOW MODS WORK
+    - How to add or remove mods.
+    - Compatibility notes.
+
+31. ECONOMY MODS
+    - Hand size changes.
+    - Draw rule changes.
+
+32. COMBAT MODS
+    - Extra damage.
+    - Boss rules.
+    - Variant dice systems.
+
+33. OBJECTIVE MODS
+    - Alternate win conditions.
+    - Sudden death rules.
+
+34. PARTY / CHAOS MODS
+    - IRL challenges.
+    - Consent-based chaos rules.
+
+35. LEGACY MODS
+    - Inventory rules.
+    - Defense stat re-enabled.
+
+--------------------------------------
+PART V – GAME MODES
+--------------------------------------
+
+36. MODE SELECTOR
+    - Short descriptions of each mode.
+
+37. TOTAL WAR MODE
+    - Standard full game.
+    - Recommended rule level.
+
+38. TACTICAL MODE
+    - Fixed starting units.
+    - No drawing.
+
+39. LIGHTNING MODE
+    - Small teams.
+    - Fast games.
+
+40. SKIRMISH MODE
+    - Overpowered loadouts.
+    - Single battle focus.
+
+41. CAMPAIGN MODE
+    - Fortress ladder.
+    - Scoring system.
+
+42. CO-OP CAMPAIGN
+    - Shared control rules.
+
+43. CHESSKLERF MODE (PLACEHOLDER)
+    - Board-based movement.
+    - Capture rules.
+    - Win conditions.
+
+--------------------------------------
+PART VI – LEGACY COMPATIBILITY (GKI)
+--------------------------------------
+
+44. WHAT CHANGED FROM GKI
+    - Removed stats.
+    - Simplified systems.
+
+45. LEGACY STAT CONVERSION
+    - How Defense converts.
+    - How Inventory converts.
+
+46. LEGACY BUFF RULES
+    - Strongest buff only.
+
+47. MIXED-DECK EXAMPLES
+    - Example combats.
+    - Example conversions.
+
+48. LEGACY TOGGLE OPTIONS
+    - Turn legacy rules on or off.
+
+--------------------------------------
+PART VII – BOARDS & PLAYER AIDS
+--------------------------------------
+
+49. BOARD OVERVIEW
+    - Which boards exist.
+    - Which modes use them.
+
+50. TOTAL WAR MAT
+51. TACTICAL MAT
+52. LIGHTNING MAT
+53. CAMPAIGN MAP
+54. ENEMY / STRIKE FORCE MAT
+55. CHESSKLERF BOARD
+
+56. REFERENCE SHEETS
+    - Core rules summary.
+    - Combat summary.
+    - Shop summary.
+
+--------------------------------------
+PART VIII – SCENARIOS
+--------------------------------------
+
+57. SCENARIO FORMAT
+    - Setup.
+    - Objective.
+    - Restrictions.
+    - Win/Loss conditions.
+
+58. TOTAL WAR SCENARIOS
+59. CAMPAIGN SCENARIOS
+60. PARTY SCENARIOS
+
+--------------------------------------
+PART IX – DUNGEON MODE (RPG)
+--------------------------------------
+
+61. DUNGEON MODE CORE RULES
+    - DM role.
+    - Checks and combat.
+
+62. CHARACTER SHEETS
+    - Stats.
+    - Equipment.
+    - Conditions.
+
+63. LEVELING RULES
+64. VARIABLE DAMAGE
+65. DM TOOLS
+66. AUTOMATED DM (OPTIONAL)
+67. SOLO PLAY RULES
+68. DUNGEON CAMPAIGN STRUCTURE
+69. OFFICIAL CAMPAIGNS
+70. ENEMY BEHAVIOR RULES
+
+--------------------------------------
+PART X – APPENDIX
+--------------------------------------
+
+71. GLOSSARY
+72. FAQ & EDGE CASES
+73. ICON LIBRARY
+74. PRINTING & LAYOUT SPECS
+75. EXPANSION DESIGN RULES
+76. SCORE & TRACKING SHEETS
+
+END OF RULEBOOK
