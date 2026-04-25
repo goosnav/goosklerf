@@ -537,8 +537,8 @@
 
     INITIAL VOLLEY (FORTRESS ENTITIES)
 
-        When a battlefield engagement is declared, any non-engaged
-        fortress whose occupants wish to intervene may fire a single
+        When a battlefield engagement is declared, any fortress whose 
+        occupants wish to intervene may fire a single
         volley into the engagement. Both attackers and defenders can
         fire an initial volley before combat begins.
 
