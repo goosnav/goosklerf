@@ -597,7 +597,8 @@
         In a fortress assault, attacking battlefield entities may target
         either the fortress or any defending entity inside it. Defending
         entities inside the fortress may target attackers normally. Attackers can choose
-        to attack one or more fortresses during a battle. 
+        to attack one or more fortresses during a battle. If the attacker captures a fortress,
+        the buffs and specials of that fortress do not affect any attackers/defenders in combat. 
 
         A fortress assault ends when:
             -   All defending entities are killed or retreat, OR
