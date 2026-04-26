@@ -467,7 +467,7 @@
 
         This forced-play rule is waived only if the active player's hand
         is empty at the start of Card Play. If the hand is empty, skip
-        to Movement.
+        Card Play and proceed directly to Combat.
 
         Capacity limits still apply: 3 items per entity, 3 entities
         per fortress, 5 entities on the battlefield per player.
@@ -480,14 +480,26 @@
         only one engagement per turn, unless a special ability says
         otherwise.
 
-        Combat is broken into 3 sub-phases:
-        1. Combat Staging/Movement: Stage all cards involved with an
-           attack into the areas they will attack. Announce what each
-           attack entails before engaging. Combat-related movement during
-           staging is exempt from the Movement-phase lock.
-        2. Combat Round(s): Fight other players until victory, defeat,
-           or retreat.
-        3. Combat Resolution: Settle cards into their final positions.
+        Combat is broken into three sub-phases:
+
+        1. Combat Staging/Movement:
+           The active player declares each engagement one at a time.
+           For each engagement, the active player chooses which of their
+           eligible entities are participating and moves them into the
+           engagement area if required.
+
+           Combat Staging is not general movement. It only moves entities
+           into the engagement they are about to fight in. Entities moved
+           during Combat Staging must immediately participate in that
+           engagement.
+
+        2. Combat Round(s):
+           The participating attackers and defenders fight until one side
+           is defeated, retreats, or the engagement ends by rule.
+
+        3. Combat Resolution:
+           Resolve capture, destruction, retreat destinations, Scavenger,
+           Victory Rewards, and final positions for all surviving cards.
 
         See Section 9 for combat rules.
 
@@ -504,15 +516,38 @@
             -   The player's fortress to another of the player's
                 fortresses (with space)
 
+        POSITIONING MATTERS
+
+            Where entities end the Movement phase directly determines what
+            actions are possible on the following turn.
+
+            -   Only entities on the battlefield can initiate fortress
+                assaults. Entities inside fortresses cannot capture enemy
+                fortresses.
+
+            -   A fortress with no defending entities can be captured
+                immediately when assaulted, with no resistance.
+
+            -   If a player ends their Movement phase with zero entities
+                on the battlefield, they cannot initiate any fortress
+                captures on their next turn.
+
+            -   Entities left on the battlefield are exposed to attack.
+                Entities inside fortresses are safer but cannot project
+                force outward to capture territory.
+
+            Players must balance protection and projection: Too many
+            entities in fortresses limits offensive capability; too many
+            on the battlefield risks losing control of defended positions.
+
+            Poor positioning at the end of Movement will often decide the
+            next turn before it begins.
+
         Items may be freely transferred between the player's own entities
         during this phase, as long as capacity limits are respected.
 
         Fortresses cannot hold items. If an item must move somewhere, it
         must ride on an entity.
-
-        Once movement decisions have been made, no non-combat movements
-        may be made until the next turn. Combat-related movements during
-        Combat Staging (see Phase 3) are exempt from this lock.
 
     PHASE 4: CARD DRAW
 
@@ -581,9 +616,10 @@
                 start of each new engagement. A fortress that volleyed
                 in the previous engagement may volley again in the next.
 
-        The volley shot is a single attack against any one enemy entity
-        or fortress in the engagement, of the volleying player's choice,
-        resolved before the first combat round begins.
+        The volley shot is a single normal attack against any one enemy
+        entity participating in the battlefield engagement, chosen by
+        the volleying player. Volleys cannot target fortress engagement.
+        The volley resolves before the first combat round begins.
 
     COMBAT ROUNDS
 
@@ -605,17 +641,30 @@
             G. Heal, if the Healing rule is active (Section 21)
 
     9.1 COMBAT STAGING/MOVEMENT
-        Entities on the battlefield can either attack:
-            1. One or more fortresses
-            2. All of one enemy's entities on the battlefield
-        Entities in a fortress can:
-            1. Engage in fortress vs. fortress combat 
-            2. Engage in first combat volleys
-            3. Attack all of one enemy's entities on the battlefield
 
-        Entities in a fortress cannot attack to capture an enemy's fortress.
-        Battlefield entities are the only entities that can attack to capture
-        fortresses. 
+        During Combat Staging, the active player declares one engagement
+        at a time.
+
+        Battlefield entities may be staged into:
+            1. A battlefield engagement against all of one enemy player's
+               battlefield entities.
+            2. A fortress assault against one or more enemy fortresses.
+
+        Fortress entities may participate in combat by:
+            1. Firing Initial Volley into a battlefield engagement, if
+               legal.
+            2. Defending their own fortress during a fortress assault.
+            3. Participating in Fortress Barrage, if that rule is active.
+            4. Attacking one enemy player's battlefield entities from
+               inside their fortress, if the active player declares that
+               fortress-based battlefield engagement.
+
+        Individual attacks still target one legal enemy target at a time
+        unless a card or rule explicitly says otherwise.
+
+        Entities in a fortress cannot capture an enemy fortress.
+        Battlefield entities are the only entities that can capture
+        fortresses.
 
     9.2 NORMAL ATTACK
 
