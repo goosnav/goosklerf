@@ -358,11 +358,11 @@
     HAMLET. All entities are destroyed, and no player can legally put
     a new entity into play. Everyone loses.
 
-    SPECIAL. A special effect on an item, entity, or fortress may outline
-    a unique path to a victory condition. If this special is successfully
-    triggered, this leads to a unique victory condition. Scenarios may add
-    additional victory conditions as well. Scenario victory conditions
-    override the base game defaults.
+    SPECIAL. A special effect on an item, entity, fortress, or scenario
+    may create an additional victory condition. If that special effect
+    is successfully resolved, its victory condition overrides the
+    standard multiplayer victory conditions and the controlling player
+    wins immediately.
 
 
 
@@ -379,7 +379,7 @@
                 -   1 fortress
                 -   10 items
 
-            Shop size: 3 cards (24 cards in deck + 3 in shop)
+            Shop size: 3 cards, drawn from the deck during setup.
             Recommended for: quick Classic games, Lightning Tactical
             practice, or playing with small collections.
 
@@ -388,7 +388,7 @@
                 -   10 entities
                 -   2 fortresses
                 -   15 items
-            Shop size: 7 cards (36 cards in deck + 7 in shop)
+            Shop size: 7 cards, drawn from the deck during setup.
             Recommended for: default Classic Mode. This is the
             official standard deck size.
 
@@ -397,13 +397,15 @@
                 -   15 entities
                 -   3 fortresses
                 -   25 items
-            Shop size: 7 cards (54 cards in deck + 7 in shop)
+            Shop size: 7 cards, drawn from the deck during setup.
             Recommended for: long Classic Mode sessions, team games,
             Campaign Mode setups, or large battlepaths.
 
     Decks may contain more entities and fortresses than the minimums
     listed (at the cost of fewer items). Decks may not go below the
-    minimums listed.
+    minimums listed. Any remaining deck slots may be filled with
+    entities, fortresses, or items, as long as all minimums are met
+    and the final deck size matches the selected regime exactly.
 
     A deck may include at most 3 copies of any card with the same name.
 
@@ -528,9 +530,10 @@
             -   A fortress with no defending entities can be captured
                 immediately when assaulted, with no resistance.
 
-            -   If a player ends their Movement phase with zero entities
-                on the battlefield, they cannot initiate any fortress
-                captures on their next turn.
+            -   If a player does not have entities on the battlefield by their
+                next combat turn, they cannot initiate any fortress
+                captures during their combat turn (since fortresses can only
+                be invaded from the battlefield).
 
             -   Entities left on the battlefield are exposed to attack.
                 Entities inside fortresses are safer but cannot project
@@ -549,6 +552,11 @@
         Fortresses cannot hold items. If an item must move somewhere, it
         must ride on an entity.
 
+        Once Movement is complete, no further repositioning may happen
+        until the active player's next turn. (Combat-related staging
+        movements only occur during Phase 2 and are not affected by this
+        lock.)
+
     PHASE 4: CARD DRAW
 
         The active player draws the top 2 cards of their deck at random.
@@ -562,15 +570,15 @@
 
     PHASE 5: VICTORY CHECK
 
-        After all combat is resolved, check whether any victory
-        condition has been met (Section 6). If so, the game ends.
-        Landlord status is checked and tracked here (see Section 6
-        for the survival-round rule). During the victory check, players
-        must communicate whether or not they have any unplayed
-        fortresses in their hand or deck. Players may look through their
-        own deck to confirm whether or not any unplayed fortresses
-        exist. Each time a player looks through their deck, they must
-        shuffle thoroughly a minimum of 3 times.
+        At the end of the turn, after Card Draw is complete, check
+        whether any victory condition has been met (Section 6). If so,
+        the game ends. Landlord status is checked and tracked here (see
+        Section 6 for the survival-round rule). During the victory
+        check, players must communicate whether or not they have any
+        unplayed fortresses in their hand or deck. Players may look
+        through their own deck to confirm whether or not any unplayed
+        fortresses exist. Each time a player looks through their deck,
+        they must shuffle thoroughly a minimum of 3 times.
 
 
 
@@ -597,9 +605,10 @@
     INITIAL VOLLEY (FORTRESS ENTITIES)
 
         When a battlefield engagement is declared, any fortress with
-        surviving occupants (engaged or not) may fire a single volley
-        into the engagement. Both attackers and defenders may fire an
-        initial volley before combat begins.
+        surviving occupants may fire a single Initial Volley into that
+        engagement, unless that fortress is currently being assaulted
+        or participating in a Fortress Barrage. Both attackers and
+        defenders may fire an Initial Volley before combat begins.
 
         Key limits:
 
@@ -609,8 +618,10 @@
                 it. The player controlling the fortress picks which
                 entity occupant fires.
 
-            -   NO VOLLEYS FOR FORTRESS ATTACKS. When fortresses are attacked
-                attackers and defenders cannot use volley attacks. 
+            -   NO VOLLEYS DURING FORTRESS ATTACKS. A fortress that is
+                currently under assault, or participating in a Fortress
+                Barrage, cannot fire a volley. Its occupants are already
+                committed to the fight at their door.
 
             -   RESETS EACH ENGAGEMENT. The volley counter resets at the
                 start of each new engagement. A fortress that volleyed
@@ -618,8 +629,8 @@
 
         The volley shot is a single normal attack against any one enemy
         entity participating in the battlefield engagement, chosen by
-        the volleying player. Volleys cannot target fortress engagement.
-        The volley resolves before the first combat round begins.
+        the volleying player. Volleys cannot target fortresses. The
+        volley resolves before the first combat round begins.
 
     COMBAT ROUNDS
 
@@ -643,28 +654,31 @@
     9.1 COMBAT STAGING/MOVEMENT
 
         During Combat Staging, the active player declares one engagement
-        at a time.
+        at a time. The terms below describe the SCOPE of an engagement
+        (which enemy cards are eligible to be involved), not what gets
+        attacked simultaneously. Individual attacks still target one
+        legal enemy at a time unless a card or rule explicitly says
+        otherwise.
 
         Battlefield entities may be staged into:
-            1. A battlefield engagement against all of one enemy player's
-               battlefield entities.
-            2. A fortress assault against one or more enemy fortresses.
+            1. A battlefield engagement targeting one enemy player. All
+               of that player's battlefield entities are eligible
+               defenders in the engagement.
+            2. A fortress assault targeting one or more of that enemy
+               player's fortresses.
 
         Fortress entities may participate in combat by:
-            1. Firing Initial Volley into a battlefield engagement, if
-               legal.
+            1. Firing an Initial Volley into a battlefield engagement,
+               if legal (see Section 9 Initial Volley restrictions).
             2. Defending their own fortress during a fortress assault.
-            3. Participating in Fortress Barrage, if that rule is active.
+            3. Participating in a Fortress Barrage, if that rule is
+               active (Section 20).
             4. Attacking one enemy player's battlefield entities from
                inside their fortress, if the active player declares that
                fortress-based battlefield engagement.
 
-        Individual attacks still target one legal enemy target at a time
-        unless a card or rule explicitly says otherwise.
-
-        Entities in a fortress cannot capture an enemy fortress.
-        Battlefield entities are the only entities that can capture
-        fortresses.
+        Entities inside a fortress cannot capture an enemy fortress.
+        Only battlefield entities may capture fortresses.
 
     9.2 NORMAL ATTACK
 
@@ -742,8 +756,8 @@
         Damage persists between combats. An entity that survives one
         engagement with 2 HP remaining enters its next engagement still
         at 2 HP. The only way to heal is through an item, consumable,
-        healing action, reinforcement call, or special ability that
-        explicitly restores HP.
+        Healing action (Section 21), or special ability that explicitly
+        restores HP.
 
         This rule may be disabled for casual play.
 
@@ -772,7 +786,7 @@
 
             STAT              MINIMUM     MAXIMUM
             Attack               1           5
-            HP (per die)         1           6
+            HP (per die)         0           6
             Items per entity     0           3
             Entities per fort    0           3
             Battlefield entities 0           5 per player
@@ -798,7 +812,8 @@
     None are required for casual play. All are required for competitive
     play.
 
-    [create selection sheet for rules with which rules are selected, a checkbox included]
+    A rules-selection sheet is provided in the appendix for groups
+    using optional modules.
 
 12. SHOP
 --------------------------------------------------------------------------------
@@ -893,6 +908,10 @@
     to increase to 1 or more (e.g., via a successful Heal), the entity
     remains alive and is not discarded.
 
+    An entity may take only one Last Stand action each time it is
+    reduced to 0 HP. If it survives because that action restored HP, it
+    does not receive another Last Stand from the same damage event.
+
 
 
 16. ITEM SWAP
@@ -912,10 +931,18 @@
 --------------------------------------------------------------------------------
 
     At the end of either side's combat round, that side may call ONE
-    reinforcement into the engagement. Calling a reinforcement consumes
-    the calling entity's action for the next round. Only one
-    reinforcement per side per round may be called, but there is no
-    cap on total reinforcements over the course of the engagement.
+    reinforcement into the engagement.
+
+    To call a reinforcement, choose one friendly entity already in the
+    engagement. That entity becomes the caller. The caller's NEXT
+    action is spent calling the reinforcement instead of attacking,
+    healing, retreating, or using another action. If the caller is
+    defeated before its next action, the reinforcement still arrives,
+    but the caller is defeated normally.
+
+    Only one reinforcement per side per round may be called, but there
+    is no cap on total reinforcements over the course of the
+    engagement.
 
     Defenders inside a fortress under assault are isolated: They cannot
     CALL or RECEIVE reinforcements during that engagement. Their
@@ -1042,8 +1069,8 @@
 
     Aggression is rewarded. When an engagement ends in attacker
     victory, the attacker draws cards from the top of their deck based
-    on what was achieved. Rewards stack per target hit in the
-    engagement:
+    on what was accomplished during the engagement. Rewards stack per
+    outcome:
 
             Each enemy entity defeated:    +1 card
             Each fortress captured:        +2 cards
@@ -1061,6 +1088,10 @@
     Barrages (Section 20), or by mutual-kill outcomes. The reward
     exists specifically to make declaring battlefield combat a better
     choice than sitting still.
+
+    TIMING. Victory Rewards are drawn during Combat Resolution, after
+    all captures, destruction, retreats, Last Stand actions, and
+    Scavenger effects from that engagement have resolved.
 
 
 
@@ -1150,12 +1181,24 @@
             -   LARGE (54 cards) for long grinding sessions.
 
         Each player builds a legal deck of the chosen regime size,
-        respecting the minimum composition rules in Section 7. If using
-        a common deck, for competitive play, shuffle the deck. Then
-        draw a card randomly. The first player can decide to take the
-        card or place it face up. The next player can draw a random
-        card or select the first face-up card in the discard pile.
-        Continue until each player has a full deck.
+        respecting the minimum composition rules in Section 7.
+
+        SHARED-POOL DRAFT (competitive play). If players are building
+        decks from a shared pool, shuffle the shared pool and place it
+        face-down. Create a face-up draft row beside it.
+
+        On each player's draft pick, they may either:
+            -   draw the top card of the shared pool and add it to
+                their deck, OR
+            -   take one card from the face-up draft row and add it to
+                their deck.
+
+        If a player draws from the shared pool and does not want that
+        card, they place it face-up into the draft row and their pick
+        ends.
+
+        Continue until each player has built a legal deck for the
+        chosen deck regime.
 
         Each player draws 7 random cards as their opening hand.
 
@@ -1201,8 +1244,8 @@
         suburbs and entities are placed either on the battlefield or in
         the fortress.
 
-        Each round, players take turns performing Movement and Combat
-        phases only. No Card Play, no Refill.
+        Each round, players take turns performing Combat and Movement
+        phases only. No Card Play, no Card Draw, and no refill.
 
         Recommended rules: Core only. Retreat and Parry optional.
 
@@ -1218,9 +1261,9 @@
         and their entities on the battlefield or in their fortress.
         Each entity may begin with up to 2 equipped items.
 
-        Turn structure is Movement, Combat, then an Equipment Phase
+        Turn structure is Combat, Movement, then an Equipment Phase
         where the active player may equip any items from their reserve
-        hand to their entities (respecting capacity). No deck involved.
+        hand to their entities, respecting capacity. No deck is used.
 
         Recommended rules: All advanced rules enabled.
 
@@ -1236,9 +1279,17 @@
 
         Recommended rules: All advanced rules enabled.
 
-    VICTORY (ALL VARIANTS)
+    VICTORY (ALL TACTICAL VARIANTS)
 
-        Standard victory rules apply.
+        Tactical Mode does not use Landlord, Hamlet, Card Draw, or
+        deck-based victory conditions.
+
+        A player wins Tactical Mode if:
+            -   all enemy entities are defeated, OR
+            -   all enemy fortresses are destroyed.
+
+        If all players lose their final entity in the same combat
+        round, the game is a draw.
 
 
     [ILLUSTRATION: Three small tactical layouts side by side, one for
@@ -1421,8 +1472,9 @@
             Hail Mary  roll 1 on 1d6
             Impossible roll 1 on 2d6 (two 6-sided dice)
 
-        The player rolls a 6-sided die. On success, the action works.
-        On failure, the DM describes the consequence.
+        The player rolls the die or dice required by the chosen
+        difficulty. On success, the action works. On failure, the DM
+        describes the consequence.
 
         Items and specials may modify the difficulty by +1 or -1 at
         the DM's discretion.
@@ -1455,9 +1507,10 @@
             4-5 on 1d6:   1 damage  (real damage)
             6 on 1d6:     1+ damage (significant damage)
 
-        Roll this damage die after every successful normal hit, for
-        both players and enemies. This makes fights swingier and more
-        cinematic.
+        Roll the appropriate damage die after each successful normal
+        attack: use the enemy-damage table when a player damages an
+        enemy, and the player-damage table when an enemy damages a
+        player. This makes fights swingier and more cinematic.
 
         The DM may override damage for dramatic effect: a boss might
         always deal a minimum of 2; a glancing shot might deal 0.
@@ -1534,8 +1587,8 @@
         Stats, items, level, and other elements are recorded on each
         entity's character sheet.
 
-        [create character sheet w/ movement?, include copies printed
-        in book, and also have QR download link??]
+        A printable Campaign character sheet is provided in the
+        appendix.
 
 
     28.11 MAP
@@ -1664,18 +1717,20 @@
             defender stays on its square.
 
             IF THE ATTACKER OR DEFENDER RETREATS successfully (using
-            the standard Retreat rule), the retreating piece returns
-            to any legal square it could have moved to instead of the
-            capture square. It may not initiate combat with another
-            entity. It may capture a pawn from retreat. If the
-            defender retreats, the attacker remains in the defender's
-            old position.
+            the standard Retreat rule), the retreating piece moves to
+            any legal empty square it could have moved to instead of
+            the capture square. A retreating piece may not capture
+            another piece as part of retreat. If the defender
+            retreats, the attacker remains in the defender's old
+            position.
 
         FORTRESS CAPTURE. If a major piece enters an enemy corner
         fortress square, combat is initiated as above. If the
-        attacker wins, they capture the fortress. Standard Landlord
-        victory conditions apply: if a player occupies/owns both
-        fortresses for an entire turn, they win.
+        attacker wins, they capture the fortress.
+
+        CHESSKLERF FORTRESS VICTORY. If a player controls both enemy
+        corner fortresses at the start of their turn, they win
+        immediately.
 
     29.4 PAWN PROMOTION (EXPLOSION)
 
@@ -2491,8 +2546,8 @@ GLOSSARY
                     entities attack an enemy fortress directly, ship
                     to ship, without a battlefield assault.
 
-    GAME TURN       The full 5-phase cycle a player takes (Card Play,
-                    Movement, Combat, Card Draw, Victory Check). Not
+    GAME TURN       The full 5-phase cycle a player takes: Card Play,
+                    Combat, Movement, Card Draw, Victory Check. Not
                     to be confused with a Combat Round.
 
     GRAVEYARD       A player's discard pile. Each player has their
@@ -2609,10 +2664,10 @@ FAQ AND EDGE CASES
         volley into a different battlefield engagement happening at
         the same time?
 
-        Engaged fortresses CAN volley into other engagements (the
-        non-engaged restriction was removed in this edition). Any
-        fortress with surviving occupants may volley once per
-        engagement.
+        No. A fortress under assault cannot fire an Initial Volley.
+        Its occupants are already committed to defending their own
+        fortress. The same restriction applies to fortresses
+        participating in a Fortress Barrage.
 
     Q7. Both sides are destroyed in the same round. What happens?
 
@@ -2741,7 +2796,7 @@ FAQ AND EDGE CASES
 
     FIGURE 3 - TURN FLOW DIAGRAM
         Half page. A flow diagram of the five phases (Card Play,
-        Movement, Combat, Card Draw, Victory Check) with a one-line
+        Combat, Movement, Card Draw, Victory Check) with a one-line
         summary of each.
 
     FIGURE 4 - COMBAT WALKTHROUGH
