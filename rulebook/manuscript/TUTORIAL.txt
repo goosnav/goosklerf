@@ -1,0 +1,299 @@
+TUTORIAL: TXT-to-PSD Text Transfer Script
+==========================================
+
+This script does one thing:
+
+    For every .txt file in a folder, it opens a Photoshop
+    template, replaces the contents of one specific text
+    layer with the text file's contents, and saves the
+    result as a new .psd file.
+
+It does not change anything else in the template. It does not
+resize text, reflow text, change fonts, move boxes, or modify
+any other layer. The template's design is preserved exactly.
+
+This tutorial is template-agnostic. The script does not care
+how big your canvas is, what fonts you use, what other layers
+exist, or what your design looks like. It only needs one
+correctly named text layer.
+
+----------------------------------------------------------------
+1. WHAT YOU NEED
+----------------------------------------------------------------
+
+    - Adobe Photoshop (CS6 or later).
+    - One .psd template file that you have already designed.
+    - One folder of .txt files containing the text you want to
+      flow into copies of that template.
+
+----------------------------------------------------------------
+2. SET UP YOUR PROJECT FOLDER
+----------------------------------------------------------------
+
+Create a project folder anywhere on your computer. Inside it,
+create exactly this structure:
+
+    your_project/
+        template/
+            rulebook_template.psd
+        text/
+            001_intro.txt
+            002_setup.txt
+            003_combat.txt
+            ...
+
+Rules:
+
+    - The folder named "template" must exist.
+    - The template file inside it must be named exactly:
+          rulebook_template.psd
+    - The folder named "text" must exist.
+    - Put all your .txt files directly inside "text/".
+      Sub-folders inside "text/" are ignored.
+    - You do NOT need to create a "generated_psd/" folder.
+      The script will create it the first time it runs.
+
+----------------------------------------------------------------
+3. PREPARE YOUR TEMPLATE
+----------------------------------------------------------------
+
+Open rulebook_template.psd in Photoshop.
+
+Your template can contain anything you want:
+
+    - Background images
+    - Shape layers
+    - Decorative artwork
+    - Page numbers
+    - Crop marks
+    - Guide layers
+    - Other text layers (titles, footers, etc.)
+    - Adjustment layers
+    - Groups
+
+The script will not touch any of those.
+
+The template MUST contain exactly one text layer named:
+
+    RULE_TEXT
+
+This name is case-sensitive. "Rule_Text", "rule_text", and
+"RULE TEXT" will all fail validation.
+
+The RULE_TEXT layer must be:
+
+    1. A text layer (the layer thumbnail shows a "T").
+    2. A paragraph text box, not point text.
+       (To create one: select the Text tool, then click and
+       DRAG to define a box. Point text is created with a
+       single click and has no defined width.)
+    3. Unlocked.
+    4. Already styled the way you want the final text to look:
+           - Font
+           - Font size
+           - Color
+           - Leading (line spacing)
+           - Tracking (letter spacing)
+           - Paragraph alignment
+           - Box position
+           - Box width and height
+       The script preserves all of these. Whatever the box
+       looks like in the template is what every output PSD
+       will look like.
+
+You can put placeholder text inside RULE_TEXT (such as
+"Lorem ipsum...") while designing. The script will replace
+that placeholder when it runs.
+
+Save and close the template before running the script.
+
+----------------------------------------------------------------
+4. PREPARE YOUR TEXT FILES
+----------------------------------------------------------------
+
+Each .txt file should contain plain text only. No formatting,
+no markup, no headers.
+
+Example file (text/001_intro.txt):
+
+    Combat happens before movement.
+    Only battlefield entities may attack.
+    Fortresses are captured through movement
+    and positioning, not through combat.
+
+Save your .txt files as UTF-8. Most text editors do this by
+default. On Windows Notepad, use "Save As" and pick UTF-8
+from the encoding dropdown.
+
+Filename rules:
+
+    - Each output PSD will have the same name as its TXT file,
+      with the extension changed to .psd. So 001_intro.txt
+      produces 001_intro.psd.
+    - Files are processed in alphabetical order, so number
+      your filenames if order matters:
+          001_intro.txt
+          002_setup.txt
+          003_combat.txt
+          010_advanced_rules.txt
+
+Only files with a .txt extension are processed. Other files
+in "text/" are ignored.
+
+----------------------------------------------------------------
+5. INSTALL THE SCRIPT
+----------------------------------------------------------------
+
+You don't actually have to install anything. Just save the
+file transfer_text_to_psd.jsx somewhere you can find it.
+A reasonable place is alongside your project folder, e.g.:
+
+    your_project/
+        template/
+        text/
+        transfer_text_to_psd.jsx
+
+(Optional) If you want the script to appear in Photoshop's
+File > Scripts menu permanently, copy transfer_text_to_psd.jsx
+into Photoshop's Scripts folder:
+
+    macOS:
+        /Applications/Adobe Photoshop <version>/Presets/Scripts/
+
+    Windows:
+        C:\Program Files\Adobe\Adobe Photoshop <version>\Presets\Scripts\
+
+Then restart Photoshop. The script will appear under
+File > Scripts > transfer_text_to_psd.
+
+----------------------------------------------------------------
+6. RUN THE SCRIPT
+----------------------------------------------------------------
+
+    1. Launch Photoshop.
+    2. Go to:  File > Scripts > Browse...
+    3. Select transfer_text_to_psd.jsx.
+    4. When the folder picker appears, select your project
+       root folder (the one that CONTAINS the "template" and
+       "text" subfolders -- not the "template" folder itself,
+       and not the "text" folder itself).
+    5. Wait. Photoshop will open and close the template
+       repeatedly -- once per TXT file. Don't click around
+       in Photoshop while it works.
+    6. When it finishes, an alert will summarize how many
+       files succeeded and how many failed.
+
+----------------------------------------------------------------
+7. OUTPUT
+----------------------------------------------------------------
+
+After running, your project folder will look like:
+
+    your_project/
+        template/
+            rulebook_template.psd          <- unchanged
+        text/
+            001_intro.txt
+            002_setup.txt
+            003_combat.txt
+        generated_psd/
+            001_intro.psd                  <- new
+            002_setup.psd                  <- new
+            003_combat.psd                 <- new
+        build_log.txt                      <- new
+
+Each generated .psd is a complete copy of your template, with
+the RULE_TEXT layer's contents replaced by the matching .txt
+file. Every other layer is identical to the template. Every
+generated PSD is fully editable -- you can open it and adjust
+anything by hand.
+
+The original rulebook_template.psd is never modified.
+
+----------------------------------------------------------------
+8. RE-RUNNING
+----------------------------------------------------------------
+
+You can run the script as many times as you like. If a
+generated PSD with the same name already exists, it will be
+overwritten. So a typical workflow looks like:
+
+    1. Edit a .txt file.
+    2. Re-run the script.
+    3. Open the regenerated .psd.
+
+You can also add or remove .txt files between runs. The
+script just processes whatever .txt files are present in
+"text/" at the moment you run it.
+
+----------------------------------------------------------------
+9. TEXT OVERFLOW
+----------------------------------------------------------------
+
+If a .txt file contains more text than fits inside the
+RULE_TEXT box, the script does NOT shrink the font, resize
+the box, or warn you. It just inserts the text. Photoshop
+will display the overflow indicator (a small + symbol) on
+the text box.
+
+To fix overflow, either:
+
+    - Shorten the source .txt file and re-run, or
+    - Open the generated .psd and resize the box manually.
+
+This behavior is intentional: the script is a text mover,
+not a layout engine.
+
+----------------------------------------------------------------
+10. TROUBLESHOOTING
+----------------------------------------------------------------
+
+The script stopped with "Template does not contain a layer
+named 'RULE_TEXT'."
+    - Open your template in Photoshop. Check the Layers
+      panel. The text layer must be named exactly RULE_TEXT
+      (uppercase, with the underscore). Rename it and save
+      the template.
+
+The script stopped with "Layer 'RULE_TEXT' is locked."
+    - In the Layers panel, click the lock icon on the
+      RULE_TEXT layer to unlock it. Save the template.
+
+The script stopped with "Layer 'RULE_TEXT' exists but is
+not a text layer."
+    - You probably named a shape or image layer RULE_TEXT
+      by mistake. Delete or rename that layer. Make sure
+      RULE_TEXT is created with the Text tool.
+
+Output PSDs show line breaks where I didn't want them, or
+miss line breaks where I did want them.
+    - Edit the .txt file directly. Whatever line breaks are
+      in the .txt file are what the PSD will show. Save the
+      file as UTF-8 and re-run.
+
+Fonts look wrong in the generated PSD.
+    - The script does not change fonts. Whatever font the
+      RULE_TEXT layer uses in the template is what appears
+      in every output. To change the font, edit the
+      template, save it, and re-run.
+
+I want to know exactly what happened during a run.
+    - Open build_log.txt in your project root folder. Every
+      run overwrites it with a fresh log of which files were
+      read, which PSDs were saved, and any errors.
+
+----------------------------------------------------------------
+11. WHAT THE SCRIPT WILL NEVER DO
+----------------------------------------------------------------
+
+    - It will never modify your template file.
+    - It will never modify any layer other than RULE_TEXT.
+    - It will never change the font, size, color, position,
+      width, or height of the RULE_TEXT box.
+    - It will never flatten, rasterize, or resize anything.
+    - It will never export PNGs, JPEGs, or PDFs.
+    - It will never delete files outside of overwriting an
+      existing PSD in generated_psd/ that has the same name
+      as a current TXT file.
+
+That's the whole tool.
