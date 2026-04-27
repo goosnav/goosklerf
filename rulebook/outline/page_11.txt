@@ -1,0 +1,39 @@
+PAGE 11 - VICTORY CONDITIONS (CONTINUED)
+
+
+LANDLORD (continued)
+
+The moment these conditions are met, the player is marked as
+Landlord. Starting from the next player's turn, one full round
+of play begins. If at the end of that round the player is still
+Landlord (still controls every fortress in play, still no
+unplayed fortresses anywhere), they win immediately.
+
+If during that round any of the following happens, Landlord
+status is broken:
+    - Another player captures one of the Landlord's fortresses.
+    - Another player plays a new fortress card into their own
+      suburbs.
+    - A scenario effect introduces a new fortress.
+
+If a Landlord's fortress is destroyed during the survival round,
+Landlord status is NOT broken on its own (the Landlord still
+controls every remaining fortress). However, if destruction reduces
+the table to zero fortresses in play, Landlord cannot be sustained
+and status ends.
+
+If Landlord status is broken, it can be re-achieved later under
+the same conditions, and the survival round begins again from
+scratch.
+
+HAMLET. All entities are destroyed, and no player can legally put
+a new entity into play. Everyone loses.
+
+SPECIAL. A special effect on an item, entity, fortress, or scenario
+may create an additional victory condition. If that special effect
+is successfully resolved, its victory condition overrides the
+standard multiplayer victory conditions and the controlling player
+wins immediately.
+
+
+[VISUAL NOTE: Clean text page. Optional: a small timeline diagram showing the Landlord survival round mechanic — moment of Landlord claim, start of next player's turn, one full round, win or break. Simple arrow diagram, no decoration.]

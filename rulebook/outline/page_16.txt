@@ -1,0 +1,64 @@
+PAGE 16 - MOVEMENT (POSITIONING MATTERS) + PHASES 4 + 5
+
+
+POSITIONING MATTERS
+
+Where entities end the Movement phase directly determines what
+actions are possible on the following turn.
+
+    - Only entities on the battlefield can initiate fortress
+      assaults. Entities inside fortresses cannot capture enemy
+      fortresses.
+
+    - A fortress with no defending entities can be captured
+      immediately when assaulted, with no resistance.
+
+    - If a player does not have entities on the battlefield by their
+      next combat turn, they cannot initiate any fortress captures
+      during their combat turn (since fortresses can only be invaded
+      from the battlefield).
+
+    - Entities left on the battlefield are exposed to attack.
+      Entities inside fortresses are safer but cannot project
+      force outward to capture territory.
+
+Players must balance protection and projection: Too many entities in
+fortresses limits offensive capability; too many on the battlefield
+risks losing control of defended positions. Poor positioning at the
+end of Movement will often decide the next turn before it begins.
+
+Items may be freely transferred between the player's own entities
+during this phase, as long as capacity limits are respected.
+Fortresses cannot hold items. If an item must move somewhere, it
+must ride on an entity.
+
+Once Movement is complete, no further repositioning may happen
+until the active player's next turn. (Combat-related staging
+movements only occur during Phase 2 and are not affected by this
+lock.)
+
+
+PHASE 4: CARD DRAW
+
+The active player draws the top 2 cards of their deck at random.
+They then look through the entire deck and select 1 card
+deliberately. All 3 cards are added to their hand. If it is
+possible to draw 3 cards, the active player must draw 3 (or the
+maximum number possible). The deck must then be thoroughly
+reshuffled. In competitive play, the player to the active
+player's left must shuffle the deck and return it to the active player.
+
+
+PHASE 5: VICTORY CHECK
+
+At the end of the turn, after Card Draw is complete, check
+whether any victory condition has been met (Section 6). If so,
+the game ends. Landlord status is checked and tracked here.
+During the victory check, players must communicate whether or not
+they have any unplayed fortresses in their hand or deck. Players
+may look through their own deck to confirm. Each time a player
+looks through their deck, they must shuffle thoroughly a minimum
+of 3 times.
+
+
+[VISUAL NOTE: No illustration required. Clean text page. Consider a small callout box highlighting the key positioning rule: "Battlefield entities = can assault fortresses. Fortress entities = cannot capture."]

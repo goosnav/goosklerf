@@ -1,0 +1,32 @@
+PAGE 31 - TACTICAL MODE: SKIRMISH + VICTORY (26.3 + VICTORY)
+
+
+26.3 SKIRMISH (OVERPOWERED)
+
+Each player gets:
+    - 4 entities
+    - 1 fortress
+    - 12 items (any combination)
+
+This mode is a single, brutal battle. Whoever has surviving
+entities at the end wins. No Shop. No refill phase.
+
+Recommended rules: All advanced rules enabled.
+
+
+VICTORY (ALL TACTICAL VARIANTS)
+
+Tactical Mode does not use Landlord, Hamlet, Card Draw, or
+deck-based victory conditions.
+
+A player wins Tactical Mode if:
+    - All enemy entities are defeated, OR
+    - All enemy fortresses are destroyed.
+
+If all players lose their final entity in the same combat
+round, the game is a draw.
+
+
+FIGURE 8 - TACTICAL MODE LAYOUTS
+
+[VISUAL NOTE: A third small layout diagram for Skirmish, matching the style of the two on the previous page. Show all three side by side if space allows, or this one alone if not. Label clearly: LIGHTNING / STANDARD TACTICAL / SKIRMISH. Each shows player slots, fortress position, entity starting zone, and item reserve (where applicable). Small and clean, not detailed.]

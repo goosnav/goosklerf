@@ -1,0 +1,43 @@
+PAGE 32 - SINGLEPLAYER MODE: SETUP + BATTLEPATH (27.1)
+
+
+27. SINGLEPLAYER MODE
+
+Singleplayer Mode is a solo battlepath game. You fight through a
+chain of enemy-held fortresses, keeping whatever items and entities
+you can salvage along the way.
+
+
+27.1 SETUP
+
+Sort your deck into three piles: fortresses, entities, items.
+Shuffle each pile separately and place all three face-down.
+
+Build the battlepath face-down by drawing fortresses and
+entities blindly and placing them at each level. The level
+compositions are:
+
+    Level 1:  1 fortress, 1 entity, no items
+    Level 2:  1 fortress, 1 entity with 1 item
+    Level 3:  1 fortress, 2 entities with 1 item each
+    Level 4:  1 fortress, 3 entities with 1 item each
+    Level 5:  1 fortress, 3 entities with 2 items each
+    Level 6:  1 fortress, 3 entities with 3 items each
+    Level 7+: 2 fortresses with 3 entities per fortress, each
+              with 3 items (repeat as long as you have cards)
+
+Do not look at the face-down enemy cards as you place them.
+
+After building the battlepath, choose 3 entities from the
+remaining cards for your starting strike force. Draw 3 item
+cards at random and equip them to your strike force as you
+wish.
+
+Shuffle the remaining items and entities together to form your
+reserve deck. Reveal 7 cards from the top of that deck into
+your shop. The shop is always face-up and always visible.
+
+
+FIGURE 9 - SINGLEPLAYER BATTLEPATH EXAMPLE
+
+[VISUAL NOTE: A visual representation of a 6-level battlepath. Draw it as a horizontal or vertical sequence of levels: Level 1 (1 fortress, 1 entity) through Level 6 (1 fortress, 3 entities with 3 items each). Show the player's strike force on one side and their shop beside it. Face-down cards shown as blank card backs. Label each level. Clean and diagrammatic.]

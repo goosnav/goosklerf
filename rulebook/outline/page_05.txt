@@ -1,0 +1,29 @@
+PAGE 05 - PART I: WHAT YOU NEED
+
+
+PART I - COMPONENTS AND TABLE
+
+
+1. WHAT YOU NEED
+
+To play Goosklerf II, players need:
+
+    - A deck of Goosklerf cards (their own, or a shared pool)
+    - At least one six-sided die per player
+    - Additional dice for tracking hit points (recommended: 1 extra
+      die per entity in play)
+    - A flat playing surface large enough for the table layout
+      (see Section 4)
+
+Optional but helpful:
+
+    - A printed play mat for the chosen game mode
+    - Small dice for tracking buffs, rounds, and fortress ownership
+    - A chessboard (only required for Chessklerf mode)
+    - Pen and paper (optional, as an alternative method for
+      stat/HP tracking)
+    - Graph paper (optional, for the Campaign mode map)
+    - Character sheets (Campaign Mode)
+
+
+[VISUAL NOTE: Small clean illustration of the required components laid out on a table: a deck of cards, a few six-sided dice, a playing surface. Optional: a secondary cluster showing the optional items (chessboard, pen/paper, graph paper). Keep it diagrammatic, not decorative. Think IKEA instruction style.]

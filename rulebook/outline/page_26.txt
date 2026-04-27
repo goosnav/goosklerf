@@ -1,0 +1,61 @@
+PAGE 26 - HEALING (21) + EXTRA ACTIONS (22) + VICTORY REWARDS (23)
+
+
+21. HEALING
+
+Entities have the choice to heal themselves or another friendly
+entity in the same engagement. To heal, the acting entity rolls for
+an attack (1d6 against its modified Attack stat). On a hit, the
+healer randomly draws a card from their own deck and discards it.
+This heals any single friendly entity in the engagement by +1 HP.
+On a miss, the entity's action is consumed and no card is discarded.
+
+Healing cannot raise an entity's HP above its printed maximum unless
+a card explicitly says so.
+
+
+22. EXTRA ACTIONS
+
+In combat, entities use only ONE action per round by default. An
+entity may buy one additional action by drawing from its stamina
+reserves: randomly draw 3 cards from the entity's controlling
+player's deck and discard them. This grants the entity one
+additional action this round.
+
+There is no limit on Extra Actions purchased per round per entity,
+other than deck depth. The cost stacks: two extra actions = 6
+discarded cards. The extra action may be any normal action,
+including Heal, Reinforcement call, Supercharged Attack, or special
+ability.
+
+
+23. VICTORY REWARDS (FIRST STRIKE INCENTIVE)
+
+Aggression is rewarded. When an engagement ends in attacker
+victory, the attacker draws cards from the top of their deck based
+on what was accomplished during the engagement. Rewards stack per
+outcome:
+
+    Each enemy entity defeated:    +1 card
+    Each fortress captured:        +2 cards
+    Each fortress destroyed:       +3 cards
+
+Total reward = sum of the above. There is no cap. Drawn cards are
+not playable this turn; they become available on the attacker's
+next turn like any other hand cards.
+
+Defenders receive no Victory Reward. Mutual-kill engagements (both
+sides wiped out simultaneously) grant no reward to either side. If
+the attacker's deck is empty, no cards are drawn.
+
+Victory Rewards are NOT triggered by Initial Volleys, by Fortress
+Barrages (Section 20), or by mutual-kill outcomes. The reward
+exists specifically to make declaring battlefield combat a better
+choice than sitting still.
+
+TIMING. Victory Rewards are drawn during Combat Resolution, after
+all captures, destruction, retreats, Last Stand actions, and
+Scavenger effects from that engagement have resolved.
+
+
+[VISUAL NOTE: No illustration needed. Clean text page.]

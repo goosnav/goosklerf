@@ -1,0 +1,55 @@
+PAGE 24 - ITEM SWAP (16) + REINFORCEMENTS (17)
+
+
+16. ITEM SWAP
+
+Instead of taking any other action in combat, an entity may transfer
+up to two of its equipped items to another friendly entity in the
+same engagement. The acting entity does not attack this round. The
+receiving entity must have room for the incoming items.
+
+Items cannot be transferred to enemies. Consumables that have
+already been activated cannot be transferred.
+
+
+17. REINFORCEMENTS
+
+At the end of either side's combat round, that side may call ONE
+reinforcement into the engagement.
+
+To call a reinforcement, choose one friendly entity already in the
+engagement. That entity becomes the caller. The caller's NEXT
+action is spent calling the reinforcement instead of attacking,
+healing, retreating, or using another action. If the caller is
+defeated before its next action, the reinforcement still arrives,
+but the caller is defeated normally.
+
+Only one reinforcement per side per round may be called, but there
+is no cap on total reinforcements over the course of the engagement.
+
+Defenders inside a fortress under assault are isolated: they cannot
+CALL or RECEIVE reinforcements during that engagement. Their
+fortress is surrounded.
+
+The reinforcing entity must come from a legal nearby zone:
+    - One of the calling player's own fortresses in the suburbs
+    - The battlefield
+
+A reinforcement enters the engagement immediately and can be
+targeted by enemies in the next round. It cannot act during the
+round it arrives. After the engagement ends, the reinforcement
+remains wherever it reinforced into: battlefield reinforcements
+stay on the battlefield, fortress reinforcements stay in that
+fortress.
+
+A reinforcement may not be called into a location that is already
+at its cap: no reinforcement into a fortress that already holds 3
+entities, no reinforcement onto a battlefield already holding 5 of
+that player's entities.
+
+Reinforcements may be called into Fortress Barrage engagements
+(Section 20), but defenders inside a battlefield-assaulted fortress
+are still isolated as described above.
+
+
+[VISUAL NOTE: No illustration needed. Clean text layout.]

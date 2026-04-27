@@ -1,0 +1,68 @@
+GOOSKLERF II RULEBOOK - PAGE-BY-PAGE OUTLINE INDEX
+64 pages, landscape digest format (8.5" x 5.5")
+Each file = one page. Each file contains content + [VISUAL NOTE] at bottom.
+
+PAGE 01  Cover
+PAGE 02  Setting
+PAGE 03  Table of Contents
+PAGE 04  How to Read This Book
+PAGE 05  Part I header + Section 1: What You Need
+PAGE 06  Section 2: Card Types (Entities + Fortresses)
+PAGE 07  Section 2: Card Types (Items) + Section 3 header
+PAGE 08  Section 3: Card Anatomy + Figure 1 note
+PAGE 09  Section 4: Table Zones + Figure 2 note (MOST IMPORTANT VISUAL)
+PAGE 10  Part II header + Section 5: Core Concepts + Section 6 start
+PAGE 11  Section 6: Victory Conditions continued (Landlord, Hamlet, Special)
+PAGE 12  Section 7: Deck Regimes (Small + Medium)
+PAGE 13  Section 7: Deck Regimes (Large) + Starting Hand + Mulligan + First Player + Shuffling
+PAGE 14  Section 8: Turn Structure + Phase 1: Card Play + Figure 3 note
+PAGE 15  Section 8: Phase 2: Combat + Phase 3: Movement (start)
+PAGE 16  Section 8: Phase 3 Positioning + Phase 4: Card Draw + Phase 5: Victory Check
+PAGE 17  Section 9: Combat (Who Can Attack + Initial Volley start)
+PAGE 18  Section 9: Initial Volley limits + Combat Rounds + Figure 4 note
+PAGE 19  Section 9.1: Combat Staging + Section 9.2: Normal Attack
+PAGE 20  Section 9.3: Fortress Assault + Figure 5 note
+PAGE 21  Section 10: Damage/Defeat/Item Ownership + Section 11: Stat Limits
+PAGE 22  Part III header + Section 12: Shop + Figure 6 note
+PAGE 23  Section 13: Parry + Section 14: Retreat + Section 15: Last Stand
+PAGE 24  Section 16: Item Swap + Section 17: Reinforcements
+PAGE 25  Section 18: Scavenger + Section 19: Supercharged Attack + Section 20: Fortress Barrage
+PAGE 26  Section 21: Healing + Section 22: Extra Actions + Section 23: Victory Rewards
+PAGE 27  Part IV: Backwards Compatibility (Goosklerf I)
+PAGE 28  Part V header + Section 24: Mode Selector + Figure 7 note
+PAGE 29  Section 25: Classic Mode
+PAGE 30  Section 26: Tactical Mode (Lightning + Standard Tactical)
+PAGE 31  Section 26: Tactical (Skirmish + Victory) + Figure 8 note
+PAGE 32  Section 27: Singleplayer (Setup + Battlepath) + Figure 9 note
+PAGE 33  Section 27: Turn Flow + Enemy AI
+PAGE 34  Section 27: Post-Battle + Scoring
+PAGE 35  Section 28: Campaign Mode (Characters + DM + Checks)
+PAGE 36  Section 28.4: Combat in Campaign Mode
+PAGE 37  Section 28.5: Leveling + 28.6: Scenario Structure + 28.7: Death
+PAGE 38  Section 28.8-28.12: Healing/Items/Sheets/Map/Movement + Figure 10 note
+PAGE 39  Section 29: Chessklerf (intro + Setup)
+PAGE 40  Section 29: Turns + Combat + Pawn Promotion + Victory + Figure 11 note
+PAGE 41  Part VI header + Scenario A: The Numbers Station (intro + setup)
+PAGE 42  Scenario A: Act I
+PAGE 43  Scenario A: Act II (Sources 1 + 2)
+PAGE 44  Scenario A: Act II (Source 3) + Act III
+PAGE 45  Scenario A: Act IV + Aftermath
+PAGE 46  Scenario B: The Grocery Run (intro + setup)
+PAGE 47  Scenario B: Act I
+PAGE 48  Scenario B: Act II (entrance + shopping + eating)
+PAGE 49  Scenario B: Act II (freezer) + Act III
+PAGE 50  Scenario B: Act IV + Aftermath
+PAGE 51  Scenario C: The Lab (intro + setup)
+PAGE 52  Scenario C: Act I
+PAGE 53  Scenario C: Act II
+PAGE 54  Scenario C: Act III
+PAGE 55  Scenario C: Act IV + Aftermath
+PAGE 56  Part VII header + Glossary (ACT through ENGAGEMENT)
+PAGE 57  Glossary (ENTITY through HEALING)
+PAGE 58  Glossary (HIT POINTS through VICTORY REWARD)
+PAGE 59  FAQ Q1-Q10
+PAGE 60  FAQ Q11-Q20
+PAGE 61  Visual Elements Checklist
+PAGE 62  Quick Reference Card (Figure 12 - tear-out)
+PAGE 63  Campaign Character Sheet (Figure 10 - printable)
+PAGE 64  Back Cover

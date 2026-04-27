@@ -1,0 +1,42 @@
+PAGE 34 - SINGLEPLAYER: POST-BATTLE + SCORING (27.4 + 27.5)
+
+
+27.4 POST-BATTLE
+
+After you defeat a fortress:
+
+    1. Add the fortress to your trophy pile.
+    2. You may take any items carried by the defeated enemies,
+       up to your strike force's item capacity. Discard the rest.
+    3. You may make shop purchases. Spending costs:
+            - 2 normal cards = 1 shop card
+            - 1 rare card = 1 shop card
+       Fortresses in your trophy pile may be spent as currency
+       at the same rates. Spent trophy fortresses are removed
+       from your trophy pile (and from your final score).
+    4. The shop does not refill on its own.
+
+Purchased entities join your strike force. Purchased items are
+equipped immediately (or discarded if you have no room).
+
+If you purchased nothing, you cannot refill entities mid-run
+except by scavenging enemy items.
+
+
+27.5 SCORING
+
+Final score is calculated after the game ends, whether by
+victory or defeat.
+
+    Each level cleared:                          100 points
+    Each trophy fortress remaining unspent:       50 points
+    Each surviving entity:                        25 points
+    Each surviving equipped item:                 10 points
+
+Optional rarity modifier for fortresses in the trophy pile:
+    Super fortress:   x3
+    Rare fortress:    x2
+    Normal fortress:  x1
+
+
+[VISUAL NOTE: No illustration needed. Clean text page. Scoring table should be laid out cleanly — consider a simple ruled table format for the point values.]

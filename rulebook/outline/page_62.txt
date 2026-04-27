@@ -1,0 +1,64 @@
+PAGE 62 - QUICK REFERENCE CARD (FIGURE 12 - TEAR-OUT)
+
+
+QUICK REFERENCE CARD
+
+(Cut out and keep at the table)
+
+
+TURN PHASES (IN ORDER)
+    1. CARD PLAY    Play 3 cards from hand (or discard to reach 3 total)
+    2. COMBAT       Declare any number of engagements; resolve each fully
+    3. MOVEMENT     Reposition entities and transfer items freely
+    4. CARD DRAW    Draw 2 random + pick 1 deliberately; reshuffle deck
+    5. VICTORY CHECK  Check win conditions; track Landlord status
+
+
+HOW TO HIT
+    Roll 1d6. If result is equal to or below your Attack value: HIT (1 HP damage).
+    Above your Attack value: MISS.
+
+
+COMBAT ACTIONS (EACH ENTITY GETS 1 PER ROUND)
+    A. Normal attack       D. Parry (optional rule)
+    B. Use a consumable    E. Retreat (optional rule)
+    C. Use a special       F. Item Swap (optional rule)
+                           G. Heal (optional rule)
+
+
+CAPTURE vs DESTROY (AFTER FORTRESS ASSAULT)
+    CAPTURE: Garrison at least 1 entity. Control transfers to attacker.
+    DESTROY: Discard fortress. All inside destroyed. Attacker stays on battlefield.
+
+
+RETREAT
+    Announce retreat. Take no action this round.
+    Survive one round of enemy attacks. Then leave to a legal destination.
+    No destination = cannot retreat.
+
+
+SHOP (optional rule)
+    Buy 1 shop card by discarding: 2 normal cards OR 1 rare card.
+    Bought card must be played immediately. Counts as 1 of your 3 played cards.
+
+
+VICTORY CONDITIONS
+    LAST MAN STANDING    Only your entities survive. Win immediately.
+    LANDLORD             Control all fortresses, no unplayed fortresses anywhere.
+                         Survive one full round. Win.
+    HAMLET               All entities gone, none can enter play. Everyone loses.
+    SPECIAL              Card or scenario effect declares a winner.
+
+
+STAT LIMITS
+    Attack: 1-5     HP per die: 0-6     Items per entity: 0-3
+    Entities per fortress: 0-3          Battlefield entities: 0-5 per player
+
+
+VICTORY REWARDS (optional rule)
+    Each enemy entity defeated: +1 card
+    Each fortress captured:     +2 cards
+    Each fortress destroyed:    +3 cards
+
+
+[VISUAL NOTE: This is the tear-out quick reference card (Figure 12). Design it as a standalone page — no flavor text, no prose. All rules should be compressed into short scannable lines. Consider a simple ruled border around the whole page to mark it as a tear-out. Functional layout only.]

@@ -1,0 +1,25 @@
+PAGE 08 - CARD ANATOMY: HOW STATS WORK
+
+
+HOW STATS WORK
+
+ATTACK is the target number a player must roll at or below to
+land a normal hit. A base Attack of 3 means the entity hits on a
+roll of 1, 2, or 3 on a six-sided die. Attack can be modified by
+items, fortress buffs, and specials.
+
+HIT POINTS (HP) is tracked physically with a die placed on top
+of the card. When the card is played, place a die showing its
+maximum HP. Each time it takes damage, rotate the die down by
+the amount of damage taken. When the die reaches 0, the card is
+defeated.
+
+Normal entities use one HP die. Super entities use two HP dice.
+Normal fortresses use two HP dice. Super fortresses use three.
+Damage is applied one HP at a time across the dice, in any order
+the controlling player chooses.
+
+
+FIGURE 1 - CARD ANATOMY DIAGRAM
+
+[VISUAL NOTE: Full-width diagram showing four cards side by side: Entity (red border), Fortress (blue border), Item (green border), Consumable (green border, distinguish with icon). Each card has callout arrows pointing to: BORDER COLOR / RARITY, NAME, CARD-TYPE ICON, ATTACK STAT, HP STAT (note: normal entity = 1 die, super entity = 2 dice; normal fortress = 2 dice, super fortress = 3 dice), CAPACITY (items per entity or entities per fortress), TEXT BOX, and BUFF/DEBUFF INDICATORS. Keep it clean and diagrammatic. A new player should be able to identify every part of a card from this image alone.]

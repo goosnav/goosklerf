@@ -1,0 +1,52 @@
+PAGE 22 - PART III HEADER + SECTION 12: SHOP
+
+
+PART III - ADVANCED RULES (OPTIONAL)
+
+These are modular rules. Any of them may be added to a game if all
+players agree before the game begins. Each one is self-contained.
+None are required for casual play. All are required for competitive
+play.
+
+A rules-selection sheet is provided in the appendix for groups
+using optional modules.
+
+
+FIGURE 6 - RULE LEVELS CHART
+
+[VISUAL NOTE: Simple half-page chart showing which rules are on or off for three play levels: CORE ONLY / CORE + SHOP / FULL ADVANCED. List each optional rule and mark it on/off for each level. Clean grid format.]
+
+
+12. SHOP
+
+At the start of the game, each player draws cards at random from
+their deck and places them face-up in their own shop area. The
+number of shop cards depends on the deck regime (see Section 7):
+
+    Small Deck:    3 shop cards
+    Medium Deck:   7 shop cards
+    Large Deck:    7 shop cards
+
+Shop cards belong to the player who placed them. Only that player
+may buy from their own shop. All shop cards are always visible to
+all players throughout the game.
+
+BUYING. During the active player's Card Play phase, they may
+purchase one or more shop cards. To buy 1 shop card, the active
+player must do one of the following:
+
+    - Discard 2 normal cards from their hand, OR
+    - Discard 1 rare card from their hand (rare = purple entity,
+      orange fortress, or yellow/gold item).
+
+A purchased card must be played or equipped immediately using the
+normal placement rules. If it cannot be legally placed, it cannot
+be purchased. Each shop purchase counts as one of the active
+player's 3 played cards for the turn.
+
+The shop does not refill on its own. Once a shop card is bought,
+that slot is gone for the rest of the game unless a special rule
+refills it.
+
+
+[VISUAL NOTE: Small diagram of a shop layout: a row of 3 or 7 face-up cards in the player's area, labeled SHOP. An arrow showing "pay 2 normal cards or 1 rare card" to purchase. Clean and functional.]

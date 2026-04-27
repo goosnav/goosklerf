@@ -1,0 +1,37 @@
+PAGE 07 - CARD TYPES (ITEMS) + CARD ANATOMY HEADER
+
+
+ITEMS (normal: green border / rare: yellow or gold border)
+
+    Items are equipment carried by entities. There are two subtypes:
+
+    Equipped Items stay attached to an entity and provide a continuous
+    effect (an attack buff, an HP buff, a special ability, etc.) until
+    the item is discarded, transferred, or the entity dies.
+
+    Consumables are used for a one-time effect, then discarded. A
+    consumable must be equipped by an entity before it can be used.
+
+    An entity can carry up to 3 items at a time (equipped items and
+    consumables combined).
+
+
+3. CARD ANATOMY
+
+Every card has:
+
+    A NAME at the top.
+
+    A CARD-TYPE ICON indicating whether it is an entity, fortress,
+    item, or consumable.
+
+    A BORDER COLOR indicating rarity.
+
+    STAT VALUES. Entities and fortresses have an Attack value and an
+    HP value. Items may have buffs or debuffs to those values.
+
+    A TEXT BOX containing any Special rules or flavor text. Special
+    rules override general rules if there is a conflict.
+
+
+[VISUAL NOTE: Two more card silhouettes: one Item card (green border) and one Consumable card (also green border, but distinguish via icon or label). Then begin the Card Anatomy diagram below or alongside: a single labeled card with callout arrows pointing to NAME (top), CARD-TYPE ICON, BORDER COLOR, STAT VALUES (Attack and HP), and TEXT BOX. This feeds directly into the full anatomy diagram on the next page.]

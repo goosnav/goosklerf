@@ -1,0 +1,48 @@
+PAGE 52 - SCENARIO C: ACT I
+
+
+SCENARIO C - ACT I: ENTRANCE
+
+Objective: Escape your containment cell.
+
+Each character starts alone in a separate cell on the same
+corridor. They cannot see each other but they can hear each
+other if they shout. The cells have small windows in the doors,
+looking out onto the corridor, but the windows are clouded.
+
+Act I is played by each player in turn while the others wait.
+
+Each character must escape their cell. Two paths exist:
+
+PATH A - THE PHYSICAL ESCAPE. Make two Hard checks (3 or less
+on 1d6) in sequence. The first check finds something useful
+in the cell to pry with: a loose tile, a bedframe spring, a
+plastic spoon that has been sharpened by the previous
+occupant. The second check uses the tool to defeat the door
+latch.
+
+PATH B - THE COOPERATIVE ESCAPE. The cells are connected by
+air vents. Two characters whose players agree may attempt a
+cooperative escape. Each makes one Normal check (4 or less).
+If both succeed, they crawl out together. If one fails, both
+must make a Hard check or be discovered. The cooperative
+escape is faster but louder.
+
+A character who fails all attempts is discovered by a
+patrolling lab entity (pull 1 from the pool, presented as an
+orderly with a clipboard and very specific questions). They
+must defeat the orderly to escape.
+
+AT THE END OF ACT I: All escaped characters meet in a central
+corridor. The corridor has a wall map of the facility on it.
+The map is hand-drawn in pencil and looks like it was made
+by someone who only had access to the building one room at a
+time. Some rooms are labeled. Some are crossed out. One room
+is labeled with the name of a character who is currently
+standing in the corridor, looking at the map.
+
+Each character draws 1 random item from the deck. These were
+in a supply closet near the meeting point.
+
+
+[VISUAL NOTE: A containment cell interior: bare walls, fluorescent light, a small clouded window in the door. Two paths illustrated: A) a hand finding a sharpened plastic spoon wedged under a mattress, B) an air vent grate being quietly pried open. Clean vignette illustrations, clinical and institutional.]

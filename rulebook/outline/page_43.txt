@@ -1,0 +1,33 @@
+PAGE 43 - SCENARIO A: ACT II (SOURCES 1 + 2)
+
+
+SCENARIO A - ACT II: COMPLICATION
+
+Objective: Find three power cells to reach the top of the tower.
+
+The broadcast tower's ground-floor elevator is dead. To climb,
+the party needs three working power cells. There are three
+sources in the district.
+
+SOURCE 1: A SQUAT CONCRETE BUILDING. A bureaucratic holdout:
+people who still believe they work for a government that no
+longer exists. Draw 1 normal fortress as the building. Place
+3 enemies inside. The bureaucrats have one power cell in a
+locked drawer. They will not give it up without either:
+    - A fortress assault (standard rules).
+    - Paperwork. They will hand over the cell if presented
+      with any card with writing on it, treated as a "permit"
+      with ceremonial solemnity. The party sacrifices 1 item
+      card of their choice, handed to the head bureaucrat.
+    - A Hard check (3 or less) to outtalk them.
+
+SOURCE 2: A CRASHED AMBULANCE. The ambulance still has its
+engine running. It has been running for weeks. One power cell
+is under the hood, but the ambulance's driver is still in the
+front seat, mostly, and still trying to drive. A Hard check
+to reach the engine compartment without the driver noticing.
+On failure, combat with 1 enemy (the driver, pulled from the
+pool, with +1 HP).
+
+
+[VISUAL NOTE: Two small illustrations, one per source. SOURCE 1: A squat concrete government building, fluorescent light through small windows, a bureaucrat behind a desk holding a manila folder, completely impassive. SOURCE 2: A crashed ambulance with lights still running, a figure slumped but moving in the driver's seat, engine hood in the foreground. Grimdark absurdism.]

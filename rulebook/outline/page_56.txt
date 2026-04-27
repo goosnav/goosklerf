@@ -1,0 +1,48 @@
+PAGE 56 - GLOSSARY (ACT through ENGAGEMENT)
+
+
+PART VII - APPENDICES
+
+
+GLOSSARY
+
+
+ACT             One major segment of a Campaign Mode scenario.
+                Scenarios have 4 acts.
+
+ATTACK          A card's target number for normal hits. Roll this
+                value or less on 1d6 to land a hit.
+
+BATTLEFIELD     The central shared zone of the table where most
+                combat takes place.
+
+BATTLEPATH      The sequence of face-down enemy fortresses in
+                Singleplayer Mode.
+
+CAMPAIGN MODE   The RPG mode of Goosklerf II, run by a DM.
+
+CAPTURE         Taking control of an enemy fortress by clearing
+                it of defenders via a battlefield assault. At
+                least one entity must be garrisoned in the
+                captured fortress for control to transfer.
+
+COMBAT ROUND    One alternating exchange in combat (attacker
+                actions, then defender actions). An engagement
+                consists of multiple rounds. Card text saying
+                "at the end of each turn" or "at the end of the
+                combat turn" refers to each combat round, not the
+                full game-turn.
+
+CONSUMABLE      A one-use item card. Must be equipped by an
+                entity before it can be used.
+
+CONTROL         Legal ownership of a fortress, independent of
+                whether it is currently occupied.
+
+DEFEAT          Reducing an entity's HP to 0.
+
+ENGAGEMENT      A single declared combat, resolved fully before
+                any other engagement begins.
+
+
+[VISUAL NOTE: Clean text page, no illustration needed. Glossary entries should be formatted with the term in a visually distinct style (bold, caps, or spaced out) and the definition following. Consistent clean layout throughout all glossary pages.]

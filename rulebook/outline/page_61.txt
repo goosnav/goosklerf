@@ -1,0 +1,70 @@
+PAGE 61 - VISUAL ELEMENTS CHECKLIST (FOR THE ARTIST)
+
+
+VISUAL ELEMENTS CHECKLIST (FOR THE ARTIST)
+
+
+The following illustrations are referenced throughout this rulebook.
+Each is listed with its purpose and the minimum information it must
+communicate. Illustrations should be functional first, stylish second.
+A player should be able to understand the thing from the illustration
+alone.
+
+
+FIGURE 1 - CARD ANATOMY (page 08)
+    Four card diagrams side by side: Entity, Fortress, Item, Consumable.
+    Callouts label: border color, name, card-type icon, Attack stat,
+    HP dice (normal entity = 1 die, super entity = 2; normal fortress
+    = 2 dice, super fortress = 3), capacity, text box, buff/debuff.
+
+FIGURE 2 - TABLE LAYOUT (page 09) [MOST IMPORTANT]
+    Top-down 2-player table: battlefield center, suburbs top and bottom,
+    each player's deck/hand/graveyard, optional shop. Label every zone.
+
+FIGURE 3 - TURN FLOW DIAGRAM (page 14)
+    Five boxes in sequence: CARD PLAY / COMBAT / MOVEMENT / CARD DRAW /
+    VICTORY CHECK. One-line summary below each box.
+
+FIGURE 4 - COMBAT WALKTHROUGH (page 18)
+    Comic-style walkthrough: declaration, initial volley, 2 combat rounds,
+    resolution, victory reward. Show real dice numbers.
+
+FIGURE 5 - FORTRESS ASSAULT VS BARRAGE (page 20)
+    Left: entities assaulting a fortress from battlefield.
+    Right: two fortresses firing at each other (ship to ship).
+
+FIGURE 6 - RULE LEVELS CHART (page 22)
+    Grid: which rules are on/off for Core Only / Core + Shop / Full Advanced.
+
+FIGURE 7 - MODE SELECTOR (page 28)
+    Grid: mode name, player count, description, difficulty for all 5 modes.
+
+FIGURE 8 - TACTICAL MODE LAYOUTS (page 31)
+    Three small table layouts: Lightning / Standard Tactical / Skirmish.
+
+FIGURE 9 - SINGLEPLAYER BATTLEPATH EXAMPLE (page 32)
+    6-level battlepath with fortress counts, enemy counts, player strike
+    force, and shop.
+
+FIGURE 10 - CAMPAIGN CHARACTER SHEET (page 38)
+    Blank printable sheet: name, HP, Attack, items, consumables,
+    level, rerolls, notes.
+
+FIGURE 11 - CHESSKLERF BOARD SETUP (page 40)
+    8x8 board: corner fortresses (a1, h1, a8, h8), major pieces on
+    back rank, pawns on ranks 4 and 5 facing each other.
+
+FIGURE 12 - QUICK REFERENCE CARD (page 62)
+    Turn summary, hit rule, action list, capture vs destroy, retreat,
+    shop, victory conditions. No flavor text. Pure reference. Tear-out.
+
+GENERAL ART NOTES
+    Setting: post-reality-collapse grimdark with absurd undertones.
+    Visual flavors: broken geometry, wrong animals in wrong places,
+    humans who are almost human, concrete bureaucracy that has
+    outlived its purpose, fluorescent light. Keep rulebook interior
+    art clean and functional; save heavy mood for scenario chapter
+    headers, card art, and the setting page.
+
+
+[VISUAL NOTE: This page is itself the visual checklist. No additional illustration needed. Clean text layout.]

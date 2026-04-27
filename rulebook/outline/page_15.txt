@@ -1,0 +1,50 @@
+PAGE 15 - PHASE 2: COMBAT + PHASE 3: MOVEMENT (START)
+
+
+PHASE 2: COMBAT
+
+The active player may declare any number of combat engagements
+this turn. Each engagement is resolved fully before the next
+begins. Each of the active player's entities may participate in
+only one engagement per turn, unless a special ability says
+otherwise.
+
+Combat is broken into three sub-phases:
+
+    1. Combat Staging/Movement:
+       The active player declares each engagement one at a time.
+       For each engagement, the active player chooses which of their
+       eligible entities are participating and moves them into the
+       engagement area if required.
+
+       Combat Staging is not general movement. It only moves entities
+       into the engagement they are about to fight in. Entities moved
+       during Combat Staging must immediately participate in that
+       engagement.
+
+    2. Combat Round(s):
+       The participating attackers and defenders fight until one side
+       is defeated, retreats, or the engagement ends by rule.
+
+    3. Combat Resolution:
+       Resolve capture, destruction, retreat destinations, Scavenger,
+       Victory Rewards, and final positions for all surviving cards.
+
+    See Section 9 for combat rules.
+
+
+PHASE 3: MOVEMENT
+
+The active player may freely reposition their own entities and
+transfer their own items during this phase, as long as all
+resulting positions are legal.
+
+Legal movement:
+    - Battlefield to one of the player's fortresses (with space)
+    - The player's fortress to the battlefield (if legal
+      battlefield room exists)
+    - The player's fortress to another of the player's
+      fortresses (with space)
+
+
+[VISUAL NOTE: No illustration required. Clean text page.]

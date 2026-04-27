@@ -1,0 +1,43 @@
+PAGE 10 - PART II HEADER + CORE CONCEPTS + VICTORY CONDITIONS (START)
+
+
+PART II - CORE RULES
+
+
+5. CORE CONCEPTS
+
+Before the detailed rules, here are the concepts the rest of the book
+assumes the players understand.
+
+CONTROL. A card is controlled by the player who owns it, unless a
+rule or special effect changes control (for example, capturing a
+fortress).
+
+OCCUPY. A player occupies a fortress if they have at least one
+surviving entity inside it. A player can control an empty fortress.
+
+ENGAGEMENT. A single declared combat, from the moment combat is
+declared until one side is destroyed, retreats, or the engagement
+ends by rule. Engagements are resolved one at a time.
+
+CARD TEXT OVERRIDES. If a card's special text contradicts a general
+rule, the card text wins. If two cards contradict each other, the
+card belonging to the acting player wins.
+
+
+6. VICTORY CONDITIONS
+
+Goosklerf II uses four end conditions in multiplayer. The first one
+to trigger ends the game.
+
+LAST MAN STANDING. Only one player (or team) has any surviving
+entities in play. That player wins immediately.
+
+LANDLORD. A player becomes Landlord when they control every
+fortress currently in play AND no player has any unplayed fortress
+cards remaining in their deck or hand. Becoming Landlord is not
+an instant win: the player must survive one full round in that
+state to win the game.
+
+
+[VISUAL NOTE: Clean text page. No illustration required here. Optional: a small icon for each victory condition (sword for Last Man Standing, house/fortress for Landlord). Minimal, functional.]

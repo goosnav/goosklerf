@@ -1,0 +1,50 @@
+PAGE 19 - COMBAT STAGING (9.1) + NORMAL ATTACK (9.2)
+
+
+9.1 COMBAT STAGING/MOVEMENT
+
+During Combat Staging, the active player declares one engagement
+at a time. The terms below describe the SCOPE of an engagement
+(which enemy cards are eligible to be involved), not what gets
+attacked simultaneously. Individual attacks still target one
+legal enemy at a time unless a card or rule explicitly says
+otherwise.
+
+Battlefield entities may be staged into:
+    1. A battlefield engagement targeting one enemy player. All
+       of that player's battlefield entities are eligible
+       defenders in the engagement.
+    2. A fortress assault targeting one or more of that enemy
+       player's fortresses.
+
+Fortress entities may participate in combat by:
+    1. Firing an Initial Volley into a battlefield engagement,
+       if legal (see Section 9 Initial Volley restrictions).
+    2. Defending their own fortress during a fortress assault.
+    3. Participating in a Fortress Barrage, if that rule is
+       active (Section 20).
+    4. Attacking one enemy player's battlefield entities from
+       inside their fortress, if the active player declares that
+       fortress-based battlefield engagement.
+
+Entities inside a fortress cannot capture an enemy fortress.
+Only battlefield entities may capture fortresses.
+
+
+9.2 NORMAL ATTACK
+
+    1. Declare a target. The attacker chooses one legal enemy target
+       in this engagement (one entity, or the fortress if this is a
+       fortress assault).
+
+    2. Roll one 6-sided die.
+
+    3. If the result is equal to or below the acting entity's current
+       modified Attack value, the attack hits. Otherwise it misses.
+
+    4. A normal hit deals 1 HP of damage unless a special rule or
+       card text changes the amount. Reduce the target's HP by the
+       HP damage upon a successful attack.
+
+
+[VISUAL NOTE: Small diagram showing the Normal Attack sequence: die rolls next to an entity card with Attack value shown. Arrow showing "roll = or below Attack = HIT / roll above Attack = MISS." Keep it compact and clear.]

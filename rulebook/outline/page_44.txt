@@ -1,0 +1,41 @@
+PAGE 44 - SCENARIO A: ACT II (SOURCE 3) + ACT III
+
+
+SOURCE 3: A CHILD. A child on a swingset in an empty park is
+holding the third cell like a toy. The child is calm. The child
+is not a listener but is also not a normal child. The child
+will trade the cell for any shiny item (sacrifice 1 item card).
+Refusing to trade and taking the cell by force is allowed but
+has consequences: at the start of Act IV, the child appears at
+the top of the tower as a hostile entity with Attack 4, HP 4,
+and a special that ignores parries.
+
+
+SCENARIO A - ACT III: COLLAPSE
+
+Objective: Climb the tower.
+
+The party climbs a reinforced broadcast tower in 3 stages. At
+each stage, the DM deploys 1 enemy from the pool. The enemies
+are ascending the tower from a different face. At each stage,
+also play the tape recorder to the party and describe something
+they have not yet done: "You hear the sound of your own voice
+screaming at a door. It is not a door you have seen yet."
+
+The party cannot retreat downward without forfeiting the
+scenario. Listeners have gathered at the bottom of the tower
+by the hundred. They are waiting.
+
+LOCAL RULE - THE CROWD IS WATCHING. After every stage, the
+crowd below grows visibly. On Stage 2, all enemies gain +1
+Attack. On Stage 3, all enemies gain +1 Attack and +1 HP. The
+broadcast is recruiting.
+
+SPECIAL EVENT AT STAGE 2: One party member hears a voice over
+the tape recorder that is clearly their own voice, older. It
+says one sentence: a piece of advice, a warning, or an apology.
+The DM invents it on the spot based on what the player has done
+so far. This has no mechanical effect but is mandatory.
+
+
+[VISUAL NOTE: Top of the page: a child on a swingset in an empty park, holding a power cell, perfectly calm, with slightly wrong proportions. Below that: the exterior of a broadcast tower, crowd of listeners gathered at the base looking up, the party visible climbing. Ominous scale — the crowd is many, the tower is tall.]

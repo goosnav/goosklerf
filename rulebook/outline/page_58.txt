@@ -1,0 +1,64 @@
+PAGE 58 - GLOSSARY (HIT POINTS through VICTORY REWARD)
+
+
+HIT POINTS (HP) A card's durability, tracked physically with a
+                die on top of the card.
+
+INITIAL VOLLEY  A one-shot attack fortress occupants can fire
+                into a battlefield engagement at its start. Once
+                per fortress per engagement; resets at the start
+                of each new engagement.
+
+ITEM            A card equipped to an entity, granting buffs,
+                debuffs, or special effects.
+
+LANDLORD        The end condition where one player controls all
+                fortresses in play with no more to come, and then
+                survives one full round without losing that status.
+
+LAST STAND      An optional rule allowing an entity at 0 HP to
+                take one final action before being discarded. If
+                the action raises the entity's HP back above 0
+                (e.g., via Heal), the entity survives.
+
+MEGA-ENGAGEMENT  A single engagement targeting multiple enemy
+                fortresses simultaneously. There is no cap on
+                the number of fortresses targeted in one
+                engagement.
+
+OCCUPY          Having one or more living entities physically
+                inside a fortress.
+
+PARRY           An optional action canceling 1 HP of normal-hit
+                damage received on the previous round.
+
+RARE CARD       A card with a purple, orange, or yellow/gold border.
+
+RETREAT         An optional action to leave an engagement at the
+                cost of one round's action and exposure to an
+                enemy attack.
+
+SCAVENGER       An optional rule allowing a player's surviving
+                entities to pick up their own dead allies' items
+                in an engagement. Items NEVER transfer between
+                different players.
+
+SHOP            An optional face-up zone where players place 3
+                or 7 cards at setup (depending on deck regime)
+                for possible mid-game purchase.
+
+SUBURBS         The fortress zone at the edges of the table,
+                where fortresses are placed.
+
+SUPER ENTITY    A rare entity with 2 HP dice.
+
+SUPER FORTRESS  A rare fortress with 3 HP dice. (A normal
+                fortress has 2 HP dice.)
+
+VICTORY REWARD  Cards drawn to the attacker's hand after winning
+                a battlefield engagement, scaled by what was
+                achieved (1 per entity killed, 2 per fortress
+                captured, 3 per fortress destroyed).
+
+
+[VISUAL NOTE: Clean text page. Consistent glossary formatting. This completes the glossary.]

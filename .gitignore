@@ -1,0 +1,22 @@
+# Adobe Photoshop files
+*.psd
+*.psb
+
+# Common image formats
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tiff
+*.bmp
+*.svg
+
+# Design/Edit tool artifacts
+*.ai
+*.sketch
+*.xd
+*.fig
+
+# OS-generated thumbnails
+.DS_Store
+Thumbs.db

@@ -1,0 +1,54 @@
+PAGE 37 - CAMPAIGN MODE: LEVELING + SCENARIO STRUCTURE + DEATH (28.5-28.7)
+
+
+28.5 LEVELING
+
+Characters level up at the end of each major act of the
+scenario, or whenever the DM decides the players have earned it.
+
+    Level 2:  +1 maximum HP
+    Level 3:  Once per session, reroll one failed roll
+    Level 4:  +1 Attack (up to the maximum of 5)
+    Level 5:  Squire Slot: a player may assign one extra entity
+              from their reserve as a squire. The squire holds
+              1 item and absorbs damage in the player's place:
+              when the player would take damage, they may
+              assign it to the squire first. If the squire dies,
+              the player loses it.
+    Level 6:  +1 maximum HP
+    Level 7:  +1 item capacity (4 instead of 3)
+    Level 8+: Alternate between +1 HP, +1 reroll per session,
+              and one DM-approved custom perk.
+
+
+28.6 STRUCTURE OF A SCENARIO
+
+Every official Campaign scenario is structured in 4 acts:
+
+    Act I:    Entrance. Set the scene, establish the goal,
+              introduce the weird local rule.
+    Act II:   Complication. A new threat or moral decision
+              raises the stakes.
+    Act III:  Collapse. Pressure builds. Resources tighten.
+              Enemies escalate.
+    Act IV:   Finale. Confront the core problem. Win, lose, or
+              make a costly choice.
+
+Between acts, characters may level up and (at the DM's
+discretion) rest to restore HP.
+
+
+28.7 DEATH AND REVIVAL
+
+A character reduced to 0 HP is not dead unless the scenario
+says so. They are downed. At the end of the encounter, if
+their allies survive, the character recovers with 1 HP.
+
+If the character is downed during Act IV, or during a
+scripted "no second chances" beat, they die permanently.
+
+This is softer than standard Goosklerf II because Campaign
+Mode is about story, not attrition.
+
+
+[VISUAL NOTE: No illustration needed. Clean text page.]

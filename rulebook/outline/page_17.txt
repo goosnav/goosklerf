@@ -1,0 +1,56 @@
+PAGE 17 - SECTION 9: COMBAT (WHO CAN ATTACK WHOM + INITIAL VOLLEY START)
+
+
+9. COMBAT
+
+Combat begins when the active player declares an engagement. The
+player declaring combat is the attacker. All opposing entities
+involved are the defenders.
+
+
+WHO CAN ATTACK WHOM
+
+    Entities on the battlefield may attack:
+        - Enemy battlefield entities
+        - Enemy fortresses in the suburbs (fortress assault)
+
+    Fortress entities may attack:
+        - Enemy entities on the battlefield, but only once per
+          engagement, as an Initial Volley first strike (see below)
+        - Enemies attacking their fortress, during that assault
+        - Enemy fortresses, only if the Fortress Barrage rule is
+          active (see Section 20)
+
+
+INITIAL VOLLEY (FORTRESS ENTITIES)
+
+When a battlefield engagement is declared, any fortress with
+surviving occupants may fire a single Initial Volley into that
+engagement, unless that fortress is currently being assaulted
+or participating in a Fortress Barrage. Both attackers and
+defenders may fire an Initial Volley before combat begins.
+
+Key limits:
+
+    ONE VOLLEY PER FORTRESS PER ENGAGEMENT. A fortress may
+    contribute at most one volley shot per battlefield
+    engagement, regardless of how many entities are inside
+    it. The player controlling the fortress picks which
+    entity occupant fires.
+
+    NO VOLLEYS DURING FORTRESS ATTACKS. A fortress that is
+    currently under assault, or participating in a Fortress
+    Barrage, cannot fire a volley. Its occupants are already
+    committed to the fight at their door.
+
+    RESETS EACH ENGAGEMENT. The volley counter resets at the
+    start of each new engagement. A fortress that volleyed
+    in the previous engagement may volley again in the next.
+
+The volley shot is a single normal attack against any one enemy
+entity participating in the battlefield engagement, chosen by
+the volleying player. Volleys cannot target fortresses. The
+volley resolves before the first combat round begins.
+
+
+[VISUAL NOTE: A small diagram showing the Initial Volley mechanic: a fortress in the suburbs firing a single shot toward the battlefield where two entities are fighting. Label "INITIAL VOLLEY" with an arrow. Show that both attacker's and defender's fortresses can volley. Clean and simple.]

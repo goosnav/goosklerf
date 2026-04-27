@@ -1,0 +1,73 @@
+PAGE 59 - FAQ Q1-Q10
+
+
+FAQ AND EDGE CASES
+
+
+Q1. What if a player's hand has no legal plays and they must play
+    3 cards?
+
+    Discard cards until played + discarded = 3. The forced-play
+    rule is only waived when the hand is entirely empty at the
+    start of Card Play.
+
+Q2. What if a player's deck runs out during the Card Draw phase?
+
+    Draw as many cards as possible. If only 1 card remains, keep
+    it. If 0 cards remain, skip the Card Draw phase for the rest
+    of the game. Play continues with the current hand until it is
+    empty.
+
+Q3. Does Victory Reward apply if the attacker's deck is empty?
+
+    No. If the attacker's deck is empty, no cards are drawn. The
+    engagement is still won; there is simply no card-draw bonus.
+    Defenders never receive a Victory Reward.
+
+Q4. Can a consumable's damage be parried?
+
+    No. Parry only cancels 1 HP of damage from a normal attack.
+
+Q5. A fortress has three entities inside. Do they each get an
+    Initial Volley shot?
+
+    No. Each fortress gets ONE volley shot per engagement,
+    regardless of how many entities are inside. The controlling
+    player picks which occupant fires.
+
+Q6. A fortress is currently being assaulted. Can its occupants
+    volley into a different battlefield engagement happening at
+    the same time?
+
+    No. A fortress under assault cannot fire an Initial Volley.
+    Its occupants are already committed to defending their own
+    fortress. The same restriction applies to fortresses
+    participating in a Fortress Barrage.
+
+Q7. Both sides are destroyed in the same round. What happens?
+
+    Both sides lose. If the engagement was a fortress assault
+    and the fortress still stands, it remains under defender
+    control (empty). If both sides were wiped on the
+    battlefield, the engagement ends with no survivors on either
+    side. The Victory Reward is NOT awarded in mutual-kill
+    scenarios.
+
+Q8. May a player attack their own entities or fortresses?
+
+    Not unless a card or scenario explicitly says so.
+
+Q9. Can items be held in a fortress without an entity?
+
+    No. Items must be equipped to entities. If all entities in a
+    fortress die and their items are not inherited (no Scavenger,
+    no Last Stand transfer), the items are discarded.
+
+Q10. If a player purchases from the Shop and the bought card
+     cannot be legally placed, what happens?
+
+     It cannot be purchased. A Shop card must be playable on
+     the spot.
+
+
+[VISUAL NOTE: Clean text page. FAQ formatting: Q in bold or visually distinct, answer below indented. No illustration needed.]

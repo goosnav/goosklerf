@@ -1,0 +1,53 @@
+PAGE 20 - FORTRESS ASSAULT (9.3)
+
+
+9.3 FORTRESS ASSAULT
+
+In a fortress assault, attacking battlefield entities may target
+either the fortress or any defending entity inside it. Defending
+entities inside the fortress may target attackers normally.
+Attackers may choose to target one or more enemy fortresses in
+the same engagement. Multi-fortress engagements are legal: there
+is no cap on the number of fortresses targeted in a single
+engagement. Each targeted fortress resolves capture or
+destruction independently.
+
+A fortress assault ends when:
+    - All defending entities are killed or retreat, OR
+    - All attackers are killed or retreat, OR
+    - The fortress is destroyed.
+
+
+CAPTURING A FORTRESS. If all defending entities of a fortress
+are killed or retreat and the fortress still has at least 1 HP,
+the surviving attackers may choose to capture or destroy the
+fortress.
+
+    CAPTURE: Control of the fortress transfers to the attacker.
+    Up to the fortress's capacity in attackers may move inside
+    it; any excess attackers stay on the battlefield. At least
+    1 entity must be garrisoned in the fortress upon first
+    capture to keep the fortress. If no entities are moved into
+    a newly captured fortress, then the fortress remains under
+    its previous owner's control. A victorious attacker may
+    decide how to split surviving entities between the
+    battlefield and/or the captured fortress. A victorious
+    attacker does not need to capture a fortress and may leave
+    it empty but still under enemy control.
+
+    DESTROY: Discard the fortress. No one controls it. Attackers
+    remain on the battlefield.
+
+
+DESTROYING A FORTRESS. If the fortress itself is reduced to 0 HP
+during the assault, it is destroyed. All entities inside it, and
+their equipped items, are immediately destroyed with it. (If the
+Last Stand rule is active, defenders may take their final action
+before discarding.) If defenders retreat before the fortress is
+destroyed, they can survive. If defenders did not choose to
+retreat before the fortress's HP reached 0, all defenders die.
+
+
+FIGURE 5 - FORTRESS ASSAULT VS BARRAGE
+
+[VISUAL NOTE: Two small diagrams side by side. LEFT: FORTRESS ASSAULT - entities moving from the battlefield toward a fortress in the suburbs, arrows showing attack direction. RIGHT: FORTRESS BARRAGE - two fortresses in suburbs on opposite sides, entities inside each firing at each other, labeled "ships fighting ships." Label both clearly. Show the visual difference between the two combat types.]

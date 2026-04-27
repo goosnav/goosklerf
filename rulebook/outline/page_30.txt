@@ -1,0 +1,50 @@
+PAGE 30 - TACTICAL MODE: LIGHTNING + STANDARD TACTICAL (26.1 + 26.2)
+
+
+26. TACTICAL MODE
+
+Tactical Mode is a fixed-loadout battle with no hand refill. Every
+card a player gets is what they start with. 2 to 4 players.
+
+Tactical Mode comes in three deck-size variants. Players must
+choose one before starting.
+
+
+26.1 LIGHTNING (FAST)
+
+Each player gets:
+    - 3 entities
+    - 1 fortress
+    - 7 items (distributed as desired, up to 1 per entity to start)
+
+No deck, no hand. At setup, each player places their cards as
+desired on the battlespace. The fortress goes in the player's
+suburbs and entities are placed either on the battlefield or in
+the fortress.
+
+Each round, players take turns performing Combat and Movement
+phases only. No Card Play, no Card Draw, and no refill.
+
+Recommended rules: Core only. Retreat and Parry optional.
+
+
+26.2 STANDARD TACTICAL
+
+Each player gets:
+    - 5 entities
+    - 1 fortress
+    - 11 items selected before the game begins
+    - 7-item reserve hand (the items not yet equipped)
+
+At setup, each player places their fortress in their suburbs
+and their entities on the battlefield or in their fortress.
+Each entity may begin with up to 2 equipped items.
+
+Turn structure is Combat, Movement, then an Equipment Phase
+where the active player may equip any items from their reserve
+hand to their entities, respecting capacity. No deck is used.
+
+Recommended rules: All advanced rules enabled.
+
+
+[VISUAL NOTE: Two small table layout diagrams side by side — one for Lightning, one for Standard Tactical. Each shows player area with fortress in suburbs, entities placed on battlefield or inside fortress, and item pile beside. Label each diagram with its variant name. Clean, simple boxes.]

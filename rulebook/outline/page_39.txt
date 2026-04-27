@@ -1,0 +1,54 @@
+PAGE 39 - CHESSKLERF: SETUP (29, 29.1)
+
+
+29. CHESSKLERF
+
+Chessklerf is a positional variant for 2 players. It combines
+Goosklerf combat with chess movement. Players need a chessboard, 4
+chess pieces per player (queen, knight, rook, bishop) and the
+pawns from a standard chess set, plus Goosklerf cards.
+
+Chessklerf is not backwards-compatible with standard chess rules.
+Castling, en passant, and check are all ignored.
+
+
+29.1 SETUP
+
+Each player selects or draws 4 entities to be their "major
+pieces" and places one chess piece on top of each entity card
+to designate its role:
+
+    King/Queen  (most flexible)
+    Knight      (jumps)
+    Rook        (orthogonal long-range)
+    Bishop      (diagonal long-range)
+
+Place the corresponding chess piece on each entity (e.g., the
+Queen on the player's Queen entity, the knight on the player's
+knight entity) to denote which entity is which.
+
+Each major piece may be equipped with up to 2 items from the
+player's hand before the game begins.
+
+Place the 4 major pieces on the player's back rank. The two
+corner squares of each player's back rank correspond to that
+player's fortresses: any major piece sitting on a corner square
+is considered to occupy the fortress. The fortress grants
+standard fortress buffs to the entities garrisoned in the corners.
+
+Place the pawns in the middle of the board. Each player's
+pawns occupy their side of the middle two ranks (ranks 4 and
+5 of the standard 8x8 board, not ranks 2 and 7). This is the
+"opposite of regular chess" setup: pawns start facing each
+other directly across the center, major pieces at the back.
+
+SIDE ITEM PILE. All item cards not used as starting equipment
+for major pieces are set aside face-down at the start of the
+game as the side item pile. This is used for pawn capture
+rewards (Section 29.3).
+
+First player is decided by coin flip, agreement, or (safe)
+combat (GOOSNAV LLC not liable).
+
+
+[VISUAL NOTE: Begin the Chessklerf board setup diagram here if space allows, or reference page 40 where it appears in full. An 8x8 board showing corner fortresses, major pieces on back rank, pawns on ranks 4 and 5. Label piece types and fortress squares.]

@@ -1,0 +1,43 @@
+PAGE 14 - TURN STRUCTURE + PHASE 1: CARD PLAY
+
+
+8. TURN STRUCTURE
+
+A turn consists of five phases, taken in order.
+
+    1. CARD PLAY
+    2. COMBAT
+    3. MOVEMENT
+    4. CARD DRAW
+    5. VICTORY CHECK
+
+Each phase must be completed before moving to the next.
+
+
+PHASE 1: CARD PLAY
+
+The active player must play exactly 3 cards from their hand if
+possible. If it is impossible to play 3 cards, the maximum
+number of playable cards must be played.
+
+A card is played when it is:
+    - a fortress placed into the player's own suburbs
+    - an entity placed onto the battlefield
+    - an entity placed into one of the player's own fortresses
+    - an item equipped onto one of the player's entities
+    - a shop purchase, if the Shop rule is active
+
+If the active player cannot play 3 legal cards from their hand,
+they must discard cards from their hand until cards played plus
+cards discarded equals 3. (Example: only 2 cards can be played,
+so 1 must be discarded.)
+
+This forced-play rule is waived only if the active player's hand
+is empty at the start of Card Play. If the hand is empty, skip
+Card Play and proceed directly to Combat.
+
+Capacity limits still apply: 3 items per entity, 3 entities
+per fortress, 5 entities on the battlefield per player.
+
+
+[VISUAL NOTE: Turn flow diagram. Show the five phases as five boxes in sequence with arrows between them: CARD PLAY > COMBAT > MOVEMENT > CARD DRAW > VICTORY CHECK. Below each box, one short description line. This is Figure 3 from the Visual Elements Checklist. Clean and diagrammatic.]

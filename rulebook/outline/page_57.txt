@@ -1,0 +1,42 @@
+PAGE 57 - GLOSSARY (ENTITY through HEALING)
+
+
+ENTITY          A unit card. Entities fight, move, equip items,
+                and capture fortresses.
+
+EQUIPMENT PHASE A Tactical Mode phase in which the active player
+                may equip items from their reserve hand to their
+                entities (no deck involved).
+
+EXTRA ACTION    An optional rule (Section 22) allowing an entity
+                to buy an additional combat action by discarding
+                3 random cards from its controller's deck.
+
+FORTRESS        A structure card placed in the suburbs. Holds
+                entities and grants buffs. Can be captured or
+                destroyed.
+
+FORTRESS ASSAULT  A combat in which battlefield entities attack
+                a fortress. May target one or more enemy
+                fortresses in the same engagement.
+
+FORTRESS BARRAGE  An optional combat type in which fortress
+                entities attack an enemy fortress directly,
+                ship to ship, without a battlefield assault.
+
+GAME TURN       The full 5-phase cycle a player takes: Card Play,
+                Combat, Movement, Card Draw, Victory Check. Not
+                to be confused with a Combat Round.
+
+GRAVEYARD       A player's discard pile. Each player has their own.
+
+HAMLET          The loss-for-all end condition: no entities
+                remain and none can be played.
+
+HEALING         An optional combat action (Section 21). The
+                healer rolls an attack; on hit, they discard a
+                random card from their deck and heal one entity
+                in the engagement by +1 HP.
+
+
+[VISUAL NOTE: Clean text page. Consistent glossary formatting as previous page.]

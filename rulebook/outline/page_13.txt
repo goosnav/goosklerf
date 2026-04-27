@@ -1,0 +1,48 @@
+PAGE 13 - DECK REGIMES (LARGE) + STARTING HAND + MULLIGAN + FIRST PLAYER + SHUFFLING
+
+
+LARGE DECK (54 cards)
+
+    Minimum card quantities:
+        - 15 entities
+        - 3 fortresses
+        - 25 items
+
+    Shop size: 7 cards, drawn from the deck during setup.
+    Recommended for: long Classic Mode sessions, team games,
+    Campaign Mode setups, or large battlepaths.
+
+Decks may contain more entities and fortresses than the minimums
+listed (at the cost of fewer items). Decks may not go below the
+minimums listed. Any remaining deck slots may be filled with
+entities, fortresses, or items, as long as all minimums are met
+and the final deck size matches the selected regime exactly.
+
+A deck may include at most 3 copies of any card with the same name.
+
+
+STARTING HAND. At the start of the game, each player draws 7
+cards at random from their own deck. This is the only fully
+random draw in the game. Cards drawn on subsequent turns involve
+a choice (see Section 8). If a player's starting hand allows for no
+legal opening card placement, that player may invoke the Mulligan Rule.
+
+MULLIGAN RULE. If a player's starting hand allows for no opening card
+placement (i.e. no entities or fortresses in starting hand), then
+that player may invoke the Mulligan Rule where they may reshuffle
+their deck and draw a new random hand. Other players keep their
+hands unchanged.
+
+FIRST PLAYER. Determine the first player by die roll, thumb war,
+arm wrestling, a game of speed chess, a round of a non-lethal combat
+sport, a pushup competition, or agreement. Play proceeds clockwise.
+A round ends when every surviving player has taken one turn.
+
+SHUFFLING. Every time a player looks through a deck, the deck must
+be thoroughly shuffled. In competitive games, the player to each
+player's left must shuffle the deck thoroughly at least 3 times
+before returning it to the original player. Players may not look
+through each other's decks unless explicitly called out on a card.
+
+
+[VISUAL NOTE: No illustration needed. Clean text layout. Optional: a small reminder box showing "Starting Hand = 7 cards / random draw" to highlight this rule for new players.]

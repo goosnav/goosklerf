@@ -1,0 +1,74 @@
+PAGE 40 - CHESSKLERF: TURNS + COMBAT + PAWN PROMOTION + VICTORY (29.2-29.5)
+
+
+29.2 TURNS
+
+On a player's turn, they may:
+    - Move one major piece according to its chess movement rules, OR
+    - Move one pawn forward one square
+
+Major pieces move exactly as they do in chess, with no limit
+on distance for queens, rooks, and bishops (blocked by other
+pieces normally), and knights jumping L-shapes.
+
+
+29.3 CAPTURING AND COMBAT
+
+PAWN CAPTURE. A pawn captures enemy pieces as in chess
+(diagonally forward one square). A pawn capture is resolved
+instantly with no combat: the captured piece is defeated and
+removed. The pawn stays on its new square. As a reward for
+the capture, the capturing player draws 1 item card from the
+side item pile and adds it to their hand.
+
+MAJOR PIECE CAPTURE. When a major piece moves onto a square
+occupied by an enemy piece, combat is initiated between the
+two pieces (not resolved instantly). Use standard Goosklerf
+II combat rules, attacker-first. The attacker is the piece
+that moved.
+
+    IF THE ATTACKER WINS, the defending piece is removed and
+    the attacker ends its turn on the captured square.
+
+    IF THE DEFENDER WINS, the attacker is removed and the
+    defender stays on its square.
+
+    IF THE ATTACKER OR DEFENDER RETREATS successfully (using
+    the standard Retreat rule), the retreating piece moves to
+    any legal empty square it could have moved to instead of
+    the capture square. A retreating piece may not capture
+    another piece as part of retreat. If the defender
+    retreats, the attacker remains in the defender's old
+    position.
+
+FORTRESS CAPTURE. If a major piece enters an enemy corner
+fortress square, combat is initiated as above. If the
+attacker wins, they capture the fortress.
+
+CHESSKLERF FORTRESS VICTORY. If a player controls both enemy
+corner fortresses at the start of their turn, they win immediately.
+
+
+29.4 PAWN PROMOTION (EXPLOSION)
+
+If a pawn reaches the opposite end of the board (the enemy's
+back rank), it explodes. Remove the pawn and every piece or
+pawn in a 3x3 square centered on the exploding pawn's square.
+This includes friendly pieces. Fortresses are not destroyed
+by pawns.
+
+
+29.5 VICTORY
+
+A player wins Chessklerf if:
+    - They capture both of the enemy's corner fortresses, OR
+    - All enemy major pieces are destroyed.
+
+If both players lose all their major pieces in the same turn
+(for example, a mutual pawn explosion), the game is a draw.
+Nothing matters anymore anyway.
+
+
+FIGURE 11 - CHESSKLERF BOARD SETUP
+
+[VISUAL NOTE: 8x8 board diagram. Show: corner fortress squares labeled at a1, h1 (player 1) and a8, h8 (player 2). Four major pieces on each player's back rank between the corner fortresses (b1, c1, f1, g1 and symmetric for player 2). Pawns on ranks 4 and 5 facing each other across the center. Label each piece type (Queen/King, Knight, Rook, Bishop) and mark the corner fortresses clearly. This is a critical diagram for setting up the mode correctly.]

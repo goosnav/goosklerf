@@ -1,0 +1,43 @@
+PAGE 06 - CARD TYPES (ENTITIES + FORTRESSES)
+
+
+2. CARD TYPES
+
+There are three card types in Goosklerf II: entities, items, and
+fortresses. Each type has a normal and a rare variant, identified by
+border color.
+
+
+ENTITIES (normal: red border / rare: purple border)
+
+    Entities are the fighters. They attack, equip items, occupy
+    fortresses, and use special abilities.
+
+    - Only entities can equip and use items.
+    - Entities may attack enemy entities and enemy fortresses.
+    - An entity is defeated when its hit points reach 0.
+    - Some entities have Special text on the card. Special text
+      always overrides the standard rules.
+
+    A normal entity has one HP die. A Super Entity is a rare entity
+    with two HP dice. Super Entities are marked clearly on the card.
+
+
+FORTRESSES (normal: blue border / rare: orange border)
+
+    Fortresses are structures placed in the suburbs. They house
+    entities, grant buffs or debuffs to the entities inside, and
+    sometimes have special effects.
+
+    - Fortresses can house up to 3 entities.
+    - Fortresses cannot hold or use items directly.
+    - A fortress is destroyed when its hit points reach 0.
+    - When a fortress is destroyed, all entities inside it are
+      destroyed, along with their equipped items.
+
+    A normal fortress has two HP dice. A Super Fortress is a rare
+    fortress with three HP dice. Super Fortresses are marked clearly
+    on the card.
+
+
+[VISUAL NOTE: Two card silhouettes side by side: one Entity card (red border, normal) and one Fortress card (blue border, normal). Show where the border color appears. Label each with their card type name and rarity color. Keep diagrams clean and simple — no decorative content inside the cards, just structure and labels.]

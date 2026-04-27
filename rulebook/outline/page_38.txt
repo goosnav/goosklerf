@@ -1,0 +1,69 @@
+PAGE 38 - CAMPAIGN MODE: HEALING + SPECIAL ITEMS + CHARACTER SHEETS + MAP + MOVEMENT (28.8-28.12)
+
+
+28.8 HEALING
+
+Players may use a healing action via the advanced Healing rules
+(Section 21). Alternatively, the DM may lay out special healing
+zones on the map where players may restore some HP (such as in
+a hospital).
+
+
+28.9 SPECIAL ITEMS
+
+Players equip normal item cards but may also equip up to 3
+additional items invented by the DM with capabilities specified
+by the DM. These invented items must be recorded on the
+player's character sheet(s).
+
+
+28.10 CHARACTER SHEETS
+
+Full character stats are not limited by cards in Campaign Mode.
+Stats, items, level, and other elements are recorded on each
+entity's character sheet. A printable Campaign character sheet
+is provided in the appendix.
+
+
+28.11 MAP
+
+Before the campaign, the DM either draws a game map or uses an
+existing one. Maps should be drawn on grid paper. Entities
+cannot move through boundaries unless allowed to via special
+conditions by the DM. The map outlines where enemies, items,
+fortresses, and other special gameplay elements lie. The DM
+keeps track of where all gameplay elements are, ideally on a
+parallel map: the players should be able to see the base map
+(with fog of war optionally enabled by placing a sheet of paper
+over part of the map) with fortresses and selected other
+elements shown. When a player lands on a special square, an
+event or combat is initiated or the entity picks up an item.
+
+When in combat, allies in a 5x5 square around the battle party
+may assist in combat. If an ally is too far away, they cannot
+help.
+
+Alternatively, players may play without a map and rely on
+narrative only instead.
+
+
+28.12 MOVEMENT
+
+Each main character (with their party) occupies one grid space.
+The battle party can move based on its character sheet stats,
+which limit the maximum movement distance of a character. The
+default maximum movement distance is 3 grid spaces. Players
+roll a die to determine how far they were able to move on their
+turn (they can move up to the maximum their roll allows, but
+they do not need to move a maximum distance).
+
+If a die rolls a 1, the character moves 1. If a die rolls 2,
+the character moves 2, and so on. If the die rolls above the
+movement limit, the result corresponds to the maximum movement
+limit. For example, if a character can move 3 spaces max,
+rolling a 6 means the player can move up to 3 grid spaces.
+
+
+FIGURE 10 - CAMPAIGN CHARACTER SHEET
+
+[VISUAL NOTE: This page should include a blank printable character sheet for Campaign Mode. Fields: CHARACTER ENTITY CARD (name), HP (current / max), ATTACK, EQUIPPED ITEMS (3 slots), CONSUMABLES, LEVEL, REROLLS PER SESSION, SPECIAL NOTES. Clean and simple — players will copy or print this and fill it in during play.]

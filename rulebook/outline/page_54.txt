@@ -1,0 +1,56 @@
+PAGE 54 - SCENARIO C: ACT III
+
+
+SCENARIO C - ACT III: COLLAPSE
+
+Objective: Reach the Core Lab.
+
+The party reaches the central hub of the facility. The Core
+Lab is on the other side of a heavy security door that
+requires 3 keycards. The hallway leading to it is wider than
+the rest of the facility, ceiling tiles missing, the lights
+flickering in a pattern that is almost rhythmic, almost musical.
+
+If the party has 3 keycards, they enter directly. For each
+missing keycard, the party must make a Desperate check (2 or
+less on 1d6). Failure means fighting 1 additional entity from
+the pool as a guardian.
+
+LOCAL RULE - THE HALLWAY IS LEAKING. At the start of each
+round inside the hallway, roll 1d6:
+
+    1: One random character temporarily forgets one of their
+       items. The item cannot be used for that round only.
+       The character also cannot describe it: they know it
+       is in their pack, they know it is important, but the
+       word for it has gone out of their mouth.
+    2: One random character sees themselves at the end of
+       the hallway, walking ahead of the party, looking
+       back. The figure waves. Then it is gone. No mechanical
+       effect.
+    3: A door opens in the wall that was not there a moment
+       ago. Inside the doorway is a room. The room is the
+       bedroom of one random character, exactly as they left
+       it the morning of the reality collapse. The door
+       closes again at the start of the next round. A
+       character may step through during the open round
+       (sacrificing all actions that round) to retrieve 1
+       item from their bedroom: any 1 item card from the
+       graveyard, restored.
+    4-6: Nothing.
+
+SPECIAL EVENT NEAR THE END OF THE HALLWAY: The party
+encounters a single figure standing motionless, facing the
+door to the Core Lab. The figure is wearing a lab coat and
+a wrist bracelet. The bracelet has, written on it, the name
+of a real person from the players' actual lives. The DM
+should ask each player to name a person they trust, and use
+one of those names. The figure does not respond when spoken
+to. The figure does not attack. If the party attacks first,
+the figure dies in one hit, with no resistance, and the
+party feels slightly worse afterward but continues. If the
+party ignores it and continues to the Core Lab, the figure
+is still standing there when they look back. Then it is gone.
+
+
+[VISUAL NOTE: The hallway: wider than it should be, ceiling tiles missing, lights flickering. A figure at the far end of the hallway, facing away, wrist bracelet visible. A door in the wall that was not there a moment ago, bedroom visible through it. Atmospheric, unsettling, institutional.]

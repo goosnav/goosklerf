@@ -1,0 +1,26 @@
+PAGE 18 - COMBAT ROUNDS + ACTIONS LIST
+
+
+COMBAT ROUNDS
+
+Combat proceeds in alternating rounds. In each round:
+
+    1. The attacker's participating entities each take ONE action.
+    2. The defender's participating entities each take ONE action.
+    3. If one side has been fully destroyed, the engagement ends.
+       Otherwise, begin the next round.
+
+Actions available to each entity on its turn:
+
+    A. Normal attack (Section 9.2)
+    B. Use a consumable
+    C. Use a special ability from its card
+    D. Parry, if the Parry rule is active (Section 13)
+    E. Retreat, if the Retreat rule is active (Section 14)
+    F. Item swap, if that rule is active (Section 16)
+    G. Heal, if the Healing rule is active (Section 21)
+
+
+FIGURE 4 - COMBAT WALKTHROUGH
+
+[VISUAL NOTE: Full-width comic-style walkthrough of one complete engagement. Show in sequence: (1) DECLARATION - attacker points at defender, (2) INITIAL VOLLEY - fortress fires into the engagement (show die roll, hit or miss), (3) COMBAT ROUND 1 - attacker entities act, then defender entities act (show die rolls and HP damage), (4) COMBAT ROUND 2 - repeat, (5) RESOLUTION - one side defeated, (6) VICTORY REWARD - attacker draws cards. Show real numbers on the dice. This is the image new players will point at when they are stuck. Make it clear and sequential, like a comic strip or step-by-step infographic.]
