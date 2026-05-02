@@ -92,7 +92,109 @@
         FAQ and Edge Cases
         Visual Elements Checklist (for the artist)
 
+================================================================================
+                          QUICKSTART: HOW TO PLAY
+================================================================================
 
+    Goosklerf II is a card-and-dice war game about entities fighting
+    across a central battlefield while fortresses defend territory from
+    the suburbs.
+
+    The goal is to win by one of the main victory conditions:
+
+        -   LAST MAN STANDING: You are the only player with surviving
+            entities in play.
+
+        -   LANDLORD: You control every fortress in play, no unplayed
+            fortress cards remain in any deck or hand, and you survive
+            one full round without losing that status.
+
+        -   SPECIAL: A card or scenario creates a unique win condition.
+
+        -   HAMLET: If all entities are gone and none can be played,
+            everyone loses.
+
+    SETUP SUMMARY
+
+        1. Choose a deck size: Small, Medium, or Large.
+        2. Each player builds a legal deck of that size.
+        3. Each player draws 7 cards as their starting hand.
+        4. No cards begin on the table in Classic Mode.
+        5. Determine the first player. Play proceeds clockwise.
+
+    THE TABLE
+
+        The battlefield is the shared center of the table. Entities on
+        the battlefield can attack enemy entities and assault enemy
+        fortresses.
+
+        The suburbs are each player's fortress zone. Fortresses are
+        placed in the suburbs. Entities inside fortresses are safer,
+        can defend their fortress, and can fire Initial Volleys when
+        legal, but they cannot capture enemy fortresses.
+
+    TURN SUMMARY
+
+        Each turn has five phases:
+
+            1. CARD PLAY
+               Play exactly 3 cards if possible. You may play entities,
+               fortresses, items, or buy from your shop if the Shop rule
+               is active. If you cannot play 3 legal cards, discard until
+               played + discarded = 3.
+
+            2. COMBAT
+               Declare and resolve any number of engagements. Each
+               entity may participate in only one engagement per turn
+               unless a special rule says otherwise.
+
+            3. MOVEMENT
+               Reposition your surviving entities and transfer your own
+               items. Where entities end this phase determines what they
+               are ready to do next turn.
+
+            4. CARD DRAW
+               Draw the top 2 cards of your deck, then search your deck
+               for 1 card of your choice. Add all 3 to hand, then shuffle.
+
+            5. VICTORY CHECK
+               Check whether any victory condition has been met.
+
+    HOW COMBAT WORKS
+
+        Combat begins when the active player declares an engagement.
+
+        In each combat round:
+            1. The attacker's participating entities each take one action.
+            2. The defender's participating entities each take one action.
+            3. If one side is destroyed, retreats, or the fight ends by
+               rule, resolve the engagement. Otherwise, start another
+               combat round.
+
+        To make a normal attack, choose one legal target and roll 1d6.
+        If the result is equal to or below the attacker's Attack value,
+        the attack hits and deals 1 HP damage unless a card says otherwise.
+
+    FORTRESSES
+
+        Battlefield entities can assault and capture enemy fortresses.
+        Entities inside fortresses cannot capture enemy fortresses.
+
+        If a fortress is assaulted, attackers may target the fortress
+        itself or the entities inside. Defenders inside the fortress may
+        attack the assaulting entities.
+
+        If all defenders are gone and the fortress still has at least
+        1 HP, the attacker may capture it by moving at least one surviving
+        battlefield attacker inside. If the fortress reaches 0 HP, it is
+        destroyed, along with all entities and items inside it.
+
+    POSITIONING
+
+        Entities on the battlefield are exposed, but they threaten enemy
+        fortresses. Entities inside fortresses are protected, but they
+        give up capture pressure. Winning Goosklerf requires balancing
+        protection and projection.
 
 ================================================================================
                               HOW TO READ THIS BOOK
@@ -327,33 +429,20 @@
     entities in play. That player wins immediately.
 
     LANDLORD. A player becomes Landlord when they control every
-    fortress currently in play AND no player has any unplayed fortress
-    cards remaining in their deck or hand. Becoming Landlord is not
-    an instant win: the player must survive one full round in that
-    state to win the game.
+    fortress in play AND no unplayed fortress cards remain in any
+    player's deck or hand. This is not an instant win: the Landlord
+    must survive one full round (starting from the next player's turn)
+    still meeting both conditions to win.
 
-    The moment these conditions are met, the player is marked as
-    Landlord. Starting from the next player's turn, one full round
-    of play begins. If at the end of that round the player is still
-    Landlord (still controls every fortress in play, still no
-    unplayed fortresses anywhere), they win immediately.
-
-    If during that round any of the following happens, Landlord
-    status is broken:
+    Landlord status is broken if, during the survival round:
         -   Another player captures one of the Landlord's fortresses.
-        -   Another player plays a new fortress card into their own
-            suburbs.
+        -   Another player plays a new fortress into their suburbs.
         -   A scenario effect introduces a new fortress.
 
-    If a Landlord's fortress is destroyed during the survival round,
-    Landlord status is NOT broken on its own (the Landlord still
-    controls every remaining fortress). However, if destruction reduces
-    the table to zero fortresses in play, Landlord cannot be sustained
-    and status ends.
-
-    If Landlord status is broken, it can be re-achieved later under
-    the same conditions, and the survival round begins again from
-    scratch.
+    Destruction of a Landlord's fortress does NOT break status by
+    itself, but if it leaves zero fortresses in play, status ends.
+    A broken Landlord status can be re-achieved later; the survival
+    round restarts from scratch.
 
     HAMLET. All entities are destroyed, and no player can legally put
     a new entity into play. Everyone loses.
@@ -411,16 +500,13 @@
 
     STARTING HAND. At the start of the game, each player draws 7
     cards at random from their own deck. This is the only fully
-    random draw in the game. Cards drawn on subsequent turns involve
-    a choice (see Section 8). If a player's starting hand allows for no
-    legal opening card placement, that player may invoke the "Mulligan
-    Rule".
+    random draw in the game; cards drawn on subsequent turns involve
+    a choice (see Section 8).
 
-    MULLIGAN RULE. If a player's starting hand allows for no opening card
-    placement (i.e. no entities or fortresses in starting hand), then
-    that player may invoke the "Mulligan Rule" where they may reshuffle
-    their deck and draw a new random hand. Other players keep their
-    hands unchanged.
+    MULLIGAN RULE. If a player's starting hand contains no entities or
+    fortresses (no legal opening placement), they may reshuffle their
+    deck and draw a new random hand. Other players keep their hands
+    unchanged.
 
     FIRST PLAYER. Determine the first player by die roll, thumb war,
     arm wrestling, a game of speed chess, a round of a non-lethal combat
@@ -520,53 +606,36 @@
 
         POSITIONING MATTERS
 
-            Where entities end the Movement phase directly determines what
-            actions are possible on the following turn.
+            End-of-Movement positions decide what a player is ready to
+            do on their next turn.
 
-            -   Only entities on the battlefield can initiate fortress
-                assaults. Entities inside fortresses cannot capture enemy
-                fortresses.
+            Only battlefield entities can assault and capture enemy
+            fortresses. Entities inside fortresses can defend, fire
+            Initial Volleys when legal, and use Fortress Barrage if that
+            rule is active, but they cannot capture enemy fortresses.
 
-            -   A fortress with no defending entities can be captured
-                immediately when assaulted, with no resistance.
+            An undefended fortress has no entity defense. If it is
+            assaulted by an enemy battlefield entity and survives the
+            assault, the attacker may capture it immediately during
+            Combat Resolution by moving at least one surviving attacker
+            inside.
 
-            -   If a player does not have entities on the battlefield by their
-                next combat turn, they cannot initiate any fortress
-                captures during their combat turn (since fortresses can only
-                be invaded from the battlefield).
-
-            -   Entities left on the battlefield are exposed to attack.
-                Entities inside fortresses are safer but cannot project
-                force outward to capture territory.
-
-            Players must balance protection and projection: Too many
-            entities in fortresses limits offensive capability; too many
-            on the battlefield risks losing control of defended positions.
-
-            Poor positioning at the end of Movement will often decide the
-            next turn before it begins.
-
-        Items may be freely transferred between the player's own entities
-        during this phase, as long as capacity limits are respected.
-
-        Fortresses cannot hold items. If an item must move somewhere, it
-        must ride on an entity.
-
-        Once Movement is complete, no further repositioning may happen
-        until the active player's next turn. (Combat-related staging
-        movements only occur during Phase 2 and are not affected by this
-        lock.)
+            Entities on the battlefield are exposed, but they threaten
+            enemy fortresses. Entities inside fortresses are safer, but
+            they give up capture pressure. Balance protection and
+            projection.
 
     PHASE 4: CARD DRAW
 
-        The active player draws the top 2 cards of their deck at random.
-        They then look through the entire deck and select 1 card
-        deliberately. All 3 cards are added to their hand. If it is
-        possible to draw 3 cards, the active player must draw 3 (or the
-        maximum number possible). The deck must then be thoroughly
-        reshuffled. In competitive play, the player to the active
-        player's left must shuffle the deck and return it to the active
-        player.
+        The active player draws the top 2 cards of their deck at random,
+        then searches their deck for 1 card of their choice. Add all 3
+        cards to hand.
+
+        If fewer than 3 cards remain available, add as many as possible:
+        draw random cards first, then search only if at least 1 card
+        remains in the deck.
+
+        After searching, reshuffle per Section 7.
 
     PHASE 5: VICTORY CHECK
 
@@ -575,10 +644,8 @@
         the game ends. Landlord status is checked and tracked here (see
         Section 6 for the survival-round rule). During the victory
         check, players must communicate whether or not they have any
-        unplayed fortresses in their hand or deck. Players may look
-        through their own deck to confirm whether or not any unplayed
-        fortresses exist. Each time a player looks through their deck,
-        they must shuffle thoroughly a minimum of 3 times.
+        unplayed fortresses in their hand or deck, and may look
+        through their own deck to confirm. Reshuffle per Section 7.
 
 
 
@@ -612,20 +679,13 @@
 
         Key limits:
 
-            -   ONE VOLLEY PER FORTRESS PER ENGAGEMENT. A fortress may
-                contribute at most one volley shot per battlefield
-                engagement, regardless of how many entities are inside
-                it. The player controlling the fortress picks which
-                entity occupant fires.
-
-            -   NO VOLLEYS DURING FORTRESS ATTACKS. A fortress that is
-                currently under assault, or participating in a Fortress
-                Barrage, cannot fire a volley. Its occupants are already
-                committed to the fight at their door.
-
-            -   RESETS EACH ENGAGEMENT. The volley counter resets at the
-                start of each new engagement. A fortress that volleyed
-                in the previous engagement may volley again in the next.
+            -   ONE VOLLEY PER FORTRESS PER ENGAGEMENT, regardless of
+                occupants. The controlling player picks which occupant
+                fires.
+            -   NO VOLLEYS from a fortress currently under assault or
+                participating in a Fortress Barrage.
+            -   RESETS EACH ENGAGEMENT. A fortress that volleyed in the
+                previous engagement may volley again in the next.
 
         The volley shot is a single normal attack against any one enemy
         entity participating in the battlefield engagement, chosen by
@@ -654,11 +714,10 @@
     9.1 COMBAT STAGING/MOVEMENT
 
         During Combat Staging, the active player declares one engagement
-        at a time. The terms below describe the SCOPE of an engagement
-        (which enemy cards are eligible to be involved), not what gets
-        attacked simultaneously. Individual attacks still target one
-        legal enemy at a time unless a card or rule explicitly says
-        otherwise.
+        at a time. The terms below describe the engagement's SCOPE
+        (which enemy cards are eligible), not simultaneous attacks —
+        individual attacks still target one legal enemy at a time unless
+        a card says otherwise.
 
         Battlefield entities may be staged into:
             1. A battlefield engagement targeting one enemy player. All
@@ -1054,13 +1113,10 @@
     entity may "buy" one additional action by drawing from its stamina
     reserves: randomly draw 3 cards from the entity's controlling
     player's deck and discard them. This grants the entity one
-    additional action this round.
+    additional action this round, which may be any normal action.
 
-    There is no limit on Extra Actions purchased per round per entity,
-    other than deck depth. The cost stacks: Two extra actions = 6
-    discarded cards. The extra action may be any normal action,
-    including Heal, Reinforcement call, Supercharged Attack, or special
-    ability.
+    The cost stacks (two extra actions = 6 discarded cards), with no
+    cap other than deck depth.
 
 
 
@@ -1080,18 +1136,27 @@
     not playable this turn; they become available on the attacker's
     next turn like any other hand cards.
 
-    Defenders receive no Victory Reward. Mutual-kill engagements (both
-    sides wiped out simultaneously) grant no reward to either side. If
-    the attacker's deck is empty, no cards are drawn.
-
-    Victory Rewards are NOT triggered by Initial Volleys, by Fortress
-    Barrages (Section 20), or by mutual-kill outcomes. The reward
-    exists specifically to make declaring battlefield combat a better
-    choice than sitting still.
+    EXCEPTIONS. Defenders receive no Victory Reward. No reward is
+    granted for mutual-kill outcomes, Initial Volleys, or Fortress
+    Barrages (Section 20). If the attacker's deck is empty, no cards
+    are drawn. The reward exists specifically to make declaring
+    battlefield combat a better choice than sitting still.
 
     TIMING. Victory Rewards are drawn during Combat Resolution, after
     all captures, destruction, retreats, Last Stand actions, and
     Scavenger effects from that engagement have resolved.
+
+
+
+24. OLD AGE
+--------------------------------------------------------------------------------
+
+    If a player has not initiated an attack in 3 full table rounds, they must 
+    roll dice to randomly determine which of their entities dies of old age 
+    (from waiting too long). The randomly chosen entity dies and must
+    be discarded. They cannot be revived -- entities that die from old
+    age die instantly and cannot be saved. If a player's last entity 
+    dies from old age, they lose the game. 
 
 
 
@@ -1363,9 +1428,8 @@
         highest Attack. In case of a further tie, choose randomly.
 
         ENEMY ITEMS ARE HIDDEN. Keep enemy equipped items face-down
-        until the psychic roll above triggers their use, at which point
-        flip them face-up and resolve normally. This keeps enemy
-        loadouts mysterious until you fight.
+        until the psychic roll triggers their use, then flip and resolve
+        normally.
 
         BOSS FORTRESSES. Every third fortress on the battlepath
         (Level 3, 6, 9, etc.) is a Boss Fortress. At Levels 9 and
@@ -1593,43 +1657,28 @@
 
     28.11 MAP
 
-        Before the campaign, the DM either draws a game map or uses an
-        existing one. Maps should be drawn on grid paper. Entities
-        cannot move through boundaries unless allowed to via special
-        conditions by the DM. The map outlines where enemies, items,
-        fortresses, and other special gameplay elements lie. The DM
-        keeps track of where all gameplay elements are, ideally on a
-        parallel map: the players should be able to see the base map
-        (with fog of war optionally enabled by placing a sheet of paper
-        over part of the map) with fortresses and selected other
-        elements shown. The DM may keep track of the grid spaces of
-        special tiles through written coordinates or may have a
-        parallel map not shown to the players with all elements drawn
-        on. When a player lands on a special square, an event or
-        combat is initiated or the entity picks up an item.
+        Before the campaign, the DM draws or selects a map on grid
+        paper. The map shows where enemies, items, fortresses, and
+        other special elements lie. The DM keeps a master copy with all
+        elements marked (or tracks them by written coordinates), and
+        reveals a player-facing version progressively, with fog of war
+        optionally enabled by covering parts of the map. Entities
+        cannot move through boundaries unless the DM allows it. When a
+        character lands on a special square, an event or combat
+        triggers, or the entity picks up an item.
 
-        When in combat, allies in a 5x5 square around the battle party
-        may assist in combat. If an ally is too far away, they cannot
-        help.
+        In combat, allies within a 5x5 square around the battle party
+        may assist; allies farther away cannot.
 
-        Alternatively, players may play without a map and rely on
-        narrative only instead.
+        A campaign may be played without a map, using narrative only.
 
     28.12 MOVEMENT
 
         Each main character (with their party) occupies one grid space.
-        The battle party can move based on its character sheet stats,
-        which limit the maximum movement distance of a character. The
-        default maximum movement distance is 3 grid spaces. Players
-        roll a die to determine how far they were able to move on their
-        turn (they can move up to the maximum their roll allows, but
-        they do not need to move a maximum distance).
-
-        If a die rolls a 1, the character moves 1. If a die rolls 2,
-        the character moves 2, and so on. If the die rolls above the
-        movement limit, the result corresponds to the maximum movement
-        limit. For example, if a character can move 3 spaces max,
-        rolling a 6 means the player can move up to 3 grid spaces.
+        Roll 1d6; the character may move up to that many spaces, capped
+        at their maximum movement (default 3). Rolls above the cap
+        count as the cap. Movement is optional — a character may move
+        less than the roll allows, or not at all.
 
 
 
@@ -2170,7 +2219,7 @@ SCENARIO B: THE GROCERY RUN
     the wrong side of the glass. It is gone in the morning. Or
     it is not.
 
-SCENARIO C: THE MEAL
+SCENARIO D: THE MEAL
 --------------------------------------------------------------------------------
 
     FLAVOR
@@ -2203,7 +2252,7 @@ SCENARIO C: THE MEAL
     that make the air shimmer.
 
     In the distance, past the yolk, past the white, past the curved
-    edge of the pan, you can see something: A timer. A kitchen timer,
+    edge of the pan, you can see something: a timer. A kitchen timer,
     the size of a building, ticking. You cannot read the numbers from
     here but you can hear it. Every tick vibrates through the pan and
     up through your feet.
@@ -2214,10 +2263,10 @@ SCENARIO C: THE MEAL
     Unless you are not.
 
     The goal is simple. Make a meal before you become one. If you can
-    prepare something worth eating before the timer runs out, whoever
-    is cooking you will eat that instead. If you cannot, you will be
-    served sunny-side up on a plate you will never see the edges of,
-    and that will be the end of you.
+    prepare something worth eating before the timer runs out, whatever
+    enormous thing is coming back to eat you will eat that instead. If
+    you cannot, you will be served sunny-side up on a plate you will
+    never see the edges of, and that will be the end of you.
 
     SETUP
 
@@ -2226,72 +2275,130 @@ SCENARIO C: THE MEAL
         -   0 items
         -   HP at maximum
 
-    SPECIAL SETUP - THE RECIPE BOOK. Before the scenario begins, the
-    DM presents the party with THE RECIPE BOOK: three recipes, each
-    requiring a different number of ingredients. The party must choose
-    one recipe to attempt. Once chosen, the choice is final.
+    SPECIAL SETUP - THE MEAL PLAN. Before the scenario begins, the
+    party chooses a difficulty by deciding how many courses they will
+    attempt to prepare. More courses means a bigger meal, which means
+    a more satisfied creature, which means a better chance of survival.
+    It also means more fighting, more scavenging, and less time.
 
-        RECIPE 1: FRIED EGG SANDWICH (EASY)
-            Ingredients needed: 3
-            Required: Bread (x2), Seasoning (x1)
+        1-COURSE MEAL (EASY)
+            Ingredients needed: 3 entities + 3 items argued as edible
+            Serviceware needed: 1 item argued as a utensil, cup, OR plate
+            Time: 16 rounds total across the scenario
+
+        2-COURSE MEAL (MEDIUM)
+            Ingredients needed: 6 entities + 6 items argued as edible
+            Serviceware needed: 2 of the following (no duplicates):
+                                utensil, cup, plate
             Time: 12 rounds total across the scenario
 
-        RECIPE 2: OMELETTE (MEDIUM)
-            Ingredients needed: 5
-            Required: Cheese (x1), Vegetables (x2), Seasoning (x1),
-                      Meat (x1)
+        3-COURSE MEAL (HARD)
+            Ingredients needed: 9 entities + 9 items argued as edible
+            Serviceware needed: all 3: utensil AND cup AND plate
             Time: 10 rounds total across the scenario
 
-        RECIPE 3: EGGS BENEDICT (HARD)
-            Ingredients needed: 7
-            Required: English Muffin (x2), Meat (x2), Butter (x1),
-                      Lemon (x1), Seasoning (x1)
+        4-COURSE MEAL (IMPOSSIBLE)
+            Ingredients needed: 12 entities + 12 items argued as edible
+            Serviceware needed: all 3: utensil AND cup AND plate
             Time: 8 rounds total across the scenario
+
+    Each course requires exactly 3 defeated entities and 3 items
+    argued as edible, plus the party must collectively explain what
+    dish these 6 components make and how they cooked it.
 
     The DM tracks the round timer. Every combat round and every
     non-combat action round counts toward the timer. When the timer
     reaches zero, the scenario ends, regardless of progress. If the
-    recipe is incomplete, the party loses.
+    meal is incomplete, the party loses.
 
-    ENEMY AND ITEM POOLS. The DM prepares the following:
+    THE CORE MECHANIC - ARGUING EDIBILITY
 
-        INGREDIENT DECK: Set aside 10 item cards from the deck,
-        face-down. These represent ingredients. When a character
-        finds an ingredient during the scenario, they draw from
-        this pile. The DM assigns the drawn card an ingredient
-        identity from the recipe's required list (Bread, Cheese,
-        Meat, etc.). The card retains its normal game stats and
-        effects but is ALSO an ingredient. An ingredient card can
-        be used as a normal item OR contributed to the recipe, but
-        not both. Once contributed to the recipe, it is gone.
+    This scenario runs on persuasion and creativity, not on a fixed
+    recipe. The cards in the Goosklerf deck are not labeled as food.
+    They are labeled as weapons, armor, creatures, and strange
+    objects. But this is a kitchen, and in a kitchen, everything is
+    potentially an ingredient.
 
-        ENEMY POOL: Set aside 6 entities from the deck. These are
-        the kitchen. They are ingredients that do not want to be
-        cooked, utensils that have opinions, and things that live
-        in the gaps between the burners. Present them accordingly.
+    When the party defeats an entity or acquires an item, they may
+    declare it as one of the following:
+
+        AN INGREDIENT (entity or item). The party must argue to the
+        DM that this card could plausibly be construed as edible, or
+        as a component of a dish. The argument does not need to be
+        good. It needs to be committed.
+
+        Examples of arguments that should work:
+            -   "This entity is made of organic matter. We can cook
+                 organic matter."
+            -   "This shield is basically a tortilla if you squint."
+            -   "This potion is a broth. It is a broth now."
+            -   "This creature has meat on it. All creatures have
+                 meat on them."
+            -   "This glowing crystal is rock candy."
+
+        Examples of arguments that should NOT work:
+            -   "This sword is food." (It is steel. You cannot eat
+                 steel. Try harder.)
+            -   "This entity is edible because I said so." (Make a
+                 real argument.)
+            -   "This helmet is a bowl of soup." (A helmet could be
+                 a BOWL. It is not soup. You need to put something
+                 IN the helmet.)
+
+        THE DM IS THE JUDGE. The DM decides whether the argument
+        passes. The standard is generous but not infinite. If the
+        argument makes the table laugh, it passes. If the argument
+        makes the table groan, it passes. If the argument makes
+        nobody react at all, it probably fails. The DM should err
+        on the side of yes.
+
+        IMPORTANT: An item used as an ingredient is consumed. It
+        is added to the meal and cannot be used as equipment
+        anymore. An entity used as an ingredient is placed in the
+        party's ingredient pile. A player may choose to keep a
+        useful item as equipment instead of contributing it to the
+        meal. This is the central tension: your best weapon might
+        also be your best ingredient.
+
+    A UTENSIL, CUP, OR PLATE (item only). The party must also
+    argue that certain items serve as serviceware. The creature
+    coming back needs something to eat WITH, something to drink
+    FROM, and something to eat OFF OF.
+
+        UTENSIL: Any item that could plausibly be used to pick up,
+        cut, stab, scoop, or otherwise move food from a plate to
+        a mouth. A sword is a knife. A staff is a skewer. A shield
+        on a stick is a spatula. Tongs are tongs.
+
+        CUP: Any item that could plausibly hold liquid. A helmet
+        is a cup. A hollowed-out shield is a cup. A boot is a cup
+        if you are desperate enough and argue with conviction.
+
+        PLATE: Any item with a flat or concave surface large
+        enough to hold a meal. A shield is a plate. A breastplate
+        is a plate. A book opened flat is a plate if you do not
+        care about the book.
+
+    Items designated as serviceware are NOT consumed. They are
+    placed at the table setting in Act III and remain there.
+    An item cannot be both an ingredient and serviceware. Pick one.
 
     STARTING EQUIPMENT. Each character draws 1 random item from
-    the deck. This is their starting utensil. Regardless of what
-    the card actually depicts, in this scenario it is a kitchen
-    utensil: a spatula, a whisk, a ladle, a bread knife, a pair
-    of tongs. The DM assigns each one a utensil name for flavor.
-    The card keeps its normal stats.
+    the deck. This is their only starting gear. Whatever the card
+    depicts, in this scenario it is also whatever the party can
+    argue it is. A sword is a knife. A potion is a marinade. A
+    helmet is a salad bowl. The card keeps its normal stats for
+    combat purposes regardless of what the party calls it.
 
-    SPECIAL RULE - ENEMY INGREDIENTS. When the party defeats an
-    enemy entity during this scenario, that entity becomes an
-    ingredient. The DM assigns it an ingredient identity from
-    the recipe's required list (the next one needed). The defeated
-    enemy card is placed in the party's ingredient pile. This is
-    the primary way to gather ingredients: you must fight your
-    food.
-
-    The party must still collect the full number of ingredients
-    required by their chosen recipe. Enemies defeated beyond the
-    recipe's requirements are wasted and do not count.
+    ENEMY POOL. Set aside 15 entities from the deck, face-down.
+    These are deployed by the DM over the course of the scenario.
+    Remaining entities not used by the end of the scenario are
+    wasted. The party does not need to fight every enemy, only
+    enough to meet their course requirements.
 
     ACT I - THE PAN
 
-    Objective: Get your bearings and find the pantry.
+    Objective: Get your bearings and reach the counter.
 
     The party stands in the yolk. The heat is rising. The surface
     of the pan stretches out around them, and the air smells like
@@ -2302,30 +2409,27 @@ SCENARIO C: THE MEAL
     are standing on becomes solid and they become part of the dish.
 
     LOCAL RULE - THE SIZZLE. At the end of every round spent on
-    the pan surface (Acts I and II), each character must roll 1d6.
+    the pan surface (Acts I and III), each character must roll 1d6.
     On a 1, the heat gets to them: they take 1 damage. Characters
-    standing on an ingredient card (using it as a platform, not
-    contributing it to the recipe) are immune to the Sizzle for
-    that round.
+    standing on an item card designated as an ingredient (using it
+    as a platform, not yet contributed to the meal) are immune to
+    the Sizzle for that round.
 
     The party must cross the yolk and the egg white to reach the
     edge of the pan. This requires 3 rounds of movement. During
-    the crossing, 1 enemy appears from the egg white: a clump of
-    albumin that has developed a face and a grievance. Pull 1
+    the crossing, 1 enemy appears from the egg white. Pull 1
     entity from the enemy pool. This enemy is rubbery, translucent,
     and deeply offended at being cracked open.
 
-    If the party defeats the albumin entity, it becomes their
-    first ingredient (the DM assigns its identity from the recipe
-    list).
+    If the party defeats this entity, they may immediately argue
+    it as their first ingredient. It is, after all, egg. That
+    argument should be easy.
 
     At the edge of the pan, the party can see the counter. The
     counter is a vast plain of tile stretching away from the
     stovetop, littered with enormous objects: a salt shaker the
     size of a grain silo, a pepper mill like a lighthouse, a
-    block of knives standing upright like monoliths. Somewhere
-    out there is the pantry. That is where the rest of the
-    ingredients are.
+    block of knives standing upright like monoliths.
 
     To get off the pan, each character must make a Normal check
     (4 or less on 1d6) to climb the lip of the pan without
@@ -2334,134 +2438,188 @@ SCENARIO C: THE MEAL
 
     ACT II - THE COUNTER
 
-    Objective: Gather ingredients and survive the kitchen.
+    Objective: Gather ingredients, serviceware, and weapons.
 
     The countertop is a hostile environment. Everything here is
     sized for someone who is not the party's size. A puddle of
     olive oil is a lake. A dishrag is a landscape. A sponge is a
     building with a disturbing texture.
 
-    The party must locate ingredients. Each ingredient requires
-    the party to reach a STATION on the counter. There are as
-    many stations as the recipe requires ingredients (3 for the
-    Sandwich, 5 for the Omelette, 7 for Eggs Benedict). The DM
-    may place them in any order.
+    The party explores the counter in search of things to fight,
+    things to cook, and things to cook with. The DM structures
+    the counter as a series of STATIONS. Each station costs 1
+    round of travel to reach.
 
-    At each station:
-        -   The party encounters 1 enemy entity (pull from the
-            pool). The enemy is the ingredient, alive and hostile.
-            Sample encounters for the DM to flavor:
+    At each station, TWO things happen:
 
-            BREAD: Two slices of bread standing upright like
-            shields, slamming together to crush anything between
-            them. Attack by pinching.
+        1. COMBAT. Pull 1 entity from the enemy pool. Combat is
+           resolved normally. If the party defeats the entity,
+           they may argue it as an ingredient (the DM judges the
+           argument on the spot). If they cannot make a convincing
+           case, the defeated entity is wasted. Not everything is
+           food. Try harder next time.
 
-            CHEESE: A wedge of cheese that has gone sentient and
-            aggressive. It is sweating. It resents being grated.
-            On a hit, it leaves a residue that reduces the
-            target's Attack by 1 for one round (greasy hands).
+        2. SCAVENGING. After combat (or instead of combat, if
+           the party chooses to flee the station), each character
+           at the station may spend 1 action to scavenge. Draw 1
+           random item from the deck. The character keeps the item
+           and may use it as equipment, or may immediately argue
+           it as an ingredient or serviceware.
 
-            VEGETABLES: A bundle of bell peppers and onions
-            moving as a single unit, rolling and tumbling. On
-            death, they release fumes: all characters in the
-            engagement roll 1d6, and on a 1, they lose their
-            next action (eyes watering).
+    THE DM SHOULD FLAVOR EACH STATION. Suggested locations on
+    the counter for the DM to describe and improvise from:
 
-            MEAT: A slab of ham or bacon that fights with weight
-            and momentum. It charges. +1 Attack on its first
-            round. If defeated, it sizzles invitingly.
+        THE CUTTING BOARD. A scarred wooden plateau. Knife marks
+        everywhere. Remnants of whatever was chopped here last.
+        Good scavenging potential: items found here are more
+        likely to be arguable as utensils or cutting implements.
+        The entity here fights with sharp, chopping motions.
 
-            SEASONING: A cloud of paprika or black pepper that
-            attacks by irritation. Cannot be hit with normal
-            attacks on the first round (too dispersed). On the
-            second round, it settles and can be targeted normally.
+        THE SINK. A vast chrome basin with a dripping faucet the
+        size of a waterfall. Wet. Slippery. Characters at the
+        sink take -1 to attack rolls (bad footing). But any item
+        scavenged here can be argued as "washed and therefore
+        more plausibly edible," giving the player a +1 bonus to
+        their edibility argument (DM should be more lenient).
 
-            BUTTER: A stick of butter that is melting and
-            reforming. Each round, it heals 1 HP. Must be
-            defeated quickly or it will outlast you.
+        THE SPICE RACK. A vertical cliff of enormous jars. No
+        combat at this station (it is peaceful here, somehow).
+        Each character may scavenge 1 item. Any item found at
+        the spice rack automatically counts as edible with no
+        argument required. It is a spice. It came from the spice
+        rack. That is the argument and it is unimpeachable. The
+        DM may limit visits to the spice rack to once per
+        scenario.
 
-            LEMON: A lemon wedge that squirts acid. Ranged
-            attack: can target any party member in the
-            engagement, ignoring positioning. On a hit, the
-            target takes 1 damage and their next attack roll
-            is at -1 (stinging eyes).
+        THE TRASH CAN. The rim of a metal bin, overflowing with
+        debris. 2 enemies at this station instead of 1 (things
+        that live in garbage are territorial). Scavenged items
+        here are harder to argue as edible (the DM should be
+        stricter; "it came from the trash" is a fair counter-
+        argument). But scavenging is plentiful: draw 2 items
+        instead of 1.
 
-            ENGLISH MUFFIN: Two halves that fight independently
-            but share HP. Damage dealt to one is felt by the
-            other. If one half is defeated, the other half
-            gets +2 Attack for the rest of the engagement
-            (fury, grief, or possibly just toast rage).
+        THE STOVETOP. Another burner, not the one the party woke
+        up on. Still hot. The Sizzle rule applies here. The enemy
+        at this station has +1 Attack (the heat makes everything
+        angrier). But any entity defeated here is automatically
+        arguable as "already cooked," which is a strong argument.
 
-        -   Defeating the enemy grants the ingredient. The DM
-            assigns it the next required ingredient identity
-            from the recipe.
-
-        -   If the party has leftover enemies in the pool after
-            collecting all recipe ingredients, those enemies do
-            not need to be fought. The party may bypass remaining
-            stations.
-
-    OPTIONAL STATION: THE SPICE RACK. If the party reaches the
-    spice rack (the DM decides when this is available, ideally
-    after 2 stations), they may draw 1 bonus item from the
-    ingredient deck. This item is a wildcard seasoning that can
-    substitute for any 1 missing ingredient in the recipe. It
-    does not require combat to acquire. Finding the spice rack
-    costs 1 round.
+        THE FRIDGE. If the party reaches the fridge (requires 2
+        rounds of travel instead of 1 — it is far from the
+        stovetop), they find it open. Inside is cold and dark
+        and full of old things. No combat. Each character may
+        scavenge 2 items. Anything from the fridge is
+        automatically arguable as edible (it was in the fridge,
+        so at some point someone considered it food). But on a
+        roll of 1 on 1d6 per item, the item is "expired." An
+        expired ingredient can still be contributed to a course,
+        but the creature will spit that course out during the
+        tasting in Act IV (the DM reveals this only then, and
+        the course does not count). Players do not learn which
+        items are expired until the tasting.
 
     THE TIMER IS VISIBLE. Remind the party of the timer at the
     end of every round. They can hear it ticking. It is getting
-    louder. The ticking should become a source of anxiety. If
-    the party dawdles, they will run out of time regardless of
-    combat success.
+    louder.
+
+    ARGUING HAPPENS IN REAL TIME. When a player argues that an
+    entity is edible or that an item is a utensil, the argument
+    happens at the table, out loud, to the DM. Other players may
+    support or challenge the argument. The DM rules. This is the
+    scenario's signature mechanic and should be encouraged to be
+    theatrical. A player who stands up and passionately defends
+    the edibility of a shield boss should be rewarded for
+    commitment.
+
+    The party may designate items as serviceware at any point
+    during Acts II or III. Serviceware does not need to be argued
+    at the moment of acquisition. A player may hold an item and
+    decide later whether it is a weapon, an ingredient, or a
+    plate.
 
     ACT III - THE PREP
 
-    Objective: Assemble the ingredients and begin cooking.
+    Objective: Return to the pan, cook the meal, set the table.
 
     The party must return to the stovetop with their collected
-    ingredients and assemble the dish. This requires a cooking
-    station: the pan they woke up on, which is still hot and
+    ingredients and serviceware and actually cook. The pan they
+    woke up on is their cooking station. It is still hot and
     still has the remains of the egg on it.
 
-    RETURNING TO THE PAN: Each character makes a Normal check
-    to descend back onto the pan safely. Failure: 1 damage.
+    RETURNING TO THE PAN. Each character makes a Normal check to
+    descend back onto the pan safely. Failure: 1 damage.
 
-    ASSEMBLY. Each ingredient must be prepared before it can be
-    added to the dish. For each ingredient, one character must
-    spend 1 action and make a Normal check (4 or less):
+    THE COOKING PHASE. For each course, the party must do the
+    following:
 
-        Success: The ingredient is prepared and added to the
-        dish. Narrate appropriately: slicing, seasoning,
-        arranging, flipping.
+        1. LAY OUT THE INGREDIENTS. Place the 3 entity cards and
+           3 item cards designated as edible for this course in
+           a visible pile on the table.
 
-        Failure: The ingredient is not ruined, but the
-        preparation takes longer. Spend 1 additional action
-        (1 additional round) and try again. No check needed
-        on the second attempt; it just takes time.
+        2. NAME THE DISH. The party must, out loud, name the dish
+           they are making from these 6 components. The name
+           should be specific. "Food" is not a dish name. "Pan-
+           Seared Golem Flank with Shield-Crust Garnish and a
+           Potion Reduction" is a dish name.
 
-    THE KITCHEN FIGHTS BACK. During the assembly, the kitchen
-    itself resists. The DM deploys 1 final enemy from the pool
-    (or invents one if the pool is empty). This enemy is the
-    kitchen: a sentient burner flame, a vengeful oven mitt, a
-    grease splatter with eyes. It attacks the party while they
-    are trying to cook. The party must fight it while continuing
-    to prepare ingredients. Characters not currently in combat
-    may continue cooking.
+        3. DESCRIBE THE COOKING. The party must explain to the DM
+           how they are cooking the dish. This includes:
+               -   What method they are using (frying, boiling,
+                   roasting, assembling raw, smoking, etc.)
+               -   Which ingredients are cooked and which are
+                   served raw or cold
+               -   Any preparation steps (chopping, marinating,
+                   seasoning, etc.)
+               -   How the components work together as a dish
+
+           The DM judges the cooking explanation by the same
+           standard as the edibility arguments: committed and
+           creative beats technically accurate. If the party
+           describes their cooking process with conviction and
+           at least a passing relationship to how food works,
+           it passes. If they just say "we cook it," they need
+           to try harder.
+
+        4. COOK. One character must spend 1 round per course
+           actively cooking. Roll a Normal check (4 or less on
+           1d6):
+
+           Success: The course is prepared.
+
+           Failure: The course is underdone. Spend 1 additional
+           round and try again. No check needed on the retry;
+           it just takes time. Time you may not have.
+
+        5. PLATE AND SET. Once all courses are prepared, the
+           party must lay out the serviceware. Place the utensil,
+           cup, and/or plate items (as required by difficulty)
+           next to the completed courses. Describe the table
+           setting briefly. This costs 1 round total, regardless
+           of how many serviceware items are placed.
+
+    THE KITCHEN FIGHTS BACK. During the cooking phase, the DM
+    deploys 1 final enemy from the enemy pool (or invents one if
+    the pool is empty). This enemy is the kitchen itself: a
+    sentient burner flame, a vengeful oven mitt, a grease
+    splatter with eyes and opinions. It attacks the party while
+    they are trying to cook. The party must fight it while
+    continuing to prepare courses. Characters not currently in
+    combat may continue cooking.
 
     LOCAL RULE - MULTITASKING. A character may attempt to both
     fight and cook in the same round by splitting their action:
-    roll for the attack at -1 Attack, AND roll for the
-    ingredient preparation, both in the same round. If the
-    attack misses, the preparation also fails (you dropped the
-    spatula). If the attack hits, the preparation succeeds
-    normally.
+    roll for the attack at -1 Attack, AND roll for the cooking
+    check, both in the same round. If the attack misses, the
+    cooking also fails (you dropped the spatula). If the attack
+    hits, the cooking succeeds normally.
 
-    SPECIAL EVENT: When the party places the final ingredient,
-    the dish is complete. The pan begins to glow. The smell
-    changes from "you are being cooked" to "something is being
-    cooked for someone." The timer, in the distance, stops
-    ticking. There is a moment of silence.
+    SPECIAL EVENT. When the party finishes plating the final
+    course and setting the serviceware, the meal is complete.
+    The pan begins to glow. The smell changes from "you are
+    being cooked" to "something is being cooked for someone."
+    The timer, in the distance, stops ticking. There is a
+    moment of silence.
 
     Then the shadow falls.
 
@@ -2469,38 +2627,71 @@ SCENARIO C: THE MEAL
 
     Objective: Survive the serving.
 
-    A hand descends from above. It is enormous. It is holding
-    a spatula the size of a highway overpass. The hand is not
-    threatening the party directly. It is reaching for the dish.
+    A hand descends from above. It is enormous. It belongs to
+    something that is not entirely visible: you can see the
+    fingers, the wrist, and then the arm disappears into a
+    height your eyes refuse to process. Whatever this thing is,
+    it built this kitchen, and it cracked the egg you came from,
+    and it set the timer, and now it is back.
 
-    If the party completed the recipe before the timer ran out:
+    If the party completed the meal before the timer ran out:
 
-        The hand takes the dish. The spatula slides under the
-        assembled meal and lifts it away. The party is not on
-        the spatula. They are standing on the pan, watching
-        their work ascend into the light above, and for a
-        moment, the kitchen is quiet, and the heat is bearable,
-        and nothing is trying to eat them.
+        THE TASTING. The creature examines the meal. It picks up
+        the utensil the party designated. It inspects the plate.
+        It looks at each course.
 
-        They hear chewing. It is satisfied chewing. It is the
-        chewing of someone who got what they wanted and has
-        forgotten that there was anything else on the menu.
+        For each course the party prepared, the DM secretly rolls
+        1d6:
 
-        The party has been spared.
+            1: The creature is DISGUSTED. This course does not
+               count. (If the party used an expired fridge
+               ingredient, this result is automatic for that
+               course.) The creature makes a sound that shakes
+               the kitchen.
 
-        ESCAPE: Each character makes one final Normal check to
-        climb off the pan and reach the edge of the counter.
-        From there, they find a crack in the wall behind the
-        stove: a gap in reality, the same kind of crack that
-        dropped them here. They step through.
+            2-3: The creature is UNIMPRESSED but eats the course
+               anyway. This course counts.
+
+            4-5: The creature ENJOYS the course. This course
+               counts. The creature makes a satisfied noise.
+
+            6: The creature is DELIGHTED. This course counts
+               double for scoring purposes. The creature pauses,
+               looks down at the pan, and for a moment seems to
+               notice the party. It does not eat them. It nods,
+               very slightly, the way a restaurant patron nods
+               at a chef through the kitchen window.
+
+        After all courses are tasted, count how many courses
+        were accepted (scored 2 or higher). If at least HALF
+        the courses the party attempted are accepted, the
+        creature is satisfied. It takes the plate and the
+        serviceware, and it leaves. The party survives.
+
+        If fewer than half are accepted, the creature is still
+        hungry. It looks at the pan. It looks at the party. The
+        party has 1 round to offer something else: any remaining
+        items argued as edible, any remaining entity cards not
+        yet used, anything. If the party can offer at least 2
+        more cards argued as edible on the spot (with arguments
+        the DM accepts), the creature accepts the extra offering
+        and leaves. If they cannot, proceed to the failure
+        condition below.
+
+        ESCAPE. If the creature leaves satisfied, each character
+        makes one final Normal check to climb off the pan and
+        reach the edge of the counter. From there, they find a
+        crack in the wall behind the stove: a gap in reality,
+        the same kind of crack that dropped them here. They step
+        through.
 
         They wake up somewhere else. It is not the kitchen. It
         may or may not be better. But they are alive, and they
         are not breakfast, and that is more than they expected
         when they woke up inside an egg.
 
-    If the party did NOT complete the recipe before the timer
-    ran out:
+    If the party did NOT complete the meal before the timer ran
+    out, or the creature was not satisfied:
 
         The hand takes the pan. All of it. The party included.
         They feel the pan tilt. They feel themselves slide. The
@@ -2517,11 +2708,12 @@ SCENARIO C: THE MEAL
 
         If the party survived:
 
-            Each surviving character:                 25 points
-            Recipe completed:                        100 points
-            Bonus: completed with 2+ rounds to spare: 50 points
-            Bonus: no character reached 0 HP:         50 points
-            Each unused ingredient remaining:         10 points
+            Each surviving character:                    25 points
+            Each accepted course:                       50 points
+            Each delighted course (rolled 6):          100 points
+            Meal completed with 2+ rounds to spare:     50 points
+            No character reached 0 HP:                  50 points
+            Each unused ingredient remaining:            10 points
 
         If the party was eaten:
 
@@ -2529,23 +2721,38 @@ SCENARIO C: THE MEAL
 
     DM NOTES
 
-        This scenario is absurd by design. It is meant to be
-        played with a light touch, leaning hard into the
-        ridiculousness of fighting sentient cheese and being
-        chased by a grease splatter. The horror is structural,
-        not tonal: the party is small, the kitchen is enormous,
-        and the timer does not care about their feelings.
+        THE ARGUING IS THE GAME. The edibility arguments and the
+        dish descriptions are the signature mechanic of this
+        scenario. Encourage players to be theatrical. Reward
+        creativity and commitment. A player who describes, with
+        total conviction, how they braise a crystal golem into a
+        mineral jus should be rewarded for that performance. A
+        player who just says "this is food now" should be asked
+        to try harder.
 
-        The recipe choice at the start is the scenario's core
-        strategic decision. The Fried Egg Sandwich is easy but
-        boring and grants the most time. Eggs Benedict is
-        genuinely difficult and will test party coordination.
-        The Omelette is the intended default.
+        The DM's role as judge is critical. Be generous with
+        organic or biological entities (anything with a body
+        probably has meat on it). Be generous with liquids and
+        potions (they are sauces, broths, marinades, reductions).
+        Be strict with pure metal or stone (a sword is not food;
+        a sword is a knife, and a knife is a utensil, but the
+        sword itself cannot be eaten). Be flexible with the
+        weird middle ground (a wooden shield could be a cutting
+        board or a plate, but could it be edible? Only if the
+        player commits to the argument that it is a fiber-rich
+        cracker).
 
-        Flavor the enemies generously. A wedge of cheese that
-        resents being grated is funnier and more memorable than
-        a generic hostile. The party should be laughing while
-        also genuinely stressed about the timer.
+        The tension between using a card as a weapon vs. an
+        ingredient is the scenario's core resource dilemma. The
+        party's best combat item might also be the ingredient
+        that completes their second course. They must choose.
+
+        The cooking description is not a skill check. It is a
+        performance. The DM should treat it like a contestant
+        presenting their dish on a cooking show: what did you
+        make, how did you make it, why does it work? If the
+        player can answer those three questions with a straight
+        face, the dish is valid.
 
         The timer is the real antagonist, not the ingredients.
         Keep it visible. Keep it audible. Every time a player
@@ -2556,6 +2763,15 @@ SCENARIO C: THE MEAL
         party member. They are a side dish. This is very sad
         and also very funny and the DM should commit to both
         emotions simultaneously.
+
+        THE CREATURE IS NEVER FULLY DESCRIBED. The party sees
+        a hand, an arm, a shadow. They hear chewing. They feel
+        the kitchen shake when it walks. They never see its
+        face. This is intentional. Whatever the creature is, it
+        is beyond the scale of the scenario. It is not a boss
+        to be fought. It is weather. It is gravity. It is the
+        thing that decides whether you are a chef or a meal, and
+        it does not owe you an explanation.
 
 
 SCENARIO D: THE LAB
