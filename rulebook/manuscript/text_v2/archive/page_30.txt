@@ -1,0 +1,53 @@
+PAGE 30 - CLASSIC MODE SETUP
+
+
+27. CLASSIC MODE
+
+Classic Mode is the standard way to play Goosklerf II. 2 to 4
+players. Last player standing, or first to Landlord, wins.
+
+SETUP
+
+    All players agree on a deck regime before setup (see
+    Section 8):
+
+        -   SMALL (24 cards) for a fast game.
+        -   MEDIUM (36 cards) is the default Classic experience.
+        -   LARGE (54 cards) for long grinding sessions.
+
+    Each player builds a legal deck of the chosen regime size,
+    respecting the minimum composition rules in Section 8.
+
+    SHARED-POOL DRAFT (competitive play). If players are building
+    decks from a shared pool, shuffle the shared pool and place it
+    face-down. Create a face-up draft row beside it.
+
+    On each player's draft pick, they may either:
+        -   draw the top card of the shared pool and add it to
+            their deck, OR
+        -   take one card from the face-up draft row and add it to
+            their deck.
+
+    If a player draws from the shared pool and does not want that
+    card, they place it face-up into the draft row and their pick
+    ends.
+
+    Continue until each player has built a legal deck for the
+    chosen deck regime.
+
+    Each player draws 7 random cards as their opening hand.
+
+    If the Shop rule is in effect, each player sets up their
+    Shop now (3 cards for Small, 7 cards for Medium or Large).
+
+    No player begins with any cards on the table. Fortresses must
+    be played from hand into the suburbs during Card Play.
+
+    Randomly determine the first player with dice or use another
+    means for casual play. Play proceeds clockwise.
+
+    First-time players may skip the advanced modules entirely and
+    play with only the Core Rules.
+
+
+[VISUAL NOTE: Classic Mode setup page. Optional draft-row diagram for shared-pool draft.]

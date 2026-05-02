@@ -1,0 +1,43 @@
+PAGE 23 - VICTORY REWARDS + OLD AGE
+
+
+14. VICTORY REWARDS (FIRST STRIKE INCENTIVE)
+
+Aggression is rewarded. When an engagement ends in attacker
+victory, the attacker draws cards from the top of their deck based
+on what was accomplished during the engagement. Rewards stack per
+outcome:
+
+        Each enemy entity defeated:    +1 card
+        Each fortress captured:        +2 cards
+        Each fortress destroyed:       +3 cards
+
+Total reward = sum of the above. There is no cap. Drawn cards are
+not playable this turn; they become available on the attacker's
+next turn like any other hand cards.
+
+EXCEPTIONS. Defenders receive no Victory Reward. No reward is
+granted for mutual-kill outcomes, Initial Volleys, or Fortress
+Barrages (Section 25). If the attacker's deck is empty, no cards
+are drawn. The reward exists specifically to make declaring
+battlefield combat a better choice than sitting still.
+
+TIMING. Victory Rewards are drawn during Combat Resolution, after
+all captures, destruction, retreats, Last Stand actions, and
+Scavenger effects from that engagement have resolved.
+
+15. OLD AGE
+
+At the end of a player's turn, if that player has gone 3 of their
+own turns without declaring an engagement, randomly choose one of
+their surviving entities. That entity dies and is discarded.
+
+Declaring any engagement resets the count. Initial Volley does not
+reset the count. Fortress Barrage does.
+
+Old Age cannot be prevented, healed, revived, or used for Last Stand.
+
+If a player's last entity dies from Old Age, that player loses.
+
+
+[VISUAL NOTE: Economy pressure visual. Optional small reward table and old-age counter track.]

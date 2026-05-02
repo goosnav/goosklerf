@@ -41,6 +41,8 @@
                                TABLE OF CONTENTS
 ================================================================================
 
+    QUICKSTART: HOW TO PLAY
+
     HOW TO READ THIS BOOK
 
     PART I    - COMPONENTS AND TABLE
@@ -51,41 +53,51 @@
 
     PART II   - CORE RULES
         5.    Core Concepts
-        6.    Victory Conditions
-        7.    Deck and Starting Hand
-        8.    Turn Structure
-        9.    Combat
-        10.   Damage, Defeat, and Item Ownership
-        11.   Stat Limits
+        6.    Entity Actions
+        7.    Victory Conditions
+        8.    Deck and Starting Hand
+        9.    Turn Structure
+        10.   Combat
+        11.   Damage, Defeat, and Item Ownership
+        12.   Stat Limits
 
-    PART III  - ADVANCED RULES (OPTIONAL MODULES)
-        12.   Shop
-        13.   Parry
-        14.   Retreat
-        15.   Last Stand
-        16.   Item Swap
-        17.   Reinforcements
-        18.   Scavenger
-        19.   Supercharged Attack
-        20.   Fortress Barrage
-        21.   Healing
-        22.   Extra Actions
-        23.   Victory Rewards
+    PART III  - ADVANCED RULES
+        A.    Economy and Game Pressure
+              13. Shop
+              14. Victory Rewards
+              15. Old Age
+
+        B.    Combat Actions
+              16. Parry
+              17. Retreat
+              18. Item Swap
+              19. Healing
+              20. Supercharged Attack
+              21. Extra Actions
+
+        C.    Combat Events
+              22. Last Stand
+              23. Reinforcements
+              24. Scavenger
+
+        D.    Fortress Combat
+              25. Fortress Barrage
 
     PART IV   - BACKWARDS COMPATIBILITY (GOOSKLERF I)
 
     PART V    - GAME MODES
-        24.   Mode Selector
-        25.   Classic Mode
-        26.   Tactical Mode (with deck-size variants)
-        27.   Singleplayer Mode
-        28.   Campaign Mode
-        29.   Chessklerf
+        26.   Mode Selector
+        27.   Classic Mode
+        28.   Tactical Mode (with deck-size variants)
+        29.   Singleplayer Mode
+        30.   Campaign Mode
+        31.   Chessklerf
 
     PART VI   - CAMPAIGN SCENARIOS
         A.    The Numbers Station
         B.    The Grocery Run
-        C.    The Lab
+        C.    The Meal
+        D.    The Lab
 
     PART VII  - APPENDICES
         Glossary
@@ -197,20 +209,19 @@
 
     Goosklerf II can be played in three rules levels:
 
-        BASIC GOOSKLERF uses only the Core Rules. This is the cleanest
-        version for learning the game.
+        BASIC GOOSKLERF uses only the Core Rules.
 
         ADVANCED GOOSKLERF uses the Core Rules plus all Advanced Rules.
-        This is the full standard game.
 
         CUSTOM GOOSKLERF uses the Core Rules plus any Advanced Rules
         the players agree to before setup.
 
     Game modes may specify their own rules level.
 
-    A player learning the game should read Parts I and II, skim the mode
-    selector in Part V, and pick Classic Mode for their first game.
-    Everything else can be ignored until the first game has been played.
+    A player learning the game should read Quickstart, Parts I and II,
+    skim the mode selector in Part V, and pick Classic Mode for their
+    first game. Everything else can be ignored until the first game has
+    been played.
 
 
 
@@ -432,7 +443,7 @@
             Use a special ability printed on the entity, item, fortress,
             or scenario, if its conditions are met.
 
-    FULL GOOSKLERF ACTIONS
+    ADVANCED ACTIONS
 
         PARRY
             Attempt to cancel 1 HP of normal-hit damage suffered during
@@ -480,20 +491,22 @@
 
         REINFORCEMENTS
             At the end of a combat round, a side may call one
-            reinforcement into the engagement if the Reinforcements
-            rule allows it.
+            reinforcement into the engagement if Reinforcements are
+            active.
 
         INITIAL VOLLEY
-            When a battlefield engagement begins, each eligible occupied
-            fortress may fire one normal attack into that engagement
-            before the first combat round begins.
+            When a real battlefield engagement begins, each eligible
+            occupied fortress may fire one normal attack into that
+            engagement before the first combat round begins. Initial
+            Volley cannot be used unless at least one attacking entity
+            has been committed to that battlefield engagement.
 
         FORTRESS BARRAGE
             Occupied fortresses may attack enemy fortresses directly
-            if the Fortress Barrage rule is active. Barrage cannot
-            capture fortresses.
+            if Fortress Barrage is active. Barrage cannot capture
+            fortresses.
 
-6. VICTORY CONDITIONS
+7. VICTORY CONDITIONS
 --------------------------------------------------------------------------------
 
     Goosklerf II uses four end conditions in multiplayer. The first one
@@ -529,7 +542,7 @@
 
 
 
-7. DECK AND STARTING HAND
+8. DECK AND STARTING HAND
 --------------------------------------------------------------------------------
 
     DECK REGIMES. Goosklerf II uses three standardized deck sizes.
@@ -596,7 +609,7 @@
 
 
 
-8. TURN STRUCTURE
+9. TURN STRUCTURE
 --------------------------------------------------------------------------------
 
     A turn consists of five phases, taken in order.
@@ -663,7 +676,7 @@
            Resolve capture, destruction, retreat destinations, Scavenger,
            Victory Rewards, and final positions for all surviving cards.
 
-        See Section 9 for combat rules.
+        See Section 10 for combat rules.
 
     PHASE 3: MOVEMENT
 
@@ -709,21 +722,21 @@
         draw random cards first, then search only if at least 1 card
         remains in the deck.
 
-        After searching, reshuffle per Section 7.
+        After searching, reshuffle per Section 8.
 
     PHASE 5: VICTORY CHECK
 
         At the end of the turn, after Card Draw is complete, check
-        whether any victory condition has been met (Section 6). If so,
+        whether any victory condition has been met (Section 7). If so,
         the game ends. Landlord status is checked and tracked here (see
-        Section 6 for the survival-round rule). During the victory
+        Section 7 for the survival-round rule). During the victory
         check, players must communicate whether or not they have any
         unplayed fortresses in their hand or deck, and may look
-        through their own deck to confirm. Reshuffle per Section 7.
+        through their own deck to confirm. Reshuffle per Section 8.
 
 
 
-9. COMBAT
+10. COMBAT
 --------------------------------------------------------------------------------
 
     Combat begins when the active player declares an engagement. The
@@ -736,12 +749,17 @@
             -   Enemy battlefield entities
             -   Enemy fortresses in the suburbs (fortress assault)
 
-        Fortress entities may attack:
-            -   Enemy entities on the battlefield, but only once per
-                engagement, as an Initial Volley first strike (see below)
-            -   Enemies attacking their fortress, during that assault
-            -   Enemy fortresses, only if the Fortress Barrage rule is
-                active (see Section 20)
+        Entities inside a fortress may attack only in these cases:
+            -   They leave the fortress during Combat Staging and join
+                a battlefield engagement.
+            -   They fire one Initial Volley into a battlefield
+                engagement, if legal.
+            -   They defend their own fortress during a fortress assault.
+            -   They attack an enemy fortress through Fortress Barrage,
+                if that rule is active.
+
+        Entities inside a fortress cannot make normal attacks against
+        battlefield entities while remaining inside the fortress.
 
     INITIAL VOLLEY
 
@@ -779,15 +797,21 @@
 
         Actions available to each entity on its turn:
 
-            A. Normal attack (Section 9.1)
-            B. Use a consumable
-            C. Use a special ability from its card
-            D. Parry, if the Parry rule is active (Section 13)
-            E. Retreat, if the Retreat rule is active (Section 14)
-            F. Item swap, if that rule is active (Section 16)
-            G. Heal, if the Healing rule is active (Section 21)
+            A. Normal Attack
+            B. Use a Consumable
+            C. Use a Special Ability
 
-    9.1 COMBAT STAGING/MOVEMENT
+        If playing Advanced or Custom Goosklerf, additional actions may
+        include:
+
+            D. Parry
+            E. Retreat
+            F. Item Swap
+            G. Heal
+            H. Supercharged Attack
+            I. Buy an Extra Action
+
+    10.1 COMBAT STAGING/MOVEMENT
 
         During Combat Staging, the active player declares one engagement
         at a time. The terms below describe the engagement's SCOPE
@@ -802,20 +826,23 @@
             2. A fortress assault targeting one or more of that enemy
                player's fortresses.
 
-        Fortress entities may participate in combat by:
-            1. Firing an Initial Volley into a battlefield engagement,
-               if legal (see Section 9 Initial Volley restrictions).
-            2. Defending their own fortress during a fortress assault.
-            3. Participating in a Fortress Barrage, if that rule is
-               active (Section 20).
-            4. Attacking one enemy player's battlefield entities from
-               inside their fortress, if the active player declares that
-               fortress-based battlefield engagement.
+        Entities inside a fortress may participate in combat by:
+            1. Leaving the fortress during Combat Staging to join a
+               battlefield engagement.
+            2. Firing an Initial Volley into a battlefield engagement,
+               if legal.
+            3. Defending their own fortress during a fortress assault.
+            4. Participating in Fortress Barrage, if that rule is active.
+
+        Entities that leave a fortress during Combat Staging are now
+        battlefield entities for that engagement. They are exposed,
+        targetable, and may not return to a fortress until a later legal
+        movement, retreat, capture, or combat-resolution rule allows it.
 
         Entities inside a fortress cannot capture an enemy fortress.
         Only battlefield entities may capture fortresses.
 
-    9.2 NORMAL ATTACK
+    10.2 NORMAL ATTACK
 
         1. Declare a target. The attacker chooses one legal enemy target
            in this engagement (one entity, or the fortress if this is a
@@ -830,7 +857,7 @@
            card text changes the amount. Reduce the target's HP by the
            HP damage upon a successful attack.
 
-    9.3 FORTRESS ASSAULT
+    10.3 FORTRESS ASSAULT
 
         In a fortress assault, attacking battlefield entities may target
         either the fortress or any defending entity inside it. Defending
@@ -876,27 +903,27 @@
 
 
 
-10. DAMAGE, DEFEAT, AND ITEM OWNERSHIP
+11. DAMAGE, DEFEAT, AND ITEM OWNERSHIP
 --------------------------------------------------------------------------------
 
-    10.1 APPLYING DAMAGE
+    11.1 APPLYING DAMAGE
 
         When an entity or fortress takes damage, rotate its HP die down
         by the amount of damage taken. Healing works in reverse but can
         never raise an HP die above its printed maximum unless a card
         explicitly says so.
 
-    10.2 HP DOES NOT RESET
+    11.2 HP DOES NOT RESET
 
         Damage persists between combats. An entity that survives one
         engagement with 2 HP remaining enters its next engagement still
         at 2 HP. The only way to heal is through an item, consumable,
-        Healing action (Section 21), or special ability that explicitly
+        Healing action (Section 19), or special ability that explicitly
         restores HP.
 
         This rule may be disabled for casual play.
 
-    10.3 DEFEAT
+    11.3 DEFEAT
 
         An entity is defeated when its HP reaches 0. The entity and all
         of its equipped items are placed in its owner's graveyard.
@@ -905,7 +932,7 @@
         placed in its owner's graveyard, along with every entity inside
         it and every item those entities were carrying.
 
-    10.4 ITEM OWNERSHIP
+    11.4 ITEM OWNERSHIP
 
         Each player has exclusive control of their own cards. There is
         no transfer of cards between players. When a card is discarded,
@@ -914,7 +941,7 @@
 
 
 
-11. STAT LIMITS
+12. STAT LIMITS
 --------------------------------------------------------------------------------
 
     Unless a card explicitly overrides them:
@@ -938,24 +965,32 @@
 
 
 ================================================================================
-                     PART III - ADVANCED RULES
+                             PART III - ADVANCED RULES
 ================================================================================
 
+    Advanced Rules expand the Core Rules.
 
-    These are modular rules. Any of them may be added to a game if all
-    players agree before the game begins. Each one is self-contained.
-    None are required for casual play. All are required for competitive
-    play.
+    In Basic Goosklerf, ignore this part.
 
-    A rules-selection sheet is provided in the appendix for groups
-    using optional modules.
+    In Advanced Goosklerf, use every rule in this part.
 
-12. SHOP
+    In Custom Goosklerf, players choose which Advanced Rules are active
+    before setup.
+
+    A rules-selection sheet is provided in the appendix for Custom
+    Goosklerf.
+
+
+
+A. ECONOMY AND GAME PRESSURE
+================================================================================
+
+13. SHOP
 --------------------------------------------------------------------------------
 
     At the start of the game, each player draws cards at random from
     their deck and places them face-up in their own shop area. The
-    number of shop cards depends on the deck regime (see Section 7):
+    number of shop cards depends on the deck regime (see Section 8):
 
             Small Deck:    3 shop cards
             Medium Deck:   7 shop cards
@@ -984,7 +1019,54 @@
 
 
 
-13. PARRY
+14. VICTORY REWARDS (FIRST STRIKE INCENTIVE)
+--------------------------------------------------------------------------------
+
+    Aggression is rewarded. When an engagement ends in attacker
+    victory, the attacker draws cards from the top of their deck based
+    on what was accomplished during the engagement. Rewards stack per
+    outcome:
+
+            Each enemy entity defeated:    +1 card
+            Each fortress captured:        +2 cards
+            Each fortress destroyed:       +3 cards
+
+    Total reward = sum of the above. There is no cap. Drawn cards are
+    not playable this turn; they become available on the attacker's
+    next turn like any other hand cards.
+
+    EXCEPTIONS. Defenders receive no Victory Reward. No reward is
+    granted for mutual-kill outcomes, Initial Volleys, or Fortress
+    Barrages (Section 25). If the attacker's deck is empty, no cards
+    are drawn. The reward exists specifically to make declaring
+    battlefield combat a better choice than sitting still.
+
+    TIMING. Victory Rewards are drawn during Combat Resolution, after
+    all captures, destruction, retreats, Last Stand actions, and
+    Scavenger effects from that engagement have resolved.
+
+
+
+15. OLD AGE
+--------------------------------------------------------------------------------
+
+    At the end of a player's turn, if that player has gone 3 of their
+    own turns without declaring an engagement, randomly choose one of
+    their surviving entities. That entity dies and is discarded.
+
+    Declaring any engagement resets the count. Initial Volley does not
+    reset the count. Fortress Barrage does.
+
+    Old Age cannot be prevented, healed, revived, or used for Last Stand.
+
+    If a player's last entity dies from Old Age, that player loses.
+
+
+
+B. COMBAT ACTIONS
+================================================================================
+
+16. PARRY
 --------------------------------------------------------------------------------
 
     Instead of taking a normal action during its turn in combat, an
@@ -1005,7 +1087,7 @@
 
 
 
-14. RETREAT
+17. RETREAT
 --------------------------------------------------------------------------------
 
     Instead of attacking on its turn in combat, an entity may declare
@@ -1027,7 +1109,70 @@
 
 
 
-15. LAST STAND
+
+18. ITEM SWAP
+--------------------------------------------------------------------------------
+
+    Instead of taking any other action in combat, an entity may transfer
+    up to two of its equipped items to another friendly entity in the
+    same engagement. The acting entity does not attack this round. The
+    receiving entity must have room for the incoming items.
+
+    Items cannot be transferred to enemies. Consumables that have
+    already been activated cannot be transferred.
+
+
+
+19. HEALING
+--------------------------------------------------------------------------------
+
+    Entities have the choice to heal themselves or another friendly
+    entity in the same engagement. To heal, the acting entity rolls for
+    an attack (1d6 against its modified Attack stat). On a hit, the
+    healer randomly draws a card from their own deck and discards it.
+    This heals any single friendly entity in the engagement by +1 HP.
+    On a miss, the entity's action is consumed and no card is discarded.
+
+    Healing cannot raise an entity's HP above its printed maximum unless
+    a card explicitly says so.
+
+
+
+20. SUPERCHARGED ATTACK
+--------------------------------------------------------------------------------
+
+    Instead of a normal attack, an entity may declare a Supercharged
+    Attack. Roll 3d6 instead of 1d6.
+
+        -   If all three dice are equal to or below the entity's Attack
+            value, the attack deals 2 damage instead of 1.
+        -   If any one die misses, the attack fails and the attacking
+            entity takes 1 self-damage.
+
+    A Supercharged Attack consumes the entity's action for the round.
+
+
+
+21. EXTRA ACTIONS
+--------------------------------------------------------------------------------
+
+    In combat, entities use only ONE action per round by default. An
+    entity may "buy" one additional action by drawing from its stamina
+    reserves: randomly draw 3 cards from the entity's controlling
+    player's deck and discard them. This grants the entity one
+    additional action this round, which may be any normal action.
+
+    The cost stacks (two extra actions = 6 discarded cards), with no
+    cap other than deck depth.
+
+
+
+
+
+C. COMBAT EVENTS
+================================================================================
+
+22. LAST STAND
 --------------------------------------------------------------------------------
 
     When an entity is reduced to 0 HP, it may take one final action
@@ -1035,7 +1180,7 @@
     ability, or a Heal (if the Healing rule is active).
 
     Last Stand triggers from any source of 0 HP, including self-damage
-    from Supercharged Attack (Section 19).
+    from Supercharged Attack (Section 20).
 
     After taking its final action, the entity is placed in its owner's
     graveyard along with its items. An entity killed by Last Stand is
@@ -1049,20 +1194,8 @@
 
 
 
-16. ITEM SWAP
---------------------------------------------------------------------------------
 
-    Instead of taking any other action in combat, an entity may transfer
-    up to two of its equipped items to another friendly entity in the
-    same engagement. The acting entity does not attack this round. The
-    receiving entity must have room for the incoming items.
-
-    Items cannot be transferred to enemies. Consumables that have
-    already been activated cannot be transferred.
-
-
-
-17. REINFORCEMENTS
+23. REINFORCEMENTS
 --------------------------------------------------------------------------------
 
     At the end of either side's combat round, that side may call ONE
@@ -1100,12 +1233,12 @@
     that player's entities.
 
     Reinforcements may be called into Fortress Barrage engagements
-    (Section 20), but defenders inside a battlefield-assaulted fortress
+    (Section 25), but defenders inside a battlefield-assaulted fortress
     are still isolated as described above.
 
 
 
-18. SCAVENGER
+24. SCAVENGER
 --------------------------------------------------------------------------------
 
     If a friendly entity is defeated during an engagement, allied
@@ -1123,22 +1256,11 @@
 
 
 
-19. SUPERCHARGED ATTACK
---------------------------------------------------------------------------------
 
-    Instead of a normal attack, an entity may declare a Supercharged
-    Attack. Roll 3d6 instead of 1d6.
+D. FORTRESS COMBAT
+================================================================================
 
-        -   If all three dice are equal to or below the entity's Attack
-            value, the attack deals 2 damage instead of 1.
-        -   If any one die misses, the attack fails and the attacking
-            entity takes 1 self-damage.
-
-    A Supercharged Attack consumes the entity's action for the round.
-
-
-
-20. FORTRESS BARRAGE (FORTRESS-VS-FORTRESS COMBAT)
+25. FORTRESS BARRAGE (FORTRESS-VS-FORTRESS COMBAT)
 --------------------------------------------------------------------------------
 
     Fortresses may be thought of like ships fighting across open water.
@@ -1164,76 +1286,6 @@
 
     If the target fortress is destroyed, all its occupants and their
     items are destroyed with it.
-
-
-
-21. HEALING
---------------------------------------------------------------------------------
-
-    Entities have the choice to heal themselves or another friendly
-    entity in the same engagement. To heal, the acting entity rolls for
-    an attack (1d6 against its modified Attack stat). On a hit, the
-    healer randomly draws a card from their own deck and discards it.
-    This heals any single friendly entity in the engagement by +1 HP.
-    On a miss, the entity's action is consumed and no card is discarded.
-
-    Healing cannot raise an entity's HP above its printed maximum unless
-    a card explicitly says so.
-
-
-
-22. EXTRA ACTIONS
---------------------------------------------------------------------------------
-
-    In combat, entities use only ONE action per round by default. An
-    entity may "buy" one additional action by drawing from its stamina
-    reserves: randomly draw 3 cards from the entity's controlling
-    player's deck and discard them. This grants the entity one
-    additional action this round, which may be any normal action.
-
-    The cost stacks (two extra actions = 6 discarded cards), with no
-    cap other than deck depth.
-
-
-
-23. VICTORY REWARDS (FIRST STRIKE INCENTIVE)
---------------------------------------------------------------------------------
-
-    Aggression is rewarded. When an engagement ends in attacker
-    victory, the attacker draws cards from the top of their deck based
-    on what was accomplished during the engagement. Rewards stack per
-    outcome:
-
-            Each enemy entity defeated:    +1 card
-            Each fortress captured:        +2 cards
-            Each fortress destroyed:       +3 cards
-
-    Total reward = sum of the above. There is no cap. Drawn cards are
-    not playable this turn; they become available on the attacker's
-    next turn like any other hand cards.
-
-    EXCEPTIONS. Defenders receive no Victory Reward. No reward is
-    granted for mutual-kill outcomes, Initial Volleys, or Fortress
-    Barrages (Section 20). If the attacker's deck is empty, no cards
-    are drawn. The reward exists specifically to make declaring
-    battlefield combat a better choice than sitting still.
-
-    TIMING. Victory Rewards are drawn during Combat Resolution, after
-    all captures, destruction, retreats, Last Stand actions, and
-    Scavenger effects from that engagement have resolved.
-
-
-
-24. OLD AGE
---------------------------------------------------------------------------------
-
-    If a player has not initiated an attack in 3 full table rounds, they must 
-    roll dice to randomly determine which of their entities dies of old age 
-    (from waiting too long). The randomly chosen entity dies and must
-    be discarded. They cannot be revived -- entities that die from old
-    age die instantly and cannot be saved. If a player's last entity 
-    dies from old age, they lose the game. 
-
 
 
 ================================================================================
@@ -1262,7 +1314,7 @@
         -   If a GKI effect would raise another GKI card's capacity,
             apply it normally using GKI rules.
         -   Overflow from mid-battle capacity changes is handled as in
-            Section 11: the controlling player picks which cards to
+            Section 12: the controlling player picks which cards to
             discard.
 
     MIXED ITEM BUFFS. If a GKI item buffs both Attack and Defense, use
@@ -1281,7 +1333,7 @@
 
 
 
-24. MODE SELECTOR
+26. MODE SELECTOR
 --------------------------------------------------------------------------------
 
     Goosklerf II has five official modes.
@@ -1306,7 +1358,7 @@
 
 
 
-25. CLASSIC MODE
+27. CLASSIC MODE
 --------------------------------------------------------------------------------
 
     Classic Mode is the standard way to play Goosklerf II. 2 to 4
@@ -1315,14 +1367,14 @@
     SETUP
 
         All players agree on a deck regime before setup (see
-        Section 7):
+        Section 8):
 
             -   SMALL (24 cards) for a fast game.
             -   MEDIUM (36 cards) is the default Classic experience.
             -   LARGE (54 cards) for long grinding sessions.
 
         Each player builds a legal deck of the chosen regime size,
-        respecting the minimum composition rules in Section 7.
+        respecting the minimum composition rules in Section 8.
 
         SHARED-POOL DRAFT (competitive play). If players are building
         decks from a shared pool, shuffle the shared pool and place it
@@ -1357,13 +1409,13 @@
 
     VICTORY
 
-        Standard Victory Conditions (Section 6): Last Man Standing,
+        Standard Victory Conditions (Section 7): Last Man Standing,
         Landlord (requires surviving one full round after claiming
         Landlord status), Hamlet (loss for all), or Special.
 
 
 
-26. TACTICAL MODE
+28. TACTICAL MODE
 --------------------------------------------------------------------------------
 
     Tactical Mode is a fixed-loadout battle with no hand refill. Every
@@ -1372,7 +1424,7 @@
     Tactical Mode comes in three deck-size variants. Players must
     choose one before starting.
 
-    26.1 LIGHTNING (FAST)
+    28.1 LIGHTNING (FAST)
 
         Each player gets:
             -   3 entities
@@ -1390,7 +1442,7 @@
 
         Recommended rules: Core only. Retreat and Parry optional.
 
-    26.2 STANDARD TACTICAL
+    28.2 STANDARD TACTICAL
 
         Each player gets:
             -   5 entities
@@ -1408,7 +1460,7 @@
 
         Recommended rules: All advanced rules enabled.
 
-    26.3 SKIRMISH (OVERPOWERED)
+    28.3 SKIRMISH (OVERPOWERED)
 
         Each player gets:
             -   4 entities
@@ -1439,14 +1491,14 @@
 
 
 
-27. SINGLEPLAYER MODE
+29. SINGLEPLAYER MODE
 --------------------------------------------------------------------------------
 
     Singleplayer Mode is a solo battlepath game. You fight through a
     chain of enemy-held fortresses, keeping whatever items and entities
     you can salvage along the way.
 
-    27.1 SETUP
+    29.1 SETUP
 
         Sort your deck into three piles: fortresses, entities, items.
         Shuffle each pile separately and place all three face-down.
@@ -1475,7 +1527,7 @@
         reserve deck. Reveal 7 cards from the top of that deck into
         your shop. The shop is always face-up and always visible.
 
-    27.2 TURN FLOW
+    29.2 TURN FLOW
 
         Attack the next level on the battlepath. Flip the fortress
         and all entities inside face-up, and resolve the combat as
@@ -1487,7 +1539,7 @@
         If any of your entities die, remove them. If all of your
         entities die, the game ends in defeat.
 
-    27.3 ENEMY AI
+    29.3 ENEMY AI
 
         Enemy entities behave like this, in order:
 
@@ -1513,7 +1565,7 @@
         Each Boss Fortress's final surviving entity gains Last Stand
         automatically, even if you are not otherwise playing with
         Last Stand. Boss Last Stand follows the standard Last Stand
-        rules in Section 15: revival via Healing is permitted.
+        rules in Section 22: revival via Healing is permitted.
 
         ENEMY REINFORCEMENTS. At the start of each enemy combat round
         at Level 4 or higher, roll 1d6. On a 6, one entity from the
@@ -1523,7 +1575,7 @@
         items it was carrying. Remove it from its original level. If
         the next level is empty, no reinforcement is deployed.
 
-    27.4 POST-BATTLE
+    29.4 POST-BATTLE
 
         After you defeat a fortress:
 
@@ -1545,7 +1597,7 @@
         If you purchased nothing, you cannot refill entities mid-run
         except by scavenging enemy items.
 
-    27.5 SCORING
+    29.5 SCORING
 
         Final score is calculated after the game ends, whether by
         victory or defeat.
@@ -1562,7 +1614,7 @@
 
 
 
-28. CAMPAIGN MODE
+30. CAMPAIGN MODE
 --------------------------------------------------------------------------------
 
     Campaign Mode is the RPG mode of Goosklerf II. One player is the
@@ -1570,7 +1622,7 @@
     DM runs a scenario; the players play through it using their cards
     as character sheets.
 
-    28.1 CHARACTERS
+    30.1 CHARACTERS
 
         Each player chooses one entity to serve as their main character.
         Optionally, players may add up to 2 additional entities to their
@@ -1580,9 +1632,9 @@
         Each entity is also dealt 3 items as starting gear. Players
         draw 7 cards to form a personal reserve hand.
 
-        Character progression comes from leveling (Section 28.5).
+        Character progression comes from leveling (Section 30.5).
 
-    28.2 THE DUNGEON MASTER
+    30.2 THE DUNGEON MASTER
 
         The DM represents the world, the enemies, and the story. The
         DM's job is to:
@@ -1590,7 +1642,7 @@
             -   Describe each scene and let players react.
             -   Run all enemies in combat, rolling attacks and making
                 target decisions.
-            -   Adjudicate non-combat actions (see Section 28.3).
+            -   Adjudicate non-combat actions (see Section 30.3).
             -   Advance the story between encounters.
             -   Decide when characters level up.
 
@@ -1599,7 +1651,7 @@
         a significant location. Pull entity cards to represent any
         hostile encounter. Pull item cards as loot.
 
-    28.3 NON-COMBAT ACTIONS (CHECKS)
+    30.3 NON-COMBAT ACTIONS (CHECKS)
 
         When a character attempts something uncertain outside combat
         (picking a lock, persuading a stranger, sprinting across broken
@@ -1619,7 +1671,7 @@
         Items and specials may modify the difficulty by +1 or -1 at
         the DM's discretion.
 
-    28.4 COMBAT IN CAMPAIGN MODE
+    30.4 COMBAT IN CAMPAIGN MODE
 
         Combat uses standard Goosklerf II attack rules (roll under
         Attack to hit). The DM controls all enemy turns.
@@ -1657,9 +1709,9 @@
 
         Player HP persists between encounters, as in Classic Mode.
         Healing comes from items, consumables, specials, the Healing
-        action (Section 21), or rest between acts (DM's call).
+        action (Section 19), or rest between acts (DM's call).
 
-    28.5 LEVELING
+    30.5 LEVELING
 
         Characters level up at the end of each major act of the
         scenario, or whenever the DM decides the players have earned
@@ -1679,7 +1731,7 @@
             Level 8+: Alternate between +1 HP, +1 reroll per session,
                       and one DM-approved custom perk.
 
-    28.6 STRUCTURE OF A SCENARIO
+    30.6 STRUCTURE OF A SCENARIO
 
         Every official Campaign scenario is structured in 4 acts:
 
@@ -1695,7 +1747,7 @@
         Between acts, characters may level up and (at the DM's
         discretion) rest to restore HP.
 
-    28.7 DEATH AND REVIVAL
+    30.7 DEATH AND REVIVAL
 
         A character reduced to 0 HP is not dead unless the scenario
         says so. They are downed. At the end of the encounter, if
@@ -1707,21 +1759,21 @@
         This is softer than standard Goosklerf II because Campaign
         Mode is about story, not attrition.
 
-    28.8 HEALING
+    30.8 HEALING
 
         Players may use a healing action via the advanced Healing rules
-        (Section 21). Alternatively, the DM may lay out special healing
+        (Section 19). Alternatively, the DM may lay out special healing
         zones on the map where players may restore some HP (such as in
         a hospital).
 
-    28.9 SPECIAL ITEMS
+    30.9 SPECIAL ITEMS
 
         Players equip normal item cards but may also equip up to 3
         additional items invented by the DM with capabilities specified
         by the DM. These invented items must be recorded on the
         player's character sheet(s).
 
-    28.10 CHARACTER SHEETS
+    30.10 CHARACTER SHEETS
 
         Full character stats are not limited by cards in Campaign Mode.
         Stats, items, level, and other elements are recorded on each
@@ -1731,7 +1783,7 @@
         appendix.
 
 
-    28.11 MAP
+    30.11 MAP
 
         Before the campaign, the DM draws or selects a map on grid
         paper. The map shows where enemies, items, fortresses, and
@@ -1748,7 +1800,7 @@
 
         A campaign may be played without a map, using narrative only.
 
-    28.12 MOVEMENT
+    30.12 MOVEMENT
 
         Each main character (with their party) occupies one grid space.
         Roll 1d6; the character may move up to that many spaces, capped
@@ -1758,7 +1810,7 @@
 
 
 
-29. CHESSKLERF
+31. CHESSKLERF
 --------------------------------------------------------------------------------
 
     Chessklerf is a positional variant for 2 players. It combines
@@ -1769,7 +1821,7 @@
     Chessklerf is not backwards-compatible with standard chess rules.
     Castling, en passant, and check are all ignored.
 
-    29.1 SETUP
+    31.1 SETUP
 
         Each player selects or draws 4 entities to be their "major
         pieces" and places one chess piece on top of each entity card
@@ -1809,7 +1861,7 @@
         First player is decided by coin flip, agreement, or (safe)
         combat (GOOSNAV LLC not liable).
 
-    29.2 TURNS
+    31.2 TURNS
 
         On a player's turn, they may:
             -   Move one major piece according to its chess movement
@@ -1820,7 +1872,7 @@
         on distance for queens, rooks, and bishops (blocked by other
         pieces normally), and knights jumping L-shapes.
 
-    29.3 CAPTURING AND COMBAT
+    31.3 CAPTURING AND COMBAT
 
         PAWN CAPTURE. A pawn captures enemy pieces as in chess
         (diagonally forward one square). A pawn capture is resolved
@@ -1857,7 +1909,7 @@
         corner fortresses at the start of their turn, they win
         immediately.
 
-    29.4 PAWN PROMOTION (EXPLOSION)
+    31.4 PAWN PROMOTION (EXPLOSION)
 
         If a pawn reaches the opposite end of the board (the enemy's
         back rank), it explodes. Remove the pawn and every piece or
@@ -1865,7 +1917,7 @@
         This includes friendly pieces. Fortresses are not destroyed
         by pawns.
 
-    29.5 VICTORY
+    31.5 VICTORY
 
         A player wins Chessklerf if:
             -   They capture both of the enemy's corner fortresses, OR
@@ -1889,7 +1941,7 @@
 ================================================================================
 
 
-    The following scenarios are for Campaign Mode (Section 28). Each
+    The following scenarios are for Campaign Mode (Section 30). Each
     one runs in 4 acts and can be played in a single session or
     broken into multiple sessions. Read the whole scenario before
     running it.
@@ -2295,7 +2347,7 @@ SCENARIO B: THE GROCERY RUN
     the wrong side of the glass. It is gone in the morning. Or
     it is not.
 
-SCENARIO D: THE MEAL
+SCENARIO C: THE MEAL
 --------------------------------------------------------------------------------
 
     FLAVOR
@@ -3207,20 +3259,19 @@ GLOSSARY
                     may equip items from their reserve hand to their
                     entities (no deck involved).
 
-    EXTRA ACTION    An optional rule (Section 22) allowing an entity
-                    to "buy" an additional combat action by
-                    discarding 3 random cards from its controller's
-                    deck.
+    EXTRA ACTION    An advanced rule (Section 21) allowing an entity
+                    to "buy" an additional combat action by discarding
+                    3 random cards from its controller's deck.
 
     FORTRESS        A structure card placed in the suburbs. Holds
                     entities and grants buffs. Can be captured or
                     destroyed.
 
     FORTRESS ASSAULT  A combat in which battlefield entities attack
-                    a fortress. May target one or more enemy
-                    fortresses in the same engagement.
+                    a fortress. May target one or more enemy fortresses
+                    in the same engagement.
 
-    FORTRESS BARRAGE  An optional combat type in which fortress
+    FORTRESS BARRAGE  An advanced combat type in which fortress
                     entities attack an enemy fortress directly, ship
                     to ship, without a battlefield assault.
 
@@ -3234,18 +3285,18 @@ GLOSSARY
     HAMLET          The loss-for-all end condition: no entities
                     remain and none can be played.
 
-    HEALING         An optional combat action (Section 21). The
-                    healer rolls an attack; on hit, they discard a
-                    random card from their deck and heal one entity
-                    in the engagement by +1 HP.
+    HEALING         An advanced combat action (Section 19). The healer
+                    rolls an attack; on hit, they discard a random card
+                    from their deck and heal one entity in the
+                    engagement by +1 HP.
 
     HIT POINTS (HP) A card's durability, tracked physically with a
                     die on top of the card.
 
-    INITIAL VOLLEY  A one-shot attack fortress occupants can fire
-                    into a battlefield engagement at its start. Once
-                    per fortress per engagement; resets at the start
-                    of each new engagement.
+    INITIAL VOLLEY  A one-shot attack fortress occupants can fire into
+                    a real battlefield engagement before the first
+                    combat round. Once per fortress per engagement;
+                    resets at the start of each new engagement.
 
     ITEM            A card equipped to an entity, granting buffs,
                     debuffs, or special effects.
@@ -3255,10 +3306,10 @@ GLOSSARY
                     survives one full round without losing that
                     status.
 
-    LAST STAND      An optional rule allowing an entity at 0 HP to
-                    take one final action before being discarded. If
-                    the action raises the entity's HP back above 0
-                    (e.g., via Heal), the entity survives.
+    LAST STAND      An advanced rule allowing an entity at 0 HP to take
+                    one final action before being discarded. If the
+                    action raises the entity's HP back above 0 (e.g.,
+                    via Heal), the entity survives.
 
     MEGA-ENGAGEMENT  A single engagement targeting multiple enemy
                     fortresses simultaneously. There is no cap on
@@ -3268,22 +3319,22 @@ GLOSSARY
     OCCUPY          Having one or more living entities physically
                     inside a fortress.
 
-    PARRY           An optional action canceling 1 HP of normal-hit
+    PARRY           An advanced action canceling 1 HP of normal-hit
                     damage received on the previous round.
 
     RARE CARD       A card with a purple, orange, or yellow/gold
                     border.
 
-    RETREAT         An optional action to leave an engagement at the
+    RETREAT         An advanced action to leave an engagement at the
                     cost of one round's action and exposure to an
                     enemy attack.
 
-    SCAVENGER       An optional rule allowing a player's surviving
+    SCAVENGER       An advanced rule allowing a player's surviving
                     entities to pick up their own dead allies' items
                     in an engagement. Items NEVER transfer between
-                    different players.
+                    different players' control.
 
-    SHOP            An optional face-up zone where players place 3
+    SHOP            An advanced face-up zone where players place 3
                     or 7 cards at setup (depending on deck regime)
                     for possible mid-game purchase.
 
@@ -3492,8 +3543,10 @@ FAQ AND EDGE CASES
         difference between the two combat types.
 
     FIGURE 6 - RULE LEVELS CHART
-        Half page. A simple chart mapping which rules are on or off
-        for Core Only, Core + Shop, and Full Advanced play.
+        Half page. A simple chart mapping Basic Goosklerf, Advanced
+        Goosklerf, and Custom Goosklerf. Basic uses Core Rules only.
+        Advanced uses all Advanced Rules. Custom uses whichever
+        Advanced Rules players agree to before setup.
 
     FIGURE 7 - MODE SELECTOR
         Half page. A small grid of the five modes with a one-line
@@ -3517,7 +3570,7 @@ FAQ AND EDGE CASES
 
     FIGURE 11 - CHESSKLERF BOARD SETUP
         One page. 8x8 board showing the setup described in
-        Section 29.1: corner fortresses, 4 major pieces on the
+        Section 31.1: corner fortresses, 4 major pieces on the
         back rank, pawns on ranks 4 and 5 facing each other
         across the center. Label the pieces and fortress squares.
 

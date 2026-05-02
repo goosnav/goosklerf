@@ -1,0 +1,96 @@
+PAGE 51 - SCENARIO C: THE MEAL INTRO + MEAL PLAN
+
+
+SCENARIO C: THE MEAL
+
+FLAVOR
+
+You awake and all around you is white. Not a room. Not fog. Not
+snow. Just white, in every direction, with no floor and no ceiling
+and no walls, and you standing in the middle of it like a thought
+someone hasn't finished thinking yet.
+
+Then the crack.
+
+It starts small, a hairline fracture in the white, and then the
+white splits apart and you are falling. You fall for what feels
+like hours. You fall long enough to get bored of falling. You fall
+long enough to start wondering if falling is just what you do now.
+
+Then you hit something hard and hot and everything changes.
+
+The heat hits your face first. A blinding, searing, greasy heat
+that smells like breakfast. You push yourself up and your hands
+press into something slick and warm and yellow. You are standing
+in a yolk. A yolk the size of a parking lot, trembling slightly,
+stretched out across a frying pan that extends in every direction
+to a horizon that curves upward like the lip of a bowl.
+
+Around you, others are climbing to their feet. They came from the
+same egg. They look as confused as you feel. The white of the egg
+stretches out behind you like a rubber desert. The pan beneath it
+all is black and enormous and radiating heat from below in waves
+that make the air shimmer.
+
+In the distance, past the yolk, past the white, past the curved
+edge of the pan, you can see something: a timer. A kitchen timer,
+the size of a building, ticking. You cannot read the numbers from
+here but you can hear it. Every tick vibrates through the pan and
+up through your feet.
+
+When the timer reaches zero, whoever set it is coming back. And
+they are hungry. And you are breakfast.
+
+Unless you are not.
+
+The goal is simple. Make a meal before you become one. If you can
+prepare something worth eating before the timer runs out, whatever
+enormous thing is coming back to eat you will eat that instead. If
+you cannot, you will be served sunny-side up on a plate you will
+never see the edges of, and that will be the end of you.
+
+SETUP
+
+Each character begins with:
+    -   Their base entity card (character sheet)
+    -   0 items
+    -   HP at maximum
+
+SPECIAL SETUP - THE MEAL PLAN. Before the scenario begins, the
+party chooses a difficulty by deciding how many courses they will
+attempt to prepare. More courses means a bigger meal, which means
+a more satisfied creature, which means a better chance of survival.
+It also means more fighting, more scavenging, and less time.
+
+    1-COURSE MEAL (EASY)
+        Ingredients needed: 3 entities + 3 items argued as edible
+        Serviceware needed: 1 item argued as a utensil, cup, OR plate
+        Time: 16 rounds total across the scenario
+
+    2-COURSE MEAL (MEDIUM)
+        Ingredients needed: 6 entities + 6 items argued as edible
+        Serviceware needed: 2 of the following (no duplicates):
+                            utensil, cup, plate
+        Time: 12 rounds total across the scenario
+
+    3-COURSE MEAL (HARD)
+        Ingredients needed: 9 entities + 9 items argued as edible
+        Serviceware needed: all 3: utensil AND cup AND plate
+        Time: 10 rounds total across the scenario
+
+    4-COURSE MEAL (IMPOSSIBLE)
+        Ingredients needed: 12 entities + 12 items argued as edible
+        Serviceware needed: all 3: utensil AND cup AND plate
+        Time: 8 rounds total across the scenario
+
+Each course requires exactly 3 defeated entities and 3 items
+argued as edible, plus the party must collectively explain what
+dish these 6 components make and how they cooked it.
+
+The DM tracks the round timer. Every combat round and every
+non-combat action round counts toward the timer. When the timer
+reaches zero, the scenario ends, regardless of progress. If the
+meal is incomplete, the party loses.
+
+
+[VISUAL NOTE: Scenario C header illustration: tiny characters standing in a giant egg yolk on an enormous frying pan; building-sized kitchen timer in distance.]

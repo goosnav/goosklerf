@@ -1,0 +1,46 @@
+PAGE 46 - SCENARIO B INTRO + SETUP
+
+
+SCENARIO B: THE GROCERY RUN
+
+The store is still standing. That alone is miraculous. It still
+has fluorescent lights. It still has shelves. The freezer
+section still hums. No one knows why. No one wants to ask.
+
+The store is called BIG VALUE. Some of the letters in the sign
+are out, so depending on the angle and the time of day it reads
+BIG VAL or B  VALUE or, occasionally, just E. When the store reads E, a disembodied
+head can be seen floating around, spouting nonsense. The parking lot
+is full of cars that have not moved in months. The cars are
+full of things that used to be drivers.
+
+The party is hungry. The store will have food. Other parties are
+also hungry. They will also be at the store. There will not be
+enough for everyone. The question is how much of yourself you
+are willing to leave at the checkout.
+
+SETUP
+
+Each character starts with reduced HP (current HP = maximum HP
+minus 1). This is hunger. It does not heal until the party eats
+actual food at any point during the scenario, after which all
+characters return to full HP.
+
+Draw 1 normal fortress from the deck as the store. Set aside 6
+entities as a pool of rival scavengers and store oddities.
+
+Take a small handful of item cards (around 8) and set them
+face-down as the store's stock. These will be drawn during the
+shopping action in Act II.
+
+Throughout this scenario, the store's PA system occasionally
+plays announcements. Use these freely as flavor: a price check
+on aisle 4 for an item that does not exist, a reminder that the
+store closes at 9 (the clock is broken and reads 9 permanently),
+a manager being called to the front, a manager being called to
+the back, a manager being called to a location with no name.
+There is no manager. There has not been a manager for a long
+time.
+
+
+[VISUAL NOTE: Scenario B header illustration: BIG VALUE exterior, broken sign, full parking lot, fluorescent doors, mundane horror.]

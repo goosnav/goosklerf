@@ -1,0 +1,55 @@
+PAGE 49 - SCENARIO B: FREEZER + ACT III
+
+
+AT THE BACK OF THE STORE, behind the swinging double doors
+marked EMPLOYEES ONLY, there is a freezer. The freezer is
+locked. The freezer is also vibrating slightly, in a rhythm
+that is almost a heartbeat but slower. Curious characters may
+investigate. Opening the freezer requires a Hard check or
+breaking the lock (any item used as a tool, sacrifice that
+item). Inside is one rare item card, drawn from the deck. Also
+inside is something the DM invents on the spot and the party
+does not have time to look at carefully. Whatever it is, it
+sees the party. The party should leave.
+
+ACT III - COLLAPSE
+
+Objective: Escape before rival scavengers arrive.
+
+Three waves of rival scavengers converge on the store. They
+have heard the party is here. Each wave is 2 enemies pulled
+from the pool. The waves enter from different sides:
+
+    Wave 1: Through the front sliding doors.
+    Wave 2: Through the loading dock at the back of the store.
+    Wave 3: From above. The DM does not need to explain how.
+
+The party may:
+    -   Defend the store. Use the store fortress as their
+        position. The store fortress grants +1 Attack and +1 HP
+        to defenders inside it for the duration of Act III.
+        Survive all three waves to advance.
+    -   Flee toward home, dropping items to move faster. Each
+        item voluntarily dropped grants the dropping character
+        +1 to the next round's actions. Dropped items are
+        permanently lost.
+    -   Split the party, with some defending and some fleeing.
+        Allowed but costly: split parties roll separately for
+        everything in Act IV.
+
+LOCAL RULE - GREED IS HEAVY. Any character carrying more than
+2 items takes a -1 penalty to all attack rolls and a -1 penalty
+to all checks while fleeing in Act III. The store's gravity
+seems to increase the more you take from it.
+
+SPECIAL EVENT DURING WAVE 2: The PA system makes an
+announcement, addressing the party by name, even though no one
+in this scenario knows their names. The announcement
+congratulates them on their selections and reminds them that
+the express checkout is for 10 items or fewer. Then the lights
+in the store get slightly brighter for one round. During that
+round, all characters and enemies have +1 to their Attack
+rolls. The store wants combat. The store is enjoying this.
+
+
+[VISUAL NOTE: Scenario B freezer and wave visual: freezer door cracked open with darkness inside; three scavenger waves converging on store.]

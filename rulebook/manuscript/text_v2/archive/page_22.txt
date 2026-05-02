@@ -1,0 +1,52 @@
+PAGE 22 - PART III HEADER + SHOP
+
+
+PART III - ADVANCED RULES
+
+Advanced Rules expand the Core Rules.
+
+In Basic Goosklerf, ignore this part.
+
+In Advanced Goosklerf, use every rule in this part.
+
+In Custom Goosklerf, players choose which Advanced Rules are active
+before setup.
+
+A rules-selection sheet is provided in the appendix for Custom
+Goosklerf.
+
+A. ECONOMY AND GAME PRESSURE
+
+13. SHOP
+
+At the start of the game, each player draws cards at random from
+their deck and places them face-up in their own shop area. The
+number of shop cards depends on the deck regime (see Section 8):
+
+        Small Deck:    3 shop cards
+        Medium Deck:   7 shop cards
+        Large Deck:    7 shop cards
+
+Shop cards belong to the player who placed them. Only that player
+may buy from their own shop. All shop cards are always visible to
+all players throughout the game.
+
+BUYING. During the active player's Card Play phase, they may
+purchase one or more shop cards. To buy 1 shop card, the active
+player must do one of the following:
+
+    -   Discard 2 normal cards from their hand, OR
+    -   Discard 1 rare card from their hand (rare = purple entity,
+        orange fortress, or yellow/gold item).
+
+A purchased card must be played or equipped immediately using the
+normal placement rules. If it cannot be legally placed, it cannot
+be purchased. Each shop purchase counts as one of the active
+player's 3 played cards for the turn.
+
+The shop does not refill on its own. Once a shop card is bought,
+that slot is gone for the rest of the game unless a special rule
+refills it.
+
+
+[VISUAL NOTE: FIGURE 6 - Rule levels chart. Basic uses Core Rules only; Advanced uses all Advanced Rules; Custom uses chosen Advanced Rules. Also show shop row if space allows.]

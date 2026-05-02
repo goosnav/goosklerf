@@ -1,0 +1,62 @@
+PAGE 05 - QUICKSTART: TURN ORDER + COMBAT + FORTRESSES
+
+
+Each turn has five phases:
+
+        1. CARD PLAY
+            Play exactly 3 cards if possible. If fewer than 3 can be
+            played, discard until played + discarded = 3.
+
+        2. COMBAT
+            Declare and resolve engagements. Each entity may
+            participate in only one engagement per turn unless a
+            card says otherwise.
+
+        3. MOVEMENT
+            Reposition your entities and transfer your own items.
+            End-of-Movement positions determine next turn's options.
+
+        4. CARD DRAW
+            Draw the top 2 cards of your deck, then search your deck
+            for 1 card. Add all 3 to hand, then shuffle.
+
+        5. VICTORY CHECK
+            Check Last Man Standing, Landlord, Hamlet, and Special
+            victory conditions.
+
+COMBAT
+
+    In each combat round:
+
+        1. The attacker's participating entities each take one action.
+        2. The defender's participating entities each take one action.
+        3. If neither side is defeated or gone, start another round.
+
+    To attack, roll 1d6. If the roll is equal to or below the
+    attacker's Attack, the attack hits and deals 1 damage unless a
+    card says otherwise.
+
+FORTRESSES
+
+    Only battlefield entities can capture enemy fortresses.
+
+    If a fortress is assaulted, attackers may target the fortress or
+    the entities inside. Defenders inside the fortress may attack the
+    assaulting entities.
+
+    If all defenders are gone and the fortress still has at least
+    1 HP, the attacker may capture it by moving at least one
+    surviving attacker inside.
+
+    If the fortress reaches 0 HP, it is destroyed along with all
+    entities and items inside it.
+
+POSITIONING
+
+    Entities on the battlefield are exposed, but they threaten enemy
+    fortresses. Entities inside fortresses are protected, but they
+    give up capture pressure. Winning Goosklerf requires balancing
+    protection and projection.
+
+
+[VISUAL NOTE: Quickstart reference layout continued. Consider a compact turn-flow strip and small fortress/capture diagram. No decorative illustration needed.]

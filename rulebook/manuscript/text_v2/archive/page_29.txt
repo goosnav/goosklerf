@@ -1,0 +1,29 @@
+PAGE 29 - PART V HEADER + MODE SELECTOR
+
+
+PART V - GAME MODES
+
+26. MODE SELECTOR
+
+Goosklerf II has five official modes.
+
+CLASSIC MODE. The flagship multiplayer experience. Full rules, full
+decks, full war. 2 to 4 players.
+
+TACTICAL MODE. A smaller, faster, more structured battle with no
+hand refill and fixed starting loadouts. 2 to 4 players. Three
+deck-size variants: Lightning (tiny), Standard Tactical (medium),
+and Skirmish (overpowered).
+
+SINGLEPLAYER MODE. A solo battlepath game. The player fights
+through a series of enemy fortresses. 1 player.
+
+CAMPAIGN MODE. A narrative, RPG-like mode with a Dungeon Master and
+scripted scenarios. 1 DM plus 1 to 4 players.
+
+CHESSKLERF. A positional variant played on a chessboard. 2 players.
+
+Each mode tells the players which core and advanced rules to use.
+
+
+[VISUAL NOTE: FIGURE 7 - Mode selector grid. Five modes with player count, description, and complexity/duration indicators.]

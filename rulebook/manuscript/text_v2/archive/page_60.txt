@@ -1,0 +1,64 @@
+PAGE 60 - SCENARIO D: THE LAB INTRO + SETUP
+
+
+SCENARIO D: THE LAB
+
+You wake up in a hallway you do not remember. There is tile
+under your face. Fluorescent light. A number printed on the
+doorframe that you are certain was different a moment ago. You
+look at it. It changes again. It is now your birthday, written
+backwards, in a font you have never seen.
+
+You have no weapons. Your clothes are not your clothes. They
+are the right size but they fit wrong, the way a stranger's
+shirt fits even when it is your size. Around your wrist is a
+plastic hospital bracelet with a number on it, and below the
+number, a name. The name is not yours, but you recognize it.
+You are almost sure it is the name of someone you know. You
+cannot remember who.
+
+A voice somewhere down the corridor is reading a list, very
+slowly, and one of the names on the list is yours. Or it is
+going to be. You cannot tell from here.
+
+The party does not know who they are, how they got here, or
+what happens to the people whose names get read aloud. Everyone
+agrees this is a bad sign.
+
+SETUP
+
+Each character begins with:
+    -   Their base entity card (their character sheet)
+    -   0 items
+    -   HP at maximum
+    -   A wrist bracelet (the throughline prop, see below)
+
+THE WRIST BRACELETS. At the start of the scenario, each player
+is told their character is wearing a hospital bracelet with a
+number and a name on it. The DM secretly assigns each character
+a bracelet name from a list. The list is the names of the OTHER
+characters in the party. Every character is wearing a bracelet
+that says someone else's name.
+
+The players do not learn this until the bracelets become
+relevant in Act II and Act IV. Until then, treat the bracelet
+as flavor: the character can read their bracelet, the name on
+it is a person they almost remember, and that is all.
+
+Draw 1 super fortress to be the Core Lab. Set aside 5 entities
+as a pool of "experiments" - things the lab has been making.
+These should not be presented as monsters at first. They should
+be presented as employees, patients, doctors, or visitors who
+are slightly wrong.
+
+Throughout the scenario, intercom announcements address the
+characters not by name but by their bracelet number. Use
+these freely as flavor: a request for Patient 14 to report to
+Observation, an apology that the cafeteria is closed today,
+a routine reminder that all personnel are reminded that
+contamination protocols are in effect on Sublevel 3, the
+cheerful daily affirmation read by a voice that is
+unmistakably trying its first day at being a voice.
+
+
+[VISUAL NOTE: Scenario D header illustration: fluorescent hospital/lab corridor, changing door number, wrist bracelet with almost-legible name.]

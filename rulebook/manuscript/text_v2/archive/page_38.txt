@@ -1,0 +1,101 @@
+PAGE 38 - CAMPAIGN LEVELING + STRUCTURE + MAP + MOVEMENT
+
+
+30.5 LEVELING
+
+    Characters level up at the end of each major act of the
+    scenario, or whenever the DM decides the players have earned
+    it.
+
+        Level 2:  +1 maximum HP
+        Level 3:  Once per session, reroll one failed roll
+        Level 4:  +1 Attack (up to the maximum of 5)
+        Level 5:  Squire Slot: a player may assign one extra entity
+                  from their reserve as a squire. The squire holds
+                  1 item and absorbs damage in the player's place:
+                  when the player would take damage, they may
+                  assign it to the squire first. If the squire dies,
+                  the player loses it.
+        Level 6:  +1 maximum HP
+        Level 7:  +1 item capacity (4 instead of 3)
+        Level 8+: Alternate between +1 HP, +1 reroll per session,
+                  and one DM-approved custom perk.
+
+30.6 STRUCTURE OF A SCENARIO
+
+    Every official Campaign scenario is structured in 4 acts:
+
+        Act I:    Entrance. Set the scene, establish the goal,
+                  introduce the weird local rule.
+        Act II:   Complication. A new threat or moral decision
+                  raises the stakes.
+        Act III:  Collapse. Pressure builds. Resources tighten.
+                  Enemies escalate.
+        Act IV:   Finale. Confront the core problem. Win, lose, or
+                  make a costly choice.
+
+    Between acts, characters may level up and (at the DM's
+    discretion) rest to restore HP.
+
+30.7 DEATH AND REVIVAL
+
+    A character reduced to 0 HP is not dead unless the scenario
+    says so. They are downed. At the end of the encounter, if
+    their allies survive, the character recovers with 1 HP.
+
+    If the character is downed during Act IV, or during a
+    scripted "no second chances" beat, they die permanently.
+
+    This is softer than standard Goosklerf II because Campaign
+    Mode is about story, not attrition.
+
+30.8 HEALING
+
+    Players may use a healing action via the advanced Healing rules
+    (Section 19). Alternatively, the DM may lay out special healing
+    zones on the map where players may restore some HP (such as in
+    a hospital).
+
+30.9 SPECIAL ITEMS
+
+    Players equip normal item cards but may also equip up to 3
+    additional items invented by the DM with capabilities specified
+    by the DM. These invented items must be recorded on the
+    player's character sheet(s).
+
+30.10 CHARACTER SHEETS
+
+    Full character stats are not limited by cards in Campaign Mode.
+    Stats, items, level, and other elements are recorded on each
+    entity's character sheet.
+
+    A printable Campaign character sheet is provided in the
+    appendix.
+
+30.11 MAP
+
+    Before the campaign, the DM draws or selects a map on grid
+    paper. The map shows where enemies, items, fortresses, and
+    other special elements lie. The DM keeps a master copy with all
+    elements marked (or tracks them by written coordinates), and
+    reveals a player-facing version progressively, with fog of war
+    optionally enabled by covering parts of the map. Entities
+    cannot move through boundaries unless the DM allows it. When a
+    character lands on a special square, an event or combat
+    triggers, or the entity picks up an item.
+
+    In combat, allies within a 5x5 square around the battle party
+    may assist; allies farther away cannot.
+
+    A campaign may be played without a map, using narrative only.
+
+30.12 MOVEMENT
+
+    Each main character (with their party) occupies one grid space.
+    Roll 1d6; the character may move up to that many spaces, capped
+    at their maximum movement (default 3). Rolls above the cap
+    count as the cap. Movement is optional — a character may move
+    less than the roll allows, or not at all.
+
+
+[VISUAL NOTE: Campaign progression reference. Include note/callout that a printable character sheet appears later as Figure 10.]

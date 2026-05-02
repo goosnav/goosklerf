@@ -1,0 +1,46 @@
+PAGE 58 - SCENARIO C: ESCAPE + FAILURE + SCORING
+
+
+ESCAPE. If the creature leaves satisfied, each character
+    makes one final Normal check to climb off the pan and
+    reach the edge of the counter. From there, they find a
+    crack in the wall behind the stove: a gap in reality,
+    the same kind of crack that dropped them here. They step
+    through.
+
+    They wake up somewhere else. It is not the kitchen. It
+    may or may not be better. But they are alive, and they
+    are not breakfast, and that is more than they expected
+    when they woke up inside an egg.
+
+If the party did NOT complete the meal before the timer ran
+out, or the creature was not satisfied:
+
+    The hand takes the pan. All of it. The party included.
+    They feel the pan tilt. They feel themselves slide. The
+    last thing they see is a plate, white and enormous and
+    perfectly clean, rushing up to meet them.
+
+    Total party defeat. The game ends.
+
+    The DM is encouraged to describe the plating with the
+    same care and dignity one would describe a funeral. It
+    is, after all, the same thing.
+
+AFTERMATH AND SCORING
+
+    If the party survived:
+
+        Each surviving character:                    25 points
+        Each accepted course:                       50 points
+        Each delighted course (rolled 6):          100 points
+        Meal completed with 2+ rounds to spare:     50 points
+        No character reached 0 HP:                  50 points
+        Each unused ingredient remaining:            10 points
+
+    If the party was eaten:
+
+        0 points. You are brunch.
+
+
+[VISUAL NOTE: Scenario C tasting/scoring page. Use a clean d6 tasting table and scoring block. Small shadow/plate vignette if space allows.]

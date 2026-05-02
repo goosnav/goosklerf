@@ -1,0 +1,74 @@
+PAGE 69 - FAQ Q11-Q20
+
+
+Q11. Can a card's HP be healed above its printed maximum?
+
+    Only if a card explicitly says so. Otherwise healing caps at
+    the printed value.
+
+Q12. A fortress was captured. When can its former occupants'
+     leftover items be used?
+
+    Never. Captured fortresses are empty of items by definition;
+    all items owned by defeated defenders went to the defender's
+    graveyard. The captor takes the real estate, not the
+    inventory.
+
+Q13. A Supercharged Attack self-damaged the entity to 0. What
+     happens?
+
+    Last Stand triggers from any source of 0 HP, including
+    self-damage from Supercharged Attack. The entity may take
+    one final action before being discarded. If that action
+    raises HP above 0 (e.g., a successful Heal), the entity
+    survives.
+
+Q14. A card from Goosklerf I has Defense and the players are
+     using pure GKII. Should Defense be ignored?
+
+    Either apply the conversion rule from Part IV, or ignore
+    Defense entirely and play the card as GKII. Decide before the
+    game and stay consistent.
+
+Q15. Can a Super Entity be parried once per HP die, or only once
+     per round like a normal entity?
+
+    Parry is an action of the parrying entity, not the entity
+    being parried. A Super Entity can parry one hit per round
+    like any other entity. HP dice are irrelevant to parry.
+
+Q16. Can an entity at 0 HP use Healing as its Last Stand action
+     to revive itself?
+
+    Yes. Healing is a valid Last Stand action. On a successful
+    heal roll, the entity's HP rises to 1 and it survives. On a
+    miss, the entity is discarded normally.
+
+Q17. Is there a cap on how many Extra Actions an entity can buy
+     in one round?
+
+    No. Extra Actions are limited only by deck depth. Each costs
+    3 randomly discarded cards. Stack as many as the deck allows.
+
+Q18. How do Victory Rewards stack in a multi-fortress
+     (mega-engagement)?
+
+    Per target. If the attacker kills 3 entities and destroys 2
+    fortresses in one engagement, the reward is (3 × 1) + (2 × 3)
+    = 9 cards. There is no cap.
+
+Q19. May enemy items ever be picked up via Scavenger?
+
+    No. Scavenger only allows a player's surviving entities to
+    pick up THEIR OWN dead allies' items. Items NEVER transfer
+    between different players' control.
+
+Q20. Does destroying a Landlord's fortress break Landlord status?
+
+    Not on its own. The Landlord still controls every remaining
+    fortress, so status holds. The exception: if destruction
+    leaves zero fortresses on the table, Landlord cannot be
+    sustained and status ends.
+
+
+[VISUAL NOTE: FAQ text page continued. Same formatting style as prior FAQ page.]

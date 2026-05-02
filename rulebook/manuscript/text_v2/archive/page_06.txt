@@ -1,0 +1,49 @@
+PAGE 06 - HOW TO READ THIS BOOK + WHAT YOU NEED
+
+
+HOW TO READ THIS BOOK
+
+Goosklerf II is a modular card-and-dice game. The same deck can be used
+to play several different game modes, from quick skirmishes to full
+narrative campaigns.
+
+Goosklerf II can be played in three rules levels:
+
+    BASIC GOOSKLERF uses only the Core Rules.
+
+    ADVANCED GOOSKLERF uses the Core Rules plus all Advanced Rules.
+
+    CUSTOM GOOSKLERF uses the Core Rules plus any Advanced Rules
+    the players agree to before setup.
+
+Game modes may specify their own rules level.
+
+A player learning the game should read Quickstart, Parts I and II,
+skim the mode selector in Part V, and pick Classic Mode for their
+first game. Everything else can be ignored until the first game has
+been played.
+
+                     PART I - COMPONENTS AND TABLE
+
+1. WHAT YOU NEED
+
+To play Goosklerf II, players need:
+
+    -   A deck of Goosklerf cards (their own, or a shared pool)
+    -   At least one six-sided die per player
+    -   Additional dice for tracking hit points (recommended: 1 extra
+        die per entity in play)
+    -   A flat playing surface large enough for the table layout
+        (see Section 4)
+
+Optional but helpful:
+
+    -   A printed play mat for the chosen game mode
+    -   Small dice for tracking buffs, rounds, and fortress ownership
+    -   A chessboard (only required for Chessklerf mode)
+    -   Pen and paper (optional, as an alternative method for stat/HP tracking)
+    -   Graph paper (optional, for the Campaign mode map)
+    -   Character sheets (Campaign Mode)
+
+
+[VISUAL NOTE: Clean instructional page. Optional small component icons: deck, d6, HP dice, play mat, chessboard, character sheet.]

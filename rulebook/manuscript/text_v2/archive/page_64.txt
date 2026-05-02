@@ -1,0 +1,66 @@
+PAGE 64 - SCENARIO D: ACT IV
+
+
+ACT IV - THE FINALE
+
+Objective: Destroy or seize the distortion machine.
+
+The Core Lab is the super fortress set aside at setup.
+
+Inside it is the machine. The machine is large and quiet. It
+does not look like science. It looks like furniture, the kind
+of furniture you find in a room that has been waiting for
+someone for a very long time. There is a chair in front of
+it. The chair has restraints. The restraints are open.
+
+Standing next to the machine is the boss: an entity with
+Attack 5, HP 8, and a consumable that rolls as a 2-damage
+attack on all attackers in the engagement. The boss is
+wearing a lab coat. The boss's wrist bracelet, when the party
+sees it, has the name of one of the party members on it.
+
+THE BRACELET REVELATION. Before the fight begins, the DM
+should tell the players what they have begun to suspect:
+each character is wearing a bracelet with the name of one
+of the others. The boss is wearing the name of one specific
+party member: the DM picks. That party member is the only
+one in the party whose bracelet does NOT have someone in
+the party on it. Their bracelet has the boss's name. They
+have always had it. They just have not read it carefully.
+
+The implication is left for the party to interpret. The DM
+should not explain it. Some possibilities:
+    -   They are all the same person being tested.
+    -   They have all been switched.
+    -   The bracelets do not mean anything and the lab is
+        just trying to make them think they do.
+    -   They are all someone else, looking back.
+
+The party may:
+    -   Destroy the machine. Defeat the boss in combat,
+        then assault the fortress (the Core Lab) until it
+        reaches 0 HP. This ends the scenario in destruction:
+        the lab collapses, the party escapes, and the
+        distortions in this district end. The bracelets
+        crumble to dust as the party leaves.
+    -   Seize the machine. Defeat the boss, but leave the
+        fortress standing. The first character to touch the
+        machine after the boss dies gains +1 Attack
+        permanently but is now connected to it. At the
+        start of every future scenario, that character must
+        roll 1d6. On a 1, they glitch: lose 1 HP permanently
+        and lose 1 turn at the start of the next combat.
+    -   Sit in the chair. One character may volunteer to
+        sit in the chair after the boss is defeated. The
+        chair will not let them up. The machine will start
+        doing whatever it does. The character is gone at
+        the end of the scenario, but the rest of the party
+        walks out clean, with no penalty, and one specific
+        thing about the world is restored: the DM picks
+        something small and personal to one of the
+        remaining party members. A grandmother is alive
+        again. A song plays on a radio that has been silent.
+        A dog can no longer talk, and is happier for it.
+
+
+[VISUAL NOTE: Scenario D finale visual: Core Lab machine like waiting-room furniture, restraint chair open, boss with wrist bracelet.]

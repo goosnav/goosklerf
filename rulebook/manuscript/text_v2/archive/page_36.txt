@@ -1,0 +1,61 @@
+PAGE 36 - CAMPAIGN MODE: CHARACTERS + DM + CHECKS
+
+
+30. CAMPAIGN MODE
+
+Campaign Mode is the RPG mode of Goosklerf II. One player is the
+Dungeon Master. The other players (1 to 4) are Adventurers. The
+DM runs a scenario; the players play through it using their cards
+as character sheets.
+
+30.1 CHARACTERS
+
+    Each player chooses one entity to serve as their main character.
+    Optionally, players may add up to 2 additional entities to their
+    battle party as sidekicks. The player's starting stats (Attack,
+    HP) are the stats printed on the card.
+
+    Each entity is also dealt 3 items as starting gear. Players
+    draw 7 cards to form a personal reserve hand.
+
+    Character progression comes from leveling (Section 30.5).
+
+30.2 THE DUNGEON MASTER
+
+    The DM represents the world, the enemies, and the story. The
+    DM's job is to:
+
+        -   Describe each scene and let players react.
+        -   Run all enemies in combat, rolling attacks and making
+            target decisions.
+        -   Adjudicate non-combat actions (see Section 30.3).
+        -   Advance the story between encounters.
+        -   Decide when characters level up.
+
+    The DM uses cards from the shared deck as enemies, fortresses,
+    rooms, loot, and set dressing. Pull a fortress card to represent
+    a significant location. Pull entity cards to represent any
+    hostile encounter. Pull item cards as loot.
+
+30.3 NON-COMBAT ACTIONS (CHECKS)
+
+    When a character attempts something uncertain outside combat
+    (picking a lock, persuading a stranger, sprinting across broken
+    terrain, remembering something), the DM sets a difficulty:
+
+        Easy       roll 5 or less on 1d6
+        Normal     roll 4 or less on 1d6
+        Hard       roll 3 or less on 1d6
+        Desperate  roll 2 or less on 1d6
+        Hail Mary  roll 1 on 1d6
+        Impossible roll 1 on 2d6 (two 6-sided dice)
+
+    The player rolls the die or dice required by the chosen
+    difficulty. On success, the action works. On failure, the DM
+    describes the consequence.
+
+    Items and specials may modify the difficulty by +1 or -1 at
+    the DM's discretion.
+
+
+[VISUAL NOTE: Campaign Mode intro. Optional small DM screen/card table visual; no heavy illustration needed.]

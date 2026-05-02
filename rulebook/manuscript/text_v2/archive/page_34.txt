@@ -1,0 +1,53 @@
+PAGE 34 - SINGLEPLAYER TURN FLOW + ENEMY AI
+
+
+29.2 TURN FLOW
+
+    Attack the next level on the battlepath. Flip the fortress
+    and all entities inside face-up, and resolve the combat as
+    a fortress assault.
+
+    If you defeat the fortress and all its defenders, go to the
+    Post-Battle phase below.
+
+    If any of your entities die, remove them. If all of your
+    entities die, the game ends in defeat.
+
+29.3 ENEMY AI
+
+    Enemy entities behave like this, in order:
+
+        1. If an enemy has an equipped consumable: think of a
+           number from 1 to 6 in your head.
+           Roll 1d6. If the die matches your number, the enemy
+           uses the consumable on a legal target, and it is
+           revealed.
+
+        2. Otherwise the enemy performs a normal attack.
+
+    ENEMY TARGETING. Enemies target your entity with the lowest
+    current HP. In case of a tie, they target the entity with the
+    highest Attack. In case of a further tie, choose randomly.
+
+    ENEMY ITEMS ARE HIDDEN. Keep enemy equipped items face-down
+    until the psychic roll triggers their use, then flip and resolve
+    normally.
+
+    BOSS FORTRESSES. Every third fortress on the battlepath
+    (Level 3, 6, 9, etc.) is a Boss Fortress. At Levels 9 and
+    beyond, BOTH fortresses on that level are Boss Fortresses.
+    Each Boss Fortress's final surviving entity gains Last Stand
+    automatically, even if you are not otherwise playing with
+    Last Stand. Boss Last Stand follows the standard Last Stand
+    rules in Section 22: revival via Healing is permitted.
+
+    ENEMY REINFORCEMENTS. At the start of each enemy combat round
+    at Level 4 or higher, roll 1d6. On a 6, one entity from the
+    NEXT level on the battlepath is pulled forward and deployed
+    into the current fortress as reinforcement (if the fortress
+    has room). Flip this entity face-up and equip it with whatever
+    items it was carrying. Remove it from its original level. If
+    the next level is empty, no reinforcement is deployed.
+
+
+[VISUAL NOTE: Singleplayer AI reference. Optional enemy priority flowchart: consumable psychic roll, normal attack, lowest HP target.]

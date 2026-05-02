@@ -1,0 +1,68 @@
+PAGE 62 - SCENARIO D: ACT II
+
+
+ACT II - COMPLICATION
+
+Objective: Find your weapons, your names, and three keycards.
+
+The party must explore 3 lab rooms. Each room has a door with
+a different label, and each label is wrong in a different way.
+Suggested labels for the DM (use any, in any order):
+
+    -   "JANITORIAL" (this is not a janitor's closet)
+    -   "CAFETERIA - CLOSED FOR REMODEL" (it has not been a
+        cafeteria for a long time)
+    -   "OBSERVATION ROOM 4" (the observation goes both ways)
+    -   "PHYSICAL THERAPY" (it is not therapy)
+    -   "WAITING ROOM" (something is waiting)
+
+For each room the party enters:
+    -   Draw 1 entity from the pool as the room's threat.
+        Present it not as a monster but as something that
+        still thinks it has a job.
+    -   Draw 1 item as the room's loot.
+    -   Roll 1d6 for the room's reality stability:
+
+        1: STAT BLEED. One random character swaps one stat
+           value (Attack and HP swap) until they leave the
+           room. They may take this opportunity to discover
+           this is sometimes useful.
+        2: INVERTED PHARMACOLOGY. All item effects used in
+           this room are inverted (heals damage, buffs become
+           debuffs, defensive items become aggressive ones).
+           The DM should narrate the inversion in-character:
+           the bandage tightens too much, the painkiller
+           sharpens the senses to the point of agony.
+        3: ECHO ROOM. The room repeats itself once after you
+           leave it. Fight the threat again, but the second
+           time it knows your strategy and acts accordingly
+           (DM picks better tactics).
+        4: NORMAL. Nothing unusual happens. This is in some
+           ways more disturbing.
+        5: NORMAL. As above.
+        6: MEMORY FRAGMENT. A character remembers a fragment
+           of their identity. They gain +1 maximum HP
+           permanently. The fragment should be specific: the
+           smell of their grandmother's kitchen, the feel of
+           their first car's steering wheel, the sound of a
+           particular person laughing. The DM should ask the
+           player to describe it.
+
+KEYCARDS. Each room contains 1 keycard, hidden somewhere
+appropriate to the room (in a drawer, under a body, on a
+lanyard around the neck of the threat, etc.). The party may
+or may not find each keycard. Each room with a found keycard
+grants the party 1 keycard for Act III.
+
+THE BRACELETS BECOME RELEVANT. Somewhere in Act II, ideally
+in the second room, the DM should describe a wall of patient
+files: photographs paperclipped to manila folders, with names
+and bracelet numbers. The players are encouraged to read their
+own bracelets aloud. They will discover their bracelets have
+other party members' names on them.
+
+The DM should not explain this. The DM should let the players
+sit with it for as long as it takes.
+
+
+[VISUAL NOTE: Scenario D Act II visual: wrong room labels, patient-file wall, bracelet names, d6 stability table.]

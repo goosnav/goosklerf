@@ -1,0 +1,44 @@
+PAGE 41 - PART VI HEADER + SCENARIO A INTRO + SETUP
+
+
+PART VI - CAMPAIGN SCENARIOS
+
+The following scenarios are for Campaign Mode (Section 30). Each
+one runs in 4 acts and can be played in a single session or
+broken into multiple sessions. Read the whole scenario before
+running it.
+
+SCENARIO A: THE NUMBERS STATION
+
+Somewhere in the district, a transmitter is still broadcasting.
+Nobody is sure what it's saying anymore, and nobody is sure who
+is transmitting. What is sure is that the people who hear it
+start behaving wrong.
+
+The party found out about it through a courier. A woman on a
+bicycle, wheels wrapped in duct tape, riding hard from the
+direction of the tower. She skidded to a stop in front of them,
+handed over a tape recorder still warm from her pocket, and
+said "make it stop" with hollow eyes and a pale face. Then she got
+back on the bicycle and rode off the same way she had come, toward the tower.
+
+The tape is blank. The recorder is still running.
+
+SETUP
+
+The players begin this scenario outside the broadcast district.
+Each character has full HP and their starting loadout. One
+character carries the tape recorder. It cannot be discarded.
+
+Draw one rare fortress from the deck. This is the Numbers Station.
+Set it aside. Draw 10-20 entities from the deck as the enemy pool
+the DM will deploy over the course of the scenario.
+
+Throughout the scenario, the tape recorder occasionally plays
+back audio that has not been recorded yet. Use this freely for
+flavor: a scream the party has not screamed, a door closing in
+a room the party has not entered, one of the characters saying
+something they are going to say later in the session.
+
+
+[VISUAL NOTE: Scenario A header illustration: distant broadcast tower, duct-taped bicycle, tape recorder, hollow-eyed courier, broken geometry and wrong light.]

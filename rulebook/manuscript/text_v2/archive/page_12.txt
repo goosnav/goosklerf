@@ -1,0 +1,38 @@
+PAGE 12 - VICTORY CONDITIONS
+
+
+7. VICTORY CONDITIONS
+
+Goosklerf II uses four end conditions in multiplayer. The first one
+to trigger ends the game.
+
+LAST MAN STANDING. Only one player (or team) has any surviving
+entities in play. That player wins immediately.
+
+LANDLORD. A player becomes Landlord when they control every
+fortress in play AND no unplayed fortress cards remain in any
+player's deck or hand. This is not an instant win: the Landlord
+must survive one full round (starting from the next player's turn)
+still meeting both conditions to win.
+
+Landlord status is broken if, during the survival round:
+    -   Another player captures one of the Landlord's fortresses.
+    -   Another player plays a new fortress into their suburbs.
+    -   A scenario effect introduces a new fortress.
+
+Destruction of a Landlord's fortress does NOT break status by
+itself, but if it leaves zero fortresses in play, status ends.
+A broken Landlord status can be re-achieved later; the survival
+round restarts from scratch.
+
+HAMLET. All entities are destroyed, and no player can legally put
+a new entity into play. Everyone loses.
+
+SPECIAL. A special effect on an item, entity, fortress, or scenario
+may create an additional victory condition. If that special effect
+is successfully resolved, its victory condition overrides the
+standard multiplayer victory conditions and the controlling player
+wins immediately.
+
+
+[VISUAL NOTE: Clean victory-condition page. Optional small icons for Last Man Standing, Landlord, Hamlet, and Special.]

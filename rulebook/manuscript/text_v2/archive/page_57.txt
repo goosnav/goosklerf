@@ -1,0 +1,85 @@
+PAGE 57 - SCENARIO C: KITCHEN FIGHTS BACK + ACT IV TASTING
+
+
+THE KITCHEN FIGHTS BACK. During the cooking phase, the DM
+deploys 1 final enemy from the enemy pool (or invents one if
+the pool is empty). This enemy is the kitchen itself: a
+sentient burner flame, a vengeful oven mitt, a grease
+splatter with eyes and opinions. It attacks the party while
+they are trying to cook. The party must fight it while
+continuing to prepare courses. Characters not currently in
+combat may continue cooking.
+
+LOCAL RULE - MULTITASKING. A character may attempt to both
+fight and cook in the same round by splitting their action:
+roll for the attack at -1 Attack, AND roll for the cooking
+check, both in the same round. If the attack misses, the
+cooking also fails (you dropped the spatula). If the attack
+hits, the cooking succeeds normally.
+
+SPECIAL EVENT. When the party finishes plating the final
+course and setting the serviceware, the meal is complete.
+The pan begins to glow. The smell changes from "you are
+being cooked" to "something is being cooked for someone."
+The timer, in the distance, stops ticking. There is a
+moment of silence.
+
+Then the shadow falls.
+
+ACT IV - THE PLATE
+
+Objective: Survive the serving.
+
+A hand descends from above. It is enormous. It belongs to
+something that is not entirely visible: you can see the
+fingers, the wrist, and then the arm disappears into a
+height your eyes refuse to process. Whatever this thing is,
+it built this kitchen, and it cracked the egg you came from,
+and it set the timer, and now it is back.
+
+If the party completed the meal before the timer ran out:
+
+    THE TASTING. The creature examines the meal. It picks up
+    the utensil the party designated. It inspects the plate.
+    It looks at each course.
+
+    For each course the party prepared, the DM secretly rolls
+    1d6:
+
+        1: The creature is DISGUSTED. This course does not
+           count. (If the party used an expired fridge
+           ingredient, this result is automatic for that
+           course.) The creature makes a sound that shakes
+           the kitchen.
+
+        2-3: The creature is UNIMPRESSED but eats the course
+           anyway. This course counts.
+
+        4-5: The creature ENJOYS the course. This course
+           counts. The creature makes a satisfied noise.
+
+        6: The creature is DELIGHTED. This course counts
+           double for scoring purposes. The creature pauses,
+           looks down at the pan, and for a moment seems to
+           notice the party. It does not eat them. It nods,
+           very slightly, the way a restaurant patron nods
+           at a chef through the kitchen window.
+
+    After all courses are tasted, count how many courses
+    were accepted (scored 2 or higher). If at least HALF
+    the courses the party attempted are accepted, the
+    creature is satisfied. It takes the plate and the
+    serviceware, and it leaves. The party survives.
+
+    If fewer than half are accepted, the creature is still
+    hungry. It looks at the pan. It looks at the party. The
+    party has 1 round to offer something else: any remaining
+    items argued as edible, any remaining entity cards not
+    yet used, anything. If the party can offer at least 2
+    more cards argued as edible on the spot (with arguments
+    the DM accepts), the creature accepts the extra offering
+    and leaves. If they cannot, proceed to the failure
+    condition below.
+
+
+[VISUAL NOTE: Scenario C finale visual: kitchen enemy attacking while party cooks; enormous hand descending over completed meal.]

@@ -1,0 +1,41 @@
+PAGE 04 - QUICKSTART: RULES LEVELS + SETUP + TABLE ZONES
+
+
+QUICKSTART: HOW TO PLAY
+
+Choose a rules level:
+
+    BASIC GOOSKLERF
+        Use only the Core Rules.
+
+    ADVANCED GOOSKLERF
+        Use Core Rules plus all Advanced Rules.
+
+    CUSTOM GOOSKLERF
+        Use Core Rules plus any Advanced Rules chosen before setup.
+
+SETUP
+
+    1. Choose a game mode.
+    2. Choose a deck size: Small, Medium, or Large.
+    3. Each player builds a legal deck.
+    4. Each player draws 7 cards.
+    5. No cards begin on the table in Classic Mode.
+    6. Determine the first player. Play proceeds clockwise.
+
+TABLE ZONES
+
+    The battlefield is the shared center zone. Entities on the
+    battlefield can fight enemy battlefield entities and assault
+    enemy fortresses.
+
+    The suburbs are each player's fortress zone. Fortresses are
+    placed in the suburbs. Entities inside fortresses can defend,
+    fire Initial Volleys when legal, and use Fortress Barrage if
+    active. They cannot capture enemy fortresses while inside a
+    fortress.
+
+TURN ORDER
+
+
+[VISUAL NOTE: Quickstart reference layout. Use small icons for rules level, setup, and table zones. Keep it functional and readable.]

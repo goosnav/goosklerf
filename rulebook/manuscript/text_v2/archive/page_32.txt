@@ -1,0 +1,40 @@
+PAGE 32 - TACTICAL SKIRMISH + VICTORY
+
+
+At setup, each player places their fortress in their suburbs
+    and their entities on the battlefield or in their fortress.
+    Each entity may begin with up to 2 equipped items.
+
+    Turn structure is Combat, Movement, then an Equipment Phase
+    where the active player may equip any items from their reserve
+    hand to their entities, respecting capacity. No deck is used.
+
+    Recommended rules: All advanced rules enabled.
+
+28.3 SKIRMISH (OVERPOWERED)
+
+    Each player gets:
+        -   4 entities
+        -   1 fortress
+        -   12 items (any combination)
+
+    This mode is a single, brutal battle. Whoever has surviving
+    entities at the end wins. No Shop. No refill phase.
+
+    Recommended rules: All advanced rules enabled.
+
+VICTORY (ALL TACTICAL VARIANTS)
+
+    Tactical Mode does not use Landlord, Hamlet, Card Draw, or
+    deck-based victory conditions.
+
+    A player wins Tactical Mode if:
+        -   all enemy entities are defeated, OR
+        -   all enemy fortresses are destroyed.
+
+    If all players lose their final entity in the same combat
+    round, the game is a draw.
+
+[VISUAL NOTE: Three small tactical layouts side by side, one for
+each variant. Each shows player slots, fortress, entity zone, and
+item reserve (where applicable). Small and clean, not detailed.]

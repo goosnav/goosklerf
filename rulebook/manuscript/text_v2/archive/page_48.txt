@@ -1,0 +1,59 @@
+PAGE 48 - SCENARIO B: ACT II ENTRANCE + SHOPPING + EATING
+
+
+ACT II - COMPLICATION
+
+Objective: Get inside and load up.
+
+The store is held by 2 rival entities (pull from the pool) who
+have set up a checkpoint at the entrance. They are wearing red
+polo shirts they have stolen from the staff section and they
+are pretending very hard to be employees. They claim the store
+is closed for inventory. They are waiting for someone they will
+not name.
+
+The party may:
+    -   Fight them at the entrance (standard combat).
+    -   Comply with the inventory checkpoint by handing over
+        1 item. The fake employees will let the party pass and
+        will continue pretending until the party is out of
+        sight.
+    -   Hide and wait them out via a Hard check (3 or less).
+        Success means slipping past unnoticed. Failure means
+        combat with the fake employees, who attack first.
+    -   Distract them by triggering a separate disturbance:
+        knocking over a shopping cart corral, setting off the
+        store alarm, etc. Allow a Normal check. On success, the
+        fake employees investigate and the party slips by.
+
+Once inside, the store is real. Mostly. The shelves are mostly
+full. Many of the products have labels that are wrong: brand
+names spelled differently, photographs of foods the photograph
+is not actually depicting, expiration dates in years that have
+not happened. The fluorescent lights flicker only when looked
+at directly.
+
+SHOPPING. A character may spend one action to shop. They draw
+1 face-down item from the store stock pile. Each character may
+shop at most 3 times in this act.
+
+Each time a character shops, after drawing the item, roll 1d6:
+    1: The aisle moves. The character finds themselves in a
+       different aisle than they intended. They may shop again
+       on their next action without it counting against the
+       3-shop limit, but they are now separated from the party
+       until they make a Normal check to find their way back.
+    2: Something on a high shelf is watching. The DM describes
+       it but does not attack. Yet.
+    3-5: Normal shopping.
+    6: Bonus. Draw a second item.
+
+EATING. At any point during Act II, the party may eat. This
+requires sacrificing 1 item card from the store stock (treat
+it as food regardless of what it actually is). Eating restores
+all characters to full HP. The party may only eat once per
+scenario. Eating is loud and the party is vulnerable for one
+round afterward (-1 to all attack rolls).
+
+
+[VISUAL NOTE: Scenario B interior: fake employees in red polos, wrong product labels, watching shelf shape, fluorescent aisles.]

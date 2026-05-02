@@ -1,0 +1,38 @@
+PAGE 71 - VISUAL ELEMENTS CHECKLIST FIGURES 9-12 + GENERAL NOTES
+
+
+FIGURE 9 - SINGLEPLAYER BATTLEPATH EXAMPLE
+    Half page. Visual representation of a 6-level battlepath
+    with fortresses lined up, enemy counts shown, the
+    player's strike force on the left, and the shop beside it.
+
+FIGURE 10 - CAMPAIGN MODE CHARACTER SHEET
+    One page. A simple blank character sheet players can copy
+    or print. Fields for: character entity card, HP (current
+    and max), Attack, equipped items, consumables, level,
+    rerolls per session, notes.
+
+FIGURE 11 - CHESSKLERF BOARD SETUP
+    One page. 8x8 board showing the setup described in
+    Section 31.1: corner fortresses, 4 major pieces on the
+    back rank, pawns on ranks 4 and 5 facing each other
+    across the center. Label the pieces and fortress squares.
+
+FIGURE 12 - QUICK REFERENCE CARD (TEAR-OUT)
+    Single page, designed for tearing out. Contents: turn
+    phase summary, hit rule, action list, capture vs
+    destroy, retreat summary, shop summary, victory
+    conditions. No flavor text. Pure reference.
+
+GENERAL ART NOTES
+    The setting of Goosklerf II is post-reality-collapse
+    grimdark with absurd undertones. Key visual flavors for
+    scenario illustrations: broken geometry, wrong animals
+    in wrong places, humans who are almost human, concrete
+    bureaucracy that has outlived its purpose, fluorescent
+    light. The rulebook interior art should stay clean and
+    functional; save the heavy mood for scenario chapter
+    headers, card art, and the setting page.
+
+
+[VISUAL NOTE: Visual checklist page continued. Keep as a clean production checklist.]

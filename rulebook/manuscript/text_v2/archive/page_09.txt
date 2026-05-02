@@ -1,0 +1,37 @@
+PAGE 09 - THE TABLE: ZONES AND LAYOUT
+
+
+4. THE TABLE: ZONES AND LAYOUT
+
+The play area is divided into zones. Players should know these terms
+because the rules refer to them constantly.
+
+THE BATTLEFIELD is the center of the table. It is a shared, open space
+where entities fight. All players use one battlefield. Players can hold
+up to 5 of their own entities in the battlefield.
+
+THE SUBURBS are the fortress zones along the edges of the table. Each
+player has their own suburbs. Fortresses are placed only in the
+suburbs. If the battlefield is the sea, the suburbs are the shoreline,
+and fortresses are ships moored along it.
+
+GRAVEYARD. Each player has their own graveyard (discard pile).
+Destroyed, defeated, spent, and discarded cards go here unless a rule
+says otherwise.
+
+DECK. Each player has their own deck. Players keep their deck face
+down nearby. Cards in the deck must be transferred to the HAND before
+they may be placed.
+
+HAND. Each player has a private hand of cards. This is a queue of
+cards that can be placed during the Card Play phase.
+
+SHOP (optional, used with the Shop rule). A face-up row of cards that
+can be purchased during the Card Play phase.
+
+[VISUAL NOTE: Full-page table layout. Center: BATTLEFIELD, a large
+open rectangle. Top and bottom of the battlefield: SUBURBS zones
+(one per player), with slots for up to 3 fortresses per player. Each
+player's area on their side of the table should show: deck, graveyard,
+hand, and (optional) shop. Use simple labeled boxes, not illustration.
+This diagram is the single most important image in the book.]

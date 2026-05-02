@@ -1,0 +1,68 @@
+PAGE 14 - STARTING HAND + TURN STRUCTURE START
+
+
+random draw in the game; cards drawn on subsequent turns involve
+a choice (see Section 8).
+
+MULLIGAN RULE. If a player's starting hand contains no entities or
+fortresses (no legal opening placement), they may reshuffle their
+deck and draw a new random hand. Other players keep their hands
+unchanged.
+
+FIRST PLAYER. Determine the first player by die roll, thumb war,
+arm wrestling, a game of speed chess, a round of a non-lethal combat
+sport, a pushup competition, or agreement. Play proceeds clockwise.
+A round ends when every surviving player has taken one turn.
+
+SHUFFLING. Every time a player looks through a deck, the deck must
+be thoroughly shuffled. In competitive games, the player to each
+player's left must shuffle the deck thoroughly at least 3 times
+before returning it to the original player. Players may not look
+through each other's decks unless explicitly called out on a card.
+
+9. TURN STRUCTURE
+
+A turn consists of five phases, taken in order.
+
+    1. CARD PLAY
+    2. COMBAT
+    3. MOVEMENT
+    4. CARD DRAW
+    5. VICTORY CHECK
+
+Each phase must be completed before moving to the next.
+
+PHASE 1: CARD PLAY
+
+    The active player must play exactly 3 cards from their hand if
+    possible. If it is impossible to play 3 cards, the maximum
+    number of playable cards must be played.
+
+    A card is played when it is:
+        -   a fortress placed into the player's own suburbs
+        -   an entity placed onto the battlefield
+        -   an entity placed into one of the player's own fortresses
+        -   an item equipped onto one of the player's entities
+        -   a shop purchase, if the Shop rule is active
+
+    If the active player cannot play 3 legal cards from their hand,
+    they must discard cards from their hand until cards played plus
+    cards discarded equals 3. (Example: only 2 cards can be played,
+    so 1 must be discarded.)
+
+    This forced-play rule is waived only if the active player's hand
+    is empty at the start of Card Play. If the hand is empty, skip
+    Card Play and proceed directly to Combat.
+
+    Capacity limits still apply: 3 items per entity, 3 entities
+    per fortress, 5 entities on the battlefield per player.
+
+PHASE 2: COMBAT
+
+    The active player may declare any number of combat engagements
+    this turn. Each engagement is resolved fully before the next
+    begins. Each of the active player's entities may participate in
+    only one engagement per turn, unless a special ability says
+
+
+[VISUAL NOTE: Setup and turn-start reference. Optional small shuffle/hand/die icons. Keep mostly text.]

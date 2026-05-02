@@ -1,0 +1,45 @@
+PAGE 31 - CLASSIC VICTORY + TACTICAL LIGHTNING/STANDARD
+
+
+VICTORY
+
+    Standard Victory Conditions (Section 7): Last Man Standing,
+    Landlord (requires surviving one full round after claiming
+    Landlord status), Hamlet (loss for all), or Special.
+
+28. TACTICAL MODE
+
+Tactical Mode is a fixed-loadout battle with no hand refill. Every
+card a player gets is what they start with. 2 to 4 players.
+
+Tactical Mode comes in three deck-size variants. Players must
+choose one before starting.
+
+28.1 LIGHTNING (FAST)
+
+    Each player gets:
+        -   3 entities
+        -   1 fortress
+        -   7 items (distributed as desired, up to 1 per entity to
+            start)
+
+    No deck, no hand. At setup, each player places their cards as
+    desired on the battlespace. The fortress goes in the player's
+    suburbs and entities are placed either on the battlefield or in
+    the fortress.
+
+    Each round, players take turns performing Combat and Movement
+    phases only. No Card Play, no Card Draw, and no refill.
+
+    Recommended rules: Core only. Retreat and Parry optional.
+
+28.2 STANDARD TACTICAL
+
+    Each player gets:
+        -   5 entities
+        -   1 fortress
+        -   11 items selected before the game begins
+        -   7-item reserve hand (the items not yet equipped)
+
+
+[VISUAL NOTE: Tactical setup reference. Use compact loadout blocks for Lightning and Standard Tactical.]

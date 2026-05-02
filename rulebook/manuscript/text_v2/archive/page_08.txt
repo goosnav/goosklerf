@@ -1,0 +1,40 @@
+PAGE 08 - CARD ANATOMY
+
+
+3. CARD ANATOMY
+
+Every card has:
+
+    A NAME at the top.
+
+    A CARD-TYPE ICON indicating whether it is an entity, fortress,
+    item, or consumable.
+
+    A BORDER COLOR indicating rarity.
+
+    STAT VALUES. Entities and fortresses have an Attack value and an
+    HP value. Items may have buffs or debuffs to those values.
+
+    A TEXT BOX containing any Special rules or flavor text. Special
+    rules override general rules if there is a conflict.
+
+HOW STATS WORK
+
+    ATTACK is the target number a player must roll at or below to
+    land a normal hit. A base Attack of 3 means the entity hits on a
+    roll of 1, 2, or 3 on a six-sided die. Attack can be modified by
+    items, fortress buffs, and specials.
+
+    HIT POINTS (HP) is tracked physically with a die placed on top
+    of the card. When the card is played, place a die showing its
+    maximum HP. Each time it takes damage, rotate the die down by
+    the amount of damage taken. When the die reaches 0, the card is
+    defeated.
+
+    Normal entities use one HP die. Super entities use two HP dice.
+    Normal fortresses use two HP dice. Super fortresses use three.
+    Damage is applied one HP at a time across the dice, in any order
+    the controlling player chooses.
+
+
+[VISUAL NOTE: FIGURE 1 - Card anatomy diagram. One example of each card type with labeled callouts for name, card-type icon, border color/rarity, Attack, HP dice, capacity, text box, and buff/debuff indicators.]

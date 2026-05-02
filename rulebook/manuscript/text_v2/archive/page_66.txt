@@ -1,0 +1,69 @@
+PAGE 66 - PART VII HEADER + GLOSSARY A-F
+
+
+PART VII - APPENDICES
+
+GLOSSARY
+
+ACT             One major segment of a Campaign Mode scenario.
+                Scenarios have 4 acts.
+
+ATTACK          A card's target number for normal hits. Roll this
+                value or less on 1d6 to land a hit.
+
+BATTLEFIELD     The central shared zone of the table where most
+                combat takes place.
+
+BATTLEPATH      The sequence of face-down enemy fortresses in
+                Singleplayer Mode.
+
+CAMPAIGN MODE   The RPG mode of Goosklerf II, run by a DM.
+
+CAPTURE         Taking control of an enemy fortress by clearing
+                it of defenders via a battlefield assault. At
+                least one entity must be garrisoned in the
+                captured fortress for control to transfer.
+
+COMBAT ROUND    One alternating exchange in combat (attacker
+                actions, then defender actions). An engagement
+                consists of multiple rounds. Card text saying
+                "at the end of each turn" or "at the end of the
+                combat turn" refers to each combat round, not the
+                full game-turn.
+
+CONSUMABLE      A one-use item card. Must be equipped by an
+                entity before it can be used.
+
+CONTROL         Legal ownership of a fortress, independent of
+                whether it is currently occupied.
+
+DEFEAT          Reducing an entity's HP to 0.
+
+ENGAGEMENT      A single declared combat, resolved fully before
+                any other engagement begins.
+
+ENTITY          A unit card. Entities fight, move, equip items,
+                and capture fortresses.
+
+EQUIPMENT PHASE A Tactical Mode phase in which the active player
+                may equip items from their reserve hand to their
+                entities (no deck involved).
+
+EXTRA ACTION    An advanced rule (Section 21) allowing an entity
+                to "buy" an additional combat action by discarding
+                3 random cards from its controller's deck.
+
+FORTRESS        A structure card placed in the suburbs. Holds
+                entities and grants buffs. Can be captured or
+                destroyed.
+
+FORTRESS ASSAULT  A combat in which battlefield entities attack
+                a fortress. May target one or more enemy fortresses
+                in the same engagement.
+
+FORTRESS BARRAGE  An advanced combat type in which fortress
+                entities attack an enemy fortress directly, ship
+                to ship, without a battlefield assault.
+
+
+[VISUAL NOTE: Glossary text page. Use consistent term/definition formatting; no illustration needed.]

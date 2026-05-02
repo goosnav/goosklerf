@@ -1,0 +1,50 @@
+PAGE 13 - DECK REGIMES
+
+
+8. DECK AND STARTING HAND
+
+DECK REGIMES. Goosklerf II uses three standardized deck sizes.
+Players must pick one before the game begins. All players must use
+the same number of cards for their individual decks.
+
+    SMALL DECK (24 cards)
+        Minimum card quantities:
+            -   5 entities
+            -   1 fortress
+            -   10 items
+
+        Shop size: 3 cards, drawn from the deck during setup.
+        Recommended for: quick Classic games, Lightning Tactical
+        practice, or playing with small collections.
+
+    MEDIUM DECK (36 cards)
+        Minimum card quantities:
+            -   10 entities
+            -   2 fortresses
+            -   15 items
+        Shop size: 7 cards, drawn from the deck during setup.
+        Recommended for: default Classic Mode. This is the
+        official standard deck size.
+
+    LARGE DECK (54 cards)
+        Minimum card quantities:
+            -   15 entities
+            -   3 fortresses
+            -   25 items
+        Shop size: 7 cards, drawn from the deck during setup.
+        Recommended for: long Classic Mode sessions, team games,
+        Campaign Mode setups, or large battlepaths.
+
+Decks may contain more entities and fortresses than the minimums
+listed (at the cost of fewer items). Decks may not go below the
+minimums listed. Any remaining deck slots may be filled with
+entities, fortresses, or items, as long as all minimums are met
+and the final deck size matches the selected regime exactly.
+
+A deck may include at most 3 copies of any card with the same name.
+
+STARTING HAND. At the start of the game, each player draws 7
+cards at random from their own deck. This is the only fully
+
+
+[VISUAL NOTE: Deck construction table. Show Small, Medium, and Large as three columns with card counts and shop size.]

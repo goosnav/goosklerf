@@ -1,0 +1,31 @@
+PAGE 16 - TURN STRUCTURE: MOVEMENT + DRAW + VICTORY CHECK
+
+
+enemy fortresses. Entities inside fortresses are safer, but
+        they give up capture pressure. Balance protection and
+        projection.
+
+PHASE 4: CARD DRAW
+
+    The active player draws the top 2 cards of their deck at random,
+    then searches their deck for 1 card of their choice. Add all 3
+    cards to hand.
+
+    If fewer than 3 cards remain available, add as many as possible:
+    draw random cards first, then search only if at least 1 card
+    remains in the deck.
+
+    After searching, reshuffle per Section 8.
+
+PHASE 5: VICTORY CHECK
+
+    At the end of the turn, after Card Draw is complete, check
+    whether any victory condition has been met (Section 7). If so,
+    the game ends. Landlord status is checked and tracked here (see
+    Section 7 for the survival-round rule). During the victory
+    check, players must communicate whether or not they have any
+    unplayed fortresses in their hand or deck, and may look
+    through their own deck to confirm. Reshuffle per Section 8.
+
+
+[VISUAL NOTE: Clean continuation of turn flow. Optional small positioning diagram: battlefield entity threatening fortress vs. entity safe inside fortress.]

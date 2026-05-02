@@ -1,0 +1,60 @@
+PAGE 21 - DAMAGE, DEFEAT, ITEM OWNERSHIP + STAT LIMITS
+
+
+11. DAMAGE, DEFEAT, AND ITEM OWNERSHIP
+
+11.1 APPLYING DAMAGE
+
+    When an entity or fortress takes damage, rotate its HP die down
+    by the amount of damage taken. Healing works in reverse but can
+    never raise an HP die above its printed maximum unless a card
+    explicitly says so.
+
+11.2 HP DOES NOT RESET
+
+    Damage persists between combats. An entity that survives one
+    engagement with 2 HP remaining enters its next engagement still
+    at 2 HP. The only way to heal is through an item, consumable,
+    Healing action (Section 19), or special ability that explicitly
+    restores HP.
+
+    This rule may be disabled for casual play.
+
+11.3 DEFEAT
+
+    An entity is defeated when its HP reaches 0. The entity and all
+    of its equipped items are placed in its owner's graveyard.
+
+    A fortress is destroyed when its HP reaches 0. The fortress is
+    placed in its owner's graveyard, along with every entity inside
+    it and every item those entities were carrying.
+
+11.4 ITEM OWNERSHIP
+
+    Each player has exclusive control of their own cards. There is
+    no transfer of cards between players. When a card is discarded,
+    it returns to the graveyard of its original owner. This prevents
+    item-theft ambiguity.
+
+12. STAT LIMITS
+
+Unless a card explicitly overrides them:
+
+        STAT              MINIMUM     MAXIMUM
+        Attack               1           5
+        HP (per die)         0           6
+        Items per entity     0           3
+        Entities per fort    0           3
+        Battlefield entities 0           5 per player
+
+If a buff would push a value above its cap, it stops at the cap. If
+a debuff would push a value below its minimum, it stops at the
+minimum (except HP, which can reach 0 and defeat the card).
+
+If a change in capacity would leave an entity or fortress holding
+more than the new maximum, the controlling player immediately
+chooses which cards remain legal and discards the excess to their
+graveyard.
+
+
+[VISUAL NOTE: Rules reference page. Optional stat-limit table treatment; no illustration needed.]

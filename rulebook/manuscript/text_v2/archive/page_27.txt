@@ -1,0 +1,59 @@
+PAGE 27 - REINFORCEMENTS + SCAVENGER + FORTRESS BARRAGE
+
+
+fortress.
+
+A reinforcement may not be called into a location that is already
+at its cap: No reinforcement into a fortress that already holds 3
+entities, no reinforcement onto a battlefield already holding 5 of
+that player's entities.
+
+Reinforcements may be called into Fortress Barrage engagements
+(Section 25), but defenders inside a battlefield-assaulted fortress
+are still isolated as described above.
+
+24. SCAVENGER
+
+If a friendly entity is defeated during an engagement, allied
+entities (controlled by the SAME player) in that same engagement
+may immediately equip the dead entity's items if they have capacity.
+Any items that cannot be equipped are discarded normally.
+
+Scavenger applies only to a player's OWN dead allies' items. A
+player may never pick up an enemy's items. Each player retains
+exclusive control of their own cards.
+
+Items that were already equipped by other entities cannot be
+transferred to a dead entity to "save" them for scavenging. This
+rule only applies at the moment of defeat.
+
+D. FORTRESS COMBAT
+
+25. FORTRESS BARRAGE (FORTRESS-VS-FORTRESS COMBAT)
+
+Fortresses may be thought of like ships fighting across open water.
+A fortress with occupants may engage an enemy fortress directly,
+without moving through the battlefield.
+
+To declare a Fortress Barrage:
+    -   The attacking fortress must have at least one entity inside.
+    -   The target is a single enemy fortress.
+    -   Entities inside the attacking fortress may target only the
+        target fortress, not its occupants.
+    -   Defending entities inside the target fortress may target
+        attacking entities inside the attacking fortress normally
+        (they fire back).
+    -   Combat resolves in alternating rounds like a standard
+        battlefield engagement.
+
+A fortress cannot be captured through a Fortress Barrage. Only
+battlefield assaults can capture a fortress. If the Barrage kills
+all of the target fortress's occupants without destroying the
+fortress itself, the fortress stands empty under its previous
+controller's ownership.
+
+If the target fortress is destroyed, all its occupants and their
+items are destroyed with it.
+
+
+[VISUAL NOTE: Fortress combat support diagram. Small Scavenger item-transfer visual and Barrage fortress-to-fortress arrows.]

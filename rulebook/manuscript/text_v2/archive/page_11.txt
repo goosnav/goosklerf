@@ -1,0 +1,56 @@
+PAGE 11 - ENTITY ACTIONS: ADVANCED ACTIONS + COMBAT EVENTS
+
+
+ITEM SWAP
+        Transfer up to 2 equipped items from the acting entity to
+        another friendly entity in the same engagement, respecting
+        item capacity.
+
+    HEAL
+        Roll against the acting entity's Attack. On success, discard
+        1 random card from the acting player's deck and heal one
+        friendly entity in the engagement by +1 HP.
+
+    SUPERCHARGED ATTACK
+        Roll 3d6 instead of 1d6. If all three dice are equal to or
+        below the acting entity's Attack value, deal 2 damage. If
+        any die misses, the attack fails and the acting entity takes
+        1 self-damage.
+
+    BUY AN EXTRA ACTION
+        Discard 3 random cards from the acting player's deck to give
+        this entity one additional action this combat round. Extra
+        Actions may be bought repeatedly if the player has enough
+        cards in deck.
+
+REACTIONS AND SPECIAL COMBAT EVENTS
+
+    LAST STAND
+        When an entity is reduced to 0 HP, it may take one final
+        action before being discarded. If that action raises its HP
+        above 0, the entity survives.
+
+    SCAVENGER
+        When a friendly entity dies during an engagement, surviving
+        friendly entities in that same engagement may immediately
+        equip that dead ally's items if they have capacity.
+
+    REINFORCEMENTS
+        At the end of a combat round, a side may call one
+        reinforcement into the engagement if Reinforcements are
+        active.
+
+    INITIAL VOLLEY
+        When a real battlefield engagement begins, each eligible
+        occupied fortress may fire one normal attack into that
+        engagement before the first combat round begins. Initial
+        Volley cannot be used unless at least one attacking entity
+        has been committed to that battlefield engagement.
+
+    FORTRESS BARRAGE
+        Occupied fortresses may attack enemy fortresses directly
+        if Fortress Barrage is active. Barrage cannot capture
+        fortresses.
+
+
+[VISUAL NOTE: Action reference page. Use grouped boxes for Basic Actions, Advanced Actions, and Combat Events if space allows.]

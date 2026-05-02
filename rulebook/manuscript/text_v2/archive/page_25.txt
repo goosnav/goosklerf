@@ -1,0 +1,50 @@
+PAGE 25 - ITEM SWAP + HEALING + SUPERCHARGED ATTACK + EXTRA ACTIONS
+
+
+18. ITEM SWAP
+
+Instead of taking any other action in combat, an entity may transfer
+up to two of its equipped items to another friendly entity in the
+same engagement. The acting entity does not attack this round. The
+receiving entity must have room for the incoming items.
+
+Items cannot be transferred to enemies. Consumables that have
+already been activated cannot be transferred.
+
+19. HEALING
+
+Entities have the choice to heal themselves or another friendly
+entity in the same engagement. To heal, the acting entity rolls for
+an attack (1d6 against its modified Attack stat). On a hit, the
+healer randomly draws a card from their own deck and discards it.
+This heals any single friendly entity in the engagement by +1 HP.
+On a miss, the entity's action is consumed and no card is discarded.
+
+Healing cannot raise an entity's HP above its printed maximum unless
+a card explicitly says so.
+
+20. SUPERCHARGED ATTACK
+
+Instead of a normal attack, an entity may declare a Supercharged
+Attack. Roll 3d6 instead of 1d6.
+
+    -   If all three dice are equal to or below the entity's Attack
+        value, the attack deals 2 damage instead of 1.
+    -   If any one die misses, the attack fails and the attacking
+        entity takes 1 self-damage.
+
+A Supercharged Attack consumes the entity's action for the round.
+
+21. EXTRA ACTIONS
+
+In combat, entities use only ONE action per round by default. An
+entity may "buy" one additional action by drawing from its stamina
+reserves: randomly draw 3 cards from the entity's controlling
+player's deck and discard them. This grants the entity one
+additional action this round, which may be any normal action.
+
+The cost stacks (two extra actions = 6 discarded cards), with no
+cap other than deck depth.
+
+
+[VISUAL NOTE: Combat action reference. Optional small icons for item swap, healing, supercharged attack, and extra action deck discard.]

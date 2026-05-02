@@ -1,0 +1,90 @@
+PAGE 52 - SCENARIO C: CORE MECHANIC + SERVICEWARE
+
+
+THE CORE MECHANIC - ARGUING EDIBILITY
+
+This scenario runs on persuasion and creativity, not on a fixed
+recipe. The cards in the Goosklerf deck are not labeled as food.
+They are labeled as weapons, armor, creatures, and strange
+objects. But this is a kitchen, and in a kitchen, everything is
+potentially an ingredient.
+
+When the party defeats an entity or acquires an item, they may
+declare it as one of the following:
+
+    AN INGREDIENT (entity or item). The party must argue to the
+    DM that this card could plausibly be construed as edible, or
+    as a component of a dish. The argument does not need to be
+    good. It needs to be committed.
+
+    Examples of arguments that should work:
+        -   "This entity is made of organic matter. We can cook
+             organic matter."
+        -   "This shield is basically a tortilla if you squint."
+        -   "This potion is a broth. It is a broth now."
+        -   "This creature has meat on it. All creatures have
+             meat on them."
+        -   "This glowing crystal is rock candy."
+
+    Examples of arguments that should NOT work:
+        -   "This sword is food." (It is steel. You cannot eat
+             steel. Try harder.)
+        -   "This entity is edible because I said so." (Make a
+             real argument.)
+        -   "This helmet is a bowl of soup." (A helmet could be
+             a BOWL. It is not soup. You need to put something
+             IN the helmet.)
+
+    THE DM IS THE JUDGE. The DM decides whether the argument
+    passes. The standard is generous but not infinite. If the
+    argument makes the table laugh, it passes. If the argument
+    makes the table groan, it passes. If the argument makes
+    nobody react at all, it probably fails. The DM should err
+    on the side of yes.
+
+    IMPORTANT: An item used as an ingredient is consumed. It
+    is added to the meal and cannot be used as equipment
+    anymore. An entity used as an ingredient is placed in the
+    party's ingredient pile. A player may choose to keep a
+    useful item as equipment instead of contributing it to the
+    meal. This is the central tension: your best weapon might
+    also be your best ingredient.
+
+A UTENSIL, CUP, OR PLATE (item only). The party must also
+argue that certain items serve as serviceware. The creature
+coming back needs something to eat WITH, something to drink
+FROM, and something to eat OFF OF.
+
+    UTENSIL: Any item that could plausibly be used to pick up,
+    cut, stab, scoop, or otherwise move food from a plate to
+    a mouth. A sword is a knife. A staff is a skewer. A shield
+    on a stick is a spatula. Tongs are tongs.
+
+    CUP: Any item that could plausibly hold liquid. A helmet
+    is a cup. A hollowed-out shield is a cup. A boot is a cup
+    if you are desperate enough and argue with conviction.
+
+    PLATE: Any item with a flat or concave surface large
+    enough to hold a meal. A shield is a plate. A breastplate
+    is a plate. A book opened flat is a plate if you do not
+    care about the book.
+
+Items designated as serviceware are NOT consumed. They are
+placed at the table setting in Act III and remain there.
+An item cannot be both an ingredient and serviceware. Pick one.
+
+STARTING EQUIPMENT. Each character draws 1 random item from
+the deck. This is their only starting gear. Whatever the card
+depicts, in this scenario it is also whatever the party can
+argue it is. A sword is a knife. A potion is a marinade. A
+helmet is a salad bowl. The card keeps its normal stats for
+combat purposes regardless of what the party calls it.
+
+ENEMY POOL. Set aside 15 entities from the deck, face-down.
+These are deployed by the DM over the course of the scenario.
+Remaining entities not used by the end of the scenario are
+wasted. The party does not need to fight every enemy, only
+enough to meet their course requirements.
+
+
+[VISUAL NOTE: Scenario C mechanic visual: ingredient/serviceware decision chart. Show item cards becoming ingredient, utensil, cup, or plate.]

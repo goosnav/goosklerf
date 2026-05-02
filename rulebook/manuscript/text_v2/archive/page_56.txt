@@ -1,0 +1,65 @@
+PAGE 56 - SCENARIO C: ACT III - THE PREP + COOKING PHASE
+
+
+ACT III - THE PREP
+
+Objective: Return to the pan, cook the meal, set the table.
+
+The party must return to the stovetop with their collected
+ingredients and serviceware and actually cook. The pan they
+woke up on is their cooking station. It is still hot and
+still has the remains of the egg on it.
+
+RETURNING TO THE PAN. Each character makes a Normal check to
+descend back onto the pan safely. Failure: 1 damage.
+
+THE COOKING PHASE. For each course, the party must do the
+following:
+
+    1. LAY OUT THE INGREDIENTS. Place the 3 entity cards and
+       3 item cards designated as edible for this course in
+       a visible pile on the table.
+
+    2. NAME THE DISH. The party must, out loud, name the dish
+       they are making from these 6 components. The name
+       should be specific. "Food" is not a dish name. "Pan-
+       Seared Golem Flank with Shield-Crust Garnish and a
+       Potion Reduction" is a dish name.
+
+    3. DESCRIBE THE COOKING. The party must explain to the DM
+       how they are cooking the dish. This includes:
+           -   What method they are using (frying, boiling,
+               roasting, assembling raw, smoking, etc.)
+           -   Which ingredients are cooked and which are
+               served raw or cold
+           -   Any preparation steps (chopping, marinating,
+               seasoning, etc.)
+           -   How the components work together as a dish
+
+       The DM judges the cooking explanation by the same
+       standard as the edibility arguments: committed and
+       creative beats technically accurate. If the party
+       describes their cooking process with conviction and
+       at least a passing relationship to how food works,
+       it passes. If they just say "we cook it," they need
+       to try harder.
+
+    4. COOK. One character must spend 1 round per course
+       actively cooking. Roll a Normal check (4 or less on
+       1d6):
+
+       Success: The course is prepared.
+
+       Failure: The course is underdone. Spend 1 additional
+       round and try again. No check needed on the retry;
+       it just takes time. Time you may not have.
+
+    5. PLATE AND SET. Once all courses are prepared, the
+       party must lay out the serviceware. Place the utensil,
+       cup, and/or plate items (as required by difficulty)
+       next to the completed courses. Describe the table
+       setting briefly. This costs 1 round total, regardless
+       of how many serviceware items are placed.
+
+
+[VISUAL NOTE: Scenario C cooking phase diagram. Show ingredient piles, dish naming, cooking check, and serviceware placement as a sequence.]

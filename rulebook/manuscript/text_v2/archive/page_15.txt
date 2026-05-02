@@ -1,0 +1,61 @@
+PAGE 15 - TURN STRUCTURE: COMBAT + MOVEMENT
+
+
+otherwise.
+
+    Combat is broken into three sub-phases:
+
+    1. Combat Staging/Movement:
+       The active player declares each engagement one at a time.
+       For each engagement, the active player chooses which of their
+       eligible entities are participating and moves them into the
+       engagement area if required.
+
+       Combat Staging is not general movement. It only moves entities
+       into the engagement they are about to fight in. Entities moved
+       during Combat Staging must immediately participate in that
+       engagement.
+
+    2. Combat Round(s):
+       The participating attackers and defenders fight until one side
+       is defeated, retreats, or the engagement ends by rule.
+
+    3. Combat Resolution:
+       Resolve capture, destruction, retreat destinations, Scavenger,
+       Victory Rewards, and final positions for all surviving cards.
+
+    See Section 10 for combat rules.
+
+PHASE 3: MOVEMENT
+
+    The active player may freely reposition their own entities and
+    transfer their own items during this phase, as long as all
+    resulting positions are legal.
+
+    Legal movement:
+        -   Battlefield to one of the player's fortresses (with space)
+        -   The player's fortress to the battlefield (if legal
+            battlefield room exists)
+        -   The player's fortress to another of the player's
+            fortresses (with space)
+
+    POSITIONING MATTERS
+
+        End-of-Movement positions decide what a player is ready to
+        do on their next turn.
+
+        Only battlefield entities can assault and capture enemy
+        fortresses. Entities inside fortresses can defend, fire
+        Initial Volleys when legal, and use Fortress Barrage if that
+        rule is active, but they cannot capture enemy fortresses.
+
+        An undefended fortress has no entity defense. If it is
+        assaulted by an enemy battlefield entity and survives the
+        assault, the attacker may capture it immediately during
+        Combat Resolution by moving at least one surviving attacker
+        inside.
+
+        Entities on the battlefield are exposed, but they threaten
+
+
+[VISUAL NOTE: FIGURE 3 - Turn flow diagram. Five phases in order: Card Play, Combat, Movement, Card Draw, Victory Check, each with a one-line summary.]

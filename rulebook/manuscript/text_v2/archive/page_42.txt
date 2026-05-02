@@ -1,0 +1,36 @@
+PAGE 42 - SCENARIO A: ACT I
+
+
+ACT I - ENTRANCE
+
+Objective: Cross the district checkpoint.
+
+The party approaches a narrow road blocked by stacked cars. Two
+checkpoint guards (pull 2 enemies from the pool) wave them down.
+The guards have the flat eyes. They are polite. They keep asking
+if the party has a permit. They keep asking the same way, with
+the same intonation, as if their voices are being routed through
+something that is not their brain.
+
+The party may:
+    -   Fight them (standard combat, party acts first).
+    -   Talk their way through (Normal check, 4 or less on 1d6).
+        On success, the guards step aside and stare at a spot
+        ten feet behind the party until the party is gone.
+        Failure triggers combat with the guards already hostile.
+    -   Distract one guard by playing the tape recorder at them.
+        The guard becomes catatonic for the rest of the scene.
+        The other guard must still be dealt with.
+
+LOCAL RULE - THE BROADCAST IS EVERYWHERE. Any character who
+spends a whole round in this scenario without attacking, moving,
+or speaking must roll 1d6. On a 1, they begin to hear the
+broadcast clearly. Their Attack is reduced by 1 until the end
+of the next round. If a character fails this roll three times
+in one scenario, they become a listener: they stop taking
+actions and must be carried out by their allies. A carried
+listener cannot fight but takes up a party slot. They recover
+after the scenario if the broadcast is ended.
+
+
+[VISUAL NOTE: Scenario A checkpoint vignette: stacked cars, polite flat-eyed guards, one party member holding the tape recorder.]

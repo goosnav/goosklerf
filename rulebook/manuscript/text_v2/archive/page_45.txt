@@ -1,0 +1,52 @@
+PAGE 45 - SCENARIO A: ACT IV + AFTERMATH
+
+
+ACT IV - THE FINALE
+
+Objective: Stop the broadcast.
+
+At the top of the tower is a single figure at a console. They
+have the flat eyes, but there is something else underneath.
+They look up when the party arrives and smile. The smile is
+almost right. It is almost correct. It is the kind of smile
+you would get from someone who has been practicing from a
+photograph.
+
+When the operator speaks, they speak in a voice that every
+party member privately recognizes: the voice of someone they
+once loved. Each character hears it differently. The DM asks
+each player to name someone quietly, and then uses that name.
+
+The operator's stats: Attack 4, HP 6. They have one consumable
+that rolls as a 3-damage attack on any one target. They have
+a special: at the start of each round, one random party member
+must roll 1d6; on a 1 or 2, they cannot attack the operator
+that round, because they cannot bring themselves to.
+
+The party may:
+    -   Defeat the operator in combat.
+    -   Convince the operator to shut down the broadcast
+        voluntarily. A character may attempt one Desperate
+        check (2 or less on 1d6) per scenario. The check
+        must be made in-character: the player must say
+        something to the operator that the DM finds
+        sufficiently true.
+    -   Destroy the console instead. This is a 1-turn action
+        requiring the character to stand still next to the
+        console and ignore all combat. The console has HP 4.
+        Any character who destroys the console dies in the
+        process. Their name is remembered. Their voice is the
+        last one on the tape recorder.
+
+AFTERMATH
+
+If the party ends the broadcast, the listeners below the tower
+wake up slowly. Some remember who they are. Some do not. Over
+the next days, most drift away from the tower and go home, if
+they have one. Some do not.
+
+The tape recorder stops playing. It is just a tape recorder
+now. The party can keep it or leave it.
+
+
+[VISUAL NOTE: Scenario A finale: operator at console with almost-right smile, tape recorder visible, party arriving at tower top.]

@@ -1,0 +1,56 @@
+PAGE 26 - LAST STAND + REINFORCEMENTS START
+
+
+C. COMBAT EVENTS
+
+22. LAST STAND
+
+When an entity is reduced to 0 HP, it may take one final action
+before being discarded: a normal attack, a consumable, a special
+ability, or a Heal (if the Healing rule is active).
+
+Last Stand triggers from any source of 0 HP, including self-damage
+from Supercharged Attack (Section 20).
+
+After taking its final action, the entity is placed in its owner's
+graveyard along with its items. An entity killed by Last Stand is
+defeated normally. If the Last Stand action causes the entity's HP
+to increase to 1 or more (e.g., via a successful Heal), the entity
+remains alive and is not discarded.
+
+An entity may take only one Last Stand action each time it is
+reduced to 0 HP. If it survives because that action restored HP, it
+does not receive another Last Stand from the same damage event.
+
+23. REINFORCEMENTS
+
+At the end of either side's combat round, that side may call ONE
+reinforcement into the engagement.
+
+To call a reinforcement, choose one friendly entity already in the
+engagement. That entity becomes the caller. The caller's NEXT
+action is spent calling the reinforcement instead of attacking,
+healing, retreating, or using another action. If the caller is
+defeated before its next action, the reinforcement still arrives,
+but the caller is defeated normally.
+
+Only one reinforcement per side per round may be called, but there
+is no cap on total reinforcements over the course of the
+engagement.
+
+Defenders inside a fortress under assault are isolated: They cannot
+CALL or RECEIVE reinforcements during that engagement. Their
+fortress is surrounded.
+
+The reinforcing entity must come from a legal nearby zone:
+    -   One of the calling player's own fortresses in the suburbs
+    -   The battlefield
+
+A reinforcement enters the engagement immediately and can be
+targeted by enemies in the next round. It cannot act during the
+round it arrives. After the engagement ends, the reinforcement
+remains wherever it reinforced into: battlefield reinforcements
+stay on the battlefield, fortress reinforcements stay in that
+
+
+[VISUAL NOTE: Combat event page. Optional small Last Stand vignette plus reinforcement arrow entering engagement.]

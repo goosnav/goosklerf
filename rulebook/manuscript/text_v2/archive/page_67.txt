@@ -1,0 +1,83 @@
+PAGE 67 - GLOSSARY G-V
+
+
+GAME TURN       The full 5-phase cycle a player takes: Card Play,
+                Combat, Movement, Card Draw, Victory Check. Not
+                to be confused with a Combat Round.
+
+GRAVEYARD       A player's discard pile. Each player has their
+                own.
+
+HAMLET          The loss-for-all end condition: no entities
+                remain and none can be played.
+
+HEALING         An advanced combat action (Section 19). The healer
+                rolls an attack; on hit, they discard a random card
+                from their deck and heal one entity in the
+                engagement by +1 HP.
+
+HIT POINTS (HP) A card's durability, tracked physically with a
+                die on top of the card.
+
+INITIAL VOLLEY  A one-shot attack fortress occupants can fire into
+                a real battlefield engagement before the first
+                combat round. Once per fortress per engagement;
+                resets at the start of each new engagement.
+
+ITEM            A card equipped to an entity, granting buffs,
+                debuffs, or special effects.
+
+LANDLORD        The end condition where one player controls all
+                fortresses in play with no more to come, and then
+                survives one full round without losing that
+                status.
+
+LAST STAND      An advanced rule allowing an entity at 0 HP to take
+                one final action before being discarded. If the
+                action raises the entity's HP back above 0 (e.g.,
+                via Heal), the entity survives.
+
+MEGA-ENGAGEMENT  A single engagement targeting multiple enemy
+                fortresses simultaneously. There is no cap on
+                the number of fortresses targeted in one
+                engagement.
+
+OCCUPY          Having one or more living entities physically
+                inside a fortress.
+
+PARRY           An advanced action canceling 1 HP of normal-hit
+                damage received on the previous round.
+
+RARE CARD       A card with a purple, orange, or yellow/gold
+                border.
+
+RETREAT         An advanced action to leave an engagement at the
+                cost of one round's action and exposure to an
+                enemy attack.
+
+SCAVENGER       An advanced rule allowing a player's surviving
+                entities to pick up their own dead allies' items
+                in an engagement. Items NEVER transfer between
+                different players' control.
+
+SHOP            An advanced face-up zone where players place 3
+                or 7 cards at setup (depending on deck regime)
+                for possible mid-game purchase.
+
+SUBURBS         The fortress zone at the edges of the table,
+                where fortresses are placed. The suburbs are the
+                battlefield for fortresses; the battlefield is
+                the battlefield for entities.
+
+SUPER ENTITY    A rare entity with 2 HP dice.
+
+SUPER FORTRESS  A rare fortress with 3 HP dice. (A normal
+                fortress has 2 HP dice.)
+
+VICTORY REWARD  Cards drawn to the attacker's hand after winning
+                a battlefield engagement, scaled by what was
+                achieved (1 per entity killed, 2 per fortress
+                captured, 3 per fortress destroyed).
+
+
+[VISUAL NOTE: Glossary text page. Continue same formatting style; no illustration needed.]

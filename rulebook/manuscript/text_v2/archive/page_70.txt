@@ -1,0 +1,65 @@
+PAGE 70 - VISUAL ELEMENTS CHECKLIST FIGURES 1-8
+
+
+VISUAL ELEMENTS CHECKLIST (FOR THE ARTIST)
+
+The following illustrations are referenced or implied throughout
+this rulebook. Each is listed with its purpose and the minimum
+information it must communicate. Illustrations should be
+functional first, stylish second. A player should be able to
+understand the thing from the illustration alone.
+
+FIGURE 1 - CARD ANATOMY
+    One full page. Four card diagrams side by side (Entity,
+    Fortress, Item, Consumable). Callouts label: border color,
+    name, card-type icon, Attack stat, HP dice (note: normal
+    entities have 1 die, super entities 2; normal fortresses 2
+    dice, super fortresses 3), capacity (if any), text box, and
+    any buff/debuff indicators.
+    Purpose: So a new player can identify every part of a card
+    by glancing at the page.
+
+FIGURE 2 - TABLE LAYOUT (MOST IMPORTANT IMAGE IN THE BOOK)
+    One full page. Top-down view of a 2-player Classic Mode
+    table. Clearly show: battlefield in the center, suburbs
+    above and below with slots for up to 3 fortresses per
+    player, each player's deck/hand/graveyard near them, optional
+    shop column on one side. Label every zone. Use simple boxes,
+    not decoration.
+
+FIGURE 3 - TURN FLOW DIAGRAM
+    Half page. A flow diagram of the five phases (Card Play,
+    Combat, Movement, Card Draw, Victory Check) with a one-line
+    summary of each.
+
+FIGURE 4 - COMBAT WALKTHROUGH
+    Full page. A comic-style walkthrough of one complete
+    engagement: declaration, initial volley, two combat rounds,
+    resolution, and victory reward. Use real numbers (dice
+    rolls shown). This is the image new players will point at
+    when they are stuck.
+
+FIGURE 5 - FORTRESS ASSAULT VS BARRAGE
+    Half page. Two small diagrams side by side. Left: entities
+    moving from the battlefield to assault a fortress. Right:
+    fortress entities firing across the suburbs at another
+    fortress ("ships fighting ships"). Shows the visual
+    difference between the two combat types.
+
+FIGURE 6 - RULE LEVELS CHART
+    Half page. A simple chart mapping Basic Goosklerf, Advanced
+    Goosklerf, and Custom Goosklerf. Basic uses Core Rules only.
+    Advanced uses all Advanced Rules. Custom uses whichever
+    Advanced Rules players agree to before setup.
+
+FIGURE 7 - MODE SELECTOR
+    Half page. A small grid of the five modes with a one-line
+    description, recommended player count, and difficulty
+    rating.
+
+FIGURE 8 - TACTICAL MODE LAYOUTS
+    Half page. Three small table layouts for Lightning,
+    Standard Tactical, and Skirmish variants.
+
+
+[VISUAL NOTE: Visual checklist page. This page is itself production guidance; no added illustration needed.]

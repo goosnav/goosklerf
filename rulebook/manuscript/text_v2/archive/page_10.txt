@@ -1,0 +1,64 @@
+PAGE 10 - PART II HEADER + CORE CONCEPTS + BASIC ENTITY ACTIONS
+
+
+PART II - CORE RULES
+
+5. CORE CONCEPTS
+
+Before the detailed rules, here are the concepts the rest of the book
+assumes the players understand.
+
+CONTROL. A card is controlled by the player who owns it, unless a
+rule or special effect changes control (for example, capturing a
+fortress).
+
+OCCUPY. A player occupies a fortress if they have at least one
+surviving entity inside it. A player can control an empty fortress.
+
+ENGAGEMENT. A single declared combat, from the moment combat is
+declared until one side is destroyed, retreats, or the engagement
+ends by rule. Engagements are resolved one at a time.
+
+CARD TEXT OVERRIDES. If a card's special text contradicts a general
+rule, the card text wins. If two cards contradict each other, the
+card belonging to the acting player wins.
+
+6. ENTITY ACTIONS
+
+During combat, each participating entity normally takes ONE action
+per combat round. The available actions are listed below.
+
+Some actions are always available. Others require the full Goosklerf
+rules to be active. In genuine Goosklerf play, all full rules are
+active unless a teaching mode or scenario says otherwise.
+
+BASIC ACTIONS
+
+    NORMAL ATTACK
+        Choose one legal enemy target in the engagement and roll
+        1d6. If the roll is equal to or below the acting entity's
+        Attack value, the attack hits and deals 1 HP damage unless
+        a card says otherwise.
+
+    USE A CONSUMABLE
+        Use one equipped consumable item. Resolve its effect, then
+        discard it unless the card says otherwise.
+
+    USE A SPECIAL ABILITY
+        Use a special ability printed on the entity, item, fortress,
+        or scenario, if its conditions are met.
+
+ADVANCED ACTIONS
+
+    PARRY
+        Attempt to cancel 1 HP of normal-hit damage suffered during
+        the previous enemy round. Roll against the entity's Attack.
+        On success, regain 1 HP lost from that hit.
+
+    RETREAT
+        Give up the entity's action and attempt to leave the
+        engagement. If the entity survives the next enemy round and
+        has a legal destination, it leaves the engagement.
+
+
+[VISUAL NOTE: Clean text page. Optional small icons for Control, Occupy, Engagement, and Card Text Overrides.]

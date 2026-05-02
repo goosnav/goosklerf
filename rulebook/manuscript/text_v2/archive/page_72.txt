@@ -1,0 +1,66 @@
+PAGE 72 - QUICK REFERENCE CARD (FIGURE 12 - TEAR-OUT)
+
+
+QUICK REFERENCE CARD
+
+(Cut out and keep at the table)
+
+
+TURN PHASES (IN ORDER)
+    1. CARD PLAY       Play 3 cards from hand, or discard to reach 3 total
+    2. COMBAT          Declare engagements; resolve each fully
+    3. MOVEMENT        Reposition entities and transfer your own items
+    4. CARD DRAW       Draw 2 random + search 1; reshuffle
+    5. VICTORY CHECK   Check win conditions and Landlord status
+
+
+HOW TO HIT
+    Roll 1d6. If the result is equal to or below Attack: HIT.
+    A normal hit deals 1 HP damage unless a card says otherwise.
+
+
+COMBAT ACTIONS
+    Basic:      Normal Attack / Use Consumable / Use Special Ability
+    Advanced:   Parry / Retreat / Item Swap / Heal / Supercharged Attack
+                Buy an Extra Action
+
+
+FORTRESS ASSAULT
+    Attackers may target the fortress or defenders inside it.
+    If all defenders are gone and the fortress has 1+ HP, the attacker may:
+        CAPTURE: move at least 1 surviving attacker inside; control transfers.
+        DESTROY: discard the fortress; attackers remain on battlefield.
+
+    If the fortress reaches 0 HP, it is destroyed with everything inside.
+
+
+RETREAT
+    Announce retreat instead of acting. Survive the next enemy round.
+    Then leave to a legal destination. No legal destination = no retreat.
+
+
+SHOP
+    Buy 1 shop card by discarding 2 normal cards OR 1 rare card.
+    Bought card must be played immediately and counts as 1 of 3 plays.
+
+
+VICTORY CONDITIONS
+    LAST MAN STANDING   Only your entities survive. Win immediately.
+    LANDLORD            Control all fortresses, no unplayed fortresses anywhere,
+                        then survive one full round.
+    HAMLET              All entities gone, none can enter play. Everyone loses.
+    SPECIAL             Card or scenario effect declares a winner.
+
+
+STAT LIMITS
+    Attack: 1-5        HP per die: 0-6        Items per entity: 0-3
+    Entities per fortress: 0-3                Battlefield entities: 0-5 per player
+
+
+VICTORY REWARDS
+    Each enemy entity defeated: +1 card
+    Each fortress captured:     +2 cards
+    Each fortress destroyed:    +3 cards
+
+
+[VISUAL NOTE: FIGURE 12 - Tear-out quick reference card. Standalone reference design with border, phase list, action list, hit rule, capture/destroy, shop, victory, stat limits, rewards.]

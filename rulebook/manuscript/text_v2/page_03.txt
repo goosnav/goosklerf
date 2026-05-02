@@ -1,0 +1,70 @@
+PAGE 03 - TABLE OF CONTENTS
+
+
+TABLE OF CONTENTS
+
+QUICKSTART: HOW TO PLAY
+
+HOW TO READ THIS BOOK
+
+PART I    - COMPONENTS AND TABLE
+    1.    What You Need
+    2.    Card Types
+    3.    Card Anatomy
+    4.    The Table: Zones and Layout
+
+PART II   - CORE RULES
+    5.    Core Concepts
+    6.    Entity Actions
+    7.    Victory Conditions
+    8.    Deck and Starting Hand
+    9.    Turn Structure
+    10.   Combat
+    11.   Damage, Defeat, and Item Ownership
+    12.   Stat Limits
+
+PART III  - ADVANCED RULES
+    A.    Economy and Game Pressure
+          13. Shop
+          14. Victory Rewards
+          15. Old Age
+
+    B.    Combat Actions
+          16. Parry
+          17. Retreat
+          18. Item Swap
+          19. Healing
+          20. Supercharged Attack
+          21. Extra Actions
+
+    C.    Combat Events
+          22. Last Stand
+          23. Reinforcements
+          24. Scavenger
+
+    D.    Fortress Combat
+          25. Fortress Barrage
+
+PART IV   - BACKWARDS COMPATIBILITY (GOOSKLERF I)
+
+PART V    - GAME MODES
+    26.   Mode Selector
+    27.   Classic Mode
+    28.   Tactical Mode (with deck-size variants)
+    29.   Singleplayer Mode
+    30.   Campaign Mode
+    31.   Chessklerf
+
+PART VI   - CAMPAIGN SCENARIOS
+    A.    The Numbers Station
+    B.    The Grocery Run
+    C.    The Meal
+    D.    The Lab
+
+PART VII  - APPENDICES
+    Glossary
+    FAQ and Edge Cases
+    Visual Elements Checklist (for the artist)
+
+
+[VISUAL NOTE: Clean table of contents page. No illustration needed; use strong hierarchy and enough breathing room.]

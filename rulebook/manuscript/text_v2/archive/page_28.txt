@@ -1,0 +1,39 @@
+PAGE 28 - PART IV: BACKWARDS COMPATIBILITY
+
+
+PART IV - BACKWARDS COMPATIBILITY (GOOSKLERF I)
+
+Goosklerf II simplified the stat system from Goosklerf I (GKI).
+GKI used Attack, Defense, and Capacity stats. GKII uses only Attack
+and HP, with a fixed capacity of 3. When a player uses a mixed
+deck, the following conversions apply.
+
+DEFENSE CONVERSION. When a GKI card references Defense in GKII
+play, treat the Defense value as Attack when that entity is
+defending (not the initiator of combat). If a GKI fortress buffs
+Defense on a GKII entity, apply the buff to that entity's Attack
+stat instead.
+
+CAPACITY CONVERSION. GKI cards retain their printed capacity
+values. GKII cards use a fixed capacity of 3 items per entity and
+3 entities per fortress, regardless of any GKI capacity effects
+that might target them.
+
+    -   If a GKI effect would raise a GKII entity's capacity, the
+        GKII entity's capacity stays at 3.
+    -   If a GKI effect would raise another GKI card's capacity,
+        apply it normally using GKI rules.
+    -   Overflow from mid-battle capacity changes is handled as in
+        Section 12: the controlling player picks which cards to
+        discard.
+
+MIXED ITEM BUFFS. If a GKI item buffs both Attack and Defense, use
+the relevant value based on whether the holding entity is attacking
+or defending during that combat round.
+
+LEGACY OFF. Players may also simply ignore Defense and Capacity on
+GKI cards and play them as pure GKII cards. This is allowed for
+casual play.
+
+
+[VISUAL NOTE: Clean backwards compatibility page. Optional side-by-side GKI/GKII stat conversion mini-table.]

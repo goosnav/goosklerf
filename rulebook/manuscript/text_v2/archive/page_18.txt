@@ -1,0 +1,53 @@
+PAGE 18 - COMBAT ROUNDS + ACTION LIST + STAGING START
+
+
+target fortresses and do not trigger Victory Rewards.
+
+COMBAT ROUNDS
+
+    Combat proceeds in alternating rounds. In each round:
+
+        1. The attacker's participating entities each take ONE action.
+        2. The defender's participating entities each take ONE action.
+        3. If one side has been fully destroyed, the engagement ends.
+           Otherwise, begin the next round.
+
+    Actions available to each entity on its turn:
+
+        A. Normal Attack
+        B. Use a Consumable
+        C. Use a Special Ability
+
+    If playing Advanced or Custom Goosklerf, additional actions may
+    include:
+
+        D. Parry
+        E. Retreat
+        F. Item Swap
+        G. Heal
+        H. Supercharged Attack
+        I. Buy an Extra Action
+
+10.1 COMBAT STAGING/MOVEMENT
+
+    During Combat Staging, the active player declares one engagement
+    at a time. The terms below describe the engagement's SCOPE
+    (which enemy cards are eligible), not simultaneous attacks —
+    individual attacks still target one legal enemy at a time unless
+    a card says otherwise.
+
+    Battlefield entities may be staged into:
+        1. A battlefield engagement targeting one enemy player. All
+           of that player's battlefield entities are eligible
+           defenders in the engagement.
+        2. A fortress assault targeting one or more of that enemy
+           player's fortresses.
+
+    Entities inside a fortress may participate in combat by:
+        1. Leaving the fortress during Combat Staging to join a
+           battlefield engagement.
+        2. Firing an Initial Volley into a battlefield engagement,
+           if legal.
+
+
+[VISUAL NOTE: FIGURE 4 - Combat walkthrough start. Comic-style sequence: engagement declared, initial volley, combat rounds, resolution. Use real dice numbers.]

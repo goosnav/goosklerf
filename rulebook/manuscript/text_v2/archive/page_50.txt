@@ -1,0 +1,53 @@
+PAGE 50 - SCENARIO B: ACT IV + AFTERMATH
+
+
+ACT IV - THE FINALE
+
+Objective: Make it home.
+
+The party retreats from the store with whatever they still
+carry. The walk back is shorter than the walk in, even though
+it is the same distance. The streets feel like they are
+helping.
+
+Each surviving character must make 1 Normal check (4 or less
+on 1d6) to reach the safehouse. Modifiers:
+    -   +1 difficulty (easier) if the character is carrying 2
+        or fewer items.
+    -   -1 difficulty (harder) if the character is carrying 4
+        or more items.
+    -   -1 difficulty if the character ate during Act II.
+    -   The character who opened the freezer in Act II must
+        make their check at Hard (3 or less). Whatever was in
+        there has decided to follow them home. They will not
+        see it. They will hear it walking behind them with the
+        same number of footsteps no matter how fast they run.
+
+Characters who fail the check are caught in an alley by a
+final rival pulled from the pool. They must fight 1 enemy
+solo. Surviving the fight completes the check.
+
+AFTERMATH
+
+Victory is measured by items successfully brought home across
+all surviving characters.
+
+    7 or more items: A great haul. The party eats well for a
+                     week. Each character permanently regains
+                     1 HP up to their max if they have lost any
+                     since the campaign started.
+    4 to 6 items:    A good haul. The party eats. That is
+                     enough.
+    1 to 3 items:    A meager haul. The party eats once and
+                     remembers being hungry the next day.
+    0 items:         No haul. But everyone who came back came
+                     back, which is more than most parties can
+                     say. That counts.
+
+The character who opened the freezer hears something at their
+safehouse window that night. It is the sound of breathing from
+the wrong side of the glass. It is gone in the morning. Or
+it is not.
+
+
+[VISUAL NOTE: Scenario B aftermath layout: haul results as a clean table plus small vignette of the freezer character hearing breathing at a window.]

@@ -1,0 +1,53 @@
+PAGE 17 - COMBAT: WHO CAN ATTACK + INITIAL VOLLEY
+
+
+10. COMBAT
+
+Combat begins when the active player declares an engagement. The
+player declaring combat is the attacker. All opposing entities
+involved are the defenders.
+
+WHO CAN ATTACK WHOM
+
+    Entities on the battlefield may attack:
+        -   Enemy battlefield entities
+        -   Enemy fortresses in the suburbs (fortress assault)
+
+    Entities inside a fortress may attack only in these cases:
+        -   They leave the fortress during Combat Staging and join
+            a battlefield engagement.
+        -   They fire one Initial Volley into a battlefield
+            engagement, if legal.
+        -   They defend their own fortress during a fortress assault.
+        -   They attack an enemy fortress through Fortress Barrage,
+            if that rule is active.
+
+    Entities inside a fortress cannot make normal attacks against
+    battlefield entities while remaining inside the fortress.
+
+INITIAL VOLLEY
+
+    When a battlefield engagement is declared, each eligible occupied
+    fortress may fire one Initial Volley before the first combat
+    round begins.
+
+    A battlefield engagement must include at least one attacking
+    entity committed to the engagement. A player cannot declare an
+    empty engagement just to trigger Initial Volley.
+
+    A fortress may fire an Initial Volley only if:
+        -   it has at least one surviving occupant,
+        -   it is not currently under assault,
+        -   it is not participating in Fortress Barrage, and
+        -   the engagement is a battlefield engagement, not a
+            fortress assault.
+
+    Each fortress may fire at most one Initial Volley per engagement,
+    regardless of how many entities are inside it. The controlling
+    player chooses which occupant fires.
+
+    The volley is one normal attack against one enemy entity
+    participating in the battlefield engagement. Volleys cannot
+
+
+[VISUAL NOTE: Combat positioning visual. Show battlefield entities, fortress occupants, and arrows indicating who can attack whom.]

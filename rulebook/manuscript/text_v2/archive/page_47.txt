@@ -1,0 +1,34 @@
+PAGE 47 - SCENARIO B: ACT I
+
+
+ACT I - ENTRANCE
+
+Objective: Reach the store parking lot.
+
+The party moves through 3 empty streets toward BIG VALUE. At
+each street, roll 1d6 and resolve the result:
+
+    1: A rival scavenger lurking in a doorway. Pull 1 enemy
+       from the pool. Combat.
+    2: A car with a passenger still strapped in, asking the
+       party for directions in a polite voice. The passenger
+       is not hostile. The passenger does not want directions.
+       Players may ignore them, talk to them (DM improvises),
+       or destroy the car (no reward, but it stops the voice).
+    3: A pile of grocery bags abandoned mid-street, contents
+       rotted. A character may search them for 1 random item.
+       On a roll of 1, the bag is occupied.
+    4: Nothing. Wind. A dog barking somewhere. The dog is
+       saying words but not loudly enough to make out.
+    5: A dead radio playing music that has not been written
+       yet. No mechanical effect.
+    6: A useful find. Draw 1 random item from the deck and
+       give it to any party member.
+
+After the third street, the party can see the store. The
+parking lot is full. The lights are on. The doors slide open
+automatically as if welcoming them. They keep sliding open and
+closed even after the party stops moving.
+
+
+[VISUAL NOTE: Scenario B Act I path/d6 table visual. Show three empty streets leading to the store and small numbered event callouts.]

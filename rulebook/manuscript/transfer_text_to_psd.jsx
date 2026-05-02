@@ -5,12 +5,14 @@
 //
 // For every .txt file in <root>/text/, this script opens
 // <root>/template/rulebook_template.psd, replaces the contents
-// of the single text layer named "RULE_TEXT" with the TXT
-// file's contents, and saves the result as a new .psd in
+// of the text layer named "RULE_TEXT" with the TXT file's
+// contents, updates the text layer named "PAGE_NUMBER" with
+// the sequential page number for this run, and saves the result as a new .psd in
 // <root>/generated_psd/.
 //
 // The script never modifies the original template.
-// The script never modifies any layer other than RULE_TEXT.
+// The script never modifies any layer other than RULE_TEXT
+// and PAGE_NUMBER.
 //
 // Tested against: Adobe Photoshop CS6 and later (ExtendScript).
 // Run via: File > Scripts > Browse... and select this .jsx file.
@@ -28,6 +30,7 @@ var TEXT_SUBFOLDER         = "text";
 var OUTPUT_SUBFOLDER       = "generated_psd";
 var LOG_FILENAME           = "build_log.txt";
 var TARGET_LAYER_NAME      = "RULE_TEXT";
+var PAGE_NUMBER_LAYER_NAME = "PAGE_NUMBER";
 
 // ----------------------------------------------------------------
 // Logging buffer
@@ -206,9 +209,9 @@ function validateProject(rootFolder) {
 // ----------------------------------------------------------------
 // Validate the template document itself.
 //
-// Opens the template (read-only), verifies that RULE_TEXT exists,
-// is a text layer, and is unlocked. Closes the template afterward
-// without saving.
+// Opens the template (read-only), verifies that RULE_TEXT and
+// PAGE_NUMBER exist, are text layers, and are unlocked. Closes
+// the template afterward without saving.
 //
 // We deliberately do NOT keep the template document open after
 // validation -- we re-open a fresh copy for each TXT file so the
@@ -253,6 +256,26 @@ function validateTemplate(project) {
         fatal(project.rootFolder, "Layer '" + TARGET_LAYER_NAME + "' is fully locked. Unlock it in the template and try again.");
     }
 
+    var pageNumberLayer = findLayerByName(doc, PAGE_NUMBER_LAYER_NAME);
+    if (pageNumberLayer === null) {
+        doc.close(SaveOptions.DONOTSAVECHANGES);
+        fatal(project.rootFolder, "Template does not contain a layer named '" + PAGE_NUMBER_LAYER_NAME + "'.");
+    }
+    if (pageNumberLayer.kind !== LayerKind.TEXT) {
+        doc.close(SaveOptions.DONOTSAVECHANGES);
+        fatal(project.rootFolder, "Layer '" + PAGE_NUMBER_LAYER_NAME + "' exists but is not a text layer.");
+    }
+    isLocked = false;
+    try {
+        isLocked = pageNumberLayer.allLocked === true;
+    } catch (pageNumberLockErr) {
+        isLocked = false;
+    }
+    if (isLocked) {
+        doc.close(SaveOptions.DONOTSAVECHANGES);
+        fatal(project.rootFolder, "Layer '" + PAGE_NUMBER_LAYER_NAME + "' is fully locked. Unlock it in the template and try again.");
+    }
+
     doc.close(SaveOptions.DONOTSAVECHANGES);
     logLine("Template validation passed.");
 }
@@ -261,12 +284,12 @@ function validateTemplate(project) {
 // Per-file processing
 // ----------------------------------------------------------------
 
-function processOneTxt(project, txtFile) {
+function processOneTxt(project, txtFile, pageNumber) {
     var outputName = swapExtensionToPsd(txtFile.name);
     var outputPath = project.outputFolder.fsName + "/" + outputName;
     var outputFile = new File(outputPath);
 
-    logLine("Processing: " + txtFile.name + " -> " + outputName);
+    logLine("Processing: " + txtFile.name + " -> " + outputName + " (page number " + pageNumber + ")");
 
     // Read TXT contents.
     var contents = readTextFile(txtFile);
@@ -288,12 +311,21 @@ function processOneTxt(project, txtFile) {
             throw new Error("RULE_TEXT is not a text layer in opened template.");
         }
 
-        // Replace the contents of the existing text item. This is
-        // the ONLY mutation the script performs. Font, size, color,
-        // tracking, leading, paragraph settings, the text box's
-        // position and dimensions, and every other layer in the
+        var pageNumberLayer = findLayerByName(doc, PAGE_NUMBER_LAYER_NAME);
+        if (pageNumberLayer === null) {
+            throw new Error("PAGE_NUMBER layer disappeared in opened template.");
+        }
+        if (pageNumberLayer.kind !== LayerKind.TEXT) {
+            throw new Error("PAGE_NUMBER is not a text layer in opened template.");
+        }
+
+        // Replace the contents of the existing text items. This is
+        // the only mutation the script performs. Font, size, color,
+        // tracking, leading, paragraph settings, the text boxes'
+        // positions and dimensions, and every other layer in the
         // document are left untouched.
         layer.textItem.contents = contents;
+        pageNumberLayer.textItem.contents = String(pageNumber);
 
         // Save as a new PSD. PhotoshopSaveOptions preserves layers
         // and editability (no flatten, no rasterize).
@@ -359,7 +391,7 @@ function main() {
         for (var i = 0; i < project.txtFiles.length; i++) {
             var txtFile = project.txtFiles[i];
             try {
-                processOneTxt(project, txtFile);
+                processOneTxt(project, txtFile, i + 1);
                 processed.push(txtFile.name);
                 generated.push(swapExtensionToPsd(txtFile.name));
             } catch (e) {

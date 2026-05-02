@@ -1,0 +1,68 @@
+PAGE 54 - SCENARIO C: ACT II - THE COUNTER + STATIONS START
+
+
+ACT II - THE COUNTER
+
+Objective: Gather ingredients, serviceware, and weapons.
+
+The countertop is a hostile environment. Everything here is
+sized for someone who is not the party's size. A puddle of
+olive oil is a lake. A dishrag is a landscape. A sponge is a
+building with a disturbing texture.
+
+The party explores the counter in search of things to fight,
+things to cook, and things to cook with. The DM structures
+the counter as a series of STATIONS. Each station costs 1
+round of travel to reach.
+
+At each station, TWO things happen:
+
+    1. COMBAT. Pull 1 entity from the enemy pool. Combat is
+       resolved normally. If the party defeats the entity,
+       they may argue it as an ingredient (the DM judges the
+       argument on the spot). If they cannot make a convincing
+       case, the defeated entity is wasted. Not everything is
+       food. Try harder next time.
+
+    2. SCAVENGING. After combat (or instead of combat, if
+       the party chooses to flee the station), each character
+       at the station may spend 1 action to scavenge. Draw 1
+       random item from the deck. The character keeps the item
+       and may use it as equipment, or may immediately argue
+       it as an ingredient or serviceware.
+
+THE DM SHOULD FLAVOR EACH STATION. Suggested locations on
+the counter for the DM to describe and improvise from:
+
+    THE CUTTING BOARD. A scarred wooden plateau. Knife marks
+    everywhere. Remnants of whatever was chopped here last.
+    Good scavenging potential: items found here are more
+    likely to be arguable as utensils or cutting implements.
+    The entity here fights with sharp, chopping motions.
+
+    THE SINK. A vast chrome basin with a dripping faucet the
+    size of a waterfall. Wet. Slippery. Characters at the
+    sink take -1 to attack rolls (bad footing). But any item
+    scavenged here can be argued as "washed and therefore
+    more plausibly edible," giving the player a +1 bonus to
+    their edibility argument (DM should be more lenient).
+
+    THE SPICE RACK. A vertical cliff of enormous jars. No
+    combat at this station (it is peaceful here, somehow).
+    Each character may scavenge 1 item. Any item found at
+    the spice rack automatically counts as edible with no
+    argument required. It is a spice. It came from the spice
+    rack. That is the argument and it is unimpeachable. The
+    DM may limit visits to the spice rack to once per
+    scenario.
+
+    THE TRASH CAN. The rim of a metal bin, overflowing with
+    debris. 2 enemies at this station instead of 1 (things
+    that live in garbage are territorial). Scavenged items
+    here are harder to argue as edible (the DM should be
+    stricter; "it came from the trash" is a fair counter-
+    argument). But scavenging is plentiful: draw 2 items
+    instead of 1.
+
+
+[VISUAL NOTE: Scenario C counter map. Show oversized stations: cutting board, sink, spice rack, trash can, stovetop, fridge.]

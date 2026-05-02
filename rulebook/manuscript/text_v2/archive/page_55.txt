@@ -1,0 +1,44 @@
+PAGE 55 - SCENARIO C: STATIONS FINISH + TIMER + ARGUMENTS
+
+
+THE STOVETOP. Another burner, not the one the party woke
+    up on. Still hot. The Sizzle rule applies here. The enemy
+    at this station has +1 Attack (the heat makes everything
+    angrier). But any entity defeated here is automatically
+    arguable as "already cooked," which is a strong argument.
+
+    THE FRIDGE. If the party reaches the fridge (requires 2
+    rounds of travel instead of 1 — it is far from the
+    stovetop), they find it open. Inside is cold and dark
+    and full of old things. No combat. Each character may
+    scavenge 2 items. Anything from the fridge is
+    automatically arguable as edible (it was in the fridge,
+    so at some point someone considered it food). But on a
+    roll of 1 on 1d6 per item, the item is "expired." An
+    expired ingredient can still be contributed to a course,
+    but the creature will spit that course out during the
+    tasting in Act IV (the DM reveals this only then, and
+    the course does not count). Players do not learn which
+    items are expired until the tasting.
+
+THE TIMER IS VISIBLE. Remind the party of the timer at the
+end of every round. They can hear it ticking. It is getting
+louder.
+
+ARGUING HAPPENS IN REAL TIME. When a player argues that an
+entity is edible or that an item is a utensil, the argument
+happens at the table, out loud, to the DM. Other players may
+support or challenge the argument. The DM rules. This is the
+scenario's signature mechanic and should be encouraged to be
+theatrical. A player who stands up and passionately defends
+the edibility of a shield boss should be rewarded for
+commitment.
+
+The party may designate items as serviceware at any point
+during Acts II or III. Serviceware does not need to be argued
+at the moment of acquisition. A player may hold an item and
+decide later whether it is a weapon, an ingredient, or a
+plate.
+
+
+[VISUAL NOTE: Scenario C station continuation. Optional small icons for timer, real-time argument, and serviceware held for later.]

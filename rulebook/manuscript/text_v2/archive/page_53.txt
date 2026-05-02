@@ -1,0 +1,45 @@
+PAGE 53 - SCENARIO C: ACT I - THE PAN
+
+
+ACT I - THE PAN
+
+Objective: Get your bearings and reach the counter.
+
+The party stands in the yolk. The heat is rising. The surface
+of the pan stretches out around them, and the air smells like
+oil and metal and something browning at the edges.
+
+The yolk is cooking. The party can feel it firming up beneath
+their feet. They have a limited window before the surface they
+are standing on becomes solid and they become part of the dish.
+
+LOCAL RULE - THE SIZZLE. At the end of every round spent on
+the pan surface (Acts I and III), each character must roll 1d6.
+On a 1, the heat gets to them: they take 1 damage. Characters
+standing on an item card designated as an ingredient (using it
+as a platform, not yet contributed to the meal) are immune to
+the Sizzle for that round.
+
+The party must cross the yolk and the egg white to reach the
+edge of the pan. This requires 3 rounds of movement. During
+the crossing, 1 enemy appears from the egg white. Pull 1
+entity from the enemy pool. This enemy is rubbery, translucent,
+and deeply offended at being cracked open.
+
+If the party defeats this entity, they may immediately argue
+it as their first ingredient. It is, after all, egg. That
+argument should be easy.
+
+At the edge of the pan, the party can see the counter. The
+counter is a vast plain of tile stretching away from the
+stovetop, littered with enormous objects: a salt shaker the
+size of a grain silo, a pepper mill like a lighthouse, a
+block of knives standing upright like monoliths.
+
+To get off the pan, each character must make a Normal check
+(4 or less on 1d6) to climb the lip of the pan without
+burning themselves. Failure: take 1 damage but still make it
+over. No one gets left behind on the pan.
+
+
+[VISUAL NOTE: Scenario C Act I visual: pan surface, yolk/egg white crossing, pan lip climb, salt shaker and knife-block monoliths beyond.]

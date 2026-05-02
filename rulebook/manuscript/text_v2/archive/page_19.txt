@@ -1,0 +1,31 @@
+PAGE 19 - COMBAT STAGING + NORMAL ATTACK
+
+
+3. Defending their own fortress during a fortress assault.
+        4. Participating in Fortress Barrage, if that rule is active.
+
+    Entities that leave a fortress during Combat Staging are now
+    battlefield entities for that engagement. They are exposed,
+    targetable, and may not return to a fortress until a later legal
+    movement, retreat, capture, or combat-resolution rule allows it.
+
+    Entities inside a fortress cannot capture an enemy fortress.
+    Only battlefield entities may capture fortresses.
+
+10.2 NORMAL ATTACK
+
+    1. Declare a target. The attacker chooses one legal enemy target
+       in this engagement (one entity, or the fortress if this is a
+       fortress assault).
+
+    2. Roll one 6-sided die.
+
+    3. If the result is equal to or below the acting entity's current
+       modified Attack value, the attack hits. Otherwise it misses.
+
+    4. A normal hit deals 1 HP of damage unless a special rule or
+       card text changes the amount. Reduce the target's HP by the
+       HP damage upon a successful attack.
+
+
+[VISUAL NOTE: Combat staging diagram. Show an entity leaving a fortress into a battlefield engagement and why only battlefield entities capture fortresses.]

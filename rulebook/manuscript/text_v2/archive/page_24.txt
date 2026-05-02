@@ -1,0 +1,44 @@
+PAGE 24 - PARRY + RETREAT
+
+
+B. COMBAT ACTIONS
+
+16. PARRY
+
+Instead of taking a normal action during its turn in combat, an
+entity may declare a Parry.
+
+The parrying entity chooses one normal hit that was landed on it
+during the previous enemy round. Roll 1d6. If the roll is equal to
+or below the parrying entity's Attack stat, the parry succeeds: The
+entity regains 1 HP lost from that hit.
+
+Parry only cancels 1 HP of damage from a single normal attack. It
+cannot cancel damage from specials, consumables, or extra damage
+bonuses from other rules.
+
+A parry attempt consumes the entity's action for that round,
+whether it succeeds or fails. An entity can only parry one hit at
+a time.
+
+17. RETREAT
+
+Instead of attacking on its turn in combat, an entity may declare
+a retreat. The entity announces its intent to retreat and takes no
+action this round.
+
+During the next round, enemy entities in the engagement may target
+the retreating entity normally. If the retreating entity survives
+that round, it leaves the engagement at the end of the round.
+
+A retreating entity must have a legal destination:
+    -   Battlefield entities may retreat into a friendly fortress
+        that has room.
+    -   Fortress entities under assault may retreat into the
+        battlefield if battlefield room exists, or into another
+        friendly fortress if one has room.
+
+If no legal destination exists, the entity cannot retreat.
+
+
+[VISUAL NOTE: Combat action vignettes: parry shield/deflect pose and retreat arrow to friendly fortress. Keep small and functional.]
