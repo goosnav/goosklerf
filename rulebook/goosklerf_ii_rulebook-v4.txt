@@ -2170,9 +2170,395 @@ SCENARIO B: THE GROCERY RUN
     the wrong side of the glass. It is gone in the morning. Or
     it is not.
 
+SCENARIO C: THE MEAL
+--------------------------------------------------------------------------------
+
+    FLAVOR
+
+    You awake and all around you is white. Not a room. Not fog. Not
+    snow. Just white, in every direction, with no floor and no ceiling
+    and no walls, and you standing in the middle of it like a thought
+    someone hasn't finished thinking yet.
+
+    Then the crack.
+
+    It starts small, a hairline fracture in the white, and then the
+    white splits apart and you are falling. You fall for what feels
+    like hours. You fall long enough to get bored of falling. You fall
+    long enough to start wondering if falling is just what you do now.
+
+    Then you hit something hard and hot and everything changes.
+
+    The heat hits your face first. A blinding, searing, greasy heat
+    that smells like breakfast. You push yourself up and your hands
+    press into something slick and warm and yellow. You are standing
+    in a yolk. A yolk the size of a parking lot, trembling slightly,
+    stretched out across a frying pan that extends in every direction
+    to a horizon that curves upward like the lip of a bowl.
+
+    Around you, others are climbing to their feet. They came from the
+    same egg. They look as confused as you feel. The white of the egg
+    stretches out behind you like a rubber desert. The pan beneath it
+    all is black and enormous and radiating heat from below in waves
+    that make the air shimmer.
+
+    In the distance, past the yolk, past the white, past the curved
+    edge of the pan, you can see something: A timer. A kitchen timer,
+    the size of a building, ticking. You cannot read the numbers from
+    here but you can hear it. Every tick vibrates through the pan and
+    up through your feet.
+
+    When the timer reaches zero, whoever set it is coming back. And
+    they are hungry. And you are breakfast.
+
+    Unless you are not.
+
+    The goal is simple. Make a meal before you become one. If you can
+    prepare something worth eating before the timer runs out, whoever
+    is cooking you will eat that instead. If you cannot, you will be
+    served sunny-side up on a plate you will never see the edges of,
+    and that will be the end of you.
+
+    SETUP
+
+    Each character begins with:
+        -   Their base entity card (character sheet)
+        -   0 items
+        -   HP at maximum
+
+    SPECIAL SETUP - THE RECIPE BOOK. Before the scenario begins, the
+    DM presents the party with THE RECIPE BOOK: three recipes, each
+    requiring a different number of ingredients. The party must choose
+    one recipe to attempt. Once chosen, the choice is final.
+
+        RECIPE 1: FRIED EGG SANDWICH (EASY)
+            Ingredients needed: 3
+            Required: Bread (x2), Seasoning (x1)
+            Time: 12 rounds total across the scenario
+
+        RECIPE 2: OMELETTE (MEDIUM)
+            Ingredients needed: 5
+            Required: Cheese (x1), Vegetables (x2), Seasoning (x1),
+                      Meat (x1)
+            Time: 10 rounds total across the scenario
+
+        RECIPE 3: EGGS BENEDICT (HARD)
+            Ingredients needed: 7
+            Required: English Muffin (x2), Meat (x2), Butter (x1),
+                      Lemon (x1), Seasoning (x1)
+            Time: 8 rounds total across the scenario
+
+    The DM tracks the round timer. Every combat round and every
+    non-combat action round counts toward the timer. When the timer
+    reaches zero, the scenario ends, regardless of progress. If the
+    recipe is incomplete, the party loses.
+
+    ENEMY AND ITEM POOLS. The DM prepares the following:
+
+        INGREDIENT DECK: Set aside 10 item cards from the deck,
+        face-down. These represent ingredients. When a character
+        finds an ingredient during the scenario, they draw from
+        this pile. The DM assigns the drawn card an ingredient
+        identity from the recipe's required list (Bread, Cheese,
+        Meat, etc.). The card retains its normal game stats and
+        effects but is ALSO an ingredient. An ingredient card can
+        be used as a normal item OR contributed to the recipe, but
+        not both. Once contributed to the recipe, it is gone.
+
+        ENEMY POOL: Set aside 6 entities from the deck. These are
+        the kitchen. They are ingredients that do not want to be
+        cooked, utensils that have opinions, and things that live
+        in the gaps between the burners. Present them accordingly.
+
+    STARTING EQUIPMENT. Each character draws 1 random item from
+    the deck. This is their starting utensil. Regardless of what
+    the card actually depicts, in this scenario it is a kitchen
+    utensil: a spatula, a whisk, a ladle, a bread knife, a pair
+    of tongs. The DM assigns each one a utensil name for flavor.
+    The card keeps its normal stats.
+
+    SPECIAL RULE - ENEMY INGREDIENTS. When the party defeats an
+    enemy entity during this scenario, that entity becomes an
+    ingredient. The DM assigns it an ingredient identity from
+    the recipe's required list (the next one needed). The defeated
+    enemy card is placed in the party's ingredient pile. This is
+    the primary way to gather ingredients: you must fight your
+    food.
+
+    The party must still collect the full number of ingredients
+    required by their chosen recipe. Enemies defeated beyond the
+    recipe's requirements are wasted and do not count.
+
+    ACT I - THE PAN
+
+    Objective: Get your bearings and find the pantry.
+
+    The party stands in the yolk. The heat is rising. The surface
+    of the pan stretches out around them, and the air smells like
+    oil and metal and something browning at the edges.
+
+    The yolk is cooking. The party can feel it firming up beneath
+    their feet. They have a limited window before the surface they
+    are standing on becomes solid and they become part of the dish.
+
+    LOCAL RULE - THE SIZZLE. At the end of every round spent on
+    the pan surface (Acts I and II), each character must roll 1d6.
+    On a 1, the heat gets to them: they take 1 damage. Characters
+    standing on an ingredient card (using it as a platform, not
+    contributing it to the recipe) are immune to the Sizzle for
+    that round.
+
+    The party must cross the yolk and the egg white to reach the
+    edge of the pan. This requires 3 rounds of movement. During
+    the crossing, 1 enemy appears from the egg white: a clump of
+    albumin that has developed a face and a grievance. Pull 1
+    entity from the enemy pool. This enemy is rubbery, translucent,
+    and deeply offended at being cracked open.
+
+    If the party defeats the albumin entity, it becomes their
+    first ingredient (the DM assigns its identity from the recipe
+    list).
+
+    At the edge of the pan, the party can see the counter. The
+    counter is a vast plain of tile stretching away from the
+    stovetop, littered with enormous objects: a salt shaker the
+    size of a grain silo, a pepper mill like a lighthouse, a
+    block of knives standing upright like monoliths. Somewhere
+    out there is the pantry. That is where the rest of the
+    ingredients are.
+
+    To get off the pan, each character must make a Normal check
+    (4 or less on 1d6) to climb the lip of the pan without
+    burning themselves. Failure: take 1 damage but still make it
+    over. No one gets left behind on the pan.
+
+    ACT II - THE COUNTER
+
+    Objective: Gather ingredients and survive the kitchen.
+
+    The countertop is a hostile environment. Everything here is
+    sized for someone who is not the party's size. A puddle of
+    olive oil is a lake. A dishrag is a landscape. A sponge is a
+    building with a disturbing texture.
+
+    The party must locate ingredients. Each ingredient requires
+    the party to reach a STATION on the counter. There are as
+    many stations as the recipe requires ingredients (3 for the
+    Sandwich, 5 for the Omelette, 7 for Eggs Benedict). The DM
+    may place them in any order.
+
+    At each station:
+        -   The party encounters 1 enemy entity (pull from the
+            pool). The enemy is the ingredient, alive and hostile.
+            Sample encounters for the DM to flavor:
+
+            BREAD: Two slices of bread standing upright like
+            shields, slamming together to crush anything between
+            them. Attack by pinching.
+
+            CHEESE: A wedge of cheese that has gone sentient and
+            aggressive. It is sweating. It resents being grated.
+            On a hit, it leaves a residue that reduces the
+            target's Attack by 1 for one round (greasy hands).
+
+            VEGETABLES: A bundle of bell peppers and onions
+            moving as a single unit, rolling and tumbling. On
+            death, they release fumes: all characters in the
+            engagement roll 1d6, and on a 1, they lose their
+            next action (eyes watering).
+
+            MEAT: A slab of ham or bacon that fights with weight
+            and momentum. It charges. +1 Attack on its first
+            round. If defeated, it sizzles invitingly.
+
+            SEASONING: A cloud of paprika or black pepper that
+            attacks by irritation. Cannot be hit with normal
+            attacks on the first round (too dispersed). On the
+            second round, it settles and can be targeted normally.
+
+            BUTTER: A stick of butter that is melting and
+            reforming. Each round, it heals 1 HP. Must be
+            defeated quickly or it will outlast you.
+
+            LEMON: A lemon wedge that squirts acid. Ranged
+            attack: can target any party member in the
+            engagement, ignoring positioning. On a hit, the
+            target takes 1 damage and their next attack roll
+            is at -1 (stinging eyes).
+
+            ENGLISH MUFFIN: Two halves that fight independently
+            but share HP. Damage dealt to one is felt by the
+            other. If one half is defeated, the other half
+            gets +2 Attack for the rest of the engagement
+            (fury, grief, or possibly just toast rage).
+
+        -   Defeating the enemy grants the ingredient. The DM
+            assigns it the next required ingredient identity
+            from the recipe.
+
+        -   If the party has leftover enemies in the pool after
+            collecting all recipe ingredients, those enemies do
+            not need to be fought. The party may bypass remaining
+            stations.
+
+    OPTIONAL STATION: THE SPICE RACK. If the party reaches the
+    spice rack (the DM decides when this is available, ideally
+    after 2 stations), they may draw 1 bonus item from the
+    ingredient deck. This item is a wildcard seasoning that can
+    substitute for any 1 missing ingredient in the recipe. It
+    does not require combat to acquire. Finding the spice rack
+    costs 1 round.
+
+    THE TIMER IS VISIBLE. Remind the party of the timer at the
+    end of every round. They can hear it ticking. It is getting
+    louder. The ticking should become a source of anxiety. If
+    the party dawdles, they will run out of time regardless of
+    combat success.
+
+    ACT III - THE PREP
+
+    Objective: Assemble the ingredients and begin cooking.
+
+    The party must return to the stovetop with their collected
+    ingredients and assemble the dish. This requires a cooking
+    station: the pan they woke up on, which is still hot and
+    still has the remains of the egg on it.
+
+    RETURNING TO THE PAN: Each character makes a Normal check
+    to descend back onto the pan safely. Failure: 1 damage.
+
+    ASSEMBLY. Each ingredient must be prepared before it can be
+    added to the dish. For each ingredient, one character must
+    spend 1 action and make a Normal check (4 or less):
+
+        Success: The ingredient is prepared and added to the
+        dish. Narrate appropriately: slicing, seasoning,
+        arranging, flipping.
+
+        Failure: The ingredient is not ruined, but the
+        preparation takes longer. Spend 1 additional action
+        (1 additional round) and try again. No check needed
+        on the second attempt; it just takes time.
+
+    THE KITCHEN FIGHTS BACK. During the assembly, the kitchen
+    itself resists. The DM deploys 1 final enemy from the pool
+    (or invents one if the pool is empty). This enemy is the
+    kitchen: a sentient burner flame, a vengeful oven mitt, a
+    grease splatter with eyes. It attacks the party while they
+    are trying to cook. The party must fight it while continuing
+    to prepare ingredients. Characters not currently in combat
+    may continue cooking.
+
+    LOCAL RULE - MULTITASKING. A character may attempt to both
+    fight and cook in the same round by splitting their action:
+    roll for the attack at -1 Attack, AND roll for the
+    ingredient preparation, both in the same round. If the
+    attack misses, the preparation also fails (you dropped the
+    spatula). If the attack hits, the preparation succeeds
+    normally.
+
+    SPECIAL EVENT: When the party places the final ingredient,
+    the dish is complete. The pan begins to glow. The smell
+    changes from "you are being cooked" to "something is being
+    cooked for someone." The timer, in the distance, stops
+    ticking. There is a moment of silence.
+
+    Then the shadow falls.
+
+    ACT IV - THE PLATE
+
+    Objective: Survive the serving.
+
+    A hand descends from above. It is enormous. It is holding
+    a spatula the size of a highway overpass. The hand is not
+    threatening the party directly. It is reaching for the dish.
+
+    If the party completed the recipe before the timer ran out:
+
+        The hand takes the dish. The spatula slides under the
+        assembled meal and lifts it away. The party is not on
+        the spatula. They are standing on the pan, watching
+        their work ascend into the light above, and for a
+        moment, the kitchen is quiet, and the heat is bearable,
+        and nothing is trying to eat them.
+
+        They hear chewing. It is satisfied chewing. It is the
+        chewing of someone who got what they wanted and has
+        forgotten that there was anything else on the menu.
+
+        The party has been spared.
+
+        ESCAPE: Each character makes one final Normal check to
+        climb off the pan and reach the edge of the counter.
+        From there, they find a crack in the wall behind the
+        stove: a gap in reality, the same kind of crack that
+        dropped them here. They step through.
+
+        They wake up somewhere else. It is not the kitchen. It
+        may or may not be better. But they are alive, and they
+        are not breakfast, and that is more than they expected
+        when they woke up inside an egg.
+
+    If the party did NOT complete the recipe before the timer
+    ran out:
+
+        The hand takes the pan. All of it. The party included.
+        They feel the pan tilt. They feel themselves slide. The
+        last thing they see is a plate, white and enormous and
+        perfectly clean, rushing up to meet them.
+
+        Total party defeat. The game ends.
+
+        The DM is encouraged to describe the plating with the
+        same care and dignity one would describe a funeral. It
+        is, after all, the same thing.
+
+    AFTERMATH AND SCORING
+
+        If the party survived:
+
+            Each surviving character:                 25 points
+            Recipe completed:                        100 points
+            Bonus: completed with 2+ rounds to spare: 50 points
+            Bonus: no character reached 0 HP:         50 points
+            Each unused ingredient remaining:         10 points
+
+        If the party was eaten:
+
+            0 points. You are brunch.
+
+    DM NOTES
+
+        This scenario is absurd by design. It is meant to be
+        played with a light touch, leaning hard into the
+        ridiculousness of fighting sentient cheese and being
+        chased by a grease splatter. The horror is structural,
+        not tonal: the party is small, the kitchen is enormous,
+        and the timer does not care about their feelings.
+
+        The recipe choice at the start is the scenario's core
+        strategic decision. The Fried Egg Sandwich is easy but
+        boring and grants the most time. Eggs Benedict is
+        genuinely difficult and will test party coordination.
+        The Omelette is the intended default.
+
+        Flavor the enemies generously. A wedge of cheese that
+        resents being grated is funnier and more memorable than
+        a generic hostile. The party should be laughing while
+        also genuinely stressed about the timer.
+
+        The timer is the real antagonist, not the ingredients.
+        Keep it visible. Keep it audible. Every time a player
+        wastes a round, remind them how many ticks are left.
+
+        If a character dies during this scenario, describe them
+        as having been "fully cooked." They are no longer a
+        party member. They are a side dish. This is very sad
+        and also very funny and the DM should commit to both
+        emotions simultaneously.
 
 
-SCENARIO C: THE LAB
+SCENARIO D: THE LAB
 --------------------------------------------------------------------------------
 
     You wake up in a hallway you do not remember. There is tile
