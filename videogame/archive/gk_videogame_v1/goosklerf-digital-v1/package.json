@@ -1,0 +1,21 @@
+{
+  "name": "goosklerf-digital",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build:cards": "pnpm --filter card-tools run build-cards",
+    "sim": "pnpm --filter simulator run cli",
+    "sim:gui": "pnpm --filter sim-viewer run dev",
+    "dev": "pnpm --filter desktop run dev",
+    "test": "vitest run --workspace vitest.workspace.ts"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renderAll — full snapshot > matches a stable snapshot for a fixed seed and player roster 1`] = `
+"Goosklerf — turn 1 — Alice's Card Play phase
+seed: render-fixture   regime: medium   fortresses on board: 0
+───
+
+BATTLEFIELD
+  (empty)
+
+SUBURBS
+▶ Alice  (human)   hand:7  deck:22  shop:7
+    (no fortresses placed)
+  Bob  (ai/butcher)   hand:7  deck:22  shop:7
+    (no fortresses placed)
+
+HAND (Alice)
+  [1] 🧪 Felonious Tattoo Parlour   consumable
+  [2] 🧪 BUILD-IT-YOURSELF BRICK   consumable
+  [3] 🧪 SKINFISHED   consumable
+  [4] 🧪 GUT STABBER 9002   consumable 🌀
+  [5] ⚔ PHONE WITH FREE WILL   ATK:3 HP:2 🌀
+  [6] 🛡 PYRAMID OF ILL INTENT   HP:4 +2 HP buff 🌀
+  [7] 🧪 EVICTED FROM SHELL   consumable
+
+SHOP (yours)
+  [1] 🧪 AUTOMATED BOOK WRITER
+  [2] 🛡 Nuclear Brick 🌀
+  [3] 🧪 BABY'S FIRST HOWITZER 🌀
+  [4] 🧪 BLOOD STRAWBERRY
+  [5] ⚔ I'M ALL EYES
+  [6] 🧪 ALCOHOL BUZZLER 🌀
+  [7] 🧪 TACTICAL STICK 🌀
+
+LOG
+  [R1.4] Game start. 2 players, medium regime. Alice goes first.
+
+─── [i N] inspect hand   [i s/b/f N] shop/field/fortress   [r] redraw   [?] help   [q] quit ───"
+`;

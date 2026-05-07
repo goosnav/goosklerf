@@ -1,0 +1,15 @@
+{
+  "name": "card-tools",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build-cards": "tsx src/buildCardDb.ts"
+  },
+  "dependencies": {
+    "@gk/shared": "workspace:*",
+    "@gk/cards": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
