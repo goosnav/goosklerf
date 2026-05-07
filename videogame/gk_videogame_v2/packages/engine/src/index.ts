@@ -36,6 +36,9 @@ export type {
 export type {
   Action,
   PlacementRef,
+  EngagementSpec,
+  FortressAssaultChoice,
+  MovementDestinationRef,
 } from "./actions.js";
 
 export {
@@ -57,6 +60,15 @@ export {
   cloneState,
   zoneSize,
 } from "./helpers.js";
+
+export {
+  entityStats,
+  modifiedEntityAttack,
+  modifiedEntityMaxHp,
+  adjustEntityHpForMaxHpChange,
+  clampEntityCurrentHpToModifiedMax,
+  type EntityStats,
+} from "./stats.js";
 
 export {
   appendLog,

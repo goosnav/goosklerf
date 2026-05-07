@@ -14,6 +14,10 @@ import { cardById, cloneState, findCard, findFortress, playerById } from "../hel
 import { appendLog } from "../log.js";
 import { err, ok, type Result } from "../result.js";
 import type { CardInstance, GameState, InstanceId, Player } from "../state.js";
+import {
+  adjustEntityHpForMaxHpChange,
+  modifiedEntityMaxHp,
+} from "../stats.js";
 
 const CARD_PLAY_LIMIT = 3;
 const BATTLEFIELD_ENTITY_CAP = 5;
@@ -194,8 +198,10 @@ function placeEntity(
     if (count >= BATTLEFIELD_ENTITY_CAP) {
       return err("R5.3: battlefield capacity is 5 entities per player.");
     }
+    const beforeMaxHp = modifiedEntityMaxHp(state, inst, cardDb);
     state.battlefield.push(inst.instanceId);
     inst.zone = { zone: "battlefield", ownerId: active.id };
+    adjustEntityHpForMaxHpChange(inst, beforeMaxHp, modifiedEntityMaxHp(state, inst, cardDb));
     return ok({
       rule: "R5.2",
       message: `${active.name} played ${cardName(inst, cardDb)} to the battlefield.`,
@@ -208,12 +214,14 @@ function placeEntity(
     if (fort.occupantIds.length >= FORTRESS_ENTITY_CAP) {
       return err("R5.3: fortress capacity is 3 entities.");
     }
+    const beforeMaxHp = modifiedEntityMaxHp(state, inst, cardDb);
     fort.occupantIds.push(inst.instanceId);
     inst.zone = {
       zone: "fortress",
       ownerId: active.id,
       fortressInstanceId: placement.fortressInstanceId,
     };
+    adjustEntityHpForMaxHpChange(inst, beforeMaxHp, modifiedEntityMaxHp(state, inst, cardDb));
     return ok({
       rule: "R5.2",
       message: `${active.name} played ${cardName(inst, cardDb)} into ${cardName(cardById(state, fort.fortressInstanceId), cardDb)}.`,
@@ -273,8 +281,10 @@ function placeItem(
     return err("R5.3: entity item capacity is 3.");
   }
 
+  const beforeMaxHp = modifiedEntityMaxHp(state, target, cardDb);
   target.equippedItemIds.push(inst.instanceId);
   inst.zone = { zone: "equipped", ownerId: active.id, entityInstanceId: target.instanceId };
+  adjustEntityHpForMaxHpChange(target, beforeMaxHp, modifiedEntityMaxHp(state, target, cardDb));
   const rule = def.type === "item_consumable" ? "R5.4" : "R5.2";
   return ok({
     rule,

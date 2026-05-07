@@ -26,7 +26,7 @@
 ```
 packages/
   cards/    Card schema + CSV import. No game logic. Outputs typed CardDefinition records.
-  engine/   Pure rules engine. State, actions, reducer, RNG, victory checks. No I/O.
+  engine/   Pure rules engine. State, runtime stats, actions, reducer, RNG, victory checks. No I/O.
   ai/       Personality-weighted controller. Reads engine, returns actions. No I/O.
 apps/
   play-cli/ Terminal client. Owns I/O, render, prompts. Calls engine + ai.
@@ -116,7 +116,7 @@ interface CardInstance {
   cardId: string;                        // FK into card database
   ownerId: PlayerId;                     // original owner; never changes (R3.8)
   zone: ZoneRef;                         // current location (battlefield, suburbs, equipped, hand, etc.)
-  hp: number;                            // current HP for entities; current fortressHp for fortresses
+  hp: number;                            // current HP; entity max HP is derived by entityStats()
   equippedItemIds: string[];             // entities only; max 3 (R2.7)
   consumed: boolean;                     // consumables that have been used
 }
@@ -149,25 +149,81 @@ interface Engagement {
 }
 ```
 
-### 3.3 Action surface (current Card Play subset)
+### 3.3 Action surface (current reducer subset)
 
 Actions are discriminated unions. The reducer is the *only* function allowed to produce a changed `GameState` from an existing `GameState`.
 
-The current engine implements only the Card Play subset below. Later sprints extend this union one phase at a time.
+The current engine implements Card Play, battlefield Combat, fortress assault basics, and Movement. Later sprints extend this union one phase at a time.
 
 ```ts
 type Action =
   // Card Play phase (R5.1-R5.4)
   | { kind: "PLAY_CARD"; instanceId: string; placement: PlacementRef }
   | { kind: "DISCARD_CARD"; instanceId: string }
-  | { kind: "END_PHASE" };
+  | { kind: "END_PHASE" }
+  // Combat phase (R6.1-R6.11, R7.1, R7.3, R7.4)
+  | { kind: "DECLARE_ENGAGEMENT"; spec: EngagementSpec }
+  | { kind: "NORMAL_ATTACK"; attackerInstanceId: string; targetInstanceId: string }
+  | { kind: "PASS_ACTION"; entityInstanceId: string }
+  | {
+      kind: "RESOLVE_FORTRESS_ASSAULT";
+      fortressInstanceId: string;
+      choice: "capture" | "destroy" | "leave";
+      garrisonEntityIds?: string[];
+    }
+  // Movement phase (R8.1-R8.2)
+  | { kind: "MOVE_ENTITY"; entityInstanceId: string; destination: MovementDestinationRef };
 
 type PlacementRef =
   | { kind: "battlefield" }                         // entity -> battlefield (R5.2, R5.3)
   | { kind: "fortress"; fortressInstanceId: string } // entity -> own fortress (R5.2, R5.3)
   | { kind: "suburbs" }                             // fortress -> own suburbs (R5.2)
   | { kind: "equip"; entityInstanceId: string };     // item/consumable -> own entity (R5.2-R5.4)
+
+type EngagementSpec =
+  | {
+      kind: "battlefield";
+      defenderId: string;
+      attackerEntityIds: string[];
+    }
+  | {
+      kind: "fortress_assault";
+      defenderId: string;
+      attackerEntityIds: string[];
+      targetFortressInstanceIds: string[];
+    };
+// Fortress barrage variant lands in a later sprint.
+
+type MovementDestinationRef =
+  | { kind: "battlefield" }
+  | { kind: "fortress"; fortressInstanceId: string };
 ```
+
+### 3.4 Runtime stats
+
+Entity Attack and max HP are derived values. Printed stats come from `CardDefinition`; live buffs come from equipped items (R2.4) and the entity's containing fortress (R3.10). `CardInstance.hp` stores current remaining HP only.
+
+```ts
+interface EntityStats {
+  printedAttack: number;
+  itemAttackBuff: number;
+  fortressAttackBuff: number;
+  modifiedAttack: number;    // R2.6 clamp: 1..5
+  printedMaxHp: number;
+  itemHpBuff: number;
+  fortressHpBuff: number;
+  modifiedMaxHp: number;     // R2.6 clamp: 0..6 per modeled die
+}
+
+function entityStats(state: GameState, entity: CardInstance, cardDb: CardDatabase): EntityStats;
+function modifiedEntityAttack(state: GameState, entity: CardInstance, cardDb: CardDatabase): number;
+function modifiedEntityMaxHp(state: GameState, entity: CardInstance, cardDb: CardDatabase): number;
+```
+
+HP-buff side effects:
+- When an item or fortress HP buff appears, current HP increases by the positive max-HP delta, capped at the new modified max. Example: a 1 HP entity equipped with `+2 HP` becomes 3 current HP.
+- When a buff disappears, current HP clamps down to the new modified max; existing damage persists.
+- Combat damage subtracts from `CardInstance.hp`; defeat still occurs at 0 HP (R7.3).
 
 Reducers receive an explicit context:
 
@@ -179,11 +235,11 @@ type ReducerContext = {
 
 The context keeps `GameState` small while still making reducer calls deterministic: the card database is immutable input, not hidden process state.
 
-`END_PHASE` advances `card_play -> combat` only when R5.1 is satisfied. R5.5-R5.7 shop purchases are deliberately out of scope until Sprint 13.
+`END_PHASE` advances `card_play -> combat` only when R5.1 is satisfied, and advances `movement -> card_draw` after any number of legal Movement actions. R5.5-R5.7 shop purchases are deliberately out of scope until Sprint 13.
 
 Each action's reducer case returns `Result<GameState>` — either a new state or an error explaining which requirement was violated. We never throw for illegal player choices across the engine boundary.
 
-### 3.4 Logging contract
+### 3.5 Logging contract
 
 Every state-mutating operation produces one or more `LogEntry` records. Each entry cites the rule requirement that fired:
 
@@ -241,7 +297,7 @@ These are checked in tests and reducer guards as those rule areas land. Violatin
 | I-4 | A fortress has ≤ 3 occupants | R2.7 |
 | I-5 | An entity has ≤ 3 equipped items | R2.7 |
 | I-6 | A player has ≤ 5 entities on battlefield | R2.7 |
-| I-7 | An entity's HP die value stays in [0, 6] unless a card explicitly overrides it | R2.6, R7.2 |
+| I-7 | An entity's current HP and modified max HP stay in [0, 6] per modeled die unless a card explicitly overrides it | R2.6, R7.2 |
 | I-8 | Every `LogEntry` carries a non-empty `rule` field |
 | I-9 | The reducer is pure: `reduce(state, action)` never mutates `state` |
 | I-10 | The RNG state advances monotonically; no two actions ever consume the same dice |

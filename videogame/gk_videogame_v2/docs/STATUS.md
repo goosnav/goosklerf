@@ -1,8 +1,9 @@
 # Project status — pick up here
 
-**Last updated:** 2026-05-06 (after Sprint 5.5 — game is now loopable end-to-end).
+**Last updated:** 2026-05-06 (after Sprint 8 — Movement phase).
 
-**TL;DR:** Click `videogame/Play-Goosklerf.command` (or your OS equivalent). You get a real Card Play turn — type `p 1` to auto-play your first hand card, `i 3` to inspect, `d 4` to discard (only when no legal play remains), `e` to end your phase. AI players take their full turns automatically. After human turn ends, all stub phases advance and the next human Card Play turn begins. **148 tests green**.
+**TL;DR:** Click `videogame/Play-Goosklerf.command` (or your OS equivalent). You get Card Play, battlefield Combat, fortress assault/capture/destroy, and Movement. Type `p 1` to auto-play a hand card, `e` to end phases, `decl 1 p2` for battlefield combat, or `assault 1 p2 f1` to attack a fortress. In assaults, use `att a1 f1` to damage a fortress, `att a1 d1` to clear defenders, then `cap f1 a1`, `burn f1`, or `leave f1` to resolve a cleared fortress. During Movement, use `mv b1 f1` to move a battlefield entity into your fortress, `mv f1.1 bf` to move a fortress occupant out, or `mv f1.1 f2` to shift between fortresses. Item and fortress stat buffs affect runtime Attack/max HP, so cards like `GLOVE SOCKS` create real combat durability. AI players take deterministic baseline turns automatically and currently skip Movement. Card Draw and Victory Check are still stubs. **198 tests green**.
+
 **Active branch context:** `videogame/gk_videogame_v2/` is the active codebase. `videogame/archive/gk_videogame_v1/` is the archived previous attempt (and contains the canonical `card_data-003.csv`).
 
 If you're starting a new session and want to continue work: this file is the entry point. Read top to bottom.
@@ -52,45 +53,53 @@ videogame/gk_videogame_v2/
 │   │   ├── src/loader.ts      loadCardDatabase() with Zod validation
 │   │   ├── src/index.ts       public API
 │   │   └── data/cards.generated.json   (gitignored; regenerate with build)
-│   ├── engine/                ✓ Sprints 2–5 complete: setup + Card Play reducer
+│   ├── engine/                ✓ Sprints 2–8 complete: setup + Card Play + Combat + Movement
 │   │   ├── src/rng.ts         SeededRng (deterministic; supports save/restore)
 │   │   ├── src/state.ts       GameState, Player, CardInstance, Fortress, Engagement, ...
 │   │   ├── src/result.ts      Result<T, E> for reducer returns
 │   │   ├── src/helpers.ts     pure lookups (playerById, getZoneContents, cloneState, ...)
+│   │   ├── src/stats.ts       runtime entity stat helpers (item/fortress Attack + HP buffs)
 │   │   ├── src/setup.ts       setupGame() — deck construction, mulligan, shop, first player
-│   │   ├── src/actions.ts     Action + PlacementRef (Sprint 5 subset)
+│   │   ├── src/actions.ts     Action + PlacementRef + EngagementSpec + MovementDestinationRef
 │   │   ├── src/reducer.ts     reduce(state, action, { cardDatabase })
 │   │   ├── src/log.ts         append-only R-ID log helper
 │   │   ├── src/rules/cardPlay.ts   R5.1-R5.4 Card Play handlers
+│   │   ├── src/rules/phase.ts      R4.1 phase rotation
+│   │   ├── src/rules/combat.ts     R6.1-R6.11, R7.1, R7.3, R7.4 Combat basics + assault
+│   │   ├── src/rules/movement.ts   R8.1-R8.2 Movement handlers
 │   │   └── src/index.ts       public API
 │   └── ai/                    ⬜ later sprints
 │       └── src/index.ts       (empty stub)
 ├── apps/
-│   └── play-cli/              ✓ Sprint 5 complete: setup + render + Card Play commands
+│   └── play-cli/              ✓ Sprint 8 complete: setup + render + Card Play/Combat/Movement commands
 │       ├── src/args.ts        flag parser (--seed, --players, --deck-size, --no-shop, ...)
 │       ├── src/glyphs.ts      🛡 ⚔ 🎒 🧪, dice faces, 🌀 for silenced text
 │       ├── src/render.ts      pure renderHeader/Board/Hand/Shop/Log functions
-│       ├── src/commands.ts    inspect + Card Play command parser
+│       ├── src/commands.ts    inspect + Card Play + Combat + Movement command parser
 │       ├── src/inspect.ts     card definition / instance inspector
+│       ├── src/autoplay.ts    deterministic AI/autoplay; AI skips Movement for now
 │       └── src/main.ts        wires setupGame → renderAll → reducer dispatch loop
 └── tests/
     ├── cards/                 ✓ 26 tests (3 files)
     │   ├── schema.test.ts     (12) — R2.1, R2.2, R2.3, R2.4
     │   ├── import.test.ts     (10) — type normalization, automationStatus state machine
     │   └── build.test.ts      (4)  — end-to-end against the real CSV
-    ├── engine/                ✓ 83 tests (4 files)
+    ├── engine/                ✓ 134 tests (7 files)
     │   ├── rng.test.ts        (22) — determinism, ranges, shuffle, weighted pick, save/restore
     │   ├── state.test.ts      (20) — helpers; invariants I-1; zone resolution
     │   ├── setup.test.ts      (29) — R1.2 (regimes/minimums/3-copy), R1.3 (hand/mulligan),
     │   │                              R1.4 (first player), R1.5 (shop), determinism, validation
-    │   └── cardPlay.test.ts   (12) — R5.1, R5.2, R5.3, R5.4 reducer behavior
-    └── play-cli/              ✓ 27 tests (3 files)
+    │   ├── cardPlay.test.ts   (14) — R5.1-R5.4 plus item/fortress HP-buff current-HP effects
+    │   ├── phase.test.ts      (10) — R4.1 phase rotation and active-engagement guard
+    │   ├── combat.test.ts     (31) — R6.1-R6.11, R7.1, R7.3, R7.4 combat basics and assault
+    │   └── movement.test.ts   (8)  — R8.1-R8.2, R2.7, R3.8, R3.10 movement
+    └── play-cli/              ✓ 38 tests (3 files)
         ├── args.test.ts       (12) — flag defaults, parsing, validation
-        ├── commands.test.ts   (5)  — Card Play command parsing
+        ├── commands.test.ts   (16) — Card Play + Combat/assault + Movement command parsing
         └── render.test.ts     (10) — section-by-section rendering + full snapshot
 ```
 
-Total: **136 tests across 10 files.**
+Total: **198 tests across 13 files.**
 
 ## What works right now
 
@@ -107,18 +116,20 @@ Each handles install + card build on first run. See `videogame/HOW-TO-RUN.md`.
 cd videogame/gk_videogame_v2
 pnpm install                      # idempotent
 pnpm cards:build                  # one-time per CSV change
-pnpm test                         # 136 tests pass
+pnpm test                         # 198 tests pass
 pnpm play                         # 4-player game, default seed, medium regime
 pnpm play -- --seed alice --players 3 --deck-size large
 pnpm play -- --help               # full flag list
 ```
 
-Current in-game CLI commands: `p N bf` play card N to battlefield, `p N f M` play card N into fortress M, `p N s` play fortress N to suburbs, `p N e M` equip item/consumable N to entity M, `d N` discard, `e` end phase, `i N` inspect hand card, `i s N` inspect shop card, `i b N` inspect battlefield entity, `i f N` inspect fortress, `i <card-id>` inspect any card definition, `r` redraw, `?` help, `q` quit.
+Current in-game CLI commands: `p N` auto-play if placement is unambiguous, `p N bf` play card N to battlefield, `p N f M` play card N into fortress M, `p N s` play fortress N to suburbs, `p N e M` equip item/consumable N to entity M, `d N` discard, `e` end phase, `decl A pN` declare a battlefield engagement, `assault A pN fM[,fK]` declare a fortress assault, `att aN dM` / `att dM aN` normal attack entities, `att aN fM` attack a target fortress, `pass aN` / `pass dN` pass, `cap fN aM[,aK]` capture a cleared fortress, `burn fN` destroy a cleared fortress, `leave fN` leave a cleared fortress under current control, `mv bN fM` move a battlefield entity into your fortress, `mv fM.N bf` move a fortress occupant to battlefield, `mv fM.N fK` shift between your fortresses, `i N` inspect hand card, `i s N` inspect shop card, `i b N` inspect battlefield entity, `i f N` inspect fortress, `i <card-id>` inspect any card definition, `r` redraw, `?` help, `q` quit.
+
+Stat display: the board and engagement panel show buffed stats when active. Example: `ATK:5 (+2)` means printed Attack plus live item/fortress buffs; `HP:⚃/5` means 4 current HP out of 5 modified max HP. Use `i b N` or `i f N` to inspect a live card and see current vs printed Attack/max HP.
 
 **Direct engine use:**
 
 ```ts
-import { reduce, setupGame } from "@gk/engine";
+import { entityStats, reduce, setupGame } from "@gk/engine";
 import { loadCardDatabase } from "@gk/cards";
 
 const cardDatabase = loadCardDatabase();
@@ -144,6 +155,8 @@ if (result.ok) {
       { kind: "PLAY_CARD", instanceId: firstEntity, placement: { kind: "battlefield" } },
       { cardDatabase },
     ));
+    const inst = state.cardsByInstanceId[firstEntity]!;
+    console.log(entityStats(state, inst, cardDatabase));
   }
 }
 ```
@@ -166,56 +179,52 @@ Card database breakdown (current build):
 | 3 | `setupGame()` — deck construction, mulligan, shop, first player | R1.2, R1.3, R1.4, R1.5 |
 | 4 | CLI shell — args, glyphs, render, main loop. **First user-visible milestone.** | none directly (presentation) |
 | 5 | Engine Card Play phase + CLI play/discard/end verbs | R5.1, R5.2, R5.3, R5.4 |
+| 5.5 | Loopable CLI: full phase rotation + deterministic AI Card Play/autoplay | R4.1 |
+| 6 | Combat basics: battlefield declaration, staging, Initial Volley, alternating rounds, Normal Attack, defeat | R6.1, R6.2, R6.3, R6.4, R6.5, R6.6, R6.7, R7.1, R7.3, R3.10 |
+| 6.5 | Stat-buff fidelity: item/fortress Attack and HP buffs share one runtime stat path | R2.4, R2.6, R3.10, R6.2, R6.5, R7.1 |
+| 7 | Fortress assault: declare, target fortress/defenders, capture, destroy, cleanup | R6.8, R6.9, R6.10, R6.11, R7.4 |
+| 8 | Movement phase: battlefield -> fortress, fortress -> battlefield, fortress -> fortress; items stay attached; fortress HP buffs update immediately | R8.1, R8.2, R2.7, R3.8, R3.10 |
 
 ## Standing scope adjustments
 
 - **M1 deck pool admits `not_implemented` cards** with their special text deliberately silenced. Reason: zero fortresses are tagged `fully_implemented` in the canonical CSV. Printed numeric stats still drive the engine. See [`docs/decisions/0001-card-pool-includes-not-implemented-at-m1.md`](decisions/0001-card-pool-includes-not-implemented-at-m1.md). Reverts naturally at M2 when the ability registry lands.
 - **`exactOptionalPropertyTypes` disabled** in `tsconfig.base.json`. Reason: clashes with Zod's `.optional()` inference. We still have `noUncheckedIndexedAccess` and full `strict` mode catching the common bugs.
 
-## Sprint UP NEXT — Sprint 6: Engine Combat basics
+## Sprint UP NEXT — Sprint 9: Card Draw phase
 
-Goal: implement the first Combat reducer path: engagement declaration, Initial Volley, alternating rounds, Normal Attack, pass/end-round flow, and engagement cleanup. This is the next major rules sprint after Card Play.
+Goal: implement the Card Draw phase so a turn can replenish the active player's hand according to the classic draw rule instead of auto-skipping from Movement to Victory Check.
 
 **Reqs to cover:**
-- R6.1 — engagement declaration.
-- R6.2 — combat staging.
-- R6.3 — alternating combat rounds.
-- R6.4 — combat action menu / one action per entity per round.
-- R6.5 — Normal Attack.
-- R6.6 — engagement end.
-- R6.7 — Initial Volley fires once per eligible fortress.
-- R7.1 — damage application.
-- R7.3 — entity defeat and attached-item discard.
-- R3.10 — fortress buffs to occupants.
+- R9.1 — draw 2 random cards plus search for 1 card.
+- R9.2 — empty deck / insufficient deck handling.
+- R3.4 — hand/deck zone integrity.
 
-**Out of scope this sprint:** fortress capture/destroy details from R6.8-R6.11, Parry/Retreat/Supercharge/Reinforcements/Scavenge/Barrage, Movement, Draw, and Victory Check. Those are later sprints.
+**Out of scope this sprint:** Victory Check, shop purchases, Parry/Retreat/Supercharge/Reinforcements/Scavenge/Barrage, and special card text.
 
 **Likely files to add/modify:**
-- Extend `packages/engine/src/actions.ts` with Combat actions.
-- Extend `packages/engine/src/reducer.ts` dispatch.
-- Add `packages/engine/src/rules/combat.ts` for declaration, volley, normal attack, round flow, and engagement cleanup.
-- Add deterministic dice usage through `SeededRng` / `rngFromState`.
-- Update CLI commands once the minimal Combat action path exists.
+- Add a draw action to `packages/engine/src/actions.ts`.
+- Add `packages/engine/src/rules/cardDraw.ts`.
+- Wire the reducer and CLI command parser/dispatcher.
+- Decide the CLI interaction for the "search 1" choice: likely render eligible deck cards with stable indices, then accept a command like `draw N` or `search N`.
+- Keep RNG deterministic for the 2 random draws via saved `rngState`.
 
 **Tests to add:**
-- `tests/engine/combat.test.ts`:
-  - R6.1/R6.2: legal declaration and staged attackers/defenders.
-  - R6.3/R6.4: alternating rounds and action counts.
-  - R6.5/R7.1: Normal Attack hit/miss and damage.
-  - R6.6/R7.3: defeated entities and items go to graveyard; engagement ends when a side is empty.
-  - R6.7: Initial Volley eligibility and fires-once behavior.
-  - R3.10: fortress occupant HP buffs affect occupants during combat.
+- `tests/engine/cardDraw.test.ts`:
+  - draws 2 random cards from deck to hand.
+  - searched card moves from deck to hand.
+  - deck order / RNG call count is deterministic.
+  - short deck draws only available cards and logs R9.2 behavior.
 
-**Self-test (gating):** `pnpm test`, `pnpm typecheck`, and at least one CLI smoke through Card Play into Combat.
+**Self-test (gating):** `pnpm test`, `pnpm typecheck`, and one CLI smoke through Movement into Card Draw once Card Draw commands exist.
 
-**Playtest:** create or seed a state with entities on both sides, run one engagement, verify the log cites R6/R7 IDs and HP persists after damage.
+**Playtest:** complete a full human turn through Card Play -> Combat -> Movement -> Card Draw, verify hand/deck counts, then let AI rotate back to the human.
 
 ## How to resume
 
-1. `cd videogame/gk_videogame_v2 && pnpm install && pnpm test` — should be 136/136 green.
-2. Read `docs/SPEC-rules.md` Part 6 and Part 7, especially R6.1-R6.7 and R7.1/R7.3.
-3. Read `docs/SPEC-system.md §4` for reducer lifecycle and the existing Engagement state shape.
-4. Start with action types, then reducer dispatch, then focused `combat.test.ts` cases before broad CLI wiring.
+1. `cd videogame/gk_videogame_v2 && pnpm install && pnpm test` — should be 198/198 green.
+2. Read `docs/SPEC-rules.md` R9.1-R9.2 plus R3.4.
+3. Read `packages/engine/src/rules/cardPlay.ts`, `packages/engine/src/rules/phase.ts`, and `packages/engine/src/rng.ts` for zone movement, phase ending, and deterministic random draw patterns.
+4. Start with Card Draw tests, then action type and reducer changes, then CLI syntax.
 
 ## Standing decisions (don't re-litigate without user input)
 

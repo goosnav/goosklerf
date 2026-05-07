@@ -18,11 +18,20 @@ import {
   type Action,
   type GameState,
   type InstanceId,
+  type MovementDestinationRef as EngineMovementDestinationRef,
   type PlacementRef,
   type PlayerSpec,
 } from "@gk/engine";
 import { parseArgs, helpText, ArgsError } from "./args.js";
-import { commandHelpText, parseCommand, type PlayPlacementTarget } from "./commands.js";
+import {
+  commandHelpText,
+  parseCommand,
+  type EngagementEntityRef,
+  type EngagementTargetRef,
+  type MovementDestinationRef,
+  type MovementSourceRef,
+  type PlayPlacementTarget,
+} from "./commands.js";
 import { resolveInspect } from "./inspect.js";
 import { renderAll } from "./render.js";
 import { runAutoplay } from "./autoplay.js";
@@ -167,6 +176,108 @@ async function main(): Promise<void> {
       }
       case "endPhase": {
         const result = reduce(state, { kind: "END_PHASE" }, { cardDatabase: cardDb });
+        if (!result.ok) console.log(result.error);
+        else {
+          state = applyAutoplay(result.value, cardDb);
+          renderState(state, renderOpts, useColor);
+        }
+        break;
+      }
+      case "declareEngagement": {
+        const actionResult = declareEngagementFromCommand(
+          state,
+          command.attackerBattlefieldIndices,
+          command.defenderPlayerIndex,
+        );
+        if (actionResult.kind === "error") {
+          console.log(actionResult.message);
+          break;
+        }
+        const result = reduce(state, actionResult.action, { cardDatabase: cardDb });
+        if (!result.ok) console.log(result.error);
+        else {
+          state = applyAutoplay(result.value, cardDb);
+          renderState(state, renderOpts, useColor);
+        }
+        break;
+      }
+      case "declareFortressAssault": {
+        const actionResult = declareFortressAssaultFromCommand(
+          state,
+          command.attackerBattlefieldIndices,
+          command.defenderPlayerIndex,
+          command.defenderFortressIndices,
+        );
+        if (actionResult.kind === "error") {
+          console.log(actionResult.message);
+          break;
+        }
+        const result = reduce(state, actionResult.action, { cardDatabase: cardDb });
+        if (!result.ok) console.log(result.error);
+        else {
+          state = applyAutoplay(result.value, cardDb);
+          renderState(state, renderOpts, useColor);
+        }
+        break;
+      }
+      case "attack": {
+        const actionResult = attackFromCommand(
+          state,
+          command.source,
+          command.target,
+        );
+        if (actionResult.kind === "error") {
+          console.log(actionResult.message);
+          break;
+        }
+        const result = reduce(state, actionResult.action, { cardDatabase: cardDb });
+        if (!result.ok) console.log(result.error);
+        else {
+          state = applyAutoplay(result.value, cardDb);
+          renderState(state, renderOpts, useColor);
+        }
+        break;
+      }
+      case "pass": {
+        const actionResult = passFromCommand(state, command.entity);
+        if (actionResult.kind === "error") {
+          console.log(actionResult.message);
+          break;
+        }
+        const result = reduce(state, actionResult.action, { cardDatabase: cardDb });
+        if (!result.ok) console.log(result.error);
+        else {
+          state = applyAutoplay(result.value, cardDb);
+          renderState(state, renderOpts, useColor);
+        }
+        break;
+      }
+      case "move": {
+        const actionResult = moveFromCommand(state, command.source, command.destination);
+        if (actionResult.kind === "error") {
+          console.log(actionResult.message);
+          break;
+        }
+        const result = reduce(state, actionResult.action, { cardDatabase: cardDb });
+        if (!result.ok) console.log(result.error);
+        else {
+          state = applyAutoplay(result.value, cardDb);
+          renderState(state, renderOpts, useColor);
+        }
+        break;
+      }
+      case "resolveAssault": {
+        const actionResult = resolveAssaultFromCommand(
+          state,
+          command.choice,
+          command.fortressIndex,
+          command.garrisonAttackerIndices,
+        );
+        if (actionResult.kind === "error") {
+          console.log(actionResult.message);
+          break;
+        }
+        const result = reduce(state, actionResult.action, { cardDatabase: cardDb });
         if (!result.ok) console.log(result.error);
         else {
           state = applyAutoplay(result.value, cardDb);
@@ -396,4 +507,327 @@ function controlledEntityIdsInCliOrder(state: GameState, playerId: string): Inst
     for (const id of fort.occupantIds) ids.push(id);
   }
   return ids;
+}
+
+function activePlayer(state: GameState): NonNullable<GameState["players"][number]> | null {
+  return state.players.find((p) => p.id === state.activePlayerId) ?? null;
+}
+
+/**
+ * Resolve `decl 1,2 p2` → DECLARE_ENGAGEMENT action.
+ *
+ * Attacker battlefield indices are 1-based positions in the active player's
+ * own battlefield list (only entities owned by them).
+ * Defender player index is 1-based position in state.players[].
+ */
+function declareEngagementFromCommand(
+  state: GameState,
+  attackerBattlefieldIndices: number[],
+  defenderPlayerIndex: number,
+): ActionResult {
+  const active = state.players.find((p) => p.id === state.activePlayerId);
+  if (!active) return { kind: "error", message: "decl: no active player." };
+
+  // Attacker resolution.
+  const myBattlefield = state.battlefield.filter(
+    (id) => cardById(state, id).ownerId === active.id,
+  );
+  const attackerIds: InstanceId[] = [];
+  for (const idx of attackerBattlefieldIndices) {
+    const id = myBattlefield[idx - 1];
+    if (!id) {
+      return {
+        kind: "error",
+        message: `decl: no battlefield entity at position ${idx} (you have ${myBattlefield.length}).`,
+      };
+    }
+    attackerIds.push(id);
+  }
+
+  // Defender resolution.
+  const defender = state.players[defenderPlayerIndex - 1];
+  if (!defender) {
+    return {
+      kind: "error",
+      message: `decl: no player p${defenderPlayerIndex} (game has ${state.players.length} players).`,
+    };
+  }
+  if (defender.id === active.id) {
+    return { kind: "error", message: "decl: cannot declare against yourself." };
+  }
+  return {
+    kind: "action",
+    action: {
+      kind: "DECLARE_ENGAGEMENT",
+      spec: { kind: "battlefield", defenderId: defender.id, attackerEntityIds: attackerIds },
+    },
+  };
+}
+
+function declareFortressAssaultFromCommand(
+  state: GameState,
+  attackerBattlefieldIndices: number[],
+  defenderPlayerIndex: number,
+  defenderFortressIndices: number[],
+): ActionResult {
+  const active = state.players.find((p) => p.id === state.activePlayerId);
+  if (!active) return { kind: "error", message: "assault: no active player." };
+
+  const myBattlefield = state.battlefield.filter(
+    (id) => cardById(state, id).ownerId === active.id,
+  );
+  const attackerIds: InstanceId[] = [];
+  for (const idx of attackerBattlefieldIndices) {
+    const id = myBattlefield[idx - 1];
+    if (!id) {
+      return {
+        kind: "error",
+        message: `assault: no battlefield entity at position ${idx} (you have ${myBattlefield.length}).`,
+      };
+    }
+    attackerIds.push(id);
+  }
+
+  const defender = state.players[defenderPlayerIndex - 1];
+  if (!defender) {
+    return {
+      kind: "error",
+      message: `assault: no player p${defenderPlayerIndex} (game has ${state.players.length} players).`,
+    };
+  }
+  if (defender.id === active.id) {
+    return { kind: "error", message: "assault: cannot declare against yourself." };
+  }
+
+  const targetFortressInstanceIds: InstanceId[] = [];
+  for (const idx of defenderFortressIndices) {
+    const fort = defender.suburbs[idx - 1];
+    if (!fort) {
+      return {
+        kind: "error",
+        message: `assault: player p${defenderPlayerIndex} has no fortress at position ${idx}.`,
+      };
+    }
+    targetFortressInstanceIds.push(fort.fortressInstanceId);
+  }
+
+  return {
+    kind: "action",
+    action: {
+      kind: "DECLARE_ENGAGEMENT",
+      spec: {
+        kind: "fortress_assault",
+        defenderId: defender.id,
+        attackerEntityIds: attackerIds,
+        targetFortressInstanceIds,
+      },
+    },
+  };
+}
+
+/**
+ * Resolve `att aN dN` → NORMAL_ATTACK action by translating engagement-local
+ * indices to the actual InstanceIds.
+ */
+function attackFromCommand(
+  state: GameState,
+  source: EngagementEntityRef,
+  target: EngagementTargetRef,
+): ActionResult {
+  const eng = state.engagement;
+  if (!eng) return { kind: "error", message: "att: no engagement is active." };
+
+  const sourceId = engagementEntityId(eng, source);
+  if (!sourceId) {
+    return {
+      kind: "error",
+      message: `att: no ${source.side} at ${engagementRefLabel(source)}.`,
+    };
+  }
+  const targetId = engagementTargetId(eng, target);
+  if (!targetId) {
+    return {
+      kind: "error",
+      message: `att: no ${target.side} at ${engagementRefLabel(target)}.`,
+    };
+  }
+  return {
+    kind: "action",
+    action: {
+      kind: "NORMAL_ATTACK",
+      attackerInstanceId: sourceId,
+      targetInstanceId: targetId,
+    },
+  };
+}
+
+function resolveAssaultFromCommand(
+  state: GameState,
+  choice: "capture" | "destroy" | "leave",
+  fortressIndex: number,
+  garrisonAttackerIndices: number[],
+): ActionResult {
+  const eng = state.engagement;
+  if (!eng || eng.kind !== "fortress_assault") {
+    return { kind: "error", message: "assault resolution: no fortress assault is active." };
+  }
+  const fortressInstanceId = eng.targetFortressInstanceIds[fortressIndex - 1];
+  if (!fortressInstanceId) {
+    return {
+      kind: "error",
+      message: `assault resolution: no target fortress at f${fortressIndex}.`,
+    };
+  }
+
+  const garrisonEntityIds: InstanceId[] = [];
+  for (const idx of garrisonAttackerIndices) {
+    const id = eng.attackerEntityIds[idx - 1];
+    if (!id) {
+      return {
+        kind: "error",
+        message: `capture: no surviving attacker at a${idx}.`,
+      };
+    }
+    garrisonEntityIds.push(id);
+  }
+
+  return {
+    kind: "action",
+    action: {
+      kind: "RESOLVE_FORTRESS_ASSAULT",
+      fortressInstanceId,
+      choice,
+      garrisonEntityIds,
+    },
+  };
+}
+
+/** Resolve `pass aN` / `pass dN` → PASS_ACTION. */
+function passFromCommand(state: GameState, ref: EngagementEntityRef): ActionResult {
+  const eng = state.engagement;
+  if (!eng) return { kind: "error", message: "pass: no engagement is active." };
+  const actingSide = ref.side === "attacker" ? "attacker" : "defender";
+  if (actingSide !== eng.sideToAct) {
+    return {
+      kind: "error",
+      message: `pass: it is ${eng.sideToAct}'s turn, not ${ref.side}'s.`,
+    };
+  }
+  const id = engagementEntityId(eng, ref);
+  if (!id) {
+    return {
+      kind: "error",
+      message: `pass: no ${ref.side} at ${engagementRefLabel(ref)}.`,
+    };
+  }
+  return { kind: "action", action: { kind: "PASS_ACTION", entityInstanceId: id } };
+}
+
+/**
+ * Resolve Movement phase shorthand into MOVE_ENTITY.
+ *
+ * CLI labels are intentionally local to the active player:
+ *   bN     = N-th active-player entity on the shared battlefield
+ *   fM.N   = N-th occupant in active-player fortress M
+ *   fK/bf  = active-player fortress K or battlefield destination
+ */
+function moveFromCommand(
+  state: GameState,
+  source: MovementSourceRef,
+  destination: MovementDestinationRef,
+): ActionResult {
+  const active = activePlayer(state);
+  if (!active) return { kind: "error", message: "move: no active player." };
+
+  const entityInstanceId = movementSourceEntityId(state, active.id, source);
+  if (!entityInstanceId) {
+    if (source.kind === "battlefield") {
+      const count = activeBattlefieldEntityIds(state, active.id).length;
+      return {
+        kind: "error",
+        message: `move: no battlefield entity at b${source.index} (you have ${count}).`,
+      };
+    }
+    const fort = active.suburbs[source.fortressIndex - 1];
+    const count = fort?.occupantIds.length ?? 0;
+    return {
+      kind: "error",
+      message: `move: no occupant at f${source.fortressIndex}.${source.occupantIndex} (that fortress has ${count}).`,
+    };
+  }
+
+  const dest = movementDestination(state, active.id, destination);
+  if (dest.kind === "error") return dest;
+  return {
+    kind: "action",
+    action: {
+      kind: "MOVE_ENTITY",
+      entityInstanceId,
+      destination: dest.destination,
+    },
+  };
+}
+
+function movementSourceEntityId(
+  state: GameState,
+  activePlayerId: string,
+  source: MovementSourceRef,
+): InstanceId | undefined {
+  if (source.kind === "battlefield") {
+    return activeBattlefieldEntityIds(state, activePlayerId)[source.index - 1];
+  }
+  const active = state.players.find((p) => p.id === activePlayerId);
+  const fort = active?.suburbs[source.fortressIndex - 1];
+  return fort?.occupantIds[source.occupantIndex - 1];
+}
+
+function activeBattlefieldEntityIds(state: GameState, activePlayerId: string): InstanceId[] {
+  return state.battlefield.filter((id) => cardById(state, id).ownerId === activePlayerId);
+}
+
+type MovementDestinationResult =
+  | { kind: "destination"; destination: EngineMovementDestinationRef }
+  | { kind: "error"; message: string };
+
+function movementDestination(
+  state: GameState,
+  activePlayerId: string,
+  destination: MovementDestinationRef,
+): MovementDestinationResult {
+  if (destination.kind === "battlefield") {
+    return { kind: "destination", destination: { kind: "battlefield" } };
+  }
+  const active = state.players.find((p) => p.id === activePlayerId);
+  const fort = active?.suburbs[destination.fortressIndex - 1];
+  if (!fort) {
+    return {
+      kind: "error",
+      message: `move: no fortress at f${destination.fortressIndex}.`,
+    };
+  }
+  return {
+    kind: "destination",
+    destination: { kind: "fortress", fortressInstanceId: fort.fortressInstanceId },
+  };
+}
+
+function engagementEntityId(
+  eng: NonNullable<GameState["engagement"]>,
+  ref: EngagementEntityRef,
+): InstanceId | undefined {
+  const ids = ref.side === "attacker" ? eng.attackerEntityIds : eng.defenderEntityIds;
+  return ids[ref.index - 1];
+}
+
+function engagementTargetId(
+  eng: NonNullable<GameState["engagement"]>,
+  ref: EngagementTargetRef,
+): InstanceId | undefined {
+  if (ref.side === "fortress") return eng.targetFortressInstanceIds[ref.index - 1];
+  return engagementEntityId(eng, ref);
+}
+
+function engagementRefLabel(ref: EngagementTargetRef): string {
+  if (ref.side === "fortress") return `f${ref.index}`;
+  return `${ref.side === "attacker" ? "a" : "d"}${ref.index}`;
 }

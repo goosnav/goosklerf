@@ -8,6 +8,7 @@
 import { describe, expect, it } from "vitest";
 import type { CardDatabase } from "@gk/cards";
 import {
+  entityStats,
   reduce,
   type CardInstance,
   type Fortress,
@@ -53,6 +54,17 @@ const DB: CardDatabase = {
     hasSpecial: false,
     automationStatus: "fully_implemented",
   },
+  hp_item_regular: {
+    id: "hp_item_regular",
+    name: "TEST HP ITEM",
+    filename: "",
+    type: "item_regular",
+    rarity: "normal",
+    hpBuff: 2,
+    rulesText: "",
+    hasSpecial: false,
+    automationStatus: "fully_implemented",
+  },
   item_consumable: {
     id: "item_consumable",
     name: "TEST CONSUMABLE",
@@ -60,6 +72,18 @@ const DB: CardDatabase = {
     type: "item_consumable",
     rarity: "normal",
     hpBuff: 1,
+    rulesText: "",
+    hasSpecial: false,
+    automationStatus: "fully_implemented",
+  },
+  hp_fortress: {
+    id: "hp_fortress",
+    name: "TEST HP FORTRESS",
+    filename: "",
+    type: "fortress",
+    rarity: "normal",
+    fortressHp: 4,
+    hpBuff: 2,
     rulesText: "",
     hasSpecial: false,
     automationStatus: "fully_implemented",
@@ -222,6 +246,48 @@ describe("PLAY_CARD", () => {
     expect(state.cardsByInstanceId["c1"]!.consumed).toBe(false);
     expect(state.cardPlay.played).toBe(2);
     expect(state.log.at(-1)?.rule).toBe("R5.4");
+  });
+
+  it("R2.4 — equipping an HP item raises current HP and modified max HP", () => {
+    const target = inst("e1", "entity", { zone: "battlefield", ownerId: "p1" });
+    const state = fixture({
+      hand: [inst("i1", "hp_item_regular")],
+      extraCards: [target],
+      battlefield: ["e1"],
+    });
+
+    const next = expectOk(reduce(
+      state,
+      { kind: "PLAY_CARD", instanceId: "i1", placement: { kind: "equip", entityInstanceId: "e1" } },
+      { cardDatabase: DB },
+    ));
+
+    const entity = next.cardsByInstanceId["e1"]!;
+    const stats = entityStats(next, entity, DB);
+    expect(stats.itemHpBuff).toBe(2);
+    expect(stats.modifiedMaxHp).toBe(4);
+    expect(entity.hp).toBe(4);
+  });
+
+  it("R3.10 — playing an entity into an HP-buff fortress raises current HP", () => {
+    const fortCard = inst("f1", "hp_fortress", { zone: "suburbs", ownerId: "p1" });
+    const state = fixture({
+      hand: [inst("h1", "entity")],
+      extraCards: [fortCard],
+      suburbs: [{ ownerId: "p1", fortressInstanceId: "f1", occupantIds: [] }],
+    });
+
+    const next = expectOk(reduce(
+      state,
+      { kind: "PLAY_CARD", instanceId: "h1", placement: { kind: "fortress", fortressInstanceId: "f1" } },
+      { cardDatabase: DB },
+    ));
+
+    const entity = next.cardsByInstanceId["h1"]!;
+    const stats = entityStats(next, entity, DB);
+    expect(stats.fortressHpBuff).toBe(2);
+    expect(stats.modifiedMaxHp).toBe(4);
+    expect(entity.hp).toBe(4);
   });
 
   it("R5.2 — rejects type-incompatible placements", () => {

@@ -2,8 +2,8 @@
  * Phase rotation reducer.
  *
  * Top-level handler for the END_PHASE action. Delegates to the per-phase
- * handler when one exists; otherwise treats the phase as a stub no-op that
- * simply advances to the next phase.
+ * handler when one exists; otherwise treats not-yet-implemented phases as
+ * no-op advances to the next phase.
  *
  * When victory_check ends, control rotates to the next player in turn order
  * and the turn number increments. Per R10.7 we ALSO reset Old Age and
@@ -11,11 +11,9 @@
  * enforced until later sprints — the structural reset is harmless and lets
  * future sprints layer logic in without re-touching this file.
  *
- * Stub phases (combat / movement / card_draw / victory_check) are deliberately
- * minimal until their owning sprint:
- *   combat       Sprint 6+
- *   movement     Sprint 8
- *   card_draw    Sprint 9
+ * Stub phases (card_draw / victory_check) are deliberately minimal until
+ * their owning sprint:
+ *   card_draw     Sprint 9
  *   victory_check Sprint 10  (Old Age + LMS / Landlord / Hamlet checks)
  *
  * Each stub still emits a log entry so the user can see the phase advance.
@@ -28,6 +26,7 @@ import { appendLog } from "../log.js";
 import { type Result, err, ok } from "../result.js";
 import type { GameState, Phase, Player } from "../state.js";
 import { handleEndCardPlay } from "./cardPlay.js";
+import { handleEndMovement } from "./movement.js";
 
 type EndPhaseAction = Extract<Action, { kind: "END_PHASE" }>;
 
@@ -50,9 +49,12 @@ export function handleEndPhase(
       // Card Play has rich rules (R5.1 quota); delegate to its dedicated handler.
       return handleEndCardPlay(state, action, cardDb);
     case "combat":
+      if (state.engagement) {
+        return err("R6.6: resolve the active engagement before ending the Combat phase.");
+      }
       return endStubPhase(state, "combat", "movement", "R6.x — Combat phase ended (no engagement declared).");
     case "movement":
-      return endStubPhase(state, "movement", "card_draw", "R8.x — Movement phase ended.");
+      return handleEndMovement(state, action, cardDb);
     case "card_draw":
       return endStubPhase(state, "card_draw", "victory_check", "R9.x — Card Draw phase ended.");
     case "victory_check":

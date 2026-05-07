@@ -35,5 +35,5 @@ SHOP (yours)
 LOG
   [R1.4] Game start. 2 players, medium regime. Alice goes first.
 
-─── [p N] play (auto)   [d N] discard   [e] end   [i N] inspect   [?] help   [q] quit ───"
+─── [p N] play   [d N] discard   [decl A pN] battle   [assault A pN fM] fort   [e] end   [i N] inspect   [?] help   [q] quit ───"
 `;

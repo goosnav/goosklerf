@@ -65,6 +65,28 @@ describe("R4.1 — phase advancement (stub phases)", () => {
     expect(lastLog.data?.["toPhase"]).toBe("movement");
   });
 
+  it("R6.6 — combat cannot end while an engagement is active", () => {
+    const state = fixtureAtPhase("combat");
+    state.engagement = {
+      kind: "battlefield",
+      attackerSide: state.activePlayerId,
+      defenderSide: state.players.find((p) => p.id !== state.activePlayerId)!.id,
+      attackerEntityIds: ["a1"],
+      defenderEntityIds: ["d1"],
+      targetFortressInstanceIds: [],
+      initialVolleyResolved: true,
+      round: 1,
+      sideToAct: "attacker",
+      actionsRemainingByEntity: { a1: 1, d1: 1 },
+      damageHistory: [],
+      retreatingEntityIds: [],
+      reinforcementsCalledThisRound: { attacker: false, defender: false },
+    };
+    const r = reduce(state, { kind: "END_PHASE" }, { cardDatabase: db });
+    expect(r.ok).toBe(false);
+    if (!r.ok) expect(r.error).toContain("R6.6");
+  });
+
   it("movement → card_draw on END_PHASE", () => {
     const state = fixtureAtPhase("movement");
     const r = reduce(state, { kind: "END_PHASE" }, { cardDatabase: db });

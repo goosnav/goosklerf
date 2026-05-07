@@ -13,7 +13,7 @@
 import pc from "picocolors";
 import type { CardDatabase } from "@gk/cards";
 import type { GameState, Player, CardInstance } from "@gk/engine";
-import { findPlayer, cardById, totalFortressesOnBoard } from "@gk/engine";
+import { findPlayer, cardById, totalFortressesOnBoard, entityStats } from "@gk/engine";
 import { TYPE_ICON, PHASE_LABEL, dieFace, TEXT_INACTIVE } from "./glyphs.js";
 import { commandPaletteLine } from "./commands.js";
 
@@ -66,7 +66,7 @@ export function renderBoard(state: GameState, opts: RenderOptions): string[] {
   } else {
     for (const id of state.battlefield) {
       const inst = cardById(state, id);
-      lines.push("  " + describeEntity(inst, opts));
+      lines.push("  " + describeEntity(state, inst, opts));
     }
   }
   lines.push("");
@@ -104,20 +104,20 @@ function renderPlayerSuburb(
       lines.push(`    ${TYPE_ICON.fortress} ${fName}   HP:${dieFace(fInst.hp)}   occupants:${occN}/3`);
       for (const occId of fort.occupantIds) {
         const occ = cardById(state, occId);
-        lines.push("        " + describeEntity(occ, opts));
+        lines.push("        " + describeEntity(state, occ, opts));
       }
     }
   }
   return lines;
 }
 
-function describeEntity(inst: CardInstance, opts: RenderOptions): string {
+function describeEntity(state: GameState, inst: CardInstance, opts: RenderOptions): string {
   const def = opts.cardDb[inst.cardId];
   const name = def?.name ?? inst.cardId;
-  const atk = def?.baseAttack ?? "-";
+  const stats = entityStats(state, inst, opts.cardDb);
   const items = inst.equippedItemIds.length;
   const inactive = def?.hasSpecial ? ` ${TEXT_INACTIVE}` : "";
-  return `${TYPE_ICON.entity} ${name}   ATK:${atk}  HP:${dieFace(inst.hp)}  items:${items}/3${inactive}`;
+  return `${TYPE_ICON.entity} ${name}   ATK:${attackDisplay(stats.printedAttack, stats.modifiedAttack)}  HP:${hpDisplay(inst.hp, stats.modifiedMaxHp)}  items:${items}/3${inactive}`;
 }
 
 /** The active player's hand. */
@@ -180,11 +180,126 @@ export function renderLog(state: GameState, opts: RenderOptions, lastN = 8): str
   return lines;
 }
 
-/** Bottom prompt — what the user can type. */
-export function renderPrompt(opts: RenderOptions): string[] {
+/**
+ * Active engagement panel. Shown only when `state.engagement !== null`.
+ *
+ * Indices:
+ *   [aN] — N-th attacker entity in engagement.attackerEntityIds
+ *   [dN] — N-th defender entity in engagement.defenderEntityIds
+ *   [fN] — N-th target fortress in engagement.targetFortressInstanceIds
+ * Users type these directly: `att a1 d1`, `att a1 f1`, `pass a1`, etc.
+ */
+export function renderEngagement(state: GameState, opts: RenderOptions): string[] {
+  const eng = state.engagement;
+  if (!eng) return [];
+
+  const lines: string[] = [];
+  const attacker = findPlayer(state, eng.attackerSide);
+  const defender = findPlayer(state, eng.defenderSide);
+  const sideLabel = eng.sideToAct === "attacker" ? "ATTACKER's turn" : "DEFENDER's turn";
+  lines.push(
+    tint(
+      opts.useColor,
+      pc.bold,
+      `ENGAGEMENT — round ${eng.round}, ${sideLabel}   (${eng.kind})`,
+    ),
+  );
+
+  // Attacker side
+  lines.push(
+    tint(opts.useColor, pc.cyan, `  ATTACKERS — ${attacker?.name ?? eng.attackerSide}`),
+  );
+  if (eng.attackerEntityIds.length === 0) {
+    lines.push("    (none — engagement is ending)");
+  } else {
+    eng.attackerEntityIds.forEach((id, idx) => {
+      lines.push("    " + describeEngagementEntity(state, opts, id, `a${idx + 1}`, eng.actionsRemainingByEntity[id] ?? 0));
+    });
+  }
+  // Defender side
+  lines.push(
+    tint(opts.useColor, pc.yellow, `  DEFENDERS — ${defender?.name ?? eng.defenderSide}`),
+  );
+  if (eng.defenderEntityIds.length === 0) {
+    lines.push("    (none — engagement is ending)");
+  } else {
+    eng.defenderEntityIds.forEach((id, idx) => {
+      lines.push("    " + describeEngagementEntity(state, opts, id, `d${idx + 1}`, eng.actionsRemainingByEntity[id] ?? 0));
+    });
+  }
+
+  if (eng.kind === "fortress_assault") {
+    lines.push(tint(opts.useColor, pc.magenta, "  TARGET FORTRESSES"));
+    if (eng.targetFortressInstanceIds.length === 0) {
+      lines.push("    (all resolved)");
+    } else {
+      eng.targetFortressInstanceIds.forEach((id, idx) => {
+        lines.push("    " + describeEngagementFortress(state, opts, id, `f${idx + 1}`));
+      });
+    }
+  }
+  return lines;
+}
+
+function describeEngagementEntity(
+  state: GameState,
+  opts: RenderOptions,
+  instanceId: string,
+  label: string,
+  actionsRemaining: number,
+): string {
+  const inst = cardById(state, instanceId);
+  const def = opts.cardDb[inst.cardId];
+  const name = def?.name ?? inst.cardId;
+  const stats = entityStats(state, inst, opts.cardDb);
+  const items = inst.equippedItemIds.length;
+  const inactive = def?.hasSpecial ? ` ${TEXT_INACTIVE}` : "";
+  const status = actionsRemaining > 0 ? "ready" : "acted";
+  const statusTint = actionsRemaining > 0
+    ? tint(opts.useColor, pc.green, status)
+    : tint(opts.useColor, pc.dim, status);
+  return `[${label}] ${TYPE_ICON.entity} ${name}   ATK:${attackDisplay(stats.printedAttack, stats.modifiedAttack)}  HP:${hpDisplay(inst.hp, stats.modifiedMaxHp)}  items:${items}/3  ${statusTint}${inactive}`;
+}
+
+function describeEngagementFortress(
+  state: GameState,
+  opts: RenderOptions,
+  instanceId: string,
+  label: string,
+): string {
+  const inst = cardById(state, instanceId);
+  const def = opts.cardDb[inst.cardId];
+  const name = def?.name ?? inst.cardId;
+  const occupantCount = state.players
+    .flatMap((p) => p.suburbs)
+    .find((f) => f.fortressInstanceId === instanceId)?.occupantIds.length ?? 0;
+  return `[${label}] ${TYPE_ICON.fortress} ${name}   HP:${dieFace(inst.hp)}  occupants:${occupantCount}/3`;
+}
+
+function attackDisplay(printed: number, modified: number): string {
+  return printed === modified ? `${printed}` : `${modified} (${signed(modified - printed)})`;
+}
+
+function hpDisplay(current: number, max: number): string {
+  return current === max ? dieFace(current) : `${dieFace(current)}/${max}`;
+}
+
+/** Bottom prompt — what the user can type. Adapts to whether an engagement is active. */
+export function renderPrompt(state: GameState, opts: RenderOptions): string[] {
+  const inEngagement = state.engagement !== null;
+  const awaitingAssaultResolution =
+    state.engagement?.kind === "fortress_assault" &&
+    state.engagement.defenderEntityIds.length === 0 &&
+    state.engagement.targetFortressInstanceIds.length > 0;
   return [
     "",
-    tint(opts.useColor, pc.dim, `── ${commandPaletteLine()} ──`),
+    tint(opts.useColor, pc.dim, `── ${commandPaletteLine({
+      phase: state.phase,
+      inEngagement,
+      actingSide: state.engagement?.sideToAct,
+      engagementKind: state.engagement?.kind,
+      awaitingAssaultResolution,
+    })} ──`),
   ];
 }
 
@@ -195,12 +310,14 @@ export function renderAll(state: GameState, opts: RenderOptions): string {
     [""],
     renderBoard(state, opts),
     [""],
-    renderHand(state, opts),
-    [""],
-    renderShop(state, opts),
-    [""],
-    renderLog(state, opts),
-    renderPrompt(opts),
   ];
+  if (state.engagement) {
+    blocks.push(renderEngagement(state, opts), [""]);
+  } else {
+    blocks.push(renderHand(state, opts), [""]);
+    blocks.push(renderShop(state, opts), [""]);
+  }
+  blocks.push(renderLog(state, opts));
+  blocks.push(renderPrompt(state, opts));
   return blocks.flat().join("\n");
 }

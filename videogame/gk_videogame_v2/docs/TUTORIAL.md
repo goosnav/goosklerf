@@ -100,6 +100,11 @@ When an entity reaches 0 HP, it dies. Its items go to the graveyard with it (R7.
 
 Move your entities. Battlefield ↔ fortress, fortress ↔ fortress. Capacity rules apply (R2.7, R8.1). Items move with their entity (R3.8).
 
+CLI forms:
+- `mv b1 f1` moves your first battlefield entity into your first fortress.
+- `mv f1.1 bf` moves the first occupant of your first fortress to the battlefield.
+- `mv f1.1 f2` moves that occupant into your second fortress.
+
 ### Phase 4 — Card Draw (R9.x)
 
 Draw 2 random cards from your deck, plus search your deck for any 1 card and add it to your hand (R9.1). If your deck is empty, this phase is a no-op (R9.2).

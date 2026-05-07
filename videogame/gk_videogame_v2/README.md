@@ -33,7 +33,7 @@ The canonical card CSV lives outside this tree at `../archive/gk_videogame_v1/ca
 pnpm install
 pnpm cards:build   # generate packages/cards/data/cards.generated.json from CSV
 pnpm test          # run all rule-fidelity tests
-pnpm play          # launch the CLI; Card Play actions are live
+pnpm play          # launch the CLI; Card Play + Combat + Movement are live
 ```
 
 ## Project conventions

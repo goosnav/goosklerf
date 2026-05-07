@@ -63,14 +63,37 @@ Run `pnpm play -- --help` for the latest list.
 
 ## In-game commands
 
+- `p N` — play hand card `N` automatically if there is only one legal destination.
 - `p N bf` — play hand card `N` to the battlefield.
 - `p N f M` — play hand card `N` into your fortress `M`.
 - `p N s` — play hand card `N` to your suburbs.
 - `p N e M` — equip hand card `N` to your entity `M`.
 - `d N` — discard hand card `N`.
 - `e` — end the phase when the current phase's rule requirements are satisfied.
+- `decl A pN` — declare a battlefield engagement with attacker index or indices `A` against player `pN`, e.g. `decl 1 p2` or `decl 1,2 p3`.
+- `assault A pN fM[,fK]` — declare a fortress assault against player `pN`'s fortress index/indices, e.g. `assault 1 p2 f1`.
+- `att aN dM` / `att dM aN` — normal attack from the acting side.
+- `att aN fM` — in a fortress assault, attack target fortress `fM` directly.
+- `pass aN` / `pass dN` — pass the acting entity's combat action.
+- `cap fN aM[,aK]` — capture a cleared fortress with surviving attacker(s).
+- `burn fN` — destroy a cleared fortress instead of capturing it.
+- `leave fN` — leave a cleared fortress under its current controller.
+- `mv bN fM` — during Movement, move your battlefield entity `N` into your fortress `M`.
+- `mv fM.N bf` — during Movement, move occupant `N` from your fortress `M` to the battlefield.
+- `mv fM.N fK` — during Movement, move occupant `N` from your fortress `M` into your fortress `K`.
 - `i N`, `i s N`, `i b N`, `i f N`, `i <id>` — inspect cards.
 - `r`, `?`, `q` — redraw, help, quit.
+
+## Reading buffed stats
+
+The CLI shows modified stats when items or fortresses are affecting an entity.
+
+- `ATK:5 (+2)` means the entity is currently attacking at 5 because live buffs add 2 to its printed Attack.
+- `HP:⚃/5` means the entity has 4 current HP out of a 5 modified max HP.
+- `i b N` inspects a battlefield entity and prints current vs printed Attack/max HP.
+- `i f N` inspects one of your fortresses; occupants under it display fortress buffs on the board.
+
+HP buffs are real durability. Equipping `GLOVE SOCKS` (+2 HP), for example, immediately raises the carrier's current HP and modified max HP; moving into a HP-buff fortress does the same, and moving out removes that temporary HP down to the new max.
 
 ## If something goes wrong
 

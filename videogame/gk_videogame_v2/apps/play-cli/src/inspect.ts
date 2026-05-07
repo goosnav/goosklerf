@@ -17,7 +17,7 @@
 import pc from "picocolors";
 import type { CardDatabase, CardDefinition, CardType, Rarity } from "@gk/cards";
 import type { CardInstance, GameState } from "@gk/engine";
-import { findPlayer, cardById } from "@gk/engine";
+import { findPlayer, cardById, entityStats } from "@gk/engine";
 import { TYPE_ICON, dieFace, TEXT_INACTIVE } from "./glyphs.js";
 import type { InspectTarget } from "./commands.js";
 
@@ -117,6 +117,9 @@ export function formatCardInstance(
     lines.push(`    hp now:   ${dieFace(inst.hp)} (${inst.hp})`);
   }
   if (def.type === "entity") {
+    const stats = entityStats(state, inst, cardDb);
+    lines.push(`    attack:   ${stats.modifiedAttack} current (${stats.printedAttack} printed)`);
+    lines.push(`    max hp:   ${stats.modifiedMaxHp} current (${stats.printedMaxHp} printed)`);
     lines.push(`    items:    ${inst.equippedItemIds.length} / 3`);
     if (inst.equippedItemIds.length > 0) {
       const itemNames = inst.equippedItemIds
