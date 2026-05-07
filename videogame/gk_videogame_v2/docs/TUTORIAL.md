@@ -66,7 +66,7 @@ The Shop (R1.5) is dealt 3/7/7 cards face-up at setup (Small / Medium / Large).
 
 ### Phase 1 — Card Play (R5.x)
 
-You must end the phase having either **played exactly 3 cards** OR **discarded enough to bring your hand to ≤3 cards** (R5.1).
+You must play exactly **3 cards** if that is legal. If you cannot legally play 3, play the maximum legal cards, then discard until `played + discarded = 3` (or fewer if you started the phase with fewer than 3 cards) (R5.1).
 
 When you play a card (R5.2):
 

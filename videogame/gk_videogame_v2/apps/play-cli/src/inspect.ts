@@ -214,6 +214,8 @@ function describeZone(z: CardInstance["zone"]): string {
   switch (z.zone) {
     case "battlefield": return `battlefield (owner: ${z.ownerId})`;
     case "fortress":    return `fortress ${z.fortressInstanceId} (owner: ${z.ownerId})`;
+    case "suburbs":     return `suburbs (owner: ${z.ownerId})`;
+    case "equipped":    return `equipped to ${z.entityInstanceId} (owner: ${z.ownerId})`;
     case "hand":        return `hand (owner: ${z.ownerId})`;
     case "deck":        return `deck (owner: ${z.ownerId})`;
     case "graveyard":   return `graveyard (owner: ${z.ownerId})`;

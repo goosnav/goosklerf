@@ -40,7 +40,7 @@ describe("rowToCardDefinition — automation status state machine", () => {
     expect(card.baseHp).toBe(3);
   });
 
-  it("entity with has_special=Y → not_implemented (M1 excludes from decks)", () => {
+  it("entity with has_special=Y → not_implemented (M1 silences text)", () => {
     const card = rowToCardDefinition({
       filename: "magic.jpg",
       card_name: "MAGIC WORM",

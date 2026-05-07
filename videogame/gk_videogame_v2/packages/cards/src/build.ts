@@ -52,7 +52,7 @@ function main(): void {
 
   console.log("Validation summary:");
   console.log(`  fully_implemented: ${fully}`);
-  console.log(`  not_implemented:   ${notImpl}  (special-text cards; excluded from M1 decks)`);
+  console.log(`  not_implemented:   ${notImpl}  (special-text cards; text ignored at M1)`);
   console.log(`  data_error:        ${errors}   (missing required stats; always excluded)`);
   if (dropped > 0) console.log(`  duplicate ids dropped: ${dropped}`);
 

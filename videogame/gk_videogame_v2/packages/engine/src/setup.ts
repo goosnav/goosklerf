@@ -221,6 +221,11 @@ export function setupGame(opts: SetupOptions): Result<GameState> {
     players,
     activePlayerId,
     phase: "card_play",
+    cardPlay: {
+      startedWith: players[firstPlayerIndex]!.hand.length,
+      played: 0,
+      discarded: 0,
+    },
     turnNumber: 1,
     cardsByInstanceId,
     battlefield: [],

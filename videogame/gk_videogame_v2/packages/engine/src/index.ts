@@ -18,6 +18,7 @@ export type {
   LandlordStatus,
   // Phase
   Phase,
+  CardPlayState,
   // Engagements
   Engagement,
   EngagementKind,
@@ -31,6 +32,11 @@ export type {
   // Top-level state
   GameState,
 } from "./state.js";
+
+export type {
+  Action,
+  PlacementRef,
+} from "./actions.js";
 
 export {
   type Result,
@@ -51,6 +57,16 @@ export {
   cloneState,
   zoneSize,
 } from "./helpers.js";
+
+export {
+  appendLog,
+  type LogInput,
+} from "./log.js";
+
+export {
+  reduce,
+  type ReducerContext,
+} from "./reducer.js";
 
 export {
   setupGame,

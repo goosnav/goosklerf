@@ -61,6 +61,17 @@ Currently the CLI accepts:
 
 Run `pnpm play -- --help` for the latest list.
 
+## In-game commands
+
+- `p N bf` — play hand card `N` to the battlefield.
+- `p N f M` — play hand card `N` into your fortress `M`.
+- `p N s` — play hand card `N` to your suburbs.
+- `p N e M` — equip hand card `N` to your entity `M`.
+- `d N` — discard hand card `N`.
+- `e` — end the phase when the current phase's rule requirements are satisfied.
+- `i N`, `i s N`, `i b N`, `i f N`, `i <id>` — inspect cards.
+- `r`, `?`, `q` — redraw, help, quit.
+
 ## If something goes wrong
 
 The launcher leaves the terminal open with the error message. Common issues:

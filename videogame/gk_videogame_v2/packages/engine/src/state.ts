@@ -54,6 +54,8 @@ export type InstanceId = string;
 export type ZoneRef =
   | { zone: "battlefield"; ownerId: PlayerId }              // R3.1
   | { zone: "fortress"; ownerId: PlayerId; fortressInstanceId: InstanceId } // R3.2 (suburb)
+  | { zone: "suburbs"; ownerId: PlayerId }                  // R3.2 fortress card in a suburb slot
+  | { zone: "equipped"; ownerId: PlayerId; entityInstanceId: InstanceId } // R2.7, R3.8 item slot
   | { zone: "hand"; ownerId: PlayerId }                     // R3.4
   | { zone: "deck"; ownerId: PlayerId }                     // R3.4
   | { zone: "graveyard"; ownerId: PlayerId }                // R3.3
@@ -217,6 +219,18 @@ export type Phase =
   | "card_draw"
   | "victory_check";
 
+/**
+ * R5.1: Card Play is a quota phase. The player must play exactly 3 cards if
+ * legal, otherwise play the maximum legal cards and discard until the quota
+ * is met. `startedWith` freezes the hand size at phase entry so later hand
+ * mutations do not change the quota mid-phase.
+ */
+export interface CardPlayState {
+  startedWith: number;
+  played: number;
+  discarded: number;
+}
+
 // -----------------------------------------------------------------------------
 // Engagement (R6.x)
 // -----------------------------------------------------------------------------
@@ -348,6 +362,8 @@ export interface GameState {
   activePlayerId: PlayerId;
   /** Current phase within the active player's turn. */
   phase: Phase;
+  /** R5.1 progress counters for the current/most recent Card Play phase. */
+  cardPlay: CardPlayState;
   /** Increments at the start of each player's turn. Used for Old Age, Landlord countdown, logging. */
   turnNumber: number;
 

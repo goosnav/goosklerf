@@ -15,7 +15,7 @@ apps/
   play-cli/  human + AI terminal client (M1 deliverable)
 tests/
   cards/        per-rule fidelity tests for the card pipeline
-  rules/        per-rule fidelity tests for the engine (later)
+  engine/       per-rule fidelity tests for the engine
   transcripts/  scripted-game golden tests (later)
 docs/
   SPEC-rules.md   formal classic-only requirements (67 R-IDs)
@@ -33,7 +33,7 @@ The canonical card CSV lives outside this tree at `../archive/gk_videogame_v1/ca
 pnpm install
 pnpm cards:build   # generate packages/cards/data/cards.generated.json from CSV
 pnpm test          # run all rule-fidelity tests
-pnpm play          # launch the render-only CLI; real game actions start in Sprint 5
+pnpm play          # launch the CLI; Card Play actions are live
 ```
 
 ## Project conventions

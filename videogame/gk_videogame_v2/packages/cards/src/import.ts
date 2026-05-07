@@ -104,7 +104,7 @@ export function rowToCardDefinition(row: CsvRow): CardDefinition {
 
   // Determine automation status:
   //   data_error  — missing required stats per type
-  //   not_implemented — has special text we don't handle at M1
+  //   not_implemented — has special text we silence at M1
   //   fully_implemented — vanilla card, safe to put in decks
   const automationStatus: AutomationStatus =
     errors.length > 0 ? "data_error"

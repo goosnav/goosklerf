@@ -80,6 +80,11 @@ interface GameState {
   players: Player[];                      // 2..4, ordered by table order (R1.4)
   activePlayerId: PlayerId;
   phase: Phase;                           // R4.1
+  cardPlay: {
+    startedWith: number;                  // R5.1 hand size at Card Play entry
+    played: number;                       // R5.1 cards played this Card Play
+    discarded: number;                    // R5.1 cards discarded this Card Play
+  };
   turnNumber: number;                     // increments on each player's turn start
   cardsByInstanceId: Record<InstanceId, CardInstance>;
   battlefield: InstanceId[];              // shared zone; filter by owner for per-player cap (R3.1, R2.7)
@@ -110,7 +115,7 @@ interface CardInstance {
   instanceId: string;                    // unique per-game id
   cardId: string;                        // FK into card database
   ownerId: PlayerId;                     // original owner; never changes (R3.8)
-  zone: ZoneRef;                         // current location (battlefield, fortress, hand, etc.)
+  zone: ZoneRef;                         // current location (battlefield, suburbs, equipped, hand, etc.)
   hp: number;                            // current HP for entities; current fortressHp for fortresses
   equippedItemIds: string[];             // entities only; max 3 (R2.7)
   consumed: boolean;                     // consumables that have been used
@@ -144,11 +149,11 @@ interface Engagement {
 }
 ```
 
-### 3.3 Action surface (Sprint 5 subset)
+### 3.3 Action surface (current Card Play subset)
 
 Actions are discriminated unions. The reducer is the *only* function allowed to produce a changed `GameState` from an existing `GameState`.
 
-Sprint 5 implements only the Card Play subset below. Later sprints extend this union one phase at a time.
+The current engine implements only the Card Play subset below. Later sprints extend this union one phase at a time.
 
 ```ts
 type Action =
@@ -163,6 +168,16 @@ type PlacementRef =
   | { kind: "suburbs" }                             // fortress -> own suburbs (R5.2)
   | { kind: "equip"; entityInstanceId: string };     // item/consumable -> own entity (R5.2-R5.4)
 ```
+
+Reducers receive an explicit context:
+
+```ts
+type ReducerContext = {
+  cardDatabase: CardDatabase;
+};
+```
+
+The context keeps `GameState` small while still making reducer calls deterministic: the card database is immutable input, not hidden process state.
 
 `END_PHASE` advances `card_play -> combat` only when R5.1 is satisfied. R5.5-R5.7 shop purchases are deliberately out of scope until Sprint 13.
 
@@ -236,7 +251,7 @@ These are checked in tests and reducer guards as those rule areas land. Violatin
 The engine MUST be deterministic. Concretely:
 
 - All randomness flows through `SeededRng`. No `Math.random()` calls anywhere in `@gk/engine` or `@gk/ai`.
-- The reducer takes `(state, action)` and returns `(newState, logs)` — no closures over time, no `Date.now()`.
+- The reducer takes `(state, action, ctx)` and returns `Result<GameState>` with logs embedded in `GameState.log` — no closures over time, no `Date.now()`.
 - Card instance IDs are assigned monotonically during deterministic setup; they do not depend on object-map iteration order.
 - Object key iteration is never assumed to have an order — sort explicitly when needed.
 
@@ -260,7 +275,7 @@ Each rule from `SPEC-rules.md` gets a test of the form:
 // covers R6.7 — Initial Volley fires once per fortress per engagement
 test("R6.7 — Initial Volley", () => {
   const state = scenarioWithFortressOccupants();
-  const after = reduce(state, { kind: "DECLARE_ENGAGEMENT", ... });
+  const after = reduce(state, { kind: "DECLARE_ENGAGEMENT", ... }, { cardDatabase });
   expect(after.value.engagement.initialVolleyResolved).toBe(true);
   expect(after.value.log.filter(e => e.rule === "R6.7")).toHaveLength(N);
 });

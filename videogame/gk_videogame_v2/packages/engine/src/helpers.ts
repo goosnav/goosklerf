@@ -73,6 +73,18 @@ export function getZoneContents(state: GameState, ref: ZoneRef): InstanceId[] {
     case "shop":
       // R3.5 / R5.6: shop is per-player.
       return [...playerById(state, ref.ownerId).shop];
+    case "suburbs":
+      // R3.2: suburb contents are the fortress card instances in slot order.
+      return playerById(state, ref.ownerId).suburbs.map((f) => f.fortressInstanceId);
+    case "equipped": {
+      const entity = cardById(state, ref.entityInstanceId);
+      if (entity.ownerId !== ref.ownerId) {
+        throw new Error(
+          `getZoneContents: entity "${ref.entityInstanceId}" is not owned by "${ref.ownerId}"`,
+        );
+      }
+      return [...entity.equippedItemIds];
+    }
     case "fortress": {
       const fort = findFortress(state, ref.ownerId, ref.fortressInstanceId);
       if (!fort) {

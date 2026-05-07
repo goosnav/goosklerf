@@ -31,7 +31,7 @@ export type Rarity = "normal" | "rare";
  *
  * - `fully_implemented`: vanilla stats only, or a special whose handler exists. Safe in decks.
  * - `not_implemented`: card has special text we deliberately do not handle yet.
- *   At M1 these are excluded from deck generation. At M2 they return via the ability registry.
+ *   At M1 these are deck-eligible but their text is silenced; M2 adds handlers via the ability registry.
  * - `data_error`: card is missing required stats (e.g. an entity with no baseAttack).
  *   Always excluded from decks; treated as a build-time warning, not an error.
  */

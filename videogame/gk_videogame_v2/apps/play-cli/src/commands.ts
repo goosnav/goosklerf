@@ -13,13 +13,18 @@
  *   i b N         inspect battlefield entity N
  *   i f N         inspect fortress N (your suburbs)
  *   i <card-id>   inspect a card by id (e.g. "i butcher_worm")
+ *   p N bf        play hand card N to battlefield
+ *   p N f M       play hand card N into your fortress M
+ *   p N s         play hand card N to your suburbs
+ *   p N e M       equip hand card N to your entity M
+ *   d N           discard hand card N
+ *   e             end the current phase
  *   r             re-render the board
  *   ? or h        show command list
  *   q             quit
  *   <empty>       no-op
  *
- * Sprint 5+ will add: p (play), d (discard), e (end phase), and so on. Each
- * new action lands as a new variant here.
+ * Later sprints add combat/movement/card-draw verbs in the same style.
  */
 
 export type InspectTarget =
@@ -29,8 +34,18 @@ export type InspectTarget =
   | { kind: "fortress"; index: number }              // i f N
   | { kind: "card_id"; id: string };                 // i butcher_worm
 
+export type PlayPlacementTarget =
+  | { kind: "battlefield" }                          // p N bf
+  | { kind: "fortress"; index: number }              // p N f M
+  | { kind: "suburbs" }                              // p N s
+  | { kind: "equip"; index: number }                 // p N e M
+  | { kind: "auto" };                                 // p N    (auto-pick if unambiguous)
+
 export type Command =
   | { kind: "inspect"; target: InspectTarget }
+  | { kind: "play"; handIndex: number; placement: PlayPlacementTarget }
+  | { kind: "discard"; handIndex: number }
+  | { kind: "endPhase" }
   | { kind: "render" }
   | { kind: "help" }
   | { kind: "quit" }
@@ -65,12 +80,87 @@ export function parseCommand(line: string): Command {
     case "inspect":
       return parseInspect(tokens.slice(1));
 
+    case "p":
+    case "play":
+      return parsePlay(tokens.slice(1));
+
+    case "d":
+    case "discard":
+      return parseDiscard(tokens.slice(1));
+
+    case "e":
+    case "end":
+    case "endphase":
+      if (tokens.length !== 1) {
+        return { kind: "unknown", message: 'end: no arguments expected. Try "e".' };
+      }
+      return { kind: "endPhase" };
+
     default:
       return {
         kind: "unknown",
         message: `unknown command "${head}". Type ? for help.`,
       };
   }
+}
+
+function parsePlay(args: string[]): Command {
+  if (args.length === 0) {
+    return {
+      kind: "unknown",
+      message: 'play: which card? Try "p 1" (auto-pick), "p 1 bf", "p 1 f 1", "p 1 s", or "p 1 e 1".',
+    };
+  }
+
+  const handIndex = parseIndex(args[0]!);
+  if (handIndex === null) {
+    return { kind: "unknown", message: `play: "${args[0]}" is not a valid hand index.` };
+  }
+
+  // `p N` with no target → auto-pick the only legal placement (if unambiguous).
+  // The decision happens in the app layer where we have GameState; the parser
+  // just records the intent.
+  if (args.length === 1) {
+    return { kind: "play", handIndex, placement: { kind: "auto" } };
+  }
+
+  const dest = args[1]!.toLowerCase();
+  if (args.length === 2 && (dest === "bf" || dest === "b" || dest === "battlefield" || dest === "field")) {
+    return { kind: "play", handIndex, placement: { kind: "battlefield" } };
+  }
+  if (args.length === 2 && (dest === "s" || dest === "suburb" || dest === "suburbs")) {
+    return { kind: "play", handIndex, placement: { kind: "suburbs" } };
+  }
+  if (args.length === 3 && (dest === "f" || dest === "fortress")) {
+    const index = parseIndex(args[2]!);
+    if (index === null) {
+      return { kind: "unknown", message: `play: "${args[2]}" is not a valid fortress index.` };
+    }
+    return { kind: "play", handIndex, placement: { kind: "fortress", index } };
+  }
+  if (args.length === 3 && (dest === "e" || dest === "equip" || dest === "entity")) {
+    const index = parseIndex(args[2]!);
+    if (index === null) {
+      return { kind: "unknown", message: `play: "${args[2]}" is not a valid entity index.` };
+    }
+    return { kind: "play", handIndex, placement: { kind: "equip", index } };
+  }
+
+  return {
+    kind: "unknown",
+    message: `play: didn't understand "${args.join(" ")}". Try "p 1 bf", "p 1 f 1", "p 1 s", or "p 1 e 1".`,
+  };
+}
+
+function parseDiscard(args: string[]): Command {
+  if (args.length !== 1) {
+    return { kind: "unknown", message: 'discard: try "d 1".' };
+  }
+  const handIndex = parseIndex(args[0]!);
+  if (handIndex === null) {
+    return { kind: "unknown", message: `discard: "${args[0]}" is not a valid hand index.` };
+  }
+  return { kind: "discard", handIndex };
 }
 
 function parseInspect(args: string[]): Command {
@@ -145,21 +235,29 @@ function parseIndex(s: string): number | null {
 /** What to print when the user types `?` or `h`. */
 export function commandHelpText(): string[] {
   return [
-    "Commands:",
-    "  i N           inspect hand card N",
-    "  i s N         inspect your shop card N",
-    "  i b N         inspect battlefield entity N",
-    "  i f N         inspect fortress N",
-    "  i <id>        inspect any card by its id (e.g. \"i butcher_worm\")",
+    "Commands during your Card Play phase (you must play 3 or discard down to ≤3):",
+    "  p N           play hand card N — auto-pick destination if only one is legal",
+    "  p N bf        play card N to the battlefield   (entities only)",
+    "  p N s         play card N to your suburbs      (fortresses only)",
+    "  p N f M       play card N into your fortress M (entities only)",
+    "  p N e M       equip card N to your entity M    (items / consumables)",
+    "  d N           discard hand card N (only allowed when no legal play remains)",
+    "  e             end the Card Play phase (auto-advances through stub phases)",
+    "",
+    "Inspection (works at any time):",
+    "  i N           your hand card N",
+    "  i s N         your shop card N",
+    "  i b N         a battlefield entity",
+    "  i f N         a fortress in your suburbs",
+    "  i <card-id>   any card by its id (e.g. \"i butcher_worm\")",
+    "",
     "  r             re-render the board",
     "  ?             this help",
     "  q             quit",
-    "",
-    "Sprint 4 build: only inspect/render/help/quit are wired. More actions arrive Sprint 5+.",
   ];
 }
 
 /** A short one-liner shown at the bottom of the board after every render. */
 export function commandPaletteLine(): string {
-  return "[i N] inspect hand   [i s/b/f N] shop/field/fortress   [r] redraw   [?] help   [q] quit";
+  return "[p N] play (auto)   [d N] discard   [e] end   [i N] inspect   [?] help   [q] quit";
 }

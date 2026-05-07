@@ -45,7 +45,7 @@ function fixture(): GameState {
     instanceId: "f1",
     cardId: "farmhouse",
     ownerId: "p1",
-    zone: { zone: "fortress", ownerId: "p1", fortressInstanceId: "f1" },
+    zone: { zone: "suburbs", ownerId: "p1" },
     hp: 4,
     equippedItemIds: [],
     consumed: false,
@@ -124,6 +124,7 @@ function fixture(): GameState {
     players: [p1, p2],
     activePlayerId: "p1",
     phase: "card_play",
+    cardPlay: { startedWith: 1, played: 0, discarded: 0 },
     turnNumber: 1,
     cardsByInstanceId: {
       f1: fortressInst,
@@ -199,6 +200,11 @@ describe("getZoneContents", () => {
       fortressInstanceId: "f1",
     });
     expect(occ).toEqual(["e1"]);
+  });
+
+  it("R3.2 — suburbs zone returns fortress instance IDs", () => {
+    const s = fixture();
+    expect(getZoneContents(s, { zone: "suburbs", ownerId: "p1" })).toEqual(["f1"]);
   });
 
   it("R3.5 / R5.6 — shop zone is per-player", () => {
