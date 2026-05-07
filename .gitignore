@@ -1,3 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Package-manager noise
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build/test/generated app output
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+.vite/
+**/.vite/
+.turbo/
+**/.turbo/
+.cache/
+**/.cache/
+*.tsbuildinfo
+
+# Simulator/generated reports
+reports/
+**/reports/
+
+# Generated card DB; rebuild with `pnpm cards:build`
+videogame/gk_videogame_v2/packages/cards/data/cards.generated.json
+
+# Generated rulebook artifacts. Source text/manuscript files stay tracked.
+rulebook/manuscript/generated_psd/
+rulebook/manuscript/**/*.pdf
+
 # Adobe Photoshop files
 *.psd
 *.psb
@@ -10,6 +47,14 @@
 *.tiff
 *.bmp
 *.svg
+
+# Keep checked-in source/reference assets.
+!rulebook/reference/**/*.jpg
+!rulebook/reference/**/*.jpeg
+!rulebook/reference/**/*.png
+!rulebook/reference/**/*.gif
+!rulebook/reference/**/*.svg
+!rulebook/reference/**/*.pdf
 
 # Design/Edit tool artifacts
 *.ai
